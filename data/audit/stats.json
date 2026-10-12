@@ -1,0 +1,566 @@
+{
+  "pangloss_dendi": {
+    "n_utterances": 174,
+    "n_documents": 6,
+    "total_hours": 0.6565,
+    "total_minutes": 39.39,
+    "duration_s": {
+      "min": 1.35,
+      "p10": 3.43,
+      "p25": 7.17,
+      "median": 11.98,
+      "mean": 13.58,
+      "p75": 17.88,
+      "p90": 26.34,
+      "max": 48.12,
+      "std": 8.95
+    },
+    "utts_over_30s": 8,
+    "utts_under_1s": 0,
+    "orig_sample_rates": {
+      "96000": 174
+    },
+    "orig_bit_depths": {
+      "32": 161,
+      "24": 13
+    },
+    "licenses": {
+      "CC-BY-NC-SA-4.0": 174
+    },
+    "speakers": {
+      "pan_conte1_narrator": {
+        "n_utts": 14,
+        "minutes": 3.44,
+        "gender": "unknown"
+      },
+      "pan_conte2_narrator": {
+        "n_utts": 13,
+        "minutes": 4.44,
+        "gender": "unknown"
+      },
+      "pan_conte3_narrator": {
+        "n_utts": 62,
+        "minutes": 11.4,
+        "gender": "unknown"
+      },
+      "pan_conte4_narrator": {
+        "n_utts": 31,
+        "minutes": 6.35,
+        "gender": "unknown"
+      },
+      "pan_conte5_narrator": {
+        "n_utts": 13,
+        "minutes": 2.99,
+        "gender": "unknown"
+      },
+      "pan_conte6_narrator": {
+        "n_utts": 41,
+        "minutes": 10.77,
+        "gender": "unknown"
+      }
+    },
+    "empty_transcripts": 0,
+    "duplicate_audio_md5": 0,
+    "duplicate_texts_utts": 0,
+    "n_unique_prompts": 174,
+    "per_document": {
+      "nt_dendi_karimama_68_A_conte1": {
+        "n_utts": 14,
+        "minutes": 3.44
+      },
+      "nt_dendi_karimama_68_A_conte2": {
+        "n_utts": 13,
+        "minutes": 4.44
+      },
+      "nt_dendi_karimama_68_A_conte3": {
+        "n_utts": 62,
+        "minutes": 11.4
+      },
+      "nt_dendi_karimama_68_A_conte4": {
+        "n_utts": 31,
+        "minutes": 6.35
+      },
+      "nt_dendi_karimama_68_A_conte5": {
+        "n_utts": 13,
+        "minutes": 2.99
+      },
+      "nt_dendi_karimama_68_B_conte6": {
+        "n_utts": 41,
+        "minutes": 10.77
+      }
+    },
+    "text": {
+      "n_tokens": 6606,
+      "vocab_size": 1211,
+      "hapax": 670,
+      "vocab_size_notone": 734,
+      "words_per_utt": {
+        "min": 4.0,
+        "p10": 10.0,
+        "p25": 22.25,
+        "median": 35.0,
+        "mean": 37.97,
+        "p75": 54.75,
+        "p90": 69.7,
+        "max": 97.0,
+        "std": 21.9
+      },
+      "chars_per_utt": {
+        "min": 11.0,
+        "p10": 34.0,
+        "p25": 62.25,
+        "median": 103.0,
+        "mean": 113.55,
+        "p75": 162.25,
+        "p90": 206.7,
+        "max": 297.0,
+        "std": 65.75
+      },
+      "top_words": [
+        [
+          "à",
+          600
+        ],
+        [
+          "cì",
+          264
+        ],
+        [
+          "ì",
+          253
+        ],
+        [
+          "mà",
+          192
+        ],
+        [
+          "ká",
+          169
+        ],
+        [
+          "kwáy",
+          145
+        ],
+        [
+          "kà",
+          141
+        ],
+        [
+          "nà",
+          135
+        ],
+        [
+          "ní",
+          93
+        ],
+        [
+          "ńgà",
+          77
+        ],
+        [
+          "té",
+          64
+        ],
+        [
+          "nò",
+          60
+        ],
+        [
+          "gǒ",
+          55
+        ],
+        [
+          "dá",
+          55
+        ],
+        [
+          "fó",
+          54
+        ],
+        [
+          "bíné",
+          52
+        ],
+        [
+          "sè",
+          52
+        ],
+        [
+          "ǎy",
+          49
+        ],
+        [
+          "cí",
+          47
+        ],
+        [
+          "yá",
+          47
+        ],
+        [
+          "fúrú",
+          45
+        ],
+        [
+          "nô",
+          45
+        ],
+        [
+          "kàlá",
+          43
+        ],
+        [
+          "dáy",
+          43
+        ],
+        [
+          "ká̰",
+          42
+        ]
+      ],
+      "char_inventory": {
+        "a (U+0061 LATIN SMALL LETTER A)": 4776,
+        "́ (U+0301 COMBINING ACUTE ACCENT)": 4392,
+        "̀ (U+0300 COMBINING GRAVE ACCENT)": 4201,
+        "i (U+0069 LATIN SMALL LETTER I)": 1690,
+        "n (U+006E LATIN SMALL LETTER N)": 1493,
+        "o (U+006F LATIN SMALL LETTER O)": 1470,
+        "k (U+006B LATIN SMALL LETTER K)": 1163,
+        "y (U+0079 LATIN SMALL LETTER Y)": 1043,
+        "u (U+0075 LATIN SMALL LETTER U)": 1027,
+        "e (U+0065 LATIN SMALL LETTER E)": 675,
+        "d (U+0064 LATIN SMALL LETTER D)": 667,
+        "m (U+006D LATIN SMALL LETTER M)": 649,
+        "b (U+0062 LATIN SMALL LETTER B)": 596,
+        "r (U+0072 LATIN SMALL LETTER R)": 583,
+        "w (U+0077 LATIN SMALL LETTER W)": 542,
+        "g (U+0067 LATIN SMALL LETTER G)": 517,
+        "c (U+0063 LATIN SMALL LETTER C)": 452,
+        "̌ (U+030C COMBINING CARON)": 409,
+        "̂ (U+0302 COMBINING CIRCUMFLEX ACCENT)": 383,
+        "t (U+0074 LATIN SMALL LETTER T)": 372,
+        "s (U+0073 LATIN SMALL LETTER S)": 371,
+        "h (U+0068 LATIN SMALL LETTER H)": 319,
+        "̰ (U+0330 COMBINING TILDE BELOW)": 308,
+        "f (U+0066 LATIN SMALL LETTER F)": 273,
+        "l (U+006C LATIN SMALL LETTER L)": 271,
+        "z (U+007A LATIN SMALL LETTER Z)": 219,
+        "j (U+006A LATIN SMALL LETTER J)": 86,
+        "ɲ (U+0272 LATIN SMALL LETTER N WITH LEFT HOOK)": 85,
+        "ŋ (U+014B LATIN SMALL LETTER ENG)": 82,
+        "̏ (U+030F COMBINING DOUBLE GRAVE ACCENT)": 15,
+        "̄ (U+0304 COMBINING MACRON)": 12,
+        "p (U+0070 LATIN SMALL LETTER P)": 4,
+        "᷉ (U+1DC9 COMBINING ACUTE-GRAVE-ACUTE)": 4,
+        "ɳ (U+0273 LATIN SMALL LETTER N WITH RETROFLEX HOOK)": 4,
+        "ℇ (U+2107 EULER CONSTANT)": 2,
+        "̋ (U+030B COMBINING DOUBLE ACUTE ACCENT)": 2,
+        "̩ (U+0329 COMBINING VERTICAL LINE BELOW)": 1,
+        "̥ (U+0325 COMBINING RING BELOW)": 1,
+        "̆ (U+0306 COMBINING BREVE)": 1,
+        "ɟ (U+025F LATIN SMALL LETTER DOTLESS J WITH STROKE)": 1
+      },
+      "non_ascii_utt_ratio": 1.0
+    },
+    "audio_qc": {
+      "rms_dbfs": {
+        "min": -31.32,
+        "p10": -24.74,
+        "p25": -22.78,
+        "median": -21.05,
+        "mean": -21.26,
+        "p75": -19.68,
+        "p90": -18.16,
+        "max": -14.72,
+        "std": 2.58
+      },
+      "peak": {
+        "min": 0.22,
+        "p10": 0.44,
+        "p25": 0.48,
+        "median": 0.51,
+        "mean": 0.51,
+        "p75": 0.55,
+        "p90": 0.56,
+        "max": 0.59,
+        "std": 0.06
+      },
+      "silence_ratio": {
+        "min": 0.0,
+        "p10": 0.07,
+        "p25": 0.14,
+        "median": 0.21,
+        "mean": 0.21,
+        "p75": 0.27,
+        "p90": 0.33,
+        "max": 0.43,
+        "std": 0.1
+      },
+      "utts_with_clipping": 0,
+      "utts_mostly_silent": 0,
+      "mostly_silent_ids": []
+    }
+  },
+  "zenodo_6591186": {
+    "n_utterances": 668,
+    "n_documents": 1,
+    "total_hours": 0.8114,
+    "total_minutes": 48.69,
+    "duration_s": {
+      "min": 0.9,
+      "p10": 1.77,
+      "p25": 2.45,
+      "median": 3.85,
+      "mean": 4.37,
+      "p75": 5.99,
+      "p90": 7.59,
+      "max": 17.49,
+      "std": 2.33
+    },
+    "utts_over_30s": 0,
+    "utts_under_1s": 3,
+    "orig_sample_rates": {
+      "16000": 334,
+      "48000": 334
+    },
+    "orig_bit_depths": {
+      "16": 668
+    },
+    "licenses": {
+      "CC-BY-4.0": 668
+    },
+    "speakers": {
+      "zen_female": {
+        "n_utts": 334,
+        "minutes": 14.57,
+        "gender": "female"
+      },
+      "zen_male": {
+        "n_utts": 334,
+        "minutes": 34.12,
+        "gender": "male"
+      }
+    },
+    "empty_transcripts": 0,
+    "duplicate_audio_md5": 0,
+    "duplicate_texts_utts": 668,
+    "n_unique_prompts": 331,
+    "per_document": {
+      "jami_dendi": {
+        "n_utts": 668,
+        "minutes": 48.69
+      }
+    },
+    "text": {
+      "n_tokens": 3034,
+      "vocab_size": 39,
+      "hapax": 0,
+      "vocab_size_notone": 39,
+      "words_per_utt": {
+        "min": 1.0,
+        "p10": 2.0,
+        "p25": 3.0,
+        "median": 4.0,
+        "mean": 4.54,
+        "p75": 6.0,
+        "p90": 6.0,
+        "max": 25.0,
+        "std": 2.54
+      },
+      "chars_per_utt": {
+        "min": 4.0,
+        "p10": 10.0,
+        "p25": 15.0,
+        "median": 17.5,
+        "mean": 20.38,
+        "p75": 27.0,
+        "p90": 28.0,
+        "max": 95.0,
+        "std": 9.98
+      },
+      "top_words": [
+        [
+          "cindi",
+          456
+        ],
+        [
+          "nda",
+          422
+        ],
+        [
+          "zangu",
+          398
+        ],
+        [
+          "fɔ́",
+          296
+        ],
+        [
+          "dubu",
+          190
+        ],
+        [
+          "hinka",
+          128
+        ],
+        [
+          "ɛga",
+          122
+        ],
+        [
+          "guu",
+          116
+        ],
+        [
+          "waranka",
+          86
+        ],
+        [
+          "wɛɛga",
+          72
+        ],
+        [
+          "weiiyye",
+          68
+        ],
+        [
+          "hinza",
+          64
+        ],
+        [
+          "taaci",
+          64
+        ],
+        [
+          "weiguu",
+          64
+        ],
+        [
+          "iddu",
+          60
+        ],
+        [
+          "iyye",
+          60
+        ],
+        [
+          "haaku",
+          44
+        ],
+        [
+          "waranza",
+          44
+        ],
+        [
+          "wahaku",
+          44
+        ],
+        [
+          "awei",
+          42
+        ],
+        [
+          "weitaaci",
+          42
+        ],
+        [
+          "weiiddu",
+          42
+        ],
+        [
+          "ihaaku",
+          20
+        ],
+        [
+          "iwei",
+          20
+        ],
+        [
+          "wei",
+          16
+        ]
+      ],
+      "char_inventory": {
+        "a (U+0061 LATIN SMALL LETTER A)": 2154,
+        "i (U+0069 LATIN SMALL LETTER I)": 1814,
+        "n (U+006E LATIN SMALL LETTER N)": 1616,
+        "u (U+0075 LATIN SMALL LETTER U)": 1374,
+        "d (U+0064 LATIN SMALL LETTER D)": 1276,
+        "g (U+0067 LATIN SMALL LETTER G)": 788,
+        "c (U+0063 LATIN SMALL LETTER C)": 568,
+        "w (U+0077 LATIN SMALL LETTER W)": 540,
+        "z (U+007A LATIN SMALL LETTER Z)": 518,
+        "e (U+0065 LATIN SMALL LETTER E)": 422,
+        "k (U+006B LATIN SMALL LETTER K)": 328,
+        "h (U+0068 LATIN SMALL LETTER H)": 312,
+        "f (U+0066 LATIN SMALL LETTER F)": 302,
+        "ɔ (U+0254 LATIN SMALL LETTER OPEN O)": 302,
+        "́ (U+0301 COMBINING ACUTE ACCENT)": 302,
+        "ɛ (U+025B LATIN SMALL LETTER OPEN E)": 266,
+        "y (U+0079 LATIN SMALL LETTER Y)": 256,
+        "b (U+0062 LATIN SMALL LETTER B)": 214,
+        "r (U+0072 LATIN SMALL LETTER R)": 130,
+        "t (U+0074 LATIN SMALL LETTER T)": 122,
+        "m (U+006D LATIN SMALL LETTER M)": 10,
+        "ŋ (U+014B LATIN SMALL LETTER ENG)": 2
+      },
+      "non_ascii_utt_ratio": 0.524
+    },
+    "audio_qc": {
+      "rms_dbfs": {
+        "min": -34.92,
+        "p10": -31.41,
+        "p25": -28.88,
+        "median": -20.8,
+        "mean": -23.61,
+        "p75": -19.37,
+        "p90": -18.47,
+        "max": -16.76,
+        "std": 5.18
+      },
+      "peak": {
+        "min": 0.09,
+        "p10": 0.16,
+        "p25": 0.22,
+        "median": 0.47,
+        "mean": 0.4,
+        "p75": 0.52,
+        "p90": 0.58,
+        "max": 0.93,
+        "std": 0.17
+      },
+      "silence_ratio": {
+        "min": 0.01,
+        "p10": 0.03,
+        "p25": 0.04,
+        "median": 0.05,
+        "mean": 0.06,
+        "p75": 0.08,
+        "p90": 0.1,
+        "max": 0.41,
+        "std": 0.05
+      },
+      "utts_with_clipping": 0,
+      "utts_mostly_silent": 0,
+      "mostly_silent_ids": []
+    }
+  },
+  "cross": {
+    "total_utterances": 842,
+    "total_minutes": 88.08,
+    "vocab_overlap_notone": 7,
+    "vocab_overlap_words": [
+      "bambata",
+      "hinka",
+      "hinza",
+      "iddu",
+      "na",
+      "nda",
+      "taaci"
+    ],
+    "audio_md5_overlap": 0,
+    "zenodo_prompts_shared_by_both_speakers": 331,
+    "zenodo_female_texts_not_in_male": [],
+    "zenodo_male_texts_not_in_female": []
+  }
+}

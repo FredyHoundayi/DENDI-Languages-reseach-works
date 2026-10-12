@@ -1,0 +1,11 @@
+# Audio and source archives are downloaded with scripts/download_data.sh
+# and regenerated with scripts/organize_data.py (too large for GitHub).
+data/raw/zenodo_6591186/
+data/raw/pangloss_dendi/audio/
+data/raw/pangloss_dendi/transcriptions/
+data/processed/
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+~$*
