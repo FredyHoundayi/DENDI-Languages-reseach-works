@@ -9,3 +9,10 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 ~$*
+
+# Bible.is audio: copyrighted (FCBH/Hosanna, Bibles International), never commit
+*.zip
+data/raw/bibleis_*/
+
+# LibreOffice lock files
+.~lock.*#

@@ -1,0 +1,5 @@
+# Omnilingual ASR (fairseq2 environment; keep separate from transformers). Needs libsndfile.
+omnilingual-asr
+soundfile
+numpy
+pandas

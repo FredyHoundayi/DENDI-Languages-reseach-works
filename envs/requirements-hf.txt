@@ -1,0 +1,7 @@
+# MMS + Whisper (transformers environment)
+torch>=2.3
+transformers>=4.45
+accelerate
+soundfile
+numpy
+pandas
