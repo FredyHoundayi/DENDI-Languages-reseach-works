@@ -1,0 +1,46 @@
+[
+  {
+    "model": "mms-1b-all-ddn",
+    "corpus": "pangloss",
+    "config": {
+      "model_id": "facebook/mms-1b-all",
+      "target_lang": "ddn",
+      "decoding": "greedy CTC",
+      "revision": null,
+      "device": "cuda"
+    },
+    "versions": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.20.1"
+    },
+    "started_utc": "2026-10-18T14:23:08.687409+00:00",
+    "wall_time_s": 1.8,
+    "n_transcribed_this_run": 10,
+    "limit": 10,
+    "host": "my-vm-aghinstance",
+    "python": "3.12.3",
+    "gpu": "Tesla V100-PCIE-32GB, 32768 MiB"
+  },
+  {
+    "model": "mms-1b-all-ddn",
+    "corpus": "pangloss",
+    "config": {
+      "model_id": "facebook/mms-1b-all",
+      "target_lang": "ddn",
+      "decoding": "greedy CTC",
+      "revision": null,
+      "device": "cuda"
+    },
+    "versions": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.20.1"
+    },
+    "started_utc": "2026-10-18T14:24:15.068630+00:00",
+    "wall_time_s": 27.9,
+    "n_transcribed_this_run": 164,
+    "limit": null,
+    "host": "my-vm-aghinstance",
+    "python": "3.12.3",
+    "gpu": "Tesla V100-PCIE-32GB, 32768 MiB"
+  }
+]

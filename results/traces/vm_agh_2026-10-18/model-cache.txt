@@ -1,0 +1,8 @@
+4.0K	/home/ubuntu/.cache/huggingface/hub/CACHEDIR.TAG
+8.0G	/home/ubuntu/.cache/huggingface/hub/blobs
+1.4M	/home/ubuntu/.cache/huggingface/hub/models--facebook--mms-1b-all
+4.3M	/home/ubuntu/.cache/huggingface/hub/models--openai--whisper-large-v3
+4.5M	/home/ubuntu/.cache/huggingface/hub/models--openai--whisper-large-v3-turbo
+30G	/home/ubuntu/.cache/fairseq2/assets/116c2dd9dc4cf95c0aac590e
+96K	/home/ubuntu/.cache/fairseq2/assets/e7be1a6acb8f76fdbca19dce
+3.7G	/home/ubuntu/.cache/fairseq2/assets/fca49af82b51089226da7de9

@@ -1,0 +1,40 @@
+Loading weights:   0%|          | 0/1096 [00:00<?, ?it/s]Loading weights:  29%|██▉       | 319/1096 [00:00<00:00, 3103.09it/s]Loading weights:  59%|█████▉    | 644/1096 [00:00<00:00, 3179.10it/s]Loading weights:  95%|█████████▌| 1046/1096 [00:00<00:00, 3552.16it/s]Loading weights: 100%|██████████| 1096/1096 [00:00<00:00, 3486.02it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[mms-1b-all-ddn/zenodo] 658 to transcribe, 10 already done
+  25/658  last: zen_M_100022_ddn_697_elicit_129 -> 'zɑngu fɔ nɑ wɑrɑ fɑ zɑɑ' 
+  50/658  last: zen_M_100022_ddn_697_elicit_151 -> 'zɑngu fɔ nɑ weigu cinni hinkɑ' 
+  75/658  last: zen_M_100022_ddn_697_elicit_174 -> 'zɑngufɔ nɑ weiiye cinigu' 
+  100/658  last: zen_M_100022_ddn_697_elicit_197 -> 'zɑngu fɔ nɑ weigɑ cini yɑku' 
+  125/658  last: zen_M_100022_ddn_697_elicit_219 -> 'zɑngun kɑ nɑ wɑrɑnkɑ' 
+  150/658  last: zen_M_100022_ddn_697_elicit_241 -> 'z zɑngugu nɑ weiye cinni gu' 
+  175/658  last: zen_M_100022_ddn_697_elicit_264 -> 'dubuhin kɑ' 
+  200/658  last: zen_M_100022_ddn_697_elicit_287 -> 'dubu iyɑku' 
+  225/658  last: zen_M_100022_ddn_697_elicit_309 -> 'dub dub dubu zongu tɑɑki' 
+  250/658  last: zen_M_100022_ddn_697_elicit_331 -> 'bɑmbɑtɑ inzɑ' 
+  275/658  last: zen_M_100022_ddn_697_elicit_54 -> 'weigu kin nigu weigu kinnigu' 
+  300/658  last: zen_M_100022_ddn_697_elicit_77 -> 'w wɑye cini yɑku' 
+  325/658  last: zen_F_1 -> 'afɔ' 
+  350/658  last: zen_F_113 -> 'zongufɔndɑ weiciǹ neizɑ' 
+  375/658  last: zen_F_131 -> 'zongufɔ ndɑ wɑrɑnzɑ cini fɔ' 
+  400/658  last: zen_F_152 -> 'zɑngu fɔ nɑ weigu cindi k ɑɑ' 
+  425/658  last: zen_F_174 -> 'zongufɔ nɑ weiye kinetɑki' 
+  450/658  last: zen_F_197 -> 'zongu fɔ nɑ weigɑ kindiye' 
+  475/658  last: zen_F_210 -> 'kɑnguinkɑ ndɑɑ we' 
+  500/658  last: zen_F_230 -> 'zɑngu hinkɑ nɑ wɑrɑn zɑɑ' 
+  525/658  last: zen_F_35 -> 'wɑrɑnzɑ cinni gu' 
+  550/658  last: zen_F_46 -> 'weitɑɑkicin nidu' 
+  575/658  last: zen_F_57 -> 'egu ki nuiye' 
+  600/658  last: zen_F_7000 -> 'dubuiye' 
+  625/658  last: zen_F_84 -> 'wɑku kindi tɑɑki' 
+  650/658  last: zen_F_97 -> 'weigɑ ci nniye' 
+  658/658  last: zen_F_999999999 -> 'dubudubu zɑnguigɑ nɑ dubudubuigɑ kindigɑ nɑ dubu zɑngugɑ nɑ ' 
+[mms-1b-all-ddn/zenodo] wrote results/inference/mms-1b-all-ddn/zenodo.csv
+[mms-1b-all-ddn/pangloss] 164 to transcribe, 10 already done
+  25/164  last: pan_conte3_eastling-annotations_8758 -> 'wuci kɑmbɔto à nɑ bɑbɔ tuti bɑbɔ ci dɑɑi bundu à nɑ n sɑm yɑ' 
+  50/164  last: pan_conte3_eastling-annotations_8783 -> 'cicii o nɑm à ci hɑlɑbɑtɑmɑkpɑe woyɑ no bodu ciobigun gui kɑ' 
+  75/164  last: pan_conte3_eastling-annotations_8808 -> 'ngɑ yɑz ikpe kɑ ngɑ furu nɑ kɑm hɑukpɑindɑ hɑucireiyɑm wo yɑ' 
+  100/164  last: pan_conte4_S21 -> 'hɛ kɑci  kitukuri' 
+  125/164  last: pan_conte6_eastling-annotations_13334 -> 'koo koo dɑi no ɑ à nyɑbu kɑ ɑ̀ nɑ yɑwic do à goono nyɑwɑicoo' 
+  150/164  last: pan_conte6_eastling-annotations_13360 -> 'ǹ cɔfɔ  nyɑ wɑice wɛeniye mo ɑ̀ bine dooru à tunukpei kɑ ngɑ' 
+  164/164  last: pan_conte6_eastling-annotations_13374 -> 'nɑɛj di bɔ kɑn ne km wɑu' 
+[mms-1b-all-ddn/pangloss] wrote results/inference/mms-1b-all-ddn/pangloss.csv

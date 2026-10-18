@@ -1,0 +1,9 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/1096 [00:00<?, ?it/s]Loading weights:  22%|██▏       | 244/1096 [00:00<00:00, 2424.42it/s]Loading weights:  51%|█████▏    | 563/1096 [00:00<00:00, 2870.91it/s]Loading weights:  86%|████████▌ | 945/1096 [00:00<00:00, 3303.39it/s]Loading weights: 100%|██████████| 1096/1096 [00:00<00:00, 3268.58it/s]
+[mms-1b-all-ddn/zenodo] 10 to transcribe, 0 already done
+  10/10  last: zen_M_100022_ddn_697_elicit_106 -> 'zɑngufɑ nɑ iye' 
+[mms-1b-all-ddn/zenodo] wrote results/inference/mms-1b-all-ddn/zenodo.csv
+[mms-1b-all-ddn/pangloss] 10 to transcribe, 0 already done
+  10/10  last: pan_conte1_S10 -> 'imɑ dikɑ kpei dɑmbɑri kɑtɑ u  u ddɑdɑddɑ muusu biyɑ i mɑ zɑɑ' 
+[mms-1b-all-ddn/pangloss] wrote results/inference/mms-1b-all-ddn/pangloss.csv
+RUN_EXIT 0

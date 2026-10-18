@@ -1,0 +1,30 @@
+[
+  {
+    "model": "whisper-large-v3-turbo",
+    "corpus": "zenodo",
+    "config": {
+      "model_id": "openai/whisper-large-v3-turbo",
+      "language": "auto-detect",
+      "dtype": "torch.float16",
+      "revision": null,
+      "long_form": "sequential, return_timestamps=True, >30 s only",
+      "device": "cuda",
+      "task": "transcribe",
+      "num_beams": 1,
+      "do_sample": false,
+      "condition_on_prev_tokens": false,
+      "max_new_tokens": 440
+    },
+    "versions": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.20.1"
+    },
+    "started_utc": "2026-10-18T14:15:17.957846+00:00",
+    "wall_time_s": 204.0,
+    "n_transcribed_this_run": 668,
+    "limit": null,
+    "host": "my-vm-aghinstance",
+    "python": "3.12.3",
+    "gpu": "Tesla V100-PCIE-32GB, 32768 MiB"
+  }
+]

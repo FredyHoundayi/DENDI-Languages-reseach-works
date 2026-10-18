@@ -1,0 +1,46 @@
+[
+  {
+    "model": "omniASR_LLM_7B_v2",
+    "corpus": "zenodo",
+    "config": {
+      "model_card": "omniASR_LLM_7B_v2",
+      "lang": "ddn_Latn",
+      "batch_size": 1,
+      "chunking": "split_on_silence above 39.0 s (API limit: < 40 s)"
+    },
+    "versions": {
+      "omnilingual-asr": "0.2.0",
+      "fairseq2": "0.6",
+      "torch": "2.8.0"
+    },
+    "started_utc": "2026-10-18T16:40:17.462677+00:00",
+    "wall_time_s": 14.0,
+    "n_transcribed_this_run": 10,
+    "limit": 10,
+    "host": "my-vm-aghinstance",
+    "python": "3.12.3",
+    "gpu": "Tesla V100-PCIE-32GB, 32768 MiB"
+  },
+  {
+    "model": "omniASR_LLM_7B_v2",
+    "corpus": "zenodo",
+    "config": {
+      "model_card": "omniASR_LLM_7B_v2",
+      "lang": "ddn_Latn",
+      "batch_size": 1,
+      "chunking": "split_on_silence above 39.0 s (API limit: < 40 s)"
+    },
+    "versions": {
+      "omnilingual-asr": "0.2.0",
+      "fairseq2": "0.6",
+      "torch": "2.8.0"
+    },
+    "started_utc": "2026-10-18T16:42:54.976630+00:00",
+    "wall_time_s": 901.9,
+    "n_transcribed_this_run": 658,
+    "limit": null,
+    "host": "my-vm-aghinstance",
+    "python": "3.12.3",
+    "gpu": "Tesla V100-PCIE-32GB, 32768 MiB"
+  }
+]

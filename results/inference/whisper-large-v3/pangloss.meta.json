@@ -1,0 +1,58 @@
+[
+  {
+    "model": "whisper-large-v3",
+    "corpus": "pangloss",
+    "config": {
+      "model_id": "openai/whisper-large-v3",
+      "language": "auto-detect",
+      "dtype": "torch.float16",
+      "revision": null,
+      "long_form": "sequential, return_timestamps=True, >30 s only",
+      "device": "cuda",
+      "task": "transcribe",
+      "num_beams": 1,
+      "do_sample": false,
+      "condition_on_prev_tokens": false,
+      "max_new_tokens": 440
+    },
+    "versions": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.20.1"
+    },
+    "started_utc": "2026-10-18T13:52:58.519385+00:00",
+    "wall_time_s": 37.2,
+    "n_transcribed_this_run": 10,
+    "limit": 10,
+    "host": "my-vm-aghinstance",
+    "python": "3.12.3",
+    "gpu": "Tesla V100-PCIE-32GB, 32768 MiB"
+  },
+  {
+    "model": "whisper-large-v3",
+    "corpus": "pangloss",
+    "config": {
+      "model_id": "openai/whisper-large-v3",
+      "language": "auto-detect",
+      "dtype": "torch.float16",
+      "revision": null,
+      "long_form": "sequential, return_timestamps=True, >30 s only",
+      "device": "cuda",
+      "task": "transcribe",
+      "num_beams": 1,
+      "do_sample": false,
+      "condition_on_prev_tokens": false,
+      "max_new_tokens": 440
+    },
+    "versions": {
+      "torch": "2.14.1+cu126",
+      "transformers": "5.20.1"
+    },
+    "started_utc": "2026-10-18T14:02:46.719850+00:00",
+    "wall_time_s": 716.2,
+    "n_transcribed_this_run": 164,
+    "limit": null,
+    "host": "my-vm-aghinstance",
+    "python": "3.12.3",
+    "gpu": "Tesla V100-PCIE-32GB, 32768 MiB"
+  }
+]

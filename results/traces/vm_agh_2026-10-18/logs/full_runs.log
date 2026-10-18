@@ -1,0 +1,6 @@
+RUN_EXIT whisper-large-v3 0
+RUN_EXIT whisper-large-v3-turbo 0
+RUN_EXIT mms 0
+RUN_EXIT omni-ctc-1b 0
+RUN_EXIT pilot-omni-llm-7b 0
+RUN_EXIT omni-llm-7b 0
