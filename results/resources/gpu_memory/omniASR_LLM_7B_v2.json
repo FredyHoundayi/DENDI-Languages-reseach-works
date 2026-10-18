@@ -1,0 +1,210 @@
+{
+  "model": "omniASR_LLM_7B_v2",
+  "cli_model": "omni-llm-7b",
+  "config": {
+    "model_card": "omniASR_LLM_7B_v2",
+    "lang": "ddn_Latn",
+    "batch_size": 1,
+    "chunking": "split_on_silence above 39.0 s (API limit: < 40 s)"
+  },
+  "versions": {
+    "omnilingual-asr": "0.2.0",
+    "fairseq2": "0.6",
+    "torch": "2.8.0"
+  },
+  "gpu": "Tesla V100-PCIE-32GB",
+  "total_mib": 32494,
+  "load_time_s": 31.4,
+  "after_load_allocated_mib": 14904,
+  "after_load_reserved_mib": 16144,
+  "after_load_nvidia_smi_mib": 16514,
+  "peak_allocated_mib": 15854,
+  "peak_reserved_mib": 16956,
+  "nvidia_smi_peak_mib": 17338,
+  "worst_input": {
+    "corpus": "pangloss",
+    "utt_id": "pan_conte2_S6",
+    "duration_s": 48.121,
+    "n_chunks": 2,
+    "peak_allocated_mib": 15854,
+    "peak_reserved_mib": 16956
+  },
+  "per_input": [
+    {
+      "corpus": "zenodo",
+      "utt_id": "zen_M_100022_ddn_697_elicit_318",
+      "duration_s": 17.492,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15367,
+      "peak_reserved_mib": 16536
+    },
+    {
+      "corpus": "zenodo",
+      "utt_id": "zen_F_54",
+      "duration_s": 2.24,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15081,
+      "peak_reserved_mib": 16166
+    },
+    {
+      "corpus": "zenodo",
+      "utt_id": "zen_M_100022_ddn_697_elicit_79",
+      "duration_s": 3.199,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15098,
+      "peak_reserved_mib": 16160
+    },
+    {
+      "corpus": "zenodo",
+      "utt_id": "zen_M_100022_ddn_697_elicit_110",
+      "duration_s": 6.602,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15156,
+      "peak_reserved_mib": 16226
+    },
+    {
+      "corpus": "zenodo",
+      "utt_id": "zen_F_40",
+      "duration_s": 1.771,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15072,
+      "peak_reserved_mib": 16150
+    },
+    {
+      "corpus": "zenodo",
+      "utt_id": "zen_M_100022_ddn_697_elicit_167",
+      "duration_s": 6.988,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15162,
+      "peak_reserved_mib": 16232
+    },
+    {
+      "corpus": "zenodo",
+      "utt_id": "zen_M_100022_ddn_697_elicit_247",
+      "duration_s": 6.874,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15162,
+      "peak_reserved_mib": 16232
+    },
+    {
+      "corpus": "zenodo",
+      "utt_id": "zen_F_22",
+      "duration_s": 1.941,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15076,
+      "peak_reserved_mib": 16154
+    },
+    {
+      "corpus": "zenodo",
+      "utt_id": "zen_F_211",
+      "duration_s": 3.52,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15111,
+      "peak_reserved_mib": 16160
+    },
+    {
+      "corpus": "zenodo",
+      "utt_id": "zen_F_725",
+      "duration_s": 2.965,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15100,
+      "peak_reserved_mib": 16160
+    },
+    {
+      "corpus": "zenodo",
+      "utt_id": "zen_F_146",
+      "duration_s": 3.328,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15105,
+      "peak_reserved_mib": 16158
+    },
+    {
+      "corpus": "pangloss",
+      "utt_id": "pan_conte2_S6",
+      "duration_s": 48.121,
+      "n_chunks": 2,
+      "peak_allocated_mib": 15854,
+      "peak_reserved_mib": 16956
+    },
+    {
+      "corpus": "pangloss",
+      "utt_id": "pan_conte3_eastling-annotations_8779",
+      "duration_s": 6.73,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15163,
+      "peak_reserved_mib": 16238
+    },
+    {
+      "corpus": "pangloss",
+      "utt_id": "pan_conte6_eastling-annotations_13348",
+      "duration_s": 1.55,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15068,
+      "peak_reserved_mib": 16144
+    },
+    {
+      "corpus": "pangloss",
+      "utt_id": "pan_conte3_eastling-annotations_8788",
+      "duration_s": 7.82,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15206,
+      "peak_reserved_mib": 16254
+    },
+    {
+      "corpus": "pangloss",
+      "utt_id": "pan_conte3_eastling-annotations_8780",
+      "duration_s": 7.22,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15166,
+      "peak_reserved_mib": 16240
+    },
+    {
+      "corpus": "pangloss",
+      "utt_id": "pan_conte5_S7",
+      "duration_s": 12.76,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15270,
+      "peak_reserved_mib": 16336
+    },
+    {
+      "corpus": "pangloss",
+      "utt_id": "pan_conte4_S13",
+      "duration_s": 26.908,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15586,
+      "peak_reserved_mib": 16684
+    },
+    {
+      "corpus": "pangloss",
+      "utt_id": "pan_conte1_S8",
+      "duration_s": 26.368,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15571,
+      "peak_reserved_mib": 16674
+    },
+    {
+      "corpus": "pangloss",
+      "utt_id": "pan_conte6_eastling-annotations_13357",
+      "duration_s": 26.82,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15581,
+      "peak_reserved_mib": 16680
+    },
+    {
+      "corpus": "pangloss",
+      "utt_id": "pan_conte4_S17",
+      "duration_s": 4.276,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15126,
+      "peak_reserved_mib": 16186
+    },
+    {
+      "corpus": "pangloss",
+      "utt_id": "pan_conte4_S2",
+      "duration_s": 8.55,
+      "n_chunks": 1,
+      "peak_allocated_mib": 15210,
+      "peak_reserved_mib": 16268
+    }
+  ]
+}

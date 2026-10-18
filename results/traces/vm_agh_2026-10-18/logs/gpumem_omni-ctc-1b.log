@@ -1,0 +1,22 @@
+
+{
+ "model": "omniASR_CTC_1B_v2",
+ "cli_model": "omni-ctc-1b",
+ "gpu": "Tesla V100-PCIE-32GB",
+ "total_mib": 32494,
+ "load_time_s": 5.9,
+ "after_load_allocated_mib": 1863,
+ "after_load_reserved_mib": 2038,
+ "after_load_nvidia_smi_mib": 2350,
+ "peak_allocated_mib": 2711,
+ "peak_reserved_mib": 2932,
+ "nvidia_smi_peak_mib": 3312,
+ "worst_input": {
+  "corpus": "pangloss",
+  "utt_id": "pan_conte2_S6",
+  "duration_s": 48.121,
+  "n_chunks": 2,
+  "peak_allocated_mib": 2711,
+  "peak_reserved_mib": 2932
+ }
+}

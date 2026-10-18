@@ -45,6 +45,6 @@ Les journaux des tentatives n°1 et n°2 ont été écrasés par la suite. Seul 
 ## À noter pour le papier
 
 - **Les deux Whisper ont été lancés en fp16, et Omnilingual avec son type de données par défaut.** Le V100 n'a pas de bf16 matériel, même si `torch.cuda.is_bf16_supported()` répond True.
-- **Le pic de mémoire GPU n'a pas été mesuré pendant ces runs.** Il faudra une courte mesure dédiée pour le tableau des ressources.
+- **Le pic de mémoire GPU n'a pas été mesuré pendant ces runs.** Une mesure dédiée a été faite ensuite (`logs/gpumem_*.log`, résultats dans `results/resources/`). Une première tentative a échoué sur une faute de nom de fonction (`reset_peak_stats` au lieu de `reset_peak_memory_stats`), corrigée avant la seconde.
 - **Les pilotes font partie du run complet.** Les 10 premiers énoncés de chaque CSV viennent du pilote, avec une configuration identique, et le run complet a repris à la suite.
 - **Les checkpoints ne sont pas versionnés dans le dépôt**, car ils pèsent plus de 40 Go. Ils restent téléchargeables : URL dans les cartes de modèles, révisions dans `hf-model-revisions.txt`, empreintes dans `model-checkpoints.sha256`.

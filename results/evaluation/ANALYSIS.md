@@ -76,7 +76,8 @@ Les tailles des sous-ensembles de test :
 - **Les jeux de test sont petits :** 147 énoncés de contes et 328 nombres d'une seule locutrice. Les écarts de moins de 3 à 4 points entre modèles Dendi sont à interpréter avec prudence. Les IC appariés sont dans `pairwise.csv`.
 - **Les transcriptions Pangloss n'ont jamais été relues**, tons compris. Une partie des « erreurs » mesurées peut venir des références elles-mêmes.
 - **`split_v0` est une proposition.** Si le découpage figé diffère, il suffit de relancer `evaluate.py` : les prédictions couvrent tous les énoncés.
-- **Le pic de mémoire GPU n'a pas encore été mesuré**, et **Chirp 3 n'a pas encore été évalué.**
+- **Chirp 3 n'a pas encore été évalué.**
+- **Mémoire GPU à l'inférence** (pic total, V100) : Whisper large-v3 3,9 Gio, turbo 2,1 Gio, MMS 5,7 Gio, Omnilingual CTC 1B 3,2 Gio, LLM 7B 16,9 Gio. Détail dans [../resources/GPU_MEMORY.md](../resources/GPU_MEMORY.md).
 
 ## 7. Conséquences pour la semaine 2 (fine-tuning)
 
