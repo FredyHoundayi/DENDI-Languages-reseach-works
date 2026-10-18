@@ -1,0 +1,4 @@
+# Evaluation (CPU only)
+jiwer==4.0.0
+numpy
+pandas

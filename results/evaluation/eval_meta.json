@@ -1,0 +1,44 @@
+{
+  "generated_utc": "2026-10-18 17:47 UTC",
+  "git_commit": "e731efd",
+  "primary_level": "notone",
+  "levels": [
+    "raw",
+    "notone",
+    "flat"
+  ],
+  "bootstrap_samples": 2000,
+  "seed": 20261018,
+  "subsets": {
+    "zenodo": [
+      "all",
+      "test",
+      "train"
+    ],
+    "pangloss": [
+      "all",
+      "test",
+      "dev"
+    ]
+  },
+  "cer_definition": "character edit distance over NFC code points, spaces included (jiwer default)",
+  "wer_definition": "(S+D+I)/N over whitespace tokens of normalised text, micro-averaged over utterances",
+  "versions": {
+    "jiwer": "4.0.0",
+    "numpy": "2.4.1",
+    "pandas": "2.3.3"
+  },
+  "python": "3.12.3",
+  "prediction_files_sha256": {
+    "mms-1b-all-ddn/zenodo.csv": "d7761e7bec70fe9ad97c77abcf7ab40a819322e21c8e7342cd79cbe618ab24ee",
+    "mms-1b-all-ddn/pangloss.csv": "666af00a6844ada7f120c2813cd8a23804b2627bc305708b64c317a613092ab4",
+    "omniASR_CTC_1B_v2/zenodo.csv": "4886d5c5a19e68400224161f9931b5d698cd0ff79780e698dc1b2476928571f9",
+    "omniASR_CTC_1B_v2/pangloss.csv": "b6f15cca517ccd1e65632f2fd9dd85e06d6cdda59e45a1bbc6dec5ae028e2c29",
+    "omniASR_LLM_7B_v2/zenodo.csv": "b1953ce0abec8f8cc63929eda7af059d55e51782512a78df7cd6b995a2a894e2",
+    "omniASR_LLM_7B_v2/pangloss.csv": "b70a3c3a4e6fa33dbfc60e9f547a63723ef58dd520ccd0f4cddc23466797b5bb",
+    "whisper-large-v3/zenodo.csv": "bcbc551c4a4802cbd6c75988525f5e5b3fc273dbb2a3c4b56f5c99ced62a8a01",
+    "whisper-large-v3/pangloss.csv": "07b2eb448337301d88d9f9b19a6ff4b9d59dcb98f5f29517f77acef678c16155",
+    "whisper-large-v3-turbo/zenodo.csv": "6c667bd69febafb17703cfa311b0c62be010c5d539ae6beb62959e4cf7cf3269",
+    "whisper-large-v3-turbo/pangloss.csv": "2f8e06e07e15d3a643ad8952f7dfac695681f3688ddbf5640f958efd1146a0cc"
+  }
+}

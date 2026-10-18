@@ -1,0 +1,869 @@
+### pan_conte1_S1  [dev]  WER=0.93
+REF:   y jande  ay jande     ay     na    furu nse a ma kway a ma ka
+HYP: ege  ande ege  ande amakwa amakwa enafuru nse * ** **** * ** **
+       S     S   S     S      S      S       S     D  D    D D  D  D
+
+### pan_conte1_S2  [dev]  WER=0.92
+REF:    muusu beeri da kooro ngay  ya margu    i hay  ka̰        i hay muusu beeri    na nga  ize   na̰    yo  ma   nga      ize na̰ man ci ni go ga ma   i   ma  kway foya̰    di   kway foyamo     i  ma du ham i ma kanda   i ma no izay  se   i  ma ŋa
+HYP: musubiye ***** da kuoru unga iya maigu ihai  ka ihai musubiye ima  anga izana kuoru mga enga mwona mwiyo mga izana nkinguwa *** *** ** ** ** ** ma ima kuwa ifoem    da ikuwa ifoemu    ima duham ima ** *** * ** kanda ima ** no  iza iza ima waa **
+            S     D        S    S   S     S    S   S    S        S   S     S     S     S   S    S     S     S   S     S        S   D   D  D  D  D  D      S    S     S     S     S      S      S     S   S  D   D D  D         S  D       S   S   S   S  D
+
+### pan_conte1_S3  [dev]  WER=0.95
+REF:       i     ma    kway fooray     do di du ham i ma kanda izay i ma ŋa kala    hana      fo  i   kway foya̰ i man du kulu muusu beeri      na yo   wi ka    no   wi muusu beeri     ka yo mana ka izo    kway  kani      ka  jeeri nga waani        a kande  ɲaŋo hamo ka ci a se a ma ŋa
+HYP: mwafuwa ndaidu makanda    iza imawaa ** ** *** * ** ***** **** * ** ** kala hinifoi kwafuwa ya imandu ***** * *** ** kulu mwusu  biye inayizo ui kana ui mwusu biye   ika    uo manaka ** **** ** izo kwakani kagei ndawani akanda nyo  hamu wakanase kakia mawaa **** ** ** * ** * ** **
+           S      S       S      S      S  D  D   D D  D     D    D D  D  D            S       S  S      S     D D   D  D          S     S       S  S    S  S     S    S     S     S      S  D    D  D           S     S       S      S   S     S        S     S     S    D  D  D D  D D  D  D
+
+### pan_conte1_S4  [dev]  WER=3.20
+REF: *** ***** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***  yo ize  ci nga  si  ŋa zama nga man  di nga  ɲa   a bine  mo   a  go  no  ya din kala  ya din muusu beeri   a bia kway  fo   a dira  ka nga izo  da  yo izo na̰   i  ci  ka  ne ngay  ma  ka  ka kway  ka tuuri  ku  ka  ka  ka guusu fansi
+HYP: kwa hivyo kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa  kwa kwa kwa kwa kwa kwa kwa  kwa kwa kwa kwa kwa kwa kwa  kwa kwa kwa   kwa   kwa kwa kwa  kwa kwa kwa  kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa  kwa kwa kwa kwa  kwa kwa   kwa kwa kwa kwa kwa   kwa   kwa
+       I     I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   S   S   S   S   S   S    S   S   S   S   S   S   S    S   S   S   S   S   S   S    S   S   S     S     S   S   S    S   S   S    S   S   S   S   S   S   S   S   S   S   S   S    S   S   S   S    S   S     S   S   S   S   S     S     S
+
+### pan_conte1_S5  [dev]  WER=0.96
+REF:    i    kway      i       na  guuso  fansi   i    na tuuri    ku     ka    da̰  hala    a to i ka yo ize ci muusu beeri ize ma saru muusu beeri ize ci yo ize ma saru yo ize binde saru a kway kay ya haray muusu  beeri      ize        a ka  cofo a saru ka ka̰ nuuna kuna
+HYP: ikoa inagusu ofansi inatuulu kukada halato ika yueza    ki mwusu beyeza masaru yueza bina ** * ** ** *** ** ***** ***** *** ** saru  akoa ***** *** ** ** *** ** **** ** *** ***** **** * **** *** ya  hali mwusu beyeza kakifasa yukakano na akuna * **** ** *** ***** ****
+        S       S      S        S      S      S   S     S     S     S      S      S     S    S  D D  D  D   D  D     D     D   D  D          S     D   D  D  D   D  D    D  D   D     D    D D    D   D        S     S      S        S        S  S     S D    D  D   D     D    D
+
+### pan_conte1_S6  [dev]  WER=0.86
+REF: kulu    yo   ize ninga zuray paati       a   za  ka      ci kwaara  kotiay na fonnay  dina fonnay a go    ka i na ce yo ize go yo ize go
+HYP: kulu yaezo nangu zurei  pati azaka kikwara koti yae nafwane     li nafwane na   waka mwake  yaezo * go yaezo * ** ** ** *** ** ** *** go
+              S     S     S     S     S       S    S   S       S      S       S         S     S      S D        S D  D  D  D   D  D  D   D
+
+### pan_conte1_S7  [dev]  WER=1.00
+REF: danga   mo  ma   ci
+HYP:   dan kamu nak maki
+         S    S   S    S
+
+### pan_conte1_S8  [dev]  WER=0.93
+REF:    a cin    ci  yo   ize  no    yo ize no a cin ci yo ize no yo ize no guna         ka       ɲaɲa    wi ka  ɲaɲa   wi sa̰kana gooru ay mo ka buru funsu     ka buru funsu     ka gun  ize da̰ guna   ga halhal  day  gahal hal     day  gay   do   ceci   ay     mo  ga halhal   day kala     kway kwaaya kway ma asu guna    ma hini guna kay ka woo ya
+HYP: akin kia izena kia izena kia izena *** ** * *** ** ** *** ** ** *** ** guna kanyanyawi kanyanyawi sanka na gwaru aimo  kaburu ***** ** ** ** **** funsu kaburu **** funsu kaguni  za damu *** guna gali halida gali halida ika idokeki aimo gali halida gali halida ika  lakwa ikuwa  kwa masaguna mahina **** ** *** guna maika  uwe **** *** ** *** **
+        S   S     S   S     S   S     S   D  D D   D  D  D   D  D  D   D  D               S          S     S  S     S    S       S     D  D  D  D    D            S    D            S   S    S   D         S      S    S      S   S       S    S    S      S    S      S   S      S     S    S        S      S    D  D   D          S    S    D   D  D   D  D
+
+### pan_conte1_S9  [dev]  WER=0.93
+REF:  may   ka woo   ra n ci ni go ma  man ci     ni go ga ma
+HYP: nkio nkua  ma nkua * ** ** ** ma kima di kadamu ** ** **
+        S    S   S    S D  D  D  D       S  S      S  D  D  D
+
+### pan_conte1_S10  [dev]  WER=0.91
+REF:     koyo    ma        ci i ma di ka da̰ haya kuna    i   ma   di   ka kway  da̰    bari kata kuna day     day    day   day   muusu  bay  ma       za    ka kwaara ceci baykulu     ma   ngay   hangaw  da ngay biraw  za   i        ma za ka ci i ga ceci soho̰ dini yo ize ma zuray za ka kway kwaara koyo do ma ci funu funu funu    i si nda hayo hina
+HYP: imaadika kweda mbalikata * ** ** ** *** **** kuna daya daya daya daya  mtu biya imazaka  kwa  aki eki baikulu maanga hanga undanga biya uza imaazaka kiiga    aki  eki      so hadini yuweza mazureza kwa  kwa   kwa kwa kwa machifunu ** ** ** * ** **** ***** **** ** *** ** ***** ** ** **** ****** **** ** ** ** funu funu funu sinu da *** hayo hina
+            S     S         S D  D  D  D   D    D         S    S    S    S    S    S       S    S    S   S       S      S     S       S    S   S        S     S      S    S       S      S      S        S   S    S     S   S   S         S  D  D  D D  D    D     D    D  D   D  D     D  D  D    D      D    D  D  D  D                   S  S   D
+
+### pan_conte1_S11  [dev]  WER=1.00
+REF:        a ma     za kwaayne      a  ma kwaaya   fo   mo    ceci nga mo      da   a       go no kway    da kotiaay    na a fonnay i ma sobay ci yo ize go yo ize go day a ma ci
+HYP: amazakwe ni amakua    fomo chechi mga   moda gono kwai idakuwa  tu ya inafuwa nai umatabai ki   ya izago      ya izago * ****** * ** ***** ** ** *** ** ** *** ** *** * ** **
+            S  S      S       S      S   S      S    S    S       S   S  S       S   S        S  S    S     S       S     S D      D D  D     D  D  D   D  D  D   D  D   D D  D  D
+
+### pan_conte1_S12  [dev]  WER=0.93
+REF:    day   a    ma     ci     a    cin    ci     yo  ize no yo ize no a cin ci yo ize no yo ize no guna ka   ɲaɲa wi ka   ɲaɲa wi sa̰kana gooru   ay   mo     ka buru funsu     ka buru funsu     ka    gun ize da̰ guna     ga halhal    day  gahal hal   day gay   do   ceci     ay     mo     ga halhal   day   kala kway     kwaaya kway      ma asu guna   ma hini guna kay ka woo ya
+HYP: damaki aki hunki aizena hunki aizena hunki aizena guna  o ** *** ** * *** ** ** *** ** ** *** ** **** ka nyanya we ka nyanya we      sa nkara goru aimo kaburu **** funsu kaburu **** funsu kaguni zadamu *** *** guna gahari halida gahari halida ika idoki aki aimo gahari halida gahari halida    ika nakua ikuaya  kua mahasaguna  ama iniguna ama  ika huwe **** **** *** ** *** **
+          S   S     S      S     S      S     S      S    S  S  D   D  D D   D  D  D   D  D  D   D  D    D         S  S         S  S       S     S    S    S      S    D            S    D            S      S   D   D           S      S      S      S   S     S   S    S      S      S      S      S      S     S      S    S          S    S       S   S    S    S    D    D   D  D   D  D
+
+### pan_conte1_S13  [dev]  WER=0.89
+REF:   i   ma ci to wa      di  ka  da̰       i   ma ye ka di ka da̰ ya din no   ya din no   ya din no kala kwaara koyo    tunu   kay  a    ci    to soho̰  nga     wo  kay ka̰ i na da̰ bari kato kuna   a     si   no   funu baykulu    ma   kay      da   nga hangaw da nga biraw
+HYP: ime kito ** ** wa adikada una yaka adikada yadi ** ** ** ** *** ** *** no yadi *** no yadi *** no kala   kwaa kweo tunukai akito so hanga wakai kaina damu barika tuwa *** * ** *** **** **** kuna asi yunofu kwae kuluma   kaini danga hanga undanga biyau ****** ** *** *****
+       S    S  D  D          S   S    S       S    S  D  D  D  D   D  D   D       S   D       S   D              S    S       S     S  S     S     S     S    S      S    S   D D  D   D    D    D        S      S    S      S       S     S     S       S     S      D  D   D     D
+
+### pan_conte1_S14  [dev]  WER=0.81
+REF:  i ma du  muusu bay   ka wi wato ga  muusu beeri    di day babu  sarki say  alla       say muhamadu monzo alla muusu beeri za ka dooru ganjo ya nga  ya      ci       ka̰ yo si fuyo ganji
+HYP: ni ma du musubi   e kawi ** wato ga musubi     e didai *** babu sariki  sa alese muhammadu   musubi     e zaka    du   oru ** ** ***** ganjo ** nga aki kariosi fuyaganya ** ** **** *****
+      S            S   S    S  D              S     S     S   D           S   S     S         S        S     S    S     S     S  D  D     D        D       S       S         S  D  D    D     D
+
+### pan_conte2_S1  [test]  WER=1.00
+REF: ay jande   ay jande   ay na      furu nse
+HYP: to   ege andi   ege andi to anapamuka  to
+      S     S    S     S    S  S         S   S
+
+### pan_conte2_S2  [test]  WER=0.94
+REF:      ko    fo  no ya a go no nga  ɲa wayceya̰  do ɲawo    bu  ka na̰ wayce  do baabo bine tunu baabo     ci nga  kway yaauri baabo kway yaauri   ka diya     ka kotia na̰ nga   fo   ka  ci   a   ize ka̰    go     a se waycay ga ma kuna waycay  mana hay        a diya       ka kway yaauri ka diya   ka   nga  ize   guda fo  na̰      nga wande beero do     a  bine    a    go    ya din a go ya din
+HYP: kufuona agona nga ** * ** ** nga nya    waike ndo  nye obuka ana nya waike idu  babo bina tunu  babo chinga kwa yauli   babo  bina  kwa  yauli kadi   ya kukoti    ya *** nga foka kiya iza kwa ngona asi waike igama ** ****** ** ** kuna  waike imana hai anangala adia ingamona adia  kukwa ya  uli adia kanga hizo gudafa na anji wandabeo ***** ***** do abina kuona adia kuona adini *** * ** ** ***
+           S     S   S  D D  D  D       S        S   S    S     S   S   S     S   S     S    S          S      S   S     S      S     S    S      S    S    S      S     S   D        S    S   S   S     S   S     S     S  D      D  D  D           S     S   S        S    S        S    S      S  S    S    S     S    S      S  S    S        S     D     D        S     S    S     S     S   D D  D  D   D
+
+### pan_conte2_S3  [test]  WER=1.86
+REF: *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** wande beero  ci     a  ma  kway hayi  guru  da     a kway  hayi guru     a  ma  kayu   a    ma  ci  kway gana boyaay  se    di  ci  gane  ma  kway hari  guyu hari ziibo  no    ni kway  guru   a    di   a    di  ya   din kala  hani  fo zaayi  fo   kay kulu     a  na gaasu dace     a  se    ka   a   da̰ nga  jine  ka konda isa    me  da     a  to na̰ka̰   a  guru   a    ma kaati     a  ma    ci   a    ma bisa
+HYP: kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo   kwa hivyo kwa hivyo kwa hivyo  kwa hivyo kwa hivyo  kwa hivyo  kwa hivyo kwa hivyo kwa hivyo kwa hivyo  kwa  hivyo kwa hivyo kwa hivyo kwa hivyo  kwa hivyo  kwa hivyo kwa hivyo  kwa hivyo kwa hivyo kwa hivyo kwa hivyo  kwa hivyo kwa hivyo kwa hivyo  kwa hivyo kwa hivyo  kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa  hivyo kwa hivyo kwa hivyo   kwa hivyo kwa hivyo kwa hivyo  kwa
+       I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I     S     S   S     S   S     S    S     S   S     S    S     S    S     S   S     S   S     S   S     S    S      S   S     S   S     S   S     S    S     S    S     S   S     S    S     S   S     S   S     S   S     S    S     S   S     S   S     S    S     S   S     S    S     S   S     S   S     S   S     S   S     S   S     S   S     S   S      S   S     S   S     S     S     S   S     S   S     S    S
+
+### pan_conte2_S4  [test]  WER=0.98
+REF: da    a   to na̰ka̰      a       guru a ma kaati a ma ci a ma bisa da a to na̰ka̰ a guru a ma kaati a ma ci a ma bisa kala kala   kala     kala na̰ka̰ yolla     ize   guda    fo           no       a se     kala na̰ka̰      a si di yolla ize a na nga hari guru ka nga banda bare cofo curo fo mo ka
+HYP: na tuwa naka  agula makata makiambisa * ** ***** * ** ** * ** **** ** * ** ****** * **** * ** ***** * ** ** * ** **** kala naka yulezo gudefona  aseke  naka asidiyo yulezo anaka haigurukanga bandabe ya kiafakia     ya fomoka ** ** ***** *** * ** *** **** **** ** *** ***** **** **** **** ** ** **
+      S    S    S      S      S          S D  D     D D  D  D D  D    D  D D  D      D D    D D  D     D D  D  D D  D    D         S      S        S      S     S       S      S     S            S       S  S        S      S      S  D  D     D   D D  D   D    D    D  D   D     D    D    D    D  D  D  D
+
+### pan_conte2_S5  [test]  WER=0.80
+REF: cofo curo fo mo ka ka sambu    ka kway ka     dace    tondi   bo̰ tondo  din bo̰  ka  go no curay ma ka   i ma wa    tondo bo̰ curay  ma ka   i ma wa    tondo bo̰
+HYP: **** **** ** ** ka ** sambu pokwe kade ka tuandibo tuandibo dimbo  anka gono  ki ura ima ** ***** ** ka ima ** wa tuandibo  ki   ura ima ka ima ** wa tuandibo ***
+        D    D  D  D     D           S    S           S        S     S     S    S   S   S   S  D     D  D      S  D           S   S     S   S      S  D           S   D
+
+### pan_conte2_S6  [test]  WER=2.17
+REF: *** *** *** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** ** ****** **   kala baabo     ka  a   kway yaauri      a handu hiinza  a  handu hiinza      a ka     ka funu yaauri bine    ka̰  a     ka ka   funu yaauri kwaayne baabo   gabi kooni     no gabi  kooni no  baabo so̰ho̰   dini  a     na baanɲa ko̰o̰ŋo haraykari turukari  a     si nda    ha̰ ka̰      i mana     ku ka     ka  a     go kanda   jodi se      a na   wura tita     te jodi     se  a     na wura     ta tafe taa  se   a      na   wura   diko  ta  se    a   na kwaayi  te     a   se       a kanda   jodi     se     a bine      a kanda   jodi     se
+HYP: kwa kwa mtu ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa ya kufuwa    ya kufuwa ya kufuwa     ya kufuwa    ya kufuwa ya kufuwa     ya kufuwa ya kufuwa   ya kufuwa   ya kufuwa ya kufuwa ya kufuwa     ya  kufuwa    ya kufuwa    ya kufuwa   ya kufuwa ya kufuwa     ya kufuwa ya kufuwa     ya  kufuwa        ya   kufuwa ya kufuwa  ya kufuwa  ya kufuwa   ya kufuwa ya kufuwa ya kufuwa    ya kufuwa ya kufuwa ya kufuwa   ya kufuwa   ya kufuwa ya kufuwa   ya kufuwa   ya kuf ana ura anawura titate jodisi ana ura tafa tasi    ana ura mdiku tasi anakwai  tasi akanda jodisi myesa nila kaliga abina akanda jodisi
+       I   I   I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      I  I      S     S      S  S      S      S      S     S      S  S      S      S      S  S      S    S      S    S      S  S      S  S      S      S       S     S      S     S      S    S      S  S      S      S      S  S      S      S       S         S        S  S      S   S      S   S      S    S      S  S      S  S      S     S      S  S      S  S      S    S      S    S      S  S      S    S      S    S   S   S   S       S      S      S   S   S    S    S      S   S     S    S       S     S      S      S     S    S      S     S      S      S
+
+### pan_conte2_S7  [test]  WER=2.89
+REF: *** ***** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ka̰   a kanda jodo  se kulu kala   i  na jodi gay tondo bo̰ jodi  go gooro tondo bo̰ kulu   i  go hara kaariya̰  ga jodi dumdum jodi dumdum hara nooya jodi dumdum jodi dumdum cefa banɲa  fo  na  me  ka   a  ci jodi  no tondo bo̰  ya   i  ci  ma sode soha din   i  na sode   i  na furu isa kuna
+HYP: kwa hivyo kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa   kwa  kwa kwa  kwa  kwa kwa kwa  kwa kwa   kwa kwa  kwa kwa   kwa   kwa kwa  kwa kwa kwa  kwa      kwa kwa  kwa    kwa  kwa    kwa  kwa   kwa  kwa    kwa  kwa    kwa  kwa   kwa kwa kwa kwa kwa kwa kwa  kwa kwa   kwa kwa kwa kwa kwa kwa  kwa  kwa kwa kwa kwa  kwa kwa kwa  kwa kwa  kwa
+       I     I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   S   S     S    S   S    S    S   S   S    S   S     S   S    S   S     S     S   S    S   S   S    S        S   S    S      S    S      S    S     S    S      S    S      S    S     S   S   S   S   S   S   S    S   S     S   S   S   S   S   S    S    S   S   S   S    S   S   S    S   S    S
+
+### pan_conte2_S8  [test]  WER=0.93
+REF:      i       go     no ga hara kaaru kwaayne jodi dumdum jodi dumdum      i      goo  no    kala  kala kala         i to   a tanje boŋo      me   a      me cuo wuri  i        ka    ka maani a tanje a fa ci hay di ji wi i mi kul wi ka baanu jodi no ya tondo    bo̰ ni di yongo tondo wo bo̰ jodi   no   ya
+HYP: ikuona harafari kwenye ** **** ***** ******* jodi dundum jodi dundum ikuona kakakali ima natange mbomo  mea amekuluki yu uri   ika   ma natange afa kihaidi zai uimu yu kabanindi yungu ***** * ***** * ** ** *** ** ** ** * ** *** ** ** ***** **** ** ** tondo okandi ** ** ***** ***** ** *** jodi nono diya
+          S        S      S  D    D     D       D           S           S      S        S   S       S     S    S         S  S   S     S    S       S   S       S   S    S  S         S     S     D D     D D  D  D   D  D  D  D D  D   D  D  D     D    D  D  D            S  D  D     D     D  D   D         S    S
+
+### pan_conte2_S9  [test]  WER=1.74
+REF: *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** ***     i  ci  cimi  no     i  ma    si kakaw     i bine  kway tondo    do kala     i  ka  jodi gau     a  go gooro   i    na jodi    za  ka   da̰ hio  kuna   i    na cabuko    ka   i    na turuko    ka   i    na haykulu    te   i  kand   e  wura kwaayi    ka da̰     a  se  wura tafe  wura diko    da   a ban̩gumo   i    na jodi    za  ka   da̰ hio  kuna  ka    go dia haray kaaru     i bine    mo   i    go dia  hara kaaru  kulu   i kanda fu    i       na  da̰    fuo kuna
+HYP: kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo   kwa hivyo  kwa hivyo   kwa hivyo  kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo  kwa hivyo kwa hivyo kwa hivyo kwa hivyo    kwa hivyo kwa hivyo    kwa hivyo kwa hivyo     kwa hivyo kwa hivyo kwa hivyo    kwa hivyo kwa hivyo kwa hivyo  kwa hivyo  kwa hivyo kwa    hivyo kwa hivyo  kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo   kwa hivyo  kwa hivyo kwa hivyo kwa hivyo   kwa hivyo kwa hivyo  k kulu ikandafu yine danfuu kuna
+       I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     S   S     S   S     S   S     S     S     S    S     S     S     S    S     S   S     S   S     S   S     S   S     S    S     S   S     S   S     S   S     S      S     S   S     S      S     S   S     S       S     S   S     S   S     S      S     S   S     S   S     S    S     S    S     S   S        S   S     S    S     S   S     S   S     S   S     S   S     S     S     S    S     S   S     S   S     S     S     S   S     S  S    S        S    S      S
+
+### pan_conte2_S10  [test]  WER=0.95
+REF: kulu    ɲaŋo  wayco sobay ka hḛ ka ci nga di bone jodi bu windo kulu  sobay     ka baray         a    ci      kay kay  kay wa   si  sobay   ka    baray          ka waya̰    bo̰ taabandi    a ci       boro  fo buyam  mo     hay fo no
+HYP: hina danfuwa hakuna ***** ** ** ** ** *** ** **** **** ** ***** kulu waikyo sabayi   hee lakingadi ibuwa nagiwadi buu undu wa kulu sabayi bala hakikaka kikaiwasiba    la ikawea      mmo taba ni hakibuwefo buu    ya mmo haifono ** **
+        S       S      S     D  D  D  D  D   D  D    D    D  D     D           S      S     S         S     S        S   S    S       S      S    S        S           S     S      S        S    S  S          S   S     S   S       S  D  D
+
+### pan_conte2_S11  [test]  WER=5.44
+REF: *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** *****   i sobay caray miisi guna    ka  di wande  na  kway hiiji kande soho̰    ya   i hiija fay soho̰  ya     i diraw maanu soho̰    ya   i    di bone
+HYP: kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo   kwa hivyo  kwa hivyo kwa hivyo kwa hivyo   kwa hivyo   kwa hivyo kwa hivyo kwa hivyo kwa hivyo   kwa hivyo   kwa hivyo kwa hivyo  kwa
+       I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   S     S     S     S    S     S   S     S   S     S     S     S     S     S   S     S   S     S   S     S     S     S     S     S   S     S    S
+
+### pan_conte2_S12  [test]  WER=0.94
+REF:      a kande wanday kulu   se tafay hinka hinka   bine     ka kande tafay   a  ci to i ma ka sambu wande beero ci    nga   si kway bindi   wo      no      ci boyo tunu    i   ma kway wɛrgida   bay  bone kinga     te      i bina      ka    i  ka   ka tafe gisi    tafe iddu wɛrgida wo no i na gisi waani bindo kunḁ   wa          no     a    ci nga   ma     gumgum       ka feeri   cofo i na haabu nda bayzu nda sayi a na nango na̰ to
+HYP: akanda wanda ikuise   ya tafa ***** hinka hinka binaka akanda  tafa akito ima kaa ** * ** ** sambu  wale  gida ki ingasu kwae **** bindi wano kibuoma tununga  ima kwae zasa wale gida     oba ibona kanga    ti binaka ikanda tafa ikagisi tafa idu wale gida wano inagisi wani ******* ** ** * ** **** ***** bindo kuna wana wakakingama mungu kufie  ya kifa inahabunda baizunda  haya udasai * ** ***** *** ***** *** **** * ** ***** *** **
+          S     S      S    S    S     D                  S      S     S     S   S   S  D D  D  D           S     S  S      S    S    D          S       S       S    S    S    S    S    S       S     S     S     S      S      S    S       S    S   S    S    S    S       S    S       D  D  D D  D    D     D          S    S           S     S     S   S    S          S        S     S      S D  D     D   D     D   D    D D  D     D   D  D
+
+### pan_conte2_S13  [test]  WER=1.16
+REF: *********** **** *** ***** soho̰   ya baabo hiiji   ka kubay    ka kanda    a se     a      na boray      mo kokobay    ka   garay     ka   ka wundo   kuna     a    kway   danjo   bo̰
+HYP: anananguona kama haa ifoto    so hadi    ni  babo higi   ana ahigi    so hadi ni kubwa kakanda    se unduana   bwema ukulu kukubwa kagaya kaka  undu nchama kanda injisha akwaida njomu
+               I    I   I     I     S    S     S     S    S     S     S     S    S  S     S       S     S       S       S     S       S      S    S     S      S     S       S       S     S
+
+### pan_conte3_eastling-annotations_8751  [test]  WER=0.82
+REF: to *** wayboro fo nga ya  kunu   ka̰     a kunu kuno     go  no    a see da izo     ka izo   ma  ci ay   ɲa  ay hay ay ɲa ay hay
+HYP: to wei     wei fo nga ya akunu kanga akunu kunu wegu wanasi dei zoka *** ** izo machia   e nyei hai  e nyei hai *** ** ** ** ***
+          I       S               S     S     S         S      S   S    S   D  D          S   S    S   S  S    S   S   D  D  D  D   D
+
+### pan_conte3_eastling-annotations_8752  [test]  WER=0.98
+REF:   ɲaŋo     ma ci      ay     si waani ni cine hayyam zama ay mana ni da̰ iri kway ka̰ kande nin din da a na̰ nin ka̰ kulu    ni   funu     a boyri  hino kwaayne    a  ye   ka  ay  ɲa       ay     hay    ay     ɲa ay hay ɲaŋo ci ay si waani ni da̰ iri kway ka̰ kande nin a ga ni ka
+HYP: ndanda nidiko  e kandani ndanda nanka ** **** ****** **** ** **** ** *** *** **** *** ***** *** *** ** * *** *** *** kulu mfulu ndanda abuwe  yino kuena     eka enye hai enye hai nyo ochesuwa ninkina haiya ndanda ** *** **** ** ** ** ***** ** *** *** **** *** ***** *** * ** ** **
+          S      S  S       S      S     S  D    D      D    D  D    D  D   D   D    D   D     D   D   D  D D   D   D   D          S      S     S     S     S       S    S   S    S   S   S        S       S     S      S  D   D    D  D  D  D     D  D   D   D    D   D     D   D D  D  D  D
+
+### pan_conte3_eastling-annotations_8753  [test]  WER=1.26
+REF: *** ****** ******* *** * ********** ******   a    te zanga  ci hiinza kulu    a     na   ɲaŋo gunda funu       a   na funu bine a ********    hḛ nŋwarr nŋwarr ɲaŋo a ci aaa
+HYP: aki zamiye mananda iku e kankandana aganka nam ateza   nga kie  hinza  nam kula ananyo ngunda afunu  nam anafunu bini  aki  ati a hiengwar ngwar  ngwar  nyomo  chi a  a ***
+       I      I       I   I I          I      I   S     S     S   S      S    S    S      S      S     S    S       S    S    S    S          I     S      S      S    S    S   D
+
+### pan_conte3_eastling-annotations_8754  [test]  WER=0.95
+REF: a ci  to a ci nga  ɲase      a   ma nga fṵma dumbu ɲawo  ci  ya   si waani   ni    ci ne fume dumbuyam   a   ci zama     ya mana ni    hay   a   na  nga kwaay  toto ceci     a na nga fṵma dumbu
+HYP: n am aki * ** nga nyasa amanga fuma *** **** dumbu nyoo aki esi wani nkine fuma dumbu ya    n       am aki zami  ama nangai    n am ananga pwa aito toke   kia ranga fuma dumbu  n  am **** *****
+     S  S   S D  D         S      S    S   D    D          S   S   S    S     S    S     S  S    S        S   S    S    S      S    S  S      S   S    S    S     S     S    S     S  S   S    D     D
+
+### pan_conte3_eastling-annotations_8755  [test]  WER=0.87
+REF:  a     ye kwaayne   a   ka̰ ay ɲa a  ci       ay ɲumay ɲaŋo ci     ya       si waani ni ɲumeya̰ a  ci  zama  ay   mana ni hay a    na      nga  hay dungo da̰ a    na nga    bo̰ ɲumay   a   ci     ɲaŋo    se    a   ma nga   cabu ɲawo ci nga si waani a cabuya̰  a  ci  zama nga    mana    a hay a    na      nga hayi hay dungo da̰ a    na nga    bo̰ cabu
+HYP: ae kuenei     aka aki ainye ** ** a aki ainyumai  nyuo  aki  a suwane ainyumai ***** ** ******* a aki zamaa ema nangai ** *** a nanga haidungu wada ***** *** a nanga bwa nyumai  namu aki nyuo zaamanga chabu nyuo ochi nga suwana **** ** *** ** ***** a   chabu ya aki zamaa nga manahai namu *** a nanga haidungu wada *** ***** *** a nanga bwa nchabu namu
+      S      S       S   S     S  D  D     S        S     S    S  S      S        S     D  D       D     S     S   S      S  D   D       S        S    S     D   D       S   S      S     S   S    S        S     S    S    S          S    D  D   D  D     D         S  S   S     S           S    S   D       S        S    S   D     D   D       S   S      S    S
+
+### pan_conte3_eastling-annotations_8756  [test]  WER=0.84
+REF: a    te zanga jiriibi hinka a      ci ɲawo se  soho̰ abicikaray ayci kayna fo ya  go ka nga   ɲa    da  nga  baaba  ma tunu ngay ma   kway ganjo   ya a bine  a tunu ifo ya    ci a mate i  ci a se   a birawo goobay tooru wayne    a  ma kway   a  ma waydin    zabu tooru wayne    a  ma kway   a  ma waydin    zabu  kala    a   na   i    kulu te biraw  nda hangaw    a  na   i   za
+HYP: a tezwa   nga    gibi hinka a kinyamu  ose so hihiki          i kena ***** fo ya gwo ka nga nyan denga babo matunu nga  ima  kwa  i ganjwa    ya namu a bini ya tunu nfa ya amata * **** i kia * se abi     yo    gwo  bayi  namu tuol uwe   ni ama kwa    ama wedding njabu  namu tuol uwe   ni ama kwa    ama wedding njabu namu kala ana ikulute bi    ya unda  hango namu ana iza namu
+           S     S       S               S    S  S      S          S    S     D         S           S     S    S      S   S    S    S  S      S     S    S      S  S        S        S D    D     S D      S      S      S     S     S    S   S    S   S   S      S       S     S     S    S   S    S   S   S      S       S     S    S    S   S       S  S     S    S      S    S   S   S    S
+
+### pan_conte3_eastling-annotations_8757  [test]  WER=0.94
+REF: bine   i     go    no   kway     i     go    no  kway   i  go    no kway      kala   a    ye ka i kway to nangu fo a ci to i ma zumbu   no din   i bine i zumbu      a   kway bine a du nga   besa jindi          fo   a  wi     a kanda     ka no nga       ɲa  da   nga baaba  se   a   ci   i    ma ŋwaaari te i bine mo i na ŋwaayo te
+HYP:  ibi nye guwano kuwae guwano kuwae guwano kuwae kalae eka ibi kuwae tuwa nangufuwa aki itema ** * **** ** ***** ** * ** ** * ** zumbu nodi ibi nye **** * zumbu akuwae kulado **** * ** nga nufuwa  biya sagindifuwa awi aka ndaka nonga nyanda ** nga babasaki ima nguwa   iti ibi nye moho ina nguwa     oti ** * **** ** * ** ****** **
+        S   S      S     S      S     S      S     S     S   S   S     S    S         S   S     S  D D    D  D     D  D D  D  D D  D          S   S   S    D D            S      S    D D  D          S     S           S   S   S     S     S      S  D            S   S     S     S   S   S    S   S     S       S  D D    D  D D  D      D  D
+
+### pan_conte3_eastling-annotations_8758  [test]  WER=0.92
+REF: wuciiri kambo      to   a   na baabo tuti baabo ci daari bundu ***     a   na  ɲaŋo  sa̰ ɲaŋo ci daayo nga bumbum     a   bay a bare   ka te tafan jiwa ka furu daayo bo̰ i kaani   kala  mo bo
+HYP:    uchi     i kamboto ana babo ututi babo  uchi da     i bundu ana nyomo samu nyomo uchi   da yo   ane nga bumbum abeta finji i waka fuyu da  robo **** ** **** ***** *** i  kane kalamu obo **
+           S     S       S   S    S     S    S     S  S     S         I     S    S     S    S    S  S     S                S     S S    S    S  S     S    D  D    D     D   D       S      S   S  D
+
+### pan_conte3_eastling-annotations_8759  [test]  WER=0.89
+REF:  mo    bia  bo   a kway a du farra feeji halaho̰̰   a ye kanda  a    ci ɲaŋo     se   a  ma tunu ŋwaaray     te ɲaŋo bine a dumbu dumbu   i  se    i na    ŋwaaro         te        i  ci hari si a ci nga day ka ci hari a kway a na haro  guru      a kanda haro
+HYP: nyo biyabo ako aya **** * du  fara  fegi      ala mwa ye kanda ki nyomo sama tunuma ite nyo   bi      ne adumbu **** **** * dumbu   isa ina nwa wata ki ikihalisi hachingade kakihali ako  ana ** * ** *** *** ** ** **** * **** * ** haro ogulu akanda ***** haro
+       S      S   S   S    D D        S     S        S   S           S     S    S      S   S   S    S       S      S    D    D D           S   S   S    S  S         S          S        S   S    S  D D  D   D   D  D  D    D D    D D  D          S      S     D
+
+### pan_conte3_eastling-annotations_8760  [test]  WER=0.96
+REF:   muusu   beeri      mo  di a   muusu   beeri ci ee a ci waane a ci ni       ya   day        ni     go hine lum lum  lum    a    ci    a   se  ni  di        a    day   a      ci i ya ŋwaayo ne ya no i kani n foy a ra no i foy a ci to ni ko go ni kayne go da ni tunu kulu        ma tunu ni nda ni ma     ma kway       nga mo a ma faaji ni se a kway
+HYP: musubia imuodia musubia iki e akiwane akiwane ** ** * ** ***** * ** ni adanguwa ngina lunlunlum akiasa  ndi ade nia wawo yana ikane wawo yana ifo aki tongkogo nkiena gwo dantunu * ** ****** ** ** ** * **** * *** * ** ** * *** * ** ** ** ** ** ** ***** ** ** ** **** kulu matununda **** ** *** ** ma kwenka mawa mafaginzi ** * ** ***** ** ** * ****
+           S       S       S   S S       S       S  D  D D  D     D D  D           S     S         S      S    S   S   S    S    S     S    S    S   S   S        S      S   S       S D  D      D  D  D  D D    D D   D D  D  D D   D D  D  D  D  D  D  D     D  D  D  D    D              S    D  D   D  D         S    S         S  D D  D     D  D  D D    D
+
+### pan_conte3_eastling-annotations_8761  [test]  WER=1.00
+REF: cofo        a    na  ɲaŋo   da baabo     di   a    i    ci  ni kande      i     ya    bone      a ne  wa     wi ay se a na wi a na wi bine mo a na ŋwa a ci i ma ŋa
+HYP: nkwa ichafana nyoma ndaba bodi   aki ukanda ika boni anewo uwi  aisi anawui anawui binamwa anawwa  e aki imawwa ** ** * ** ** * ** ** **** ** * ** *** * ** * ** **
+        S        S     S     S    S     S      S   S    S     S   S     S      S      S       S      S  S   S      S  D  D D  D  D D  D  D    D  D D  D   D D  D D  D  D
+
+### pan_conte3_eastling-annotations_8762  [test]  WER=0.85
+REF: wuciri kambo    to   a     na ɲaŋo tuti     a na baabo tuti baabo ya   ci humburo   a     na ɲaŋo tuti kwaaayne   ɲawo  nga   ya      ci hinji      izo  nga bumbu    m    bare gaasu kayna ka furu humburo cire a a a
+HYP:   uchi   ika mboto ana nyango **** tuti mbabo ** ***** tuti mbabo ya achi hungulo ana nyango **** tuti  hukwene nyango unga achi hingizo  unga mbombega suki   ena kafu hungulo   chi  namu ** **** ******* **** * a a
+          S     S     S   S      S    D          S  D     D          S       S       S   S      S    D             S      S    S    S       S     S        S    S     S    S       S     S     S  D    D       D    D D
+
+### pan_conte3_eastling-annotations_8763  [test]  WER=0.89
+REF:    mo bia     bo   a kway na    hari guru   a      na hay guru bine  ni  ka muusu beeri    a   ci man  n   i kayne a  ci  aa   ha̰ka̰ ni di kuuro nay se     ya  nga      no  ya go te humburu za ya kway  no  ay  na  wi
+HYP: mwobi  ya bonkwa nga **** na haigulu  nam nga haiguli *** **** bine nka nam   aki mwosu beki mani nke ne aki     a a nka ndi ukuulone ** ** ***** *** se angane wote humbulu nam ** ** ******* za  e  kwa ino ina uwi nam
+         S   S      S   S    D          S    S   S       S   D    D        S   S     S     S    S    S   S  S   S     S     S   S        S  D  D     D   D         S    S       S   S  D  D       D     S    S   S   S   S   S
+
+### pan_conte3_eastling-annotations_8764  [test]  WER=1.00
+REF:      a     ci      to ikway   ma bana     ni  se a ci wuciiri ay go ka ka di waya̰
+HYP: kituye kuyama banansi    ya ujie   uo kariwe naa * ** ******* ** ** ** ** ** *****
+          S      S       S     S    S    S      S   S D  D       D  D  D  D  D  D     D
+
+### pan_conte3_eastling-annotations_8765  [test]  WER=0.98
+REF: *****   wuciiri kambo zeena  to a  ci hay ɲaŋo   da baabo    se wa   tun   ka ŋwaayi   te  muusu beeri  ci    nga  go  ka ka   di  ay     i bine  i    na ŋwaayo  te  za  nda hinay  a      na baabo tukusunduyu baabo    ya  ci kuso  a  na ɲaŋo halaho    a   na nukum ɲaŋo     ci nfofo gaasu fo **  nga bumbum bare         ka   te hindio     ka   furu   haya   cire
+HYP: wichi kambuzena   atu   aki hai a nye nda    i baba    wu ngwae te zanda hine    aki zama musubi   aki nga wakadi hai nam  i pina nga ngwae    o te zanda   hine nam ana babo   ntu ku sunduyu  babo        waki   waa matai cha seku so nam  ana nyongo hala wana nukum  nam nyongo  waki   mfo fo ga sufo    nam  nga bumbumbala kate   hayo kafuyu fandia kafuyu hayaki
+         I         S     S     S   S     S   S    S    S     S     S  S     S    S      S    S      S     S   S      S   S   S  S    S   S     S    S  S     S      S   S   S    S     S  S       S     S           S     S     S   S    S  S   S    S      S    S    S          S      S     S     S     I    S      S    S          S    S      S      S      S      S      S
+
+### pan_conte3_eastling-annotations_8766  [test]  WER=0.81
+REF:       a   a muusu beeri ka     a  gali ka kway     a mana  di bayfo  a ci e  man no boyay  kway masa
+HYP: nusubia ika ayali ***** ka kuwae ayali ka   ye amina riba ifu  nama ki ** e fano pa    ye kuwae masa
+           S   S     S     D        S     S       S     S    S   S     S  S  D      S  S     S     S
+
+### pan_conte3_eastling-annotations_8767  [test]  WER=1.00
+REF:      a mo   bia      bo   a  kway       haro halaho̰  a        du  ham     a  kanda muusu beeri na ha a ci bi cini ay kway waya̰ kwaaya a ci ay man di waya̰
+HYP: amuobi ya abuwa kwehalo ala mwadu hamuakanda  musubi ya inahakibi kine kwewe nkwaya ***** ***** ** ** * ** ** **** ** **** ***** ****** * ** ** *** ** *****
+          S  S     S       S   S     S          S       S  S         S    S     S      S     D     D  D  D D  D  D    D  D    D     D      D D  D  D   D  D     D
+
+### pan_conte3_eastling-annotations_8768  [test]  WER=1.00
+REF:     a    ci saamoyaamo ay baaba ci kuso din ay ɲa ya ci fofo gaaso din n fofo ci gaaso din a ci aay ya ci fandia din ka̰ go furu ni ka ni yali ka kway yali ka ye
+HYP: ndiye nyiye      nyiye ** ***** ** **** *** ** ** ** ** **** ***** *** * **** ** ***** *** * ** *** ** ** ****** *** *** ** **** ** ** ** **** ** **** **** ** **
+         S     S          S  D     D  D    D   D  D  D  D  D    D     D   D D    D  D     D   D D  D   D  D  D      D   D   D  D    D  D  D  D    D  D    D    D  D  D
+
+### pan_conte3_eastling-annotations_8769  [test]  WER=6.08
+REF: ***** ****** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***   a  ci  ni  di bareya̰ hinza  wo ka̰  ya bare   a  ci  to  ay  ɲa  da  ay baaba  wa ŋwaayi  te za̰  da hinay muusu beeri  go  no  ka kwaayne   a  ci hino   i  ma diya
+HYP: ndiyo nyingi kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa     kwa   kwa kwa kwa kwa  kwa kwa kwa kwa kwa kwa kwa kwa   kwa kwa    kwa kwa kwa kwa   kwa   kwa   kwa kwa kwa kwa     kwa kwa kwa  kwa kwa kwa  kwa
+         I      I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   S   S   S   S       S     S   S   S   S    S   S   S   S   S   S   S   S     S   S      S   S   S   S     S     S     S   S   S   S       S   S   S    S   S   S    S
+
+### pan_conte3_eastling-annotations_8770  [test]  WER=1.00
+REF:         i    na ŋaayo     te  za̰  da  hinay cofo   i zaymay muusu beeri   ka  a     yali  ka   kway      a   yali  ka      ye a mana di bayfo muusu bay za ka dabu lawalo banda
+HYP: nyamawote zanda  hini tiafai izai mai musubi  eka aya   lika kwaya   aya lika ya manadiba ifo musubi izakas dabula awa lobanda * **** ** ***** ***** *** ** ** **** ****** *****
+             S     S     S      S    S   S      S    S   S      S     S     S    S  S        S   S      S      S      S   S       S D    D  D     D     D   D  D  D    D      D     D
+
+### pan_conte3_eastling-annotations_8771  [test]  WER=1.00
+REF: nga  no  ya kala kala kala kala i ka kway kwaara i ka kulu i ka ka gazia ka zambu zanga nee wo cine i ci ha wayboro fo ci man no waya̰ go kway a ci da nangu goo no ya no ay may ɲa day ya baaba wo zumandi
+HYP: nam nam nam  nam **** **** **** * ** **** ****** * ** **** * ** ** ***** ** ***** ***** *** ** **** * ** ** ******* ** ** *** ** ***** ** **** * ** ** ***** *** ** ** ** ** *** ** *** ** ***** ** *******
+       S   S   S    S    D    D    D D  D    D      D D  D    D D  D  D     D  D     D     D   D  D    D D  D  D       D  D  D   D  D     D  D    D D  D  D     D   D  D  D  D  D   D  D   D  D     D  D       D
+
+### pan_conte3_eastling-annotations_8772  [test]  WER=0.82
+REF: ***   i     na  no  cofo   a    du nangu   ka̰ ni nay zumandi cofo a ka̰ ganjo ya a kway hala a ka *** hala a ka  muusu beeri kway kway kwaara i   na boro    da̰ ɲaŋo    da baabo    go gooro   ka  hḛ
+HYP: ina nua uchafu adu nanka ina izuma   ndi chafu  a   a   kanga njuu a nam ***** ** a kuwa hala a ka nam hala a ka musubi     a kuwa **** ****** i kuwa  ina boleta  nya wanda  babo uguwa uguwa laka hii
+       I   S      S   S     S   S     S     S     S  S   S       S    S     S     D  D      S             I                S     S    S    D      D      S    S      S    S     S     S     S     S    S   S
+
+### pan_conte3_eastling-annotations_8773  [test]  WER=0.93
+REF: a ka a ci ay ɲa day baaba i fo se no ara̰ ga hḛḛwo
+HYP: * ** * ** ** ** *** ***** * ** ** no **** ** *****
+     D  D D  D  D  D   D     D D  D  D       D  D     D
+
+### pan_conte3_eastling-annotations_8774  [test]  WER=1.00
+REF:    a  ci   muusu beeri   day   ka   ka     kway kwaaya   a bine mo i na iri ce
+HYP: namu aki mwusibi     e deyia kwae kwae binamuwa   aina iki namu ** * ** *** **
+        S   S       S     S     S    S    S        S      S   S    S  D D  D   D  D
+
+### pan_conte3_eastling-annotations_8775  [test]  WER=0.87
+REF: *** a   ci a    se  no  ara go    ga   he ara̰ heeni   ma ara̰  ŋa ma ara̰ tuusu    i fo    se   no ara̰ ga hḛ way a ka izo se walaa   a  ci   wa tunu  ka ŋwaayi tay  se
+HYP: aki a sena a rengo nga hini  a rengi nima    a rengi wama    a ntu su  nam   ifo sena  a rengi hini   we ** ** *** a ka izo se  wala nam aki wotu nuka iwa      a ite isi
+       I      S       S   S    S  S     S    S    S     S    S    S   S  S    S     S    S  S     S    S    S  D  D   D                 S   S   S    S    S   S      S   S   S
+
+### pan_conte3_eastling-annotations_8776  [test]  WER=1.00
+REF:    a kande hamo halaho̰̰ a dumbu ka no i se i na ŋwaayo te i na ŋwaayo te
+HYP: nama ***** **** ******** * ***** ** ** * ** * ** ****** ** * ** ****** **
+        S     D    D        D D     D  D  D D  D D  D      D  D D  D      D  D
+
+### pan_conte3_eastling-annotations_8777  [test]  WER=0.96
+REF:         a      kway ceyaŋo   do      i   ci to      soho̰        nii          a ci nga ma no a na nga ma da̰ dambazo  nga ma no
+HYP: inawawote akwaikeye  mworo namu nikito soha ni atingamano anangamada atingamano ** *** ** ** * ** *** ** *** dambazo namu ** **
+             S         S      S    S      S    S  S          S          S          S  D   D  D  D D  D   D  D   D            S  D  D
+
+### pan_conte3_eastling-annotations_8778  [test]  WER=0.96
+REF:   i   ci   to soho dambazo ceyaŋo ka̰     i  ni   ni      ce muusu   beeri  wo         a       nin zeeri   bo a ci nga bay a ninga zeeri
+HYP: eki tuwa sama **** dambazo    che  ya mwaka ina nche musubia   iwa ananzia ibu achingaba anangazia   ibu namu * ** *** *** * ***** *****
+       S    S    S    D              S   S     S   S    S       S     S       S   S         S         S     S    S D  D   D   D D     D     D
+
+### pan_conte3_eastling-annotations_8779  [test]  WER=0.93
+REF: i ci  to  soho haogara no    i te ka       no nii se soho̰ ni bay
+HYP: i am not going      to be able to do anything *** ** ***** ** ***
+        S   S     S       S  S    S  S  S        S   D  D     D  D   D
+
+### pan_conte3_eastling-annotations_8780  [test]  WER=0.92
+REF:     a   ci  o ifo no nga kway    ku       i     ci curo      bi  gunguri   a ci to i ma fonda gway nga kway     ka    a ku bine
+HYP: hacho hifo na *** ** nga  kwa kuchi chuyobi unguli namu hachito imafanda kwa ** ** * ** ***** **** nga  kwa kakubi namu ** ****
+         S    S  S   D  D        S     S       S      S    S       S        S   S  D  D D  D     D    D        S      S    S  D    D
+
+### pan_conte3_eastling-annotations_8781  [test]  WER=0.84
+REF: ***** dambazo ya   di  a   ka to hala hala hala nangu kwaaray   fo ya    a kulu a kuua    a  ci      i   ma nga faaba tamba kwaara kulu bare  ka ceeri   ka kway   i  ci i fo    ya te dambazo
+HYP: namba      zo ya diya ya kato ** hala hala **** nangu    kwae fuwa ya namu  ula a kuwa namu aki imanga faba *** ***** tamba   namu kwae kwae kia   ika kwae namu iki ifa a te namba zo *******
+         I       S       S  S    S  D              D             S    S       S    S      S    S   S      S    S   D     D            S    S    S   S     S    S    S   S   S S  S     S  S       D
+
+### pan_conte3_eastling-annotations_8782  [test]  WER=0.84
+REF: **** a ci nga farka  wo day tibi nga  no nga      ci    i   se   i   ma   ka kinga ga       a daguya̰   i ci a   a batuma kwaaray wo   ga nga    no farka tibi
+HYP: acha a ** nga fayka uwe   a tibi nga nga nga chiisei nima kaka nga gada kuya   nga ba tumakua       e uwe ** a nga    nga   fayka  a tibi   a uchua ***** ****
+        I    D         S   S   S            S           S    S    S   S    S    S     S  S       S       S   S  D     S      S       S  S    S   S     S     D    D
+
+### pan_conte3_eastling-annotations_8783  [test]  WER=0.89
+REF:    a   ci   wo ci cimi   no    a     ci hala batuma kwaayo ya no boro  du    curo bi gunguri  ka  ku kwaara koyo      ci za ni yarayyan no dambazo   a  ka     ka̰   way din bo̰ a boori
+HYP: nkio ochi kimi no  nam achi hala batima  kwa      e     wo ya no bodu kio bigungu  i    kaku nam kwa    kwa ochi zanyale ya ** ******** no  dambad nam aka kakamwe dimbo nam *** a  boli
+        S    S    S  S    S    S    S      S    S      S      S          S   S       S  S       S   S   S      S    S       S  S  D        D          S   S   S       S     S   S   D       S
+
+### pan_conte3_eastling-annotations_8784  [test]  WER=4.19
+REF: *** ***** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** wuciri kambu zeena  to hala ho̰   i  ye dambazo  ce   i  ci dambazo  ma  ka   a  na  ka ɲaŋo  da baabo  go  ga  hḛ ara̰  ya mundi day  si koogu ara̰ moo  ga ifo  no  ka  du ara̰  ya  wo dimi do̰
+HYP: kwa hivyo kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa    kwa   kwa   kwa kwa  kwa kwa kwa kwa     kwa kwa kwa kwa     kwa kwa kwa kwa kwa kwa  kwa kwa   kwa kwa kwa kwa  kwa kwa   kwa kwa kwa   kwa  kwa kwa kwa kwa kwa kwa kwa  kwa kwa kwa  kwa kwa
+       I     I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I      S     S     S   S    S   S   S   S       S   S   S   S       S   S   S   S   S   S    S   S     S   S   S   S    S   S     S   S   S     S    S   S   S   S   S   S   S    S   S   S    S   S
+
+### pan_conte3_eastling-annotations_8785  [test]  WER=0.86
+REF:   a  ci   o a  ci   i na i  ce    ka     ci    way   i ci    ay se ay ma ka no a     ci ara̰ heeni ma ara̰ ŋa i kway
+HYP: cho aki ina i chi ina ** i chi kachi wansai makano aki  a rengi ni ** ma ** ** a rengwa    i   kwa ** **** ** i ****
+       S   S   S S   S   S  D     S     S      S      S   S  S     S  S  D     D  D        S    S     S  D    D  D      D
+
+### pan_conte3_eastling-annotations_8786  [test]  WER=0.94
+REF:        i ci to dambazo halaho̰̰   citi     zeena no      i   ka         a ci wo a ci cimi no
+HYP: kikituwa ** ** dambazo     namu halamu kikituzea na anaika namu kikiminua ** ** * ** **** **
+            S  D  D                S      S         S  S      S    S         S  D  D D  D    D  D
+
+### pan_conte3_eastling-annotations_8787  [test]  WER=0.94
+REF:          i na zanka   kayna  foya̰ cabu a se boyo hinka   ka   kway  jisi   dambazo   se       i ci  way    a      ma tuyu   ka zakizaki da̰ a ma bo̰ hamni da̰ a ga
+HYP: inazangake na   fwe nchabwa sebuwe **** * ** **** hinka namu hakuwa igisi dambazosi namu ikiwama tu yuka zaki thakira namu namu ******** *** * ** *** ***** *** * **
+              S        S       S      S    D D  D    D          S      S     S         S    S       S  S    S    S       S    S    S        D   D D  D   D     D   D D  D
+
+### pan_conte3_eastling-annotations_8788  [test]  WER=1.00
+REF:    a a hayo se no i go hḛ way i ci hayo se no i ci kala i ma tuyu ka zakizaki da̰ ka bo̰ hamni da̰ a ga a ci a se no ara̰ ga hḛ
+HYP: nama * **** ** ** * ** ** *** * ** **** ** ** * ** **** * ** **** ** ******** *** ** *** ***** *** * ** * ** * ** ** **** ** **
+        S D    D  D  D D  D  D   D D  D    D  D  D D  D    D D  D    D  D        D   D  D   D     D   D D  D D  D D  D  D    D  D  D
+
+### pan_conte3_eastling-annotations_8789  [test]  WER=2.43
+REF: *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** ***** ****** *** ****** *** wucii  kambo  to   kulu   a    du    nga hayo    ka̰ hayo kosay     ɲa kayna     fo  go  koyo  wundo mee     ga kulu    ya     mo cine      a  ka    ka   karu kosay   ɲaŋo bo̰    ni     si  ma   kala kau   kau    kau nga     no   a    ci      a   a    may  ba     ya      a  ci     wo   a     ci    way nga  baaba  ya    hay    nga  no      i  ci    nga     ma  ka  kosay  ka
+HYP: kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu  kwa sababu  kwa mboto kuladu   kwa sababu kwa mboto kuladu kwa sababu  kwa mboto kuladu  kwa sababu kwa mboto kuladu   kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa mboto kuladu kwa sababu kwa sababu kuladu kwa sababu kwa sababu kuladu kwa sababu kwa sababu kuladu kwa sababu kwa sababu kuladu kwa sababu kul
+       I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     I      I   I      I   I     S      S   S      S   S     S      S    S      S    S     S      S     S      S   S     S      S   S      S    S     S      S    S      S   S     S      S     S      S   S     S      S   S      S   S     S      S   S      S   S     S      S   S      S   S      S      S   S      S   S      S      S   S      S   S      S      S   S      S   S      S      S   S      S   S
+
+### pan_conte3_eastling-annotations_8790  [test]  WER=1.00
+REF:  ni baaba ya   hay    i  ci    ma  ka  ka kosay  ka hayboro mo ga hay
+HYP: nga   bai ha haiki maka kwa saika hai bue mwaba hai ******* ** ** ***
+       S     S  S     S    S   S     S   S   S     S   S       D  D  D   D
+
+### pan_conte3_eastling-annotations_8791  [test]  WER=0.96
+REF:   a    ci  aa hala      ize      ki cabu kolokolo hala   mate no     a ga      te ka turu   ka zakizakiya̰ da̰ i ci dambazo za ni yarayya no a boori
+HYP: kwa lakwa loo hala matanate katuika zake     zake   ya ndaiki ya mbazo ya zanyare ya  nnu nama *********** *** * ** ******* ** ** ******* ** * *****
+       S     S   S             S       S    S        S    S      S  S     S  S       S  S    S    S           D   D D  D       D  D  D       D  D D     D
+
+### pan_conte3_eastling-annotations_8792  [test]  WER=0.79
+REF: muusu beeri ci i man ci day dambazo ayi a na i   zeeyi ay i  ci      may     ci    nga a to nga sanno me
+HYP: nkida ***** ** i *** ** *** dambazo *** a ** i anaizei  a i iki maitinga atonga sanomi * ** *** ***** **
+         S     D  D     D  D   D           D    D         S  S     S        S      S      S D  D   D     D  D
+
+### pan_conte3_eastling-annotations_8793  [test]  WER=0.96
+REF:   mo bia  bo halaho̰̰ i  ci i ma koli   ka   da   i    na kolio      ka   i       ma  a talam   hala na̰ka̰   a boori   da   i    na talam kulu i   ma  dace bario  bo̰  to  da   a   kway  da     i kuuwa cofo     i   ma     hay      a ci    woo a ci cimi no ɲaŋo da baabo go hḛ i go hḛ i go hḛ i ci ngay di bone hino wo
+HYP: mobi abu ala     huwa i chi * ma  kwa lika dena kwa lioka   ima atalang ala nangkabu ii  dena atalam   kuli ima adake bayi obo tuoda   kwa  ide i kuwa chafo   ima ahai aki owa chi kiminu iwa ndaba   abu gohi igohi gohi chingai dhibwa na himawu * ** **** ** **** ** ***** ** ** * ** ** * ** ** * ** **** ** **** **** **
+        S   S   S        S     S D       S    S    S   S     S     S       S   S        S  S     S      S      S   S     S    S   S     S     S    S      S     S     S    S   S   S   S      S   S     S     S    S     S    S       S      S  S      S D  D    D  D    D  D     D  D  D D  D  D D  D  D D  D    D  D    D    D  D
+
+### pan_conte3_eastling-annotations_8794  [test]  WER=1.00
+REF:     bine mo a   ci ay     ɲa da ay baaba ifo se  no wati kulu ara̰ ya da ara̰  ka kulu ara ga hḛ citi folo̰ koo se ** ** wala
+HYP: minamaki ** a nyan de babaki fo so    no wat  a nya   da    a  nka ku lo    a nga  nyo  ki tu fo   lo   nko  wo se wo la  nem
+            S  D      S  S      S  S  S     S   S  S   S    S    S    S  S  S    S   S    S   S  S  S    S     S   S     I  I    S
+
+### pan_conte3_eastling-annotations_8795  [test]  WER=0.82
+REF:     i   ci      a     se no   ngay       go hḛ   me ha̰ka̰  se    i ci way hanse i kway ka koli  ka   wi  a  ci      ay ma  bu i na ara̰ ha may no ka    ara̰     ha bine mo kulu i za     ka tunu i  go kway  i go kway bora kulu tunu    ka kay i kway kolio do  to soho̰ kwaara koyo  na     nga bario talam kulu a kway lamba kwaaya koyo izo   ga ka sobay ka     a  me   ha kwaara koyo izo ci
+HYP: ndiyo siya nangai gwenye mi nangai kiwansai  i kwai    kam nda nkwa li *** ***** i **** ka  uwi aki aima bu ina alangha ma ino * ** **** ** *** ** ka alangha binamu   wa ** kulu i za katuna **** i gwo kwai wa ** **** **** kulu tunu kakai *** i kwai kwali  i odo  tosa    kwa kwai oya nangaba     i otala kulu a kwai lamba    kwa oizo oga kasa bo     i ka ameha kwa oizo      i   ki *** **
+         S    S      S      S  S      S        S  S    S      S   S    S  S   D     D      D       S   S    S  S   S       S      S D  D    D  D   D  D          S      S    S  D                S    D     S    S  S  D    D    D               S   D      S     S  S   S     S      S    S   S       S     S     S           S            S    S   S    S  S     S        S   S    S      S    S   D  D
+
+### pan_conte3_eastling-annotations_8796  [test]  WER=1.33
+REF: nda man **** **** * *** ci   ya baaba   n  i      du  bari
+HYP: the man said baba i don  t know  what you re talking about
+       S        I    I I   I  S    S     S   S  S       S     S
+
+### pan_conte3_eastling-annotations_8797  [test]  WER=1.00
+REF:    a   ci a a a a a zumbu dira ka kaaru kaaru ay wo kaaru ni banda bo̰
+HYP: nang nang * * * * * ***** **** ** ***** ***** ** ** ***** ** ***** ***
+        S    S D D D D D     D    D  D     D     D  D  D     D  D     D   D
+
+### pan_conte3_eastling-annotations_8798  [test]  WER=0.94
+REF: boray    i naanu         ka tunu kulu i ci hala dambazo   no   i   na kwaaya    koyo izo hayi patte
+HYP:   kwa hiyo    ni katunukulu hiki **** * ** hala   damba zono kwa hiyo   hizo haipate *** **** *****
+         S    S     S          S    S    D D  D            S    S   S    S      S       S   D    D     D
+
+### pan_conte3_eastling-annotations_8799  [test]  WER=1.00
+REF:    a    a dambazo kuuwa ka ka kwaaya i ci dambazo ya ka ya a ci kwaaya koyo i na ni i izo hay a ci ka hay a ci ka hay a ci to dambazo ha̰ ka̰ ni te day bine mo i kande ga buna fu
+HYP: namu namu ******* ***** ** ** ****** * ** ******* ** ** ** * ** ****** **** * ** ** * *** *** * ** ** *** * ** ** *** * ** ** ******* *** *** ** ** *** **** ** * ***** ** **** **
+        S    S       D     D  D  D      D D  D       D  D  D  D D  D      D    D D  D  D D   D   D D  D  D   D D  D  D   D D  D  D       D   D   D  D  D   D    D  D D     D  D    D  D
+
+### pan_conte3_eastling-annotations_8800  [test]  WER=0.81
+REF:      mo bia   bo    a    ci foolo no i te sana    wo   nga   no i te da i na sana    din  te i ma dambazo    haw a ya dambazo   no   ya bine moi na haw   i na dambazo haw      kulu  na ka̰   a boori i  kway  isa     ga kulu      i mana   du hi i mana du hi kulu dambazo sobay   ka hḛ sana ya    a sobay hḛ sana ya
+HYP: mwabiya abu waki fola naiti ***** ** * ** sana wonga naiti dena * ** ** * ** sana adinti mwa * ** dambazo hawaya * ** dambazo naya dena  imo ina ** haw ina ** dambazo haw kanananka abu  yu kwa ***** i saaga kuli manadu  hii manadu  hii kuli ** * **** ** ** **** dambazo  saba inhe ** sana ya saba  inhe ** sana ya
+           S   S    S    S     S     D  D D  D          S     S    S D  D  D D  D           S   S D  D              S D  D            S    S    S   S  D       S  D                     S   S   S   S     D       S    S      S    S      S    S    S  D D    D  D  D    D             S    S  D            S     S  D
+
+### pan_conte3_eastling-annotations_8801  [test]  WER=0.96
+REF: fula̰      m   mo    da konkonto fulam  fo  ci     a   a   ci   may no     ga hḛ  yaa  wo    a  ci      i ha̰ na̰ kwayne   a ci na̰ a ci kway taray no i   ci      i kway    kay da̰ kway taray kway taray din  se no   ya go   hḛ
+HYP:  fula mwanda kwan konto     fula   mfo chi aki mwafu mai noga hiyen ya wakina na kwen aki namu aki kwaita   e  na      i chi pa *** * ** **** ***** ** i keda kwaita    e kwaita   e **** ***** **** ***** din sen ye gwen ye namu
+         S      S    S     S        S     S   S   S     S   S    S     S  S      S  S    S   S    S   S      S   S   S      S   S  S   D D  D    D     D  D      S      S    S      S   S    D     D    D     D       S  S    S  S    S
+
+### pan_conte3_eastling-annotations_8802  [test]  WER=1.11
+REF: *    a ne    e kway taray     a ci kway taray
+HYP: i didn  t know  you  were going to  say  that
+     I    S  S    S    S     S     S  S    S     S
+
+### pan_conte3_eastling-annotations_8803  [test]  WER=1.00
+REF:    a                                                                                                                                                                                                                         ci a a hana ay ya funu funu funu ay ya ay ga furo sana wo ra
+HYP: هاكي آآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآآ * * **** ** ** **** **** **** ** ** ** ** **** **** ** **
+        S                                                                                                                                                                                                                          S D D    D  D  D    D    D    D  D  D  D  D    D    D  D  D
+
+### pan_conte3_eastling-annotations_8804  [test]  WER=1.00
+REF:  a funu a na fulumo haw kala na̰ka̰ a sandi
+HYP: no **** * ** ****** *** **** ****** * *****
+      S    D D  D      D   D    D      D D     D
+
+### pan_conte3_eastling-annotations_8805  [test]  WER=1.00
+REF: boray   mo    ka     i mana     guna      i       za ka kway furu isa
+HYP:   kwa hiyo mwaka imena kuna mwatuiza hakuwa hifuhisa ** **** **** ***
+         S    S     S     S    S        S      S        S  D    D    D   D
+
+### pan_conte3_eastling-annotations_8806  [test]  WER=0.88
+REF:  a   ci nga ya       a     ma   za  nga haway bine mo kulu a        ka  cofo    a na haway   kuru   a  na boro  da̰ kwaara koyo ga a ci kwaara koyo se  a  ci soho̰  da i kway   i  ma  ci kwaara koyo se kwaara koyo ma   nga  no kwaara kambu   fo kwaaru kambu fa    no   nga ci a      ma tooru   ka nga      no bine  mo     a          ci      a      a kala dambazo kway kande hawya̰ wo rititititi
+HYP: na achi nga ya mazanga hawala namu bina   mua kula ** **** a kachofana hawai karu na   ana buedan kwa kwe  oga achi    kwa  kwe ** * ** ****** **** se na aki isamu ode i  kwe ima kwa kwe ****** **** se    kwa  kwe ma nganu kwa  kamba    fo namu    kwa kamba fa nanga chama to i kangana  namu bina mua nadamba   zo kwa ganda hauyanguoli tititi tititi **** ******* **** ***** ****** ** **********
+      S    S              S      S    S    S     S    S  D    D           S     S    S        S      S   S   S    S    S      S    S  D D  D      D    D     S   S     S   S      S   S   S   S      D    D         S    S        S   S      S     S    S      S     S        S     S  S S       S     S    S   S       S    S   S     S           S      S      S    D       D    D     D      D  D          D
+
+### pan_conte3_eastling-annotations_8807  [test]  WER=1.00
+REF:    i ci       i    e    dambazo     mate    no ni te ka du hawya̰ wo
+HYP: namu eh nambazo mata nantiakadu hauyangu wachi ** ** ** ** ****** **
+        S  S       S    S          S        S     S  D  D  D  D      D  D
+
+### pan_conte3_eastling-annotations_8808  [test]  WER=0.94
+REF:  a        ci  nga  ya      za    i kway ka nga furu  ka̰  haw kwaaray nda  haw cirayya̰    wo ra  no       i na  furu   kala    nga       si bay mate ka̰ nga te da haya
+HYP: ki ngayatayi kuwa ika ngafuru naam **** ka nga    u kwae enda      ha   u kile      iyo nguwa ya nai ngafuru ka langa sivayi mataka ngatanda hai naam *** *** ** ** ****
+      S         S    S   S       S    S    D           S    S    S       S   S    S        S     S  S   S       S  S     S      S      S        S   S    S   D   D  D  D    D
+
+### pan_conte3_eastling-annotations_8809  [test]  WER=1.00
+REF: kwaara koyo     ci    way     i   ma  nga   sambu   nga   mo suba mo kway kinja gisi
+HYP:     wa kuwa ochiwa imanga munga sagu namu subanga mwaka kama  kia ** **** ***** ****
+          S    S      S      S     S    S    S       S     S    S    S  D    D     D    D
+
+### pan_conte3_eastling-annotations_8810  [test]  WER=1.00
+REF: ay jandi bo̰  ka̰ nuune
+HYP: de gende  bo anka  nune
+      S     S   S    S     S
+
+### pan_conte3_eastling-annotations_8811  [test]  WER=1.00
+REF:  i kwanda kwaara kway wayhiijay sobay  ka duru   jiibi hiinza     i    go no       ga duru  ka   hina kwaara koyo mana ka i kway kuubi
+HYP: na hikuwa    ndo  kwa       kwe    wa hii jesa baidulu   gibi hinza iguwa du lukahina  kwa kwe manaka ****** **** **** ** * **** *****
+      S      S      S    S         S     S   S    S       S      S     S     S  S        S    S   S      S      D    D    D  D D    D     D
+
+### pan_conte3_eastling-annotations_8812  [test]  WER=1.00
+REF:       i    ci   to dambazo   ni     na kway taray ŋa
+HYP: chitoda mbazo nkwa     kwa yote lingwa **** ***** **
+           S     S    S       S    S      S    D     D  D
+
+### pan_conte4_S1  [test]  WER=1.00
+REF:      ay sintini   man ci ni ma gonza
+HYP: nkenmwa  wanzar nampi ** ** ** *****
+           S       S     S  D  D  D     D
+
+### pan_conte4_S2  [test]  WER=0.94
+REF:   bine    mo       kulu   i gwanda  ngay ize wandio i na za      ka da̰ bua ra i na za      ka da̰     bua ra   bine  i      ci a ma si zinay ize hay a boori
+HYP: binamu okule inaigwanda nga    iza fundu  ya    ina * ** za kadambu  ya ina ** * ** za kadambu  ya abineki wa masizi na izahayi * ** ** ***** *** *** * *****
+          S     S          S   S      S     S   S      S D  D          S   S   S  D D  D          S   S       S  S      S  S       S D  D  D     D   D   D D     D
+
+### pan_conte4_S3  [test]  WER=0.94
+REF:     kula hani     fo    i     goo     no kala    day    i  go  ma  ize  go hḛ ɲaŋo da baabo ci a la ilaha ilalau mohamada rasulilahi sallalau    allehum masalama      i        ci  man   no  bone     wo   go te
+HYP: kalahani fuhu iguonu namu kaladai iguoma  iza guheni namu nyo nda babo chi ** **** ** ***** ** * la ilaha    ila      lao       namu   mahama rasulullah salalahu alayma salamachi namu mano abona uagote namu **
+            S    S      S    S       S      S    S      S    S   S   S    S   S  D    D  D     D  D D               S        S          S        S          S        S      S         S    S    S     S      S    S  D
+
+### pan_conte4_S4  [test]  WER=1.00
+REF:   ɲaŋo  ci    a   ma kway guna    nga    se    a kway guna  day     izo  hay   gaasa     iri  kway       ya gomni kway no ngay mana ba ya ni ma
+HYP: nyonga kia mkwe kuna anga sewa kwaida ikala hizo  hai namu kasa kwaenda anga kwaenda kwaenda ngayi manabaya  namu mama ** **** **** ** ** ** **
+          S   S    S    S    S    S      S     S    S    S    S    S       S    S       S       S     S        S     S    S  D    D    D  D  D  D  D
+
+### pan_conte4_S5  [test]  WER=2.67
+REF: ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** ***     i bine    ka   i    na  ka   bua  ya     i kwanda kwaara koyo kwaara   i    ci ngay haawi  no  ngay feeri    ya ngay   ize ngay    za  ka   da̰ bua    ya  ka    ci way     a  ma    si zinay    ze hay kotia  ne    ya nga    ya  go     a kunu  ngay  ya  mana  ba  boro kulu   ka̰  na kunandi
+HYP: ndiyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo  kwa hivyo kwa hivyo kwa hivyo kwa hivyo    kwa  hivyo  kwa  hivyo kwa hivyo  kwa hivyo kwa hivyo   kwa hivyo  kwa hivyo  kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo   kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo  kwa hivyo kwa hivyo kwa hivyo  kwa hivyo kwa     hiv
+         I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     S    S     S   S     S   S     S   S     S      S      S    S      S   S     S    S     S   S     S     S     S    S     S    S     S   S     S   S     S   S     S   S     S   S     S     S     S   S     S   S     S   S     S   S     S    S     S   S     S   S     S    S     S   S       S
+
+### pan_conte4_S6  [test]  WER=0.93
+REF: bine     mo  boro kulu    ka̰            go kwaara     ya        yaw hannohanno kulu      no         i na yaway  ce   i ci yaway se yaway ma ka kwaaray ize ga     yaw           ga  hayo me nda me kulu ka  i  ha̰   i  ci   i  ma kwaara koyo      ci kwaara koyo   i  ma ha̰  nga   see     a ci   i      ma iri    kway wo  no ci bay kulu     ka̰  na boray izo kunandi i ga kwayay ma ci ngay ya na kunandi
+HYP: bina mwobwa ikulu   ka mwokwa ayawiyawuhana  hannu kulina inayewaiki         na kiki iawaisi iawaimaka na   kwa ala iza ** ***** ** ***** ** ** ******* *** ga ayawuga ayawomandami ikulu ** *** ** **** ka na ihaa iki ima kwa kwa   ochi  ima hangasi     na  aki ima iku   e wana kibwa ikulu ka nda kubwayo izo kunandi na iku  e nda  ima chingai ana ***** *** kunandi * ** ****** ** ** **** ** na *******
+        S      S     S    S      S             S      S      S          S          S    S       S         S        S   S   S  D     D  D     D  D  D       D   D          S            S     S  D   D  D    D     S    S   S   S   S   S      S    S       S      S    S   S   S   S    S     S     S  S   S       S   S       S  S   S  S   S    S       S   S     D   D         D  D      D  D  D    D  D          D
+
+### pan_conte4_S7  [test]  WER=0.94
+REF:      i bine  mo      i    ci wallaahi          ngay            wo kay man ci ngay no man ci ngay no bay kulu yaw  ga kwaaray  ize   ga kulu   i  fe   i   ci         walla man ci ngay no
+HYP: ibinia yamu iki walahi ngayi     waka manchingayino manchingayino boy *** ** **** ** *** ** **** ** *** kulu  ya uga      pa alay zaka kulu ika ife iki wala manchingayino *** ** **** **
+          S    S   S      S     S        S             S             S   S   D  D    D  D   D  D    D  D   D        S   S       S    S    S        S   S   S    S             S   D  D    D  D
+
+### pan_conte4_S8  [test]  WER=0.92
+REF:   nam kala bayfo   go gooro   a  ci hay   a  ci  boro     wo ka̰ go bara wo jiray  wo   ka̰     go bara woo  a  ci da wara̰ ga a di wara  ma a di  wa   ce ka  ha̰
+HYP: nkala  bwa   ifo wago  woyo aki hei aki ibo wwe kango wabada *** ** **** wo   gie wwe kango wabada   ki  de we nga ** ***** ** * di   we nga * di wwa jeka ha namu
+         S    S     S    S     S   S   S   S   S   S     S      S   D  D    D        S   S     S      S    S   S  S   S  D     D  D D       S   S D      S    S  S    S
+
+### pan_conte4_S9  [test]  WER=1.00
+REF:  i ci jiraa  se  ee      i  ci   n     ma  ma ka jira bine    kway     i ci wallaahi   i     ci   ni  ya na kotio kunandi a go mo a hay
+HYP: ki ji  yase hei hei kimaka nam nji yabina kwe ki wala  hei kiniana kuosi  o  konandi nam aguoma ahai nam ** ***** ******* * ** ** * ***
+      S  S     S   S   S      S   S   S      S   S  S    S    S       S     S  S        S   S      S    S   S  D     D       D D  D  D D   D
+
+### pan_conte4_S10  [test]  WER=0.98
+REF:   a  a   a  a     ci wara̰ ba wara̰ ma   tunu   ay  se  no wara̰    ba wara̰   ma tunu     ay     se no hḛ ba̰ ka̰ go ga nga bara kuru    mate  no    a  te   ka ka  ka wayboro kunandi i ci ay ci cimi
+HYP: aki we mba we matune  seno we   mba we matune seno nam mba   nka mwaka   nga peka   yu matana atheka ** ** *** *** ** ** nga   we  mwe kunandi nam niki hai kiki mi nam ******* ******* * ** ** ** ****
+       S  S   S  S      S     S  S     S  S      S    S   S   S     S     S     S    S    S      S      S  D  D   D   D  D  D        S    S       S   S    S   S    S  S   S       D       D D  D  D  D    D
+
+### pan_conte4_S11  [test]  WER=0.94
+REF: bine koloŋay mo     za  a    di     i na *** di koloŋay a   ɲa  coro no nga ***    ya  hari   da̰   a  se  a  ma ha̰ koloŋayo   ma  ka kitikirr kitikirr kitikirr kitikirr kitikirr kitikirr
+HYP: bini     kwa la nguway mo zaadi inadi na kwa la  nguway a nyaa kyoro no nga yaa haidu haida maasi ama ham na kwa  la   nguway wama kaa  kitikir  kitikir  kitikir  kitikir  kitikir  kitikir
+        S       S  S      S  S     S     S      I  S       S      S     S          I     S     S     S   S   S  S   S   S        S    S   S        S        S        S        S        S        S
+
+### pan_conte4_S12  [test]  WER=1.00
+REF: koloŋayo si gwaay ga a ma karu ka kway a ma karu ka ye a ma karu ka kway a ma karu ka ye
+HYP:      yes ** ***** ** * ** **** ** **** * ** **** ** ** * ** **** ** **** * ** **** ** **
+            S  D     D  D D  D    D  D    D D  D    D  D  D D  D    D  D    D D  D    D  D  D
+
+### pan_conte4_S13  [test]  WER=0.97
+REF:   i   ci to i ma haw bine    i   na jira haw        i na furu wayna    ra koloŋayo kwaayne  a  za     ka kway koloŋayo   kway  ɲaŋo       do   a  ci koloŋay     ku koloŋay seruwa ku   da̰     ni   kway day  ma  ne nana     se nana   ka̰ ci fantay koyo     se   bani     ay muduno muduno  ma   ka  korfo    na    ay kambe dumbu
+HYP: iki itoi ** * ma hau  nam pina nagi    a hau inafuiwe no   ya   nam kuala   nguwae   wakue na aza hakwae  nam    kuala nguwae wakue nyamuodo nam aki   kuala nguwae ******* ****** ku kuala nguwae seluwa  ku nam aki  ida nguwae   da imane na nasina   na kanchi fantai koyose    nam  baane hai mudu nomaka kuala fanae kamba dumbo
+       S    S  D D      S    S    S    S    S   S        S  S    S     S     S        S       S  S   S      S    S        S      S     S        S   S   S       S      S       D      D        S      S      S   S   S   S    S      S    S     S  S      S    S      S      S      S      S      S   S    S      S     S     S     S     S
+
+### pan_conte4_S14  [test]  WER=3.00
+REF: ********* *** **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* **** **** *** ****** ********* muduno   ka bora     ci        to  man   ci  ni     di mudunuya̰   no    i sintini  kanda         a   se   za beene   koyo         a  ize  nga  ya     na       nga  bo̰ ceri  ka     ka        ka   ka   ka  ka     ka   kunandi  ha̰  ka̰  se     no         i   na  da̰ bua     ya         a boori
+HYP: ndinaweza kwa kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza   kwae haki  ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki     ito njindi ndinaweza kwae haki   ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza kwae haki ito njindi ndinaweza     k
+             I   I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I    I    I   I      I         I      S    S    S      S         S    S    S   S      S         S    S    S       S      S         S    S    S     S      S         S    S    S   S      S         S    S    S   S      S         S    S    S   S      S         S    S    S   S      S         S    S    S   S      S         S     S
+
+### pan_conte4_S15  [test]  WER=1.00
+REF:  a  ye      ka  kwaayne kitikirr kitikirr
+HYP: ye aye kakwene kitikiri kitikiri     namu
+      S   S       S        S        S        S
+
+### pan_conte4_S16  [test]  WER=6.29
+REF: *** **** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** jira  ya  go jinde furu koloŋay  ku koloŋay seruwa  ku   a  ci  da  ni kway day  ma  me nana  se nana ka̰  ci fantay koyo  se bani  ay kwaayo  ma  ka korofo nay kambe dumbu
+HYP: kwa nama kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa  kwa kwa kwa   kwa  kwa     kwa kwa     kwa    kwa kwa kwa kwa kwa kwa  kwa kwa kwa kwa  kwa kwa  kwa kwa kwa    kwa  kwa kwa  kwa kwa    kwa kwa kwa    kwa kwa   kwa   kwa
+       I    I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I    S   S   S     S    S       S   S       S      S   S   S   S   S   S    S   S   S   S    S   S    S   S   S      S    S   S    S   S      S   S   S      S   S     S     S
+
+### pan_conte4_S17  [test]  WER=1.00
+REF: *** ***     i kanda kwaayo koloŋa ye ka kitikirr kitikirr
+HYP: ika nda kwayo   nem   kolo   ngwa ye ka kitikiri kitikiri
+       I   I     S     S      S      S              S        S
+
+### pan_conte4_S18  [test]  WER=1.00
+REF:    a   ci   da   ni kway      day ma       ne  nana     se nana  ka̰    ci fantay     koyo   se   bani    ay  goobo   ma   ka korofo nay kambe dumbu
+HYP: kida mkwa idae mani   na wanasena na kanchifa ntayi kuhose namu bani aigua    obo makakula fona ikamba dumbo ikanda uobo namu ****** *** ***** *****
+        S    S    S    S    S        S  S        S     S      S    S    S     S      S        S    S      S     S      S    S    S      D   D     D     D
+
+### pan_conte4_S19  [test]  WER=1.00
+REF:   i kande goobo      a  ye    ka  kwayyne        a ci kitikirr kitikirr
+HYP: kwa  hiyo   kwa hakuwe naa chini kitikiru kitikiru ** ******** ********
+       S     S     S      S   S     S        S        S  D        D        D
+
+### pan_conte4_S20  [test]  WER=0.89
+REF:   a    ci koloŋay ku koloŋay seruwa ku       a ne  da     ni kway  day     ma  ne nana  se  nana   ka̰ ci fantay koyo   se bani ay fula  ma     ka korofo nay kambe dumbu i kande fula ****
+HYP: kwa lamwa       i ku      ku  lamwa  i silduwa ku ani edangu   ku idae manena ana sena ana kanji fanta  i     ku wosi namu bani  i fula ama kakula   fana   i kamba tumbu i kanda fula namu
+       S     S       S          S      S  S       S  S   S      S    S    S      S   S    S   S     S     S  S      S    S    S       S        S      S      S   S     S     S       S         I
+
+### pan_conte4_S21  [test]  WER=1.00
+REF: a   ye                                                                                                                                                                                                                                                                                                                                                                                                                                                    ka a ci kitikirr kitikirr
+HYP: ε κατι κυτυκρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρρ * ** ******** ********
+     S    S                                                                                                                                                                                                                                                                                                                                                                                                                                                     S D  D        D        D
+
+### pan_conte4_S22  [test]  WER=1.00
+REF: koloŋay ku koloŋay seruwa ku a ne da ni kway day ma ne nana se nana ka̰ ci fantay koyo se bani ay bo̰ fando ma ka korofo nay kambe dumbu i kande bo̰ fandu
+HYP:      um ** ******* ****** ** * ** ** ** **** *** ** ** **** ** **** *** ** ****** **** ** **** ** *** ***** ** ** ****** *** ***** ***** * ***** *** *****
+           S  D       D      D  D D  D  D  D    D   D  D  D    D  D    D   D  D      D    D  D    D  D   D     D  D  D      D   D     D     D D     D   D     D
+
+### pan_conte4_S23  [test]  WER=7.10
+REF: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** koloŋay  ku koloŋay seruwa  ku   a  ci  da  ni kway day  ma  ne nana  se nana ka̰  ci fantay koyo  se bani  ay  ay bario  ma  ka korofo nay kambe dumbu
+HYP: kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa     kwa kwa     kwa    kwa kwa kwa kwa kwa kwa  kwa kwa kwa kwa  kwa kwa  kwa kwa kwa    kwa  kwa kwa  kwa kwa kwa   kwa kwa kwa    kwa kwa   kwa   kwa
+       I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I       S   S       S      S   S   S   S   S   S    S   S   S   S    S   S    S   S   S      S    S   S    S   S   S     S   S   S      S   S     S     S
+
+### pan_conte4_S24  [test]  WER=3.24
+REF: ***** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** ****    i kande bari bario dira   wo  nga yaate takom takom salla kongoru   ma   si kangay   ka    a takom salla kongoru   ma   si kangay   ka    a takom salla kongoru   ma   si kangay   ka bario   ka
+HYP: ndiyo ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa ngaa  ngaa ngaa  ngaa ngaa ngaa ngaa  ngaa  ngaa  ngaa  ngaa    ngaa ngaa ngaa   ngaa ngaa ngaa  ngaa  ngaa    ngaa ngaa ngaa   ngaa ngaa ngaa  ngaa  ngaa    ngaa ngaa ngaa   ngaa ngaa  ngaa ngaa
+         I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    I    S     S    S     S    S    S    S     S     S     S     S       S    S    S      S    S    S     S     S       S    S    S      S    S    S     S     S       S    S    S      S    S     S    S
+
+### pan_conte4_S25  [test]  WER=1.00
+REF: koloŋayo       ye        te   kwayne kitikirr kitikirr
+HYP:      kwa lumawayo itiakwene kitikiri kitikiri ********
+            S        S         S        S        S        D
+
+### pan_conte4_S26  [test]  WER=1.00
+REF: ****   a ci koloŋay ku koloŋay seruwa   ku    a ci da   ni  kway  day   ma     ne    nana se   nana   ka̰    ci fantay  koyo se bani   ay  bo̰ nooro ma   ka korofo   nay kambe dumbu
+HYP: namu kwa la    mwai ku     kwa     la mwai selu wa ku namu akida mkwa idae manena anasena na kanchi fanta ikosi   namu mwani ya  ino luwa maka   kwa la fana ikamba dungu  namu *****
+        I   S  S       S          S      S    S    S  S  S    S     S    S    S      S       S  S      S     S     S      S     S  S    S    S    S     S  S    S      S     S     S     D
+
+### pan_conte4_S27  [test]  WER=1.06
+REF: *** *** i      ye  ka   i kande nooru   i na boray seydandi  i bana  i bana  i bana
+HYP: iye kaa i kandano uru nga   ina   bwe isi  e dendi      iba na  iba na  iba na ****
+       I   I         S   S   S     S     S   S  S     S        S  S    S  S    S  S    D
+
+### pan_conte4_S28  [test]  WER=3.34
+REF: *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** ***     a  ci    to soho̰    da boro    na  ni nooru bana  hala  ni    si  du    ni ize     i  ci wallaahi   a  kway  du   nga izo     a koyo    du nga wayhiiji   a    ci  to     i  ma cabuko ceci koloŋayo  ka     a  ci kitikirr kitikirr cabuko ceci
+HYP: kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo   kwa hivyo  kwa hivyo kwa hivyo  kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa    hivyo kwa hivyo kwa hivyo kwa hivyo  kwa hivyo kwa    hivyo kwa hivyo kwa hivyo kwa  hivyo  kwa    hivyo kwa hivyo kwa    hivyo      kwa  hivyo  kwa
+       I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     S   S     S     S     S    S     S   S     S    S     S   S     S   S     S   S     S   S        S   S     S   S     S   S     S    S     S   S        S   S     S   S     S   S      S    S        S   S     S   S        S        S      S    S
+
+### pan_conte4_S29  [test]  WER=5.88
+REF: *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** *****   i    na cabuko  ceci   i    ka   i    na cabu wanzamay  na  ngay wane    ta boray  kulu  na  ngay wane    ta   a    ye  ci    to soho̰
+HYP: kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo    kwa hivyo kwa hivyo kwa hivyo  kwa    hivyo kwa hivyo  kwa hivyo   kwa hivyo kwa hivyo  kwa hivyo kwa hivyo kwa hivyo   kwa
+       I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   S     S      S     S   S     S   S     S    S        S   S     S    S     S     S     S   S     S    S     S   S     S   S     S     S
+
+### pan_conte4_S30  [test]  WER=1.83
+REF: **** ** ** ***** **** koloŋayo ka     a  ci kitikirr kitikirr
+HYP: cual es la nueva boca      que te crees que       te    crees
+        I  I  I     I    I        S  S     S   S        S        S
+
+### pan_conte4_S31  [test]  WER=0.97
+REF:     a kande     wayhiijo   se    tafe   a kande   a     se diiku hay kulu   ha̰    ka̰  si kulu   a kanda wayhiijoo  se man ci ni go ga ma i na cabu a na zaara ka a ci to a ma haw a ma nga      ize hampa a  haw     a       na nga      ize hampa  iza  ka dira    i       go       ye kwayne       a  te takom    salla  kongoru    ma      si kangay  ka       to      nga    ya      ci ize futu taray     wo boro  ma na̰ da    ni    di   ni   futu    no    ni  di boro      fo ka̰  futu   nda   nin ay jandi bo̰ ka̰ nuune
+HYP: dikuu   hai kalahankansi kula kandawe ihi  jose nam mkengo   ama nam  ino chabu anazaa eka  aki ito   ama       hau nam ama ** ** ** ** ** * ** **** * ** ***** ** * ** ** * ** *** * ** nga izahampa   nam a hawa nanga izahampa nga izakadia iguwa yeku ene  nam teta kwanzala kwanguli  msaka ngayika nam   ata kwanzala kwanguli msaka ngayika    nam ata kwanzala kwanguli msaka ngayika nam  iko   ito nduobo  nam nga aki za futte wabwe mana nandim futun nondi bai fuka futundi   e jande banka nondi ** ***** *** *** *****
+         S     S            S    S       S   S     S   S      S     S   S    S     S      S   S    S   S     S         S   S   S  D  D  D  D  D D  D    D D  D     D  D D  D  D D  D   D D  D            S     S      S     S        S            S     S    S   S    S    S        S        S      S       S   S     S        S        S     S       S      S   S        S        S     S       S   S    S     S      S    S   S   S  S     S     S    S      S     S     S   S    S       S   S     S     S     S  D     D   D   D     D
+
+### pan_conte5_S1  [dev]  WER=2.56
+REF: ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****    ni    ma  lutu  lutu    no  tunu  ɲaŋo nganda sogway  ngay    ya sanni     i    ci    to     a    ma  kway    ka tonko  kosu     a  kway tonka kosuya̰    do  bine     a    na     i  gana sogwa    na     a  gana tonka kosuya̰    do  kala     a    ka     a    ci
+HYP: mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu  mungu  mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu   mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu mungu   mungu mungu mungu mungu mungu mungu mungu
+         I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     I     S     S     S     S     S     S     S      S      S     S     S     S     S     S     S     S     S     S     S     S     S     S     S     S       S     S     S     S     S     S     S     S     S     S     S     S       S     S     S     S     S     S     S
+
+### pan_conte5_S2  [dev]  WER=1.00
+REF:        fo tamindi       a mana      tu    wandia        ma    no tamindi a ci fo tamindi a mana tu a ye kwayne a ci fo tamindi a mana tu
+HYP: hakifuota   amini aminatu  kwa ndiyama notamindi hakifuota amini aminatu * ** ** ******* * **** ** * ** ****** * ** ** ******* * **** **
+             S       S       S    S       S         S         S     S       S D  D  D       D D    D  D D  D      D D  D  D       D D    D  D
+
+### pan_conte5_S3  [dev]  WER=1.00
+REF: hino cafo     a ninga sayo  da̰ ka soote  nda baizo nga      no     a   ci waayi      a sobay   hḛ      hḛ kala       a  ka     fu
+HYP: namu mino chafa nangu  ugu bubu ya nangu sayo    da kwa sotanda baezo namu ngana akiwaa  namu tosa asaboyi  hii asaboyi hii kalaka
+        S    S     S     S    S    S  S     S    S     S   S       S     S    S     S      S     S    S       S    S       S   S      S
+
+### pan_conte5_S4  [dev]  WER=1.00
+REF: nga   no   a   ci  ifo ya    te tamindi ifo    ya te tamindi ifo ka te ni se
+HYP:  ka fufu mga naki fati ta mendi    fati  ta mendi ** ******* *** ** ** ** **
+       S    S   S    S    S  S     S       S   S     S  D       D   D  D  D  D  D
+
+### pan_conte5_S5  [dev]  WER=1.00
+REF:   wundo satayay   kulu       te  zanka ngay mana ma a ci
+HYP: windows       8 kulite zanganga manama **** **** ** * **
+           S       S      S        S      S    D    D  D D  D
+
+### pan_conte5_S6  [dev]  WER=0.94
+REF: wura taamo koyo  din  no nzarfu taamo  koyo    din  no  wura fula    koyo din    no    a  ci  ka̰      a    ka ne a  ci  fo     tamindi ay   te dukku    zanga    ay mana ma a  ye  ka          ne fo tamindi     ay   te   dukku      zanga ay mana ma sari te feeti mundi te barabara me te waayi
+HYP: namo   aki  ula tamo kwa  odino  namo nzara futamo kwa odino namo uyafula kwa odino namo aki kaka nefota mindi ** a iti edu kusandayana ma namo   aye kanefota mindi **** ** a iti edu kusandayana ma    namo salite vete mundute baribarime ** **** ** **** te   wai  namo ** ******** ** ** *****
+        S     S    S    S   S      S     S     S      S   S     S    S       S   S     S    S   S    S      S     S  D     S   S           S  S    S     S        S     S    D  D     S   S           S  S       S      S    S       S          S  D    D  D    D        S     S  D        D  D  D     D
+
+### pan_conte5_S7  [dev]  WER=0.89
+REF:   a   a amma tamindi walla   te me tamindi walla   te   me    za   bayka̰ si nda me  ka̰ hunkuna   ni      te    me   ɲa wayne mo ma ka a ma ha̰ i tamindi      ifo   ya du niin a ci
+HYP: haa ama **** tamindi  wale teme ** tamindi  wale teme namu zabai kansenda ** *** me kuhu    kuna teme nyaweni mwama kama   haa ** ** ** * ** *** * tamindi fahaduni namu ** **** * **
+       S   S    D             S    S  D             S    S    S     S        S  D   D       S       S    S       S     S    S     S  D  D  D D  D   D D                S    S  D    D D  D
+
+### pan_conte5_S8  [dev]  WER=1.00
+REF: wura taamo koyo din  no   a  ne  ka̰       a    ka    ne   a        ne fo tamindi  ay        te dukku zanga  ay      mana ma   a     ye   ka  ne  fo tamindi        ay    te dukku zanga        ay mana  ma     ni jinde      si     tunu    a   ye ka ne fo tamindi ay te dukku zanga ay mana ma say te feetu mundi te barabara me te waayi
+HYP:  aki   uda tamu kwa odi nuu ani kaka nevuota mendi haiti edu kusandaya na     maa aya kanevuota mendi haiti edu kusandaya na maa njinda situ nuu aki     aya kanevuota mendi haiti   edu kusandaya   na maa salite abete mundite baribara meti ewaa ** ** ** ******* ** ** ***** ***** ** **** ** *** ** ***** ***** ** ******** ** ** *****
+        S     S    S   S   S   S   S    S       S     S     S   S         S  S       S   S         S     S     S   S         S  S   S      S    S   S   S       S         S     S     S     S         S    S   S      S     S       S        S    S    S  D  D  D       D  D  D     D     D  D    D  D   D  D     D     D  D        D  D  D     D
+
+### pan_conte5_S9  [dev]  WER=1.00
+REF:   a   a tamindi walla te me a te me
+HYP: nem nem ******* ***** ** ** * ** **
+       S   S       D     D  D  D D  D  D
+
+### pan_conte5_S10  [dev]  WER=0.94
+REF: ***  ɲa   fo mo ma    baaru kwaayne nga mo zuru ka hayfo baru fo ka  i kwaara  i ci wara̰ kwaara luto  tee me   a  te a ye ka tamindi ifo     ya du niin a ci
+HYP: nya ufo muma ba yu kwenenga    muzu  yu ka   na yu    ba   yu fo ka yu    kwa yu ki    we   nkwa lutu otie mi ate aye * ** ka    tame ndi faruni ** **** * **
+       I   S    S  S  S        S       S   S  S    S  S     S    S        S      S  S  S     S      S    S    S  S   S   S D  D          S   S      S  D    D D  D
+
+### pan_conte5_S11  [dev]  WER=0.99
+REF: wura taamo koyo  din    no   a   ne ka̰          a    ka  ne         a   ne   fo tamindi   ay         te dukku zanga        ay mana   ma   a  ye ka ne fo tamindi ay te dukku zanga ay mana ma a ne wura fula koyo   din   no   a         ne    ka   a        ka    a   ne     fo     tamindi         ay     te dukku zanga ay mana ma sari te feetu mundi te barabara me te waayi
+HYP:  aki   ula tamo kuwa odino ane kaka ane vuotamindi haiti edu kusandaya nama namu     aye kane vuotamindi haiti   edu kusandaya nama namu ane uya ** ** ** ******* ** ** ***** ***** ** **** ** * ** **** fula kuwa odino kaka ane vuotamindi haiti edu kusandaya nama namu salite fetumundite baribarime etewai  namu ***** ** **** ** **** ** ***** ***** ** ******** ** ** *****
+        S     S    S    S     S   S    S   S          S     S   S         S    S    S       S    S          S     S     S         S    S    S   S   S  D  D  D       D  D  D     D     D  D    D  D D  D    D         S     S    S   S          S     S   S         S    S    S      S           S          S      S     S     D  D    D  D    D  D     D     D  D        D  D  D     D
+
+### pan_conte5_S12  [dev]  WER=1.09
+REF:   i ci a a to ** * soho̰   i    ma hiijandi sogaa  se  nga  ya na̰ luto du  ka  te me  i     du ka **** *** ** *** hiijandi
+HYP: iki ** a a to so o   ima iji jendi        a     a asi mata iki asi   so  o asi nga  a na lutudu ka temi ino ka iji    jendi
+       S  D         I I     S   S     S        S     S   S    S   S   S    S  S   S   S  S  S      S       I   I  I   I        S
+
+### pan_conte5_S13  [dev]  WER=1.00
+REF:  ay jandi bo̰  ka̰ nuune waydin    mo lamba no ya
+HYP: you   can   t even   get    the money ***** ** **
+       S     S   S    S     S      S     S     D  D  D
+
+### pan_conte6_eastling-annotations_13333  [test]  WER=0.91
+REF: to ay jandi    ay jandi    ay   na        a furu ni se
+HYP: to to    ye gande    ye gande namu hinafuru  nse ** **
+         S     S     S     S     S    S        S    S  D  D
+
+### pan_conte6_eastling-annotations_13334  [test]  WER=0.91
+REF:  ko  fo    day no ya a    ɲa  bu ka na̰  ɲa wayce do a   go  no  ɲa  wayco   do bine alboro no  ɲa wayco     do  ka  goo no kuuru bo̰ no a kani   a   ma toosu kuuyo  bo̰ ɲa  wayco  ma gaayay       ka ci a  ma  kway kuuro   ɲum    a  ma kway kuuro  ɲum  a  ma  ka
+HYP: kua kua dainoa ** ** a nyabu kaa na nya waa ikelu ** a gona nya waa ikeudu dine  hai    bue no nya   waa ikeudu kaa gono ** ***** *** ** a   ku ubo naka    ni   ama tosu ku urobom nya    waa ikeomaga ** a ika txamu   kua ikuro niyo ama  kua ikuro niyo na ama kaa
+       S   S      S  D  D       S   S  S   S   S     S  D      S   S   S      S    S    S      S      S     S      S   S    S  D     D   D  D      S   S    S     S     S    S  S      S   S      S        S  D     S     S     S     S    S   S    S     S    S  S   S   S
+
+### pan_conte6_eastling-annotations_13335  [test]  WER=1.17
+REF: * * a ****** ****** ***  ma toosu kuuro bo̰  ɲa wayco   ma gaayay ka  ci   ma kway kuuro  ɲum   ya din   no ya  din no   ya din   no
+HYP: i m a little school boy now     i  feel  my guy could come  quite  a bit more cool   you know yeah   i didn  t know  i didn   t know
+     I I        I      I   I   S     S     S   S   S     S    S      S  S   S    S    S     S    S    S   S    S  S    S  S    S   S    S
+
+### pan_conte6_eastling-annotations_13336  [test]  WER=0.93
+REF: kala      a  beeri a beeri kulu  a      ma   feeri     a tunu         ka yamma    ka zaa ka foonda gana nangu ka to kulu   a      ma  kabay  no din   a ma   ci   mu   ne     mu ne ruwa magazi  maɲa ruwansarki domin ciɟi yaaka koyo   goona   do̰ day   yai fissari   mu   wance haoussa   hausa cine    no  ya    te dendi cine ni ma
+HYP: kala abieri abieri * ***** kulu wa mwafiri atunuka nyama kaza wakafuanda agana nkato *** ** ****** **** ***** ** ** kulu ama kabainu wajili ama  ki ama ki mune mune luwa magazi ** **** magazi ngaya       luwa nsara kido  miki  kia kakoona danda  ya ifisi unwanki wala usikina     noe usikina  noe emana kwa hivyo ***** **** ** **
+               S      S D     D       S       S       S     S    S          S     S     S   D  D      D    D     D  D  D        S       S      S   S   S   S  S    S    S    S      S  D    D            S          S     S    S     S    S       S     S   S     S       S    S       S       S       S    S     S   S     S     D    D  D  D
+
+### pan_conte6_eastling-annotations_13337  [test]  WER=0.93
+REF: * ********* nangu ka̰   a  kway  kulu      a  ma bisa nangu     ka̰      a kway kulu       a    ma bisa kala kala   a       kway    ka wayboro zeeno  fo       garu bine         ka     a  kway wayboro zeena garu wayboro zeenaa a ka zumbu a doo a na fure   guda   fo     na  se     a   ci      a        ma kway safa a kway a na   da̰   humburo     kuna a zumma humburo to a na ku ka dasa kala kala **** hannay
+HYP: o dandikini    to  to mma mbima abina anakaa kwa kulu mbima amabisa anakaa  kwa kulu amabisa mbima kala kala kala kwa uwebwezena fugao    bina   kaa kwa uwebwezena agao uwebwezena akazu mbado     ana ***** **** ******* ****** * ** ***** * *** * ** fure gudafu nasi akyamu kwa isafa akwa anadau humburoku **** **** * **** * na azima humburoto anakuuka * ***** ******* ** * ** ** ** dasa kala kala kala   hane
+     I         I     S   S   S     S     S      S   S    S     S       S      S    S            S     S    S             S          S     S       S     S   S          S    S          S     S     S       S     D    D       D      D D  D     D D   D D  D           S    S      S   S     S    S      S         S    D    D D    D D        S         S        S D     D       D  D D  D  D  D                   I      S
+
+### pan_conte6_eastling-annotations_13338  [test]  WER=0.89
+REF: a ka waybora ci too a    ma za kokosu ka kway hari guru amma da a  kway ciyo foya goo no i ga ci ni ɲa so ni baaba so a    ma si salay ciyay
+HYP: i am ******* ** *** a woman  i     am ** **** **** **** **** ** a woman **** **** *** ** i am ** ** ** ** ** ***** ** a woman ** ***** *****
+     S  S       D  D   D       S  S      S  D    D    D    D    D  D       S    D    D   D  D    S  D  D  D  D  D     D  D       S  D     D     D
+
+### pan_conte6_eastling-annotations_13339  [test]  WER=0.93
+REF:      a  bine      a dasa  ka    bani          a   na kokosa   za      a  kway ciyay sobay ci ni ɲa so    ni baaba so   ni ɲa so ni baaba so
+HYP: habine adesa kabani mamu ana hayaaza kukoshaaza mamu  akwai kiyo sababu nyaso mbaba ***** ** ** ** so nyaso mbaba so mamu ** ** ** ***** **
+          S     S      S    S   S       S          S    S      S    S      S     S     S     D  D  D  D        S     S       S  D  D  D     D  D
+
+### pan_conte6_eastling-annotations_13340  [test]  WER=4.20
+REF: *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** *****   a  mana salay     a ninja  hari guru    ka  ka waybora  ci    to  za  kway kuso  dace   a  bine   a    na hawro  hina   a ninga foy   ham nganda waybora  ɲa     i  ye    ka ta̰    ka kani
+HYP: kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo   kwa hivyo   kwa hivyo  kwa hivyo kwa   hivyo kwa hivyo kwa hivyo  kwa hivyo kwa hivyo kwa hivyo   kwa hivyo kwa hivyo kwa hivyo    kwa   hivyo kwa hivyo kwa hivyo kwa hivyo  kwa
+       I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   S     S     S     S     S     S    S     S   S       S   S     S   S     S    S     S   S     S   S     S     S     S   S     S   S     S      S       S   S     S   S     S   S     S    S
+
+### pan_conte6_eastling-annotations_13341  [test]  WER=0.91
+REF:    mo bia  bo      a bia   ci   to   a ma za dambu   ka kway     hari guru amma da   a kway  da cuyay goo   a  ci    ni ɲa so  ni baaba   so     a    ma si salay a bine a na dambo zu ka kway a na haro guru yao da   a  kway  da cuyay   goo a ci ni ɲa so  ni baaba   so a si salay
+HYP: mwobi  ya abu okweni  ya biya kito ama ** za dambu koko   ya haigungu  ama **** da kwa  ndo kia  igua  ki nye aso mbabo ** so ama    sa sale abena dambu za  koko i  ana * ** ***** ** ** **** * ** haro   gu  ya  o kia sabba nye   aso mbabo * ** ** ** so ama    na sale * ** *****
+         S   S   S      S   S    S    S   S  D             S    S        S    S    D      S    S   S     S   S   S   S     S  D      S     S    S     S     S  S     S S    S D  D     D  D  D    D D  D         S   S  S   S     S   S     S     S D  D  D  D      S     S    S D  D     D
+
+### pan_conte6_eastling-annotations_13342  [test]  WER=0.96
+REF:   a       ka         a     na   mo  gude    fo    na   a  se a ci a ma dasa a dasa kala hannay a ku ka    ka    a hina nganda waybora  ɲa
+HYP: aka anamuugu dafonaasi akyama desa adesa kadaa hanei aku uka * ** * ** **** * **** **** ****** * ** ka ahina unga anda    woi   buwaa waa
+       S        S         S      S    S     S     S     S   S   S D  D D  D    D D    D    D      D D  D        S    S    S      S       S   S
+
+### pan_conte6_eastling-annotations_13343  [test]  WER=0.92
+REF: i    goo    no     ya  dini      i   goo   no     ya dini   i goo  no ya dini kala hani fo waybora ci to soŋo    a  ci  kotia   a  ma  ka    kway   fu   a  na      ce     ka ha̰ kotia   hḛ      a  ci    a  ma  si   hḛ    a  ma      ka kway      fu iri kway ya     na boro te da     iri kway na   boro   te bora   te
+HYP: i guwane adini guwane adini guwane adini kada hanifo namo woi bwa aki ** **** **** **** ** ******* ** to soho namo aki kuotia aki aki ama kakoifu namo aki ama kakoifu binane kie  kaha namo kuotia hii namo aki ama sihe namo ama kakoifu namo irikuwe *** **** ya abuete namo ** da irikuwe **** na abuete bora  api namo
+            S     S      S     S      S     S    S      S    S   S   S   S  D    D    D    D  D       D  D       S    S   S      S   S   S   S       S    S   S   S       S      S   S     S    S      S   S    S   S   S    S    S   S       S    S       S   D    D         S    S  D          S    D         S    S    S    S
+
+### pan_conte6_eastling-annotations_13344  [test]  WER=0.98
+REF:     a bine  mo     a  ci     a  ma     ka kway hari   guru ka    hari dungo dake   nga  see    a kway   a       na dambo za a  kway hayo guruya̰ curay sobay    ni    ɲa      so      ni baaba   so    ni ɲa      so   ni baaba so
+HYP: abina moho aki itama kaa kuwae hai guruka  kaa  hai dungwa da mungasi  namu    a kuwae namu anaa  hai aza adamboza  namu ** a kuwae  hai     ogu  iyan  kiya itaba nyaso mbabaso kefanga  moma kiwe nyaso we mbabaso namu ***** **
+         S    S   S     S   S     S   S      S    S    S      S  S       S     S    S     S    S    S    S   S        S     S  D       S    S       S     S     S     S     S       S       S     S    S     S  S       S    S     D  D
+
+### pan_conte6_eastling-annotations_13346  [test]  WER=0.96
+REF: hay waybora  di  day     a    si      ka   waybora    tunu    ka kway       ka          a garu     no    din   a ci ee ifo ka̰ ni da̰ gway wo kuna kotio ay  ya        ci      da       ni        ka         ni  ma hari guru ka ka nga no ni    ka gooro ka gway wone woo te
+HYP:  na     kia iki inga mwama kihai waibuwa adidasika waibuwa atunu  kwa kwaikaga inuadaraki   eh kifoka ndongo wao ** ** *** *** ** *** **** ** kuna  kotu yu aya kiidangaa mwangai gurukaka nganangaa gurukagwae uwe **** **** ** ** *** ** ni yaote ***** ** **** **** *** **
+       S       S   S    S     S     S       S         S       S     S    S        S          S    S      S      S   S  D  D   D   D  D   D    D  D          S  S   S         S       S        S         S          S   S    D    D  D  D   D  D        S     D  D    D    D   D  D
+
+### pan_conte6_eastling-annotations_13347  [test]  WER=0.94
+REF: waybora   ci            to    a  na haro guru dake a se a ci to     a       ma   ka  hari    dunga  da̰    a     bine    a   na hari dunga da̰ ka̰ a na hari dunga da̰ haro dungu   a    ci        a        ma    ka kway ka nga banda ziiri a bine tunu     a kway          a  na haro    ka   a kwanda waybora        se     a       goo waybora banda ziiri cofo banda funu a ci e waybora          ni banda funu
+HYP:   webua kito anaharugurada kasi aki **** **** **** * ** * ** to amaka haidungu wada abina haidungu wada kana haidungu wada haru    o ***** *** *** * ** **** ***** *** **** dungu aki amaka kwekanga bandazili abina **** ** *** ***** ***** * **** tunu akuwa   ii anaharuoka kwa  nda webua asi    agu   webua bandazili kiofo bandafumu     aki ***** ***** **** ***** **** * ** e   webua ambandafunu ***** ****
+           S    S             S    S   S    D    D    D D  D D  D        S        S    S     S        S    S    S        S    S    S    S     D   D   D D  D    D     D   D    D         S     S        S         S     S    D  D   D     D     D D    D          S    S          S   S    S     S   S      S       S         S     S         S       S     D     D    D     D    D D  D         S           S     D    D
+
+### pan_conte6_eastling-annotations_13348  [test]  WER=1.00
+REF: a   ci       ifo no ni di
+HYP: i keep important ** ** **
+     S    S         S  D  D  D
+
+### pan_conte6_eastling-annotations_13349  [test]  WER=1.00
+REF:  a ci nga di zollo cangare a ci nga di zollo kwaaray a ci nga di gaasia cangare nga di gaasia kwaaray
+HYP: no no  no ** ***** ******* * ** *** ** ***** ******* * ** *** ** ****** ******* *** ** ****** *******
+      S  S   S  D     D       D D  D   D  D     D       D D  D   D  D      D       D   D  D      D       D
+
+### pan_conte6_eastling-annotations_13350  [test]  WER=0.99
+REF:      a       ci to    a    ma sambu      a  bine  a       za gaasia kwaaray  gude taaci        a za  zollo  kwaaray    gude taaci     a     ci to      a   ma      ka    soolu        ka kway fu kotia sobay hḛ a ci a ma si hḛ way din banda mo a ci a ma gana gaɳjo  a     ma si  gana kwaara    a bine tunu  a na gaɳjo    ya  gana  a  kway   hala      hala nangu mooro
+HYP: hakitu amasambu no habi nyoza   aza agasia kwari no kudataki     no     aza azole kwari kudataki no hakitu makasulu kukwifu    no wotia sabayi he akyamu sihe akiwele dimbanda mwakiyama **** ** ***** ***** ** * ** * ** ** ** *** *** ***** ** * ** * ** gana ganju no musiga na kwara     no habi  nyo   tu nu no   ana ganju agana no hakua halala nangumuwa ***** *****
+          S        S  S    S     S     S      S     S  S        S      S       S     S     S        S  S      S        S       S     S     S      S  S      S    S       S        S         S    D  D     D     D  D D  D D  D  D  D   D   D     D  D D  D D  D          S  S      S  S     S      S    S    S    S  S  S     S     S     S  S     S      S         S     D     D
+
+### pan_conte6_eastling-annotations_13351  [test]  WER=0.64
+REF:   a  ci da  ni kway da ni ci ya furu  da ni ma suurum ma furu  da ni ci ma furu  da ni ma  gaɳjo kulu   saba ci furu furu ma   si furu
+HYP: dem kwa  i dem   ki ** ** ** ya furu dem ** ma   suru ma furu dem ki ** ma furu dem ** ma gandjo kulu sabaki ** furu furu ma suru ****
+       S   S  S   S    S  D  D  D           S  D         S           S  S  D           S  D         S           S  D                 S    D
+
+### pan_conte6_eastling-annotations_13352  [test]  WER=0.95
+REF:      a bine  kway  a      to jine a ci hala nga      ma  furu gaɳjo kulu  saba    ci   furu furu a bisa
+HYP: habina kwai atoji na akihala **** * ** **** nga mwafuru ganyo kweza baki mfuru mfuru habisa **** * ****
+          S    S     S  S       S    D D  D    D           S     S     S    S     S     S      S    D D    D
+
+### pan_conte6_eastling-annotations_13353  [test]  WER=0.87
+REF:     a   to   jina     a            ci   ya    furu  suurum       a      na   zollo fo furu bariday bari day bari day funu day danga danga danga danga danga kayfi     i goo     a  banda kwaayne        a saru ka kaaru bari fo bo̰
+HYP: atoje naki yefuru usuru anazorifofuru hayo balidai balidai balidai balidai funudai ** **** ******* **** *** **** *** **** *** danga danga danga danga danga kaisi iwaba nda kweni asoika    kalu dorifobo **** ** ***** **** ** ***
+         S    S      S     S             S    S       S       S       S       S       S  D    D       D    D   D    D   D    D   D                                   S     S   S     S      S       S        S    D  D     D    D  D   D
+
+### pan_conte6_eastling-annotations_13354  [test]  WER=0.95
+REF: mboori i ye     to     jina    a     ci      nga      ma furu suurum   a a i saba ci furu furu a bisa
+HYP:  mbuli * ye tojina akingama fulu ushulu aawisoba akifulu fulu  abisa nao * * **** ** **** **** * ****
+          S D         S        S    S      S        S       S    S      S   S D D    D  D    D    D D    D
+
+### pan_conte6_eastling-annotations_13355  [test]  WER=0.86
+REF: a yee to jina     nga ma furu surum     nga ma furu cofo    a   na gaasu kwaara furu   andamu ize funu      zanga      zanga   zanga zanga ganda   labu      i    goo    ti   ti      ti  ti a banda zanga kayfi
+HYP: a rey  e toji nangamu ** furu  suru nangamu ** furu   ki fana gasu   kwa    aya furu andamizu *** funu dangadanga dangadanga gandala    bu    si guwadi tititi tititi chaba ndwa dangaka ifi * ***** ***** *****
+         S  S    S       S  D          S       S  D         S    S    S     S      S             S   D               S          S       S     S     S      S      S      S     S    S       S   S D     D     D     D
+
+### pan_conte6_eastling-annotations_13356  [test]  WER=2.94
+REF: ** ** *** ***** *** *** **** *** *** *** ****** ****** **** ******* ***** ** *** *** **** *** ***** ******* ****** *** ****** ***** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** ****** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** ***     a  ye    ka kwaayne     a kway    to jina     a  ci  hala nga    ma furu ganjo kulu  saba  ci     a bisa     a  ye  kway  to  jina   a    ci hay  kulu mana    te   a    ma zollo    fo furu   haw day   haw day   haw day   haw day danga kayfi  ngay  no  funu mboori    ya din    no  ya   din  no  kala kala  kala kala  hayo kulu    go   a banda  zi    ti  ti    ti  ti feeji haw hincin hayo  kulu  go     a banda
+HYP: ie ae kaa kweni ako ito gina aki ala nga mufuru ganjio kuru shabaki abisa ae kwa ito gina aki imana haikuru manati ana jodofu ufuru haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai haudai kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo     kwa hivyo  kwa hivyo  kwa hivyo kwa hivyo kwa hivyo  kwa hivyo  kwa hivyo kwa hivyo  kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo  kwa hivyo kwa hivyo   kwa hivyo  kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo   kwa hivyo kwa hivyo    kwa hivyo kwa hivyo kwa hivyo kwa hivyo  kwa hivyo  kwa hivyo  kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa  hivyo  kwa hivyo kwa hivyo     k
+      I  I   I     I   I   I    I   I   I   I      I      I    I       I     I  I   I   I    I   I     I       I      I   I      I     I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I      I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     S   S     S       S     S    S     S    S     S   S     S   S     S    S     S    S     S   S     S    S     S   S     S   S     S   S     S   S     S    S     S   S     S     S     S    S     S   S     S   S     S   S     S   S     S     S     S   S     S      S     S   S     S   S     S   S     S    S     S    S     S    S     S   S     S   S     S   S     S   S     S   S      S    S     S   S     S     S
+
+### pan_conte6_eastling-annotations_13357  [test]  WER=0.97
+REF:      to      a   to kwaara  banda  boray   go    a banda rititititi    bariay   go     haya    kulu  go   a banda a ci to soŋo   a       na bari fo  te   a      na gaari  te       a        na hay kulu da̰ a ci i ma kwaanda nga baaba do    nga baaba kayne       ma         di ha̰ka̰a    nga      ku      ka kanda a ma bay day iri kway yaa boro te
+HYP: atokuwa abanda boye  iguwa abanda lititi titi baye iguwa    haakulu guwabanda anda mizaguwa dangaka iti aki ***** * ** to soho ana balifoti  ana ga iti ana haikulu   dam aki imakuan dangababa *** **** *** * ** * ** ******* *** ***** do dababa  kena  madi hankanga ukuwakanda     ama baidai irikuwe aburati ***** * ** *** *** *** **** *** **** **
+           S      S    S      S      S      S    S    S     S          S         S    S        S       S   S   S     D D  D       S   S        S    S  S   S   S       S     S   S       S         S   D    D   D D  D D  D       D   D     D         S     S     S        S          S       S      S       S       S     D D  D   D   D   D    D   D    D  D
+
+### pan_conte6_eastling-annotations_13358  [test]  WER=7.35
+REF: *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** *** ***** ***     i kanda     a bine baaboo kayno    da baabo bumbumo   i    na   i  kulu wano    te   a    ci   i    ma kwaanda
+HYP: kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo   kwa hivyo  kwa  hivyo   kwa hivyo   kwa   hivyo kwa hivyo kwa hivyo  kwa hivyo kwa hivyo kwa hivyo     kwa
+       I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     I   I     S     S     S    S      S     S     S     S       S   S     S   S     S    S     S   S     S   S     S       S
+
+### pan_conte6_eastling-annotations_13359  [test]  WER=0.89
+REF: amma soŋo     i   ma   ci nga baaba a se  nga baaba  ma    nga  no nangu    zama    nga    si  bani kwaara kuna a ma nga no nga bo̰ nangu soho̰ dini  i     na andamize  ka     i kway    ka  wundi bambata te a see wundo danga danga kayfi       a ka furo    soŋo  din cofo i goo no
+HYP: amma soho imaki unga baba *** ***** * se unga  baba maa amanga noo nangu zamanga sibani kwara akuna amanga  noo * ** *** ** *** *** nangu    so hadi ni inanda     meza kaa ukwai undi bamba tatase  unduwa ** * *** ***** danga danga kaifi akafuro so hadi nchafai gono **** * *** **
+             S     S    S    S   D     D D       S     S   S      S   S             S      S     S     S      S    S D  D   D  D   D   D           S    S  S      S        S   S     S    S     S      S       S  D D   D     D                 S       S  S    S       S    S    D D   D  D
+
+### pan_conte6_eastling-annotations_13360  [test]  WER=3.59
+REF: *** ***** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** cofo  ɲa wayce wayne  mo   a bine dooru   a tunu  ka kway  ka nga ize kuru tunu tunu tunu zina ize tunu sobay kway kway furuku yaamo ize  ay  go furuku jisi  ay  go koonu jisi na̰kaa wane  ma kway hayo  ku  ni  mo  ma kway  no din tamba
+HYP: kwa hivyo kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa  kwa kwa   kwa   kwa kwa kwa  kwa   kwa kwa  kwa kwa  kwa kwa kwa kwa  kwa  kwa  kwa  kwa  kwa kwa  kwa   kwa  kwa  kwa    kwa   kwa kwa kwa kwa    kwa  kwa kwa kwa   kwa  kwa    kwa  kwa kwa  kwa  kwa kwa kwa kwa kwa  kwa kwa kwa   kwa
+       I     I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I    S   S     S     S   S   S    S     S   S    S   S    S   S   S   S    S    S    S    S    S   S    S     S    S    S      S     S   S   S   S      S    S   S   S     S    S      S    S   S    S    S   S   S   S   S    S   S   S     S
+
+### pan_conte6_eastling-annotations_13361  [test]  WER=0.96
+REF:   day  nga    mo izo  tunu   a     za    ka kway waybora   garu  bine ka̰ a kway waybora garu kulu   a     ci waybora     se  aay  ka    ni do no
+HYP: ndiyo inga mwizu otu azako kwa iwebwa agawu mina     kwa iwebwa agawu *** * **** ******* **** kulu aki iwebwa     asa iwebwa hatu eka ndonu ** **
+         S    S     S   S     S   S      S     S    S       S      S     S   D D    D       D    D        S      S       S      S    S   S     S  D  D
+
+### pan_conte6_eastling-annotations_13362  [test]  WER=0.86
+REF: waybora   ci    o ni ka ya do no     a    ci   to    a ci soho̰ ma za hayo    ka     kway  hari  guru dambu amma  da   ni kway curo fo goo no cura  ci  ni ɲa so    ni baaba so    ni    ma si salay
+HYP:    webo akio nkwe ** ** ** do no akito akito soho mada ** ***** ** ** hayo kukwa hayiguru dembu amada  nkwa    i kio fogo **** **** ** *** no  kio aki nya ** so mbaba ***** so nmasi sadai ** *****
+           S    S    S  D  D  D           S     S    S    S  D     D  D  D          S        S     S     S     S    S   S    S    D    D  D   D       S   S   S  D        S     D        S     S  D     D
+
+### pan_conte6_eastling-annotations_13363  [test]  WER=0.96
+REF: bine     ka̰   a    tunu a na haya za    za sintina no din no a foy kala waybora ka̰ tunu a kway a na nga    hari guru   a      ka      a  na  moa          dasa    a         ci    boro   wo  mana      ci     ya     bo̰ jina bora no a ku nda aay
+HYP: bina kangatu nuu anahaza * ** **** za sinti ******* ** *** ** * *** **** ******* *** **** * **** * na noo dinafoi  kwa leo waibuwa akantu nuu hapa anangahaiguru haka anamuadasa akibuwa wama nchie bonjina borana kundahi **** **** ** * ** *** ***
+        S       S   S       S D  D    D        S       D  D   D  D D   D    D       D   D    D D    D D      S       S    S   S       S      S   S    S             S    S          S       S    S     S       S      S       S    D    D  D D  D   D   D
+
+### pan_conte6_eastling-annotations_13364  [test]  WER=0.99
+REF:     a  dasa       a hina  wato         ni nganda du ŋa a kani danga jiribi hinka       a  ci    to   a     ma     ka     ka soolu      ka  sobay kway      fu    a          ci          nga     si         hin   a           a      bine   mo   a     ci   a              ma   ka kway hari guru a kway haro guruya̰ a kanda haro a ci a ma hari dungo da̰ a na hari dungaa da̰ a go banda ziiri cofo a ci e filaana ize waybora ni banda funu
+HYP: adesa ahina watonga  nda aduwa akanidanga   jibi ** ** * **** ***** ****** hinka akitama kwa asulu kwa sobayi kwaifu atinga  sina abinamu achama  kwa haivumu akoa haruguliamu akandaharuku achama haidungwada ana haidungwada aguobanda funi kwa kefina ama itagwebuwabanda funi **** **** **** * **** **** ******* * ***** **** * ** * ** **** ***** *** * ** **** ****** *** * ** ***** ***** **** * ** * ******* *** ******* ** ***** ****
+         S     S       S    S     S          S      S  D  D D    D     D      D             S   S     S   S      S      S      S     S       S      S    S       S    S           S            S      S           S   S           S         S    S   S      S   S               S    S    D    D    D D    D    D       D D     D    D D  D D  D    D     D   D D  D    D      D   D D  D     D     D    D D  D D       D   D       D  D     D    D
+
+### pan_conte6_eastling-annotations_13365  [test]  WER=0.97
+REF:   a    ci ifo  no  ni  di    a     ci  a   a   ay  di zollo cangaray  ay    di zollo kwaaray     ay di gaasu bine ni bay zollo cangaray ya    wo  ngay   no ay ga za ay ma za gaasu cangaray
+HYP: aki mfona ndi aki aya edi zolo kyanga ya edi zolo kwa   edi     gasu aya ubina   mba    zolo kyanga ** ***** **** ** *** ***** ******** ya wanga iniza namu ** ** ** ** ** ** ***** ********
+       S     S   S   S   S   S    S      S  S   S    S   S     S        S   S     S     S       S      S  D     D    D  D   D     D        D        S     S    S  D  D  D  D  D  D     D        D
+
+### pan_conte6_eastling-annotations_13366  [test]  WER=1.44
+REF: *** ** **** ***    ni bay day ay   si   hayay   jinde kuubantay sambu
+HYP: emi ya gasu kia ngeza mba ili ya siya hajindo kumanta     isamu  namu
+       I  I    I   I     S   S   S  S    S       S       S         S     S
+
+### pan_conte6_eastling-annotations_13367  [test]  WER=1.00
+REF:   cofo     a   na kambe da̰  a    na waydinya̰ sambu
+HYP: kifana kamba dana    we  di ya sambu      nama *****
+          S     S    S     S   S  S     S         S     D
+
+### pan_conte6_eastling-annotations_13368  [test]  WER=1.00
+REF:   a   ci    to      ka sabay kway     fu     a    bine      a       ci      da   ni     na foonda gana na̰ ka̰ i ci ma furu ma si furu no din na̰ ka̰ a̰ ni ma suurum ma furu
+HYP: aki toka asaba yukoifu   aki dena fuanda agana nakaiki mafuru masufuru nwadini naka masuru mafuru **** *** *** * ** ** **** ** ** **** ** *** *** *** ** ** ** ****** ** ****
+       S    S     S       S     S    S      S     S       S      S        S       S    S      S      S    D   D   D D  D  D    D  D  D    D  D   D   D   D  D  D  D      D  D    D
+
+### pan_conte6_eastling-annotations_13369  [test]  WER=7.79
+REF: ***** *** ****** ******* ** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***   a nga  wo yamma  ka foonda gana na̰ ka̰   a kway  ci nga  ma furu day   i saba  ka  ci furu furu cofo   a  ma furu  no din
+HYP: ndiyo kwa kufuwa ndakana na kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa   kwa kwa    kwa  kwa kwa kwa kwa  kwa kwa kwa kwa  kwa kwa kwa  kwa kwa kwa  kwa  kwa  kwa kwa kwa  kwa kwa   k
+         I   I      I       I  I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   S   S   S     S   S      S    S   S   S   S    S   S   S   S    S   S   S    S   S   S    S    S    S   S   S    S   S   S
+
+### pan_conte6_eastling-annotations_13370  [test]  WER=0.96
+REF:   danaw zabura ka  tunu    danaw    day danaw danaw day  danaw haray karay gabadri bara dirim      gaba      dibi   gandi gaga̰ga̰ hara no   ya  fa           i     go a banda annema danaw day  danaw i goo no a banda da harayay     m  boori    danaw     go      beene danaw go  ganda i dake a banda da haray kari
+HYP: anniema   dana wu zaabu rakotuni danawu   dai  dana  wu danawu   dai  dana      wu arai karai gabadirim baradirim gandiga    gagam  ara nu afai gua bandanniema danawu e  dana     wu   gua  na bandan * *** ** * ***** da   harai mbori danawu guwabena danawu guwagandai    da ka bandan * **** * ***** da harai  kai
+           S      S  S     S        S      S     S     S   S      S     S     S       S    S     S         S         S       S        S    S  S    S   S           S      S S     S      S     S   S      S D   D  D D     D          S     S      S        S      S          S     S  S      S D    D D     D        S    S
+
+### pan_conte6_eastling-annotations_13371  [test]  WER=0.96
+REF: hino kwaayne  a      ye   to   jina   nga   ma furu suurum   nga    ma furu suurum       a  bisa   a yee kway to jine kwaayne annema a na zollo       fa furu      e bari  danaw bari  danaw bari  danaw       i fatta danga kayfi    ka  go dumdum mboori    a   saru  ka karu   nga  bari danaw     fo   bo̰   ay  si      bay na̰ ka̰ a baa a ma kwanda bario wo si bay na̰ka̰a̰ nga         go gana me to  a    ye kwaayne       a kway     to jina nga ma furu
+HYP:  ino   kuena ee tuagina unga mufuru usuru suru unga mufuru usuru abisa   ae  kuwae tuagina kuene ane maa **** ** **** ******* ****** * na  zora fwaafuru  eee barida  nao barida  nao barida  nao ifaita dangaka ifika   ugo dundu mbori aso    eka   kawa inga barida nao fobo ntika nanka abama kuanda abayi oosi ino bainanka *** *** * *** * ** ****** ***** ** ** *** ******** nga guwaganami **** ** to ae kuena   kuwae tuagina unga mufuru **** *** ** ****
+        S       S  S       S    S      S     S    S    S      S     S     S    S      S       S     S   S   S    D  D    D       D      D D        S        S    S      S    S      S    S      S    S      S       S     S     S     S     S   S      S      S    S      S   S    S     S     S     S      S     S    S   S        S   D   D D   D D  D      D     D  D  D   D        D              S    D  D     S     S       S       S    S      S    D   D  D    D
+
+### pan_conte6_eastling-annotations_13372  [test]  WER=0.94
+REF:   i saba a * ****** ci furu furu furu   a    na  afo furu haw danaw  day  haw danaw day  ka̰ fayta hay  fo hay  kulu ka̰   nga    ya a  furu kulu **** **** danaw day danaw
+HYP: nam    a a u itabaa ki furu furu furu ana afuwa furu  nam  ha     u dena udei    ha   u dena  udei  ka mfa ita haifo  ha ikulu kanga a afuru kulu dena udei  dena   u   nam
+       S    S   I      I  S                  S     S    S    S   S     S    S    S     S   S    S     S   S   S   S     S   S     S     S       S         I    I     S   S     S
+
+### pan_conte6_eastling-annotations_13373  [test]  WER=3.49
+REF: ***** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***   a zabura  ka tunu   a  ka  to kwaara banda   a  ci   i  ma kway  ci nga baaba  se soŋo din   a  na bari danaw  fo dake day day day ɲaŋo  na baray sambu nga  di bone nga bo̰ futu nga  ya nga  go  ci   a  go kway arsaka  ku  ka kwanda  za danaw  no   a kway  ku  ka kanda nga kay nga halaci
+HYP: mungu kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa    kwa kwa  kwa kwa kwa kwa    kwa   kwa kwa kwa kwa kwa  kwa kwa kwa   kwa kwa  kwa kwa kwa kwa  kwa   kwa kwa  kwa kwa kwa kwa  kwa kwa   kwa   kwa kwa kwa  kwa kwa kwa  kwa kwa kwa kwa kwa kwa kwa kwa  kwa    kwa kwa kwa    kwa kwa   kwa kwa kwa  kwa kwa kwa   kwa kwa kwa kwa      k
+         I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   I   S      S   S    S   S   S   S      S     S   S   S   S   S    S   S   S     S   S    S   S   S   S    S     S   S    S   S   S   S    S   S     S     S   S   S    S   S   S    S   S   S   S   S   S   S   S    S      S   S   S      S   S     S   S   S    S   S   S     S   S   S   S      S
+
+### pan_conte6_eastling-annotations_13374  [test]  WER=1.00
+REF: ay jandi bo̰     kaa nuune
+HYP:  e   jia  di mwakani *****
+      S     S   S       S     D
