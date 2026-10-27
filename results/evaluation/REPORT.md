@@ -1,6 +1,6 @@
 # Évaluation zero-shot — Dendi ASR
 
-Généré le 2026-10-27 13:33 UTC par `scripts/evaluation/evaluate.py` (commit `b6f884b`). WER/CER en %, IC 95 % par bootstrap sur les énoncés (B=2000, graine 20261018). Niveau principal : **`notone`** (voir `scripts/evaluation/normalize.py`). Découpage : `split_v0` (proposition PHASE1_READINESS §3). Énoncés exclus retirés partout.
+Généré le 2026-10-27 13:46 UTC par `scripts/evaluation/evaluate.py` (commit `da3dd12`). WER/CER en %, IC 95 % par bootstrap sur les énoncés (B=2000, graine 20261018). Niveau principal : **`notone`** (voir `scripts/evaluation/normalize.py`). Découpage : `split_v0` (proposition PHASE1_READINESS §3). Énoncés exclus retirés partout.
 
 Niveaux : `raw` et `flat` = diagnostic ; `skel` = **test de sensibilité uniquement** (volontairement trop indulgent, borne haute de la part due à l'orthographe ; jamais une métrique principale). **CER sans espaces** : CER calculé après suppression des espaces (le découpage en mots est ignoré). **Entièrement justes** : % d'énoncés dont l'hypothèse sans espaces est identique à la référence sans espaces (pour Zenodo, % de nombres reconnus en entier).
 
