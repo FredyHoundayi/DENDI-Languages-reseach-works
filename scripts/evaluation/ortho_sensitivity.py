@@ -7,15 +7,13 @@ length) and is NOT a metric for the paper's main table.
 
   notone  primary level (scripts/evaluation/normalize.py)
   flat    normalize.py's flat level
-  skel    flat + ay/ey/oy/uy -> ai/ei/oi/ui, kp -> kw, ŋm -> ŋ, ch/c -> k, repeated letters collapsed
-          (vowel length, gemination). Conventions seen in substitutions/<model>__<corpus>.csv.
+  skel    normalize.py's skel level (defined there since the review was integrated)
 
 For each level: WER, CER with spaces removed (word segmentation ignored), and the share of
 utterances whose space-free hypothesis equals the space-free reference ("exact").
 Writes results/evaluation/ortho_sensitivity.csv.  Run from the project root:
   python3 scripts/evaluation/ortho_sensitivity.py
 """
-import re
 import sys
 from pathlib import Path
 
@@ -30,14 +28,7 @@ MODELS = ["mms-1b-all-ddn", "omniASR_LLM_7B_v2", "omniASR_CTC_1B_v2", "whisper-l
 SUBSETS = {"zenodo": "test", "pangloss": "test"}
 
 
-def skeleton(text: str) -> str:
-    t = normalize(text, "flat")
-    t = re.sub(r"([aeiou])y", r"\1i", t)
-    t = t.replace("kp", "kw").replace("ŋm", "ŋ").replace("ch", "c").replace("c", "k")
-    return re.sub(r"(.)\1+", r"\1", t)
-
-
-LEVELS = {"notone": lambda t: normalize(t, "notone"), "flat": lambda t: normalize(t, "flat"), "skel": skeleton}
+LEVELS = {name: (lambda t, name=name: normalize(t, name)) for name in ("notone", "flat", "skel")}
 
 
 def main():

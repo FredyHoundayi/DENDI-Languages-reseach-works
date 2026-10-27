@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Independent check of the WER/CER in results/evaluation/summary.csv.
+"""Independent check of the WER, CER, space-free CER and exact-match rate in results/evaluation/summary.csv.
 
 Recomputes every corpus-level score from the raw prediction CSVs with a separate
 Levenshtein implementation (no jiwer) and the shared normaliser, then compares.
@@ -40,13 +40,18 @@ def main():
             we = [edit_distance(r.split(), h.split()) for r, h in zip(refs, hyps)]
             ce = [edit_distance(r, h) for r, h in zip(refs, hyps)]
             nw, nc = refs.str.split().str.len(), refs.str.len()
+            refs_ns, hyps_ns = refs.str.replace(" ", ""), hyps.str.replace(" ", "")
+            cne = [edit_distance(r, h) for r, h in zip(refs_ns, hyps_ns)]
+            exact = (refs_ns == hyps_ns).to_numpy(float)
             for subset in summary[(summary.corpus == corpus)].subset.unique():
                 m = (d.split_v0 == subset).to_numpy() if subset != "all" else slice(None)
                 wer = pd.Series(we)[m].sum() / nw.to_numpy()[m].sum()
                 cer = pd.Series(ce)[m].sum() / nc.to_numpy()[m].sum()
+                cern = pd.Series(cne)[m].sum() / refs_ns.str.len().to_numpy()[m].sum()
+                ex = exact[m].mean()
                 row = summary[(summary.model == model) & (summary.corpus == corpus) &
                               (summary.subset == subset) & (summary.level == lvl)].iloc[0]
-                diff = max(abs(wer - row.WER), abs(cer - row.CER))
+                diff = max(abs(wer - row.WER), abs(cer - row.CER), abs(cern - row.CER_nospace), abs(ex - row.EXACT))
                 worst = max(worst, diff)
                 flag = "OK " if diff < 1e-9 else "DIFF"
                 if flag != "OK ":

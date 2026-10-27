@@ -46,10 +46,15 @@ MODEL_ORDER = ["whisper-large-v3", "whisper-large-v3-turbo", "mms-1b-all-ddn",
 def score_pair(ref: str, hyp: str):
     w = jiwer.process_words(ref, hyp)
     c = jiwer.process_characters(ref, hyp)
+    # word segmentation ignored: CER on space-free strings, and exact match of the whole utterance
+    ref_ns, hyp_ns = ref.replace(" ", ""), hyp.replace(" ", "")
+    cn = jiwer.process_characters(ref_ns, hyp_ns)
     return dict(n_ref_w=len(w.references[0]), n_hyp_w=len(w.hypotheses[0]),
                 S=w.substitutions, D=w.deletions, I=w.insertions, H=w.hits,
                 n_ref_c=len(c.references[0]),
-                cS=c.substitutions, cD=c.deletions, cI=c.insertions), w
+                cS=c.substitutions, cD=c.deletions, cI=c.insertions,
+                n_ref_cn=len(ref_ns), cnE=cn.substitutions + cn.deletions + cn.insertions,
+                exact=ref_ns == hyp_ns), w
 
 
 def non_latin(text: str) -> bool:
@@ -152,9 +157,13 @@ def summarize(df, corpus, subset, prefix, level_name):
     nw, nc = s[f"{p}n_ref_w"].to_numpy(float), s[f"{p}n_ref_c"].to_numpy(float)
     wer, wlo, whi = rate_ci(werr, nw, idx)
     cer, clo, chi = rate_ci(cerr, nc, idx)
+    cern, cnlo, cnhi = rate_ci(s[f"{p}cnE"].to_numpy(float), s[f"{p}n_ref_cn"].to_numpy(float), idx)
+    ex, exlo, exhi = rate_ci(s[f"{p}exact"].to_numpy(float), np.ones(len(s)), idx)
     uw = werr / nw
     return dict(level=level_name, n_utts=len(s), n_ref_words=int(nw.sum()), n_ref_chars=int(nc.sum()),
                 WER=wer, WER_lo=wlo, WER_hi=whi, CER=cer, CER_lo=clo, CER_hi=chi,
+                CER_nospace=cern, CER_nospace_lo=cnlo, CER_nospace_hi=cnhi,
+                EXACT=ex, EXACT_lo=exlo, EXACT_hi=exhi,
                 S=int(s[f"{p}S"].sum()), D=int(s[f"{p}D"].sum()), I=int(s[f"{p}I"].sum()), H=int(s[f"{p}H"].sum()),
                 sub_rate=s[f"{p}S"].sum() / nw.sum(), del_rate=s[f"{p}D"].sum() / nw.sum(),
                 ins_rate=s[f"{p}I"].sum() / nw.sum(),
@@ -173,7 +182,8 @@ def pairwise(scored, corpus, subset):
         p = f"{PRIMARY}_"
         base[mname] = dict(ids=s.utt_id.to_numpy(),
                            we=(s[p + "S"] + s[p + "D"] + s[p + "I"]).to_numpy(float), nw=s[p + "n_ref_w"].to_numpy(float),
-                           ce=(s[p + "cS"] + s[p + "cD"] + s[p + "cI"]).to_numpy(float), nc=s[p + "n_ref_c"].to_numpy(float))
+                           ce=(s[p + "cS"] + s[p + "cD"] + s[p + "cI"]).to_numpy(float), nc=s[p + "n_ref_c"].to_numpy(float),
+                           ex=s[p + "exact"].to_numpy(float), one=np.ones(len(s)))
     if not base:
         return out
     n = len(next(iter(base.values()))["ids"])
@@ -182,7 +192,7 @@ def pairwise(scored, corpus, subset):
         for b in models[i + 1:]:
             A, Bm = base[a], base[b]
             assert (A["ids"] == Bm["ids"]).all()
-            for metric, e, d in (("WER", "we", "nw"), ("CER", "ce", "nc")):
+            for metric, e, d in (("WER", "we", "nw"), ("CER", "ce", "nc"), ("EXACT", "ex", "one")):
                 da = A[e][idx].sum(1) / A[d][idx].sum(1)
                 db = Bm[e][idx].sum(1) / Bm[d][idx].sum(1)
                 diff = da - db
@@ -225,7 +235,12 @@ def write_report(summary, pw, diag, meta):
          f"Généré le {meta['generated_utc']} par `scripts/evaluation/evaluate.py` (commit `{meta['git_commit']}`). "
          f"WER/CER en %, IC 95 % par bootstrap sur les énoncés (B={B}, graine {SEED}). "
          f"Niveau principal : **`{PRIMARY}`** (voir `scripts/evaluation/normalize.py`). "
-         f"Découpage : `split_v0` (proposition PHASE1_READINESS §3). Énoncés exclus retirés partout.\n"]
+         f"Découpage : `split_v0` (proposition PHASE1_READINESS §3). Énoncés exclus retirés partout.\n",
+         "Niveaux : `raw` et `flat` = diagnostic ; `skel` = **test de sensibilité uniquement** (volontairement trop "
+         "indulgent, borne haute de la part due à l'orthographe ; jamais une métrique principale). "
+         "**CER sans espaces** : CER calculé après suppression des espaces (le découpage en mots est ignoré). "
+         "**Entièrement justes** : % d'énoncés dont l'hypothèse sans espaces est identique à la référence sans espaces "
+         "(pour Zenodo, % de nombres reconnus en entier).\n"]
     corp_name = {"zenodo": "Zenodo — nombres (2 locuteurs)", "pangloss": "Pangloss — contes 1968"}
     for corpus in SUBSETS:
         S = summary[summary.corpus == corpus]
@@ -238,21 +253,23 @@ def write_report(summary, pw, diag, meta):
                 continue
             n = T.iloc[0]
             L.append(f"\n### Sous-ensemble `{subset}` — {n.n_utts} énoncés, {n.n_ref_words} mots de référence\n")
-            L.append("| Modèle | WER | CER | Sub | Del | Ins | WER médian / énoncé | Énoncés WER=0 | Énoncés WER≥100 |")
-            L.append("|---|---|---|---|---|---|---|---|---|")
+            L.append("| Modèle | WER | CER | CER sans espaces | Entièrement justes | Sub | Del | Ins | WER médian / énoncé | Énoncés WER≥100 |")
+            L.append("|---|---|---|---|---|---|---|---|---|---|")
             for r in T.sort_values("WER").itertuples():
                 r = r._asdict()
-                L.append(f"| {r['model']} | {ci(r, 'WER')} | {ci(r, 'CER')} | {pct(r['sub_rate'])} | {pct(r['del_rate'])} | "
-                         f"{pct(r['ins_rate'])} | {pct(r['utt_WER_median'])} | {pct(r['pct_utts_WER0'])} | {pct(r['pct_utts_WER_ge1'])} |")
-        L.append(f"\n#### Effet de la normalisation (`all`) — WER / CER\n")
-        L.append("| Modèle | " + " | ".join(f"{lv} WER | {lv} CER" for lv in LEVELS) + " |")
-        L.append("|---|" + "---|" * (2 * len(LEVELS)))
+                L.append(f"| {r['model']} | {ci(r, 'WER')} | {ci(r, 'CER')} | {ci(r, 'CER_nospace')} | {ci(r, 'EXACT')} | "
+                         f"{pct(r['sub_rate'])} | {pct(r['del_rate'])} | "
+                         f"{pct(r['ins_rate'])} | {pct(r['utt_WER_median'])} | {pct(r['pct_utts_WER_ge1'])} |")
+        L.append(f"\n#### Effet de la normalisation (`test`) — WER / CER sans espaces / entièrement justes\n")
+        L.append("| Modèle | " + " | ".join(f"`{lv}`" for lv in LEVELS) + " |")
+        L.append("|---|" + "---|" * len(LEVELS))
         A = S[S.subset == "all"]
-        for mname in A.model.unique():
+        TT = S[S.subset == "test"]
+        for mname in TT[TT.level == PRIMARY].sort_values("WER").model:
             cells = []
             for lv in LEVELS:
-                r = A[(A.model == mname) & (A.level == lv)].iloc[0]
-                cells += [pct(r.WER), pct(r.CER)]
+                r = TT[(TT.model == mname) & (TT.level == lv)].iloc[0]
+                cells.append(f"{pct(r.WER)} / {pct(r.CER_nospace)} / {pct(r.EXACT)}")
             L.append(f"| {mname} | " + " | ".join(cells) + " |")
         if corpus == "pangloss":
             BC = S[(S.level == "notone+backchannels") & (S.subset == "all")]
@@ -274,9 +291,16 @@ def write_report(summary, pw, diag, meta):
     for r in pw[(pw.metric == "WER") & (pw.subset == "test")].itertuples():
         L.append(f"| {r.corpus} | {r.model_a} | {r.model_b} | {pct(r.diff_a_minus_b)}{' ✱' if r.significant_95 else ''} | "
                  f"[{pct(r.ci_lo)}, {pct(r.ci_hi)}] | {r.p_bootstrap:.3f} |")
+    L.append(f"\n### Zenodo : nombres entièrement justes (`{PRIMARY}`, sous-ensemble `test`)\n")
+    L.append("Différence A − B en points de % de nombres reconnus en entier.\n")
+    L.append("| A | B | Δ entièrement justes | IC 95 % | p |\n|---|---|---|---|---|")
+    for r in pw[(pw.metric == "EXACT") & (pw.subset == "test") & (pw.corpus == "zenodo")].itertuples():
+        L.append(f"| {r.model_a} | {r.model_b} | {pct(r.diff_a_minus_b)}{' ✱' if r.significant_95 else ''} | "
+                 f"[{pct(r.ci_lo)}, {pct(r.ci_hi)}] | {r.p_bootstrap:.3f} |")
     L.append("\n## Fichiers\n")
     L.append("- `summary.csv` : toutes les métriques (modèle × corpus × sous-ensemble × niveau).\n"
-             "- `pairwise.csv` : comparaisons appariées (WER et CER, `all` et `test`).\n"
+             "- `pairwise.csv` : comparaisons appariées (WER, CER et entièrement justes, `all` et `test`).\n"
+             "- `ortho_sensitivity.csv` : sensibilité à l'orthographe (`notone` / `flat` / `skel`), revue du 24 octobre.\n"
              "- `diagnostics.csv` : hallucinations, écriture, longueur, langues, efficacité.\n"
              "- `per_utterance/<modèle>__<corpus>.csv` : chaque énoncé, références et hypothèses normalisées, S/D/I par niveau.\n"
              "- `alignments/<modèle>__<corpus>.txt` : alignement mot à mot (`notone`) de chaque énoncé.\n"

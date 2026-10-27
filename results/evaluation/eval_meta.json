@@ -1,11 +1,12 @@
 {
-  "generated_utc": "2026-10-18 17:47 UTC",
-  "git_commit": "e731efd",
+  "generated_utc": "2026-10-27 13:33 UTC",
+  "git_commit": "b6f884b",
   "primary_level": "notone",
   "levels": [
     "raw",
     "notone",
-    "flat"
+    "flat",
+    "skel"
   ],
   "bootstrap_samples": 2000,
   "seed": 20261018,
