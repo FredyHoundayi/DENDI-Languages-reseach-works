@@ -1,777 +1,777 @@
-### zen_M_100022_ddn_697_elicit_0  [train]  WER=1.00
-REF: afɔ ***
-HYP: afɔ afɔ
-           I
+### zen_M_100022_ddn_697_elicit_0  [train]  WER=2.00
+REF: *** afɔ́
+HYP: afɔ  afɔ
+       I    S
 
-### zen_M_100022_ddn_697_elicit_1  [train]  WER=1.00
-REF: ahinka ******
-HYP: ahinka ahinka
-                 I
+### zen_M_100022_ddn_697_elicit_1  [train]  WER=2.00
+REF: ****** ahinka
+HYP: ahinkɑ ahinkɑ
+          I      S
 
 ### zen_M_100022_ddn_697_elicit_10  [train]  WER=1.00
-REF:  awei cindi fɔ
-HYP: aweki    ni fo
-         S     S  S
+REF:  awei cindi fɔ́
+HYP: aweki    ni  fo
+         S     S   S
 
-### zen_M_100022_ddn_697_elicit_100  [train]  WER=0.75
-REF: zangu fɔ nda afɔ
-HYP:  zong fɔ  na  fɔ
-         S      S   S
+### zen_M_100022_ddn_697_elicit_100  [train]  WER=1.00
+REF: zangu fɔ́ nda afɔ́
+HYP:  zong  fɔ  nɑ   fɔ
+         S   S   S    S
 
-### zen_M_100022_ddn_697_elicit_101  [train]  WER=0.75
-REF: zangu fɔ ** nda ihinka
-HYP: zangu fɔ na   a  hinka
-               I   S      S
+### zen_M_100022_ddn_697_elicit_101  [train]  WER=1.25
+REF: ***** zangu fɔ́ nda ihinka
+HYP: zɑngu    fɔ  nɑ  ɑ̀  hinkɑ
+         I     S   S   S      S
 
-### zen_M_100022_ddn_697_elicit_102  [train]  WER=0.50
-REF: zangu fɔ nda ihinza
-HYP: zangu fɔ  na  hinza
-                S      S
+### zen_M_100022_ddn_697_elicit_102  [train]  WER=1.00
+REF: zangu fɔ́ nda ihinza
+HYP: zɑngu  fɔ  nɑ  hinzɑ
+         S   S   S      S
 
-### zen_M_100022_ddn_697_elicit_103  [train]  WER=1.50
-REF: zangu fɔ ** ****** ***** ** nda itaaci
-HYP: zangu fɔ na itaaki zangu fɔ  na itaaki
-               I      I     I  I   S      S
+### zen_M_100022_ddn_697_elicit_103  [train]  WER=2.00
+REF: ***** ** ** ****** zangu fɔ́ nda itaaci
+HYP: zɑngu fɔ nɑ itɑɑki zɑngu  fɔ  nɑ itɑɑki
+         I  I  I      I     S   S   S      S
 
 ### zen_M_100022_ddn_697_elicit_104  [train]  WER=1.00
-REF: zangu      fɔ   nda    iguu
+REF: zangu     fɔ́   nda    iguu
 HYP: zongu fonangu zongu fonangu
          S       S     S       S
 
-### zen_M_100022_ddn_697_elicit_105  [train]  WER=0.75
-REF: zangu fɔ nda iddu
-HYP: zangu fa  na  idu
-            S   S    S
+### zen_M_100022_ddn_697_elicit_105  [train]  WER=1.00
+REF: zangu fɔ́ nda iddu
+HYP: zɑngu  fɑ  nɑ  idu
+         S   S   S    S
 
-### zen_M_100022_ddn_697_elicit_106  [train]  WER=1.50
-REF: zangu fɔ ** *** ***** ** nda iyye
-HYP: zangu fɔ na iye zangu fɔ  na  iye
-               I   I     I  I   S    S
+### zen_M_100022_ddn_697_elicit_106  [train]  WER=2.00
+REF: ***** ** ** *** zangu fɔ́ nda iyye
+HYP: zɑngu fɔ nɑ iye zɑngu  fɔ  nɑ  iye
+         I  I  I   I     S   S   S    S
 
-### zen_M_100022_ddn_697_elicit_107  [train]  WER=1.00
-REF: zangu fɔ ** nda ihaaku
-HYP: zongu fɔ na iya     ku
-         S     I   S      S
+### zen_M_100022_ddn_697_elicit_107  [train]  WER=1.25
+REF: ***** zangu fɔ́ nda ihaaku
+HYP: zongu    fɔ  nɑ iyɑ     ku
+         I     S   S   S      S
 
-### zen_M_100022_ddn_697_elicit_108  [train]  WER=1.00
-REF: zangu fɔ ** ** nda aiga
-HYP: zangu fɔ no ya  yi  gaa
-               I  I   S    S
+### zen_M_100022_ddn_697_elicit_108  [train]  WER=1.50
+REF: ***** ** zangu fɔ́ nda aiga
+HYP: zɑngu fɔ    no  yɑ  yi  gɑɑ
+         I  I     S   S   S    S
 
-### zen_M_100022_ddn_697_elicit_109  [train]  WER=1.00
-REF: zangu fɔ ** nda iwei
-HYP: zongu fɔ na   a  wei
-         S     I   S    S
+### zen_M_100022_ddn_697_elicit_109  [train]  WER=1.25
+REF: ***** zangu fɔ́ nda iwei
+HYP: zongu    fɔ  nɑ  ɑ̀  wei
+         I     S   S   S    S
 
 ### zen_M_100022_ddn_697_elicit_11  [train]  WER=1.00
 REF: awei     cindi hinka
-HYP:  awe kinihinka *****
+HYP:  awe kinihinkɑ *****
         S         S     D
 
-### zen_M_100022_ddn_697_elicit_110  [train]  WER=0.50
-REF: zangu fɔ nda   iwei cindi fɔ
-HYP: zangu fɔ  na iweiki    ni fɔ
-                S      S     S
+### zen_M_100022_ddn_697_elicit_110  [train]  WER=1.00
+REF: zangu fɔ́ nda   iwei cindi fɔ́
+HYP: zɑngu  fɔ  nɑ iweiki    ni  fɔ
+         S   S   S      S     S   S
 
-### zen_M_100022_ddn_697_elicit_111  [train]  WER=0.67
-REF: zangu fɔ nda   iwei cindi hinka
-HYP: zangu fɔ  no iweiki    ni   nka
-                S      S     S     S
+### zen_M_100022_ddn_697_elicit_111  [train]  WER=1.00
+REF: zangu fɔ́ nda   iwei cindi hinka
+HYP: zɑngu  fɔ  no iweiki    ni   nkɑ
+         S   S   S      S     S     S
 
-### zen_M_100022_ddn_697_elicit_112  [train]  WER=0.67
-REF: zangu fɔ nda iwei   cindi hinza
-HYP: zangu fɔ  no  iwe kiniiza *****
-                S    S       S     D
+### zen_M_100022_ddn_697_elicit_112  [train]  WER=1.00
+REF: zangu fɔ́ nda iwei   cindi hinza
+HYP: zɑngu  fɔ  no  iwe kiniizɑ *****
+         S   S   S    S       S     D
 
-### zen_M_100022_ddn_697_elicit_113  [train]  WER=0.67
-REF: zangu fɔ nda  iwei cindi taaci
-HYP: zangu fɔ  no iweki    ni  taki
-                S     S     S     S
+### zen_M_100022_ddn_697_elicit_113  [train]  WER=1.00
+REF: zangu fɔ́ nda  iwei cindi taaci
+HYP: zɑngu  fɔ  no iweki    ni  tɑki
+         S   S   S     S     S     S
 
-### zen_M_100022_ddn_697_elicit_114  [train]  WER=0.67
-REF: zangu fɔ nda iwei cindi guu
-HYP: zangu fɔ  no  iwe kinni  gu
-                S    S     S   S
+### zen_M_100022_ddn_697_elicit_114  [train]  WER=1.00
+REF: zangu fɔ́ nda iwei cindi guu
+HYP: zɑngu  fɔ  no  iwe kinni  gu
+         S   S   S    S     S   S
 
-### zen_M_100022_ddn_697_elicit_115  [train]  WER=0.67
-REF: zangu fɔ nda iwei cindi iddu
-HYP: zangu fɔ  no  iwe kinni   du
-                S    S     S    S
+### zen_M_100022_ddn_697_elicit_115  [train]  WER=1.00
+REF: zangu fɔ́ nda iwei cindi iddu
+HYP: zɑngu  fɔ  no  iwe kinni   du
+         S   S   S    S     S    S
 
-### zen_M_100022_ddn_697_elicit_116  [train]  WER=0.67
-REF: zangu fɔ nda   iwei cindi iyye
-HYP: zangu fɔ  no iweiki    ni   ye
-                S      S     S    S
+### zen_M_100022_ddn_697_elicit_116  [train]  WER=1.00
+REF: zangu fɔ́ nda   iwei cindi iyye
+HYP: zɑngu  fɔ  no iweiki    ni   ye
+         S   S   S      S     S    S
 
-### zen_M_100022_ddn_697_elicit_117  [train]  WER=0.83
-REF: zangu fɔ ** nda  iwei cindi haaku
-HYP: zangu fɔ no iwe kinii    ya   kpe
-               I   S     S     S     S
+### zen_M_100022_ddn_697_elicit_117  [train]  WER=1.17
+REF: ***** zangu fɔ́ nda  iwei cindi haaku
+HYP: zɑngu    fɔ  no iwe kinii    yɑ   kpe
+         I     S   S   S     S     S     S
 
-### zen_M_100022_ddn_697_elicit_118  [train]  WER=0.67
-REF: zangu fɔ nda iwei  cindi ɛga
-HYP: zangu fɔ  no  iwe giniga ***
-                S    S      S   D
+### zen_M_100022_ddn_697_elicit_118  [train]  WER=1.00
+REF: zangu fɔ́ nda iwei  cindi ɛga
+HYP: zɑngu  fɔ  no  iwe ginigɑ ***
+         S   S   S    S      S   D
 
-### zen_M_100022_ddn_697_elicit_119  [train]  WER=0.75
-REF: zangu fɔ **  nda waranka
-HYP: zangu fɔ na wara     nka
-               I    S       S
+### zen_M_100022_ddn_697_elicit_119  [train]  WER=1.25
+REF: ***** zangu fɔ́  nda waranka
+HYP: zɑngu    fɔ  nɑ wɑrɑ     nkɑ
+         I     S   S    S       S
 
 ### zen_M_100022_ddn_697_elicit_12  [train]  WER=1.00
 REF: awei     cindi hinza
-HYP:  awe kinihinza *****
+HYP:  awe kinihinzɑ *****
         S         S     D
 
-### zen_M_100022_ddn_697_elicit_120  [train]  WER=0.67
-REF: zangu fɔ **  nda waranka cindi fɔ
-HYP: zangu fɔ na wara   nkaki    ni fɔ
-               I    S       S     S
+### zen_M_100022_ddn_697_elicit_120  [train]  WER=1.17
+REF: ***** zangu fɔ́  nda waranka cindi fɔ́
+HYP: zɑngu    fɔ  nɑ wɑrɑ   nkɑki    ni  fɔ
+         I     S   S    S       S     S   S
 
-### zen_M_100022_ddn_697_elicit_121  [train]  WER=0.83
-REF: zangu fɔ **  nda waranka cindi hinka
-HYP: zangu fɔ na wara     nka    ki ninka
-               I    S       S     S     S
+### zen_M_100022_ddn_697_elicit_121  [train]  WER=1.17
+REF: ***** zangu fɔ́  nda waranka cindi hinka
+HYP: zɑngu    fɔ  nɑ wɑrɑ     nkɑ    ki ninkɑ
+         I     S   S    S       S     S     S
 
-### zen_M_100022_ddn_697_elicit_122  [train]  WER=0.50
-REF: zangu fɔ nda   waranka cindi hinza
-HYP: zangu fɔ  na warankaki    ni hinza
-                S         S     S
+### zen_M_100022_ddn_697_elicit_122  [train]  WER=1.00
+REF: zangu fɔ́ nda   waranka cindi hinza
+HYP: zɑngu  fɔ  nɑ wɑrɑnkɑki    ni hinzɑ
+         S   S   S         S     S     S
 
-### zen_M_100022_ddn_697_elicit_123  [train]  WER=1.67
-REF: zangu fɔ ** **** ***** ******* ***** ** nda waranka cindi   taaci
-HYP: zangu fɔ na wɔrɛ nkaki nitaaki zangu fɔ  na    wɔrɛ nkaki nitaaki
-               I    I     I       I     I  I   S       S     S       S
+### zen_M_100022_ddn_697_elicit_123  [train]  WER=2.00
+REF: ***** ** ** **** ***** ******* zangu fɔ́ nda waranka cindi   taaci
+HYP: zɑngu fɔ nɑ wɔrɛ nkɑki nitɑɑki zɑngu  fɔ  nɑ    wɔrɛ nkɑki nitɑɑki
+         I  I  I    I     I       I     S   S   S       S     S       S
 
-### zen_M_100022_ddn_697_elicit_124  [train]  WER=0.83
-REF: zangu fɔ **  nda waranka cindi guu
-HYP: zangu fɔ na wara     nka kinni  gu
-               I    S       S     S   S
+### zen_M_100022_ddn_697_elicit_124  [train]  WER=1.17
+REF: ***** zangu fɔ́  nda waranka cindi guu
+HYP: zɑngu    fɔ  nɑ wɑrɑ     nkɑ kinni  gu
+         I     S   S    S       S     S   S
 
-### zen_M_100022_ddn_697_elicit_125  [train]  WER=0.50
-REF: zangu fɔ nda waranka   cindi iddu
-HYP: zangu fɔ  no waranka kinnidu ****
-                S               S    D
+### zen_M_100022_ddn_697_elicit_125  [train]  WER=1.00
+REF: zangu fɔ́ nda waranka   cindi iddu
+HYP: zɑngu  fɔ  no wɑrɑnkɑ kinnidu ****
+         S   S   S       S       S    D
 
-### zen_M_100022_ddn_697_elicit_126  [train]  WER=1.00
-REF: zangu fɔ ** **** nda waranka cindi iyye
-HYP: zangu fɔ na wara nka      ki   nii   ye
-               I    I   S       S     S    S
+### zen_M_100022_ddn_697_elicit_126  [train]  WER=1.33
+REF: ***** ** zangu  fɔ́ nda waranka cindi iyye
+HYP: zɑngu fɔ    nɑ wɑrɑ nkɑ      ki   nii   ye
+         I  I     S    S   S       S     S    S
 
-### zen_M_100022_ddn_697_elicit_127  [train]  WER=0.83
-REF: zangu fɔ nda waranka ** ** cindi haaku
-HYP: zangu fɔ  na waranka ki ni   iya    ko
-                S          I  I     S     S
+### zen_M_100022_ddn_697_elicit_127  [train]  WER=1.33
+REF: ***** ** zangu     fɔ́ nda waranka cindi haaku
+HYP: zɑngu fɔ    nɑ wɑrɑnkɑ  ki      ni   iyɑ    ko
+         I  I     S       S   S       S     S     S
 
-### zen_M_100022_ddn_697_elicit_128  [train]  WER=0.67
-REF: zangu fɔ nda waranka cindi    ɛga
-HYP: zangu fɔ  na    wara   nka kiniga
-                S       S     S      S
+### zen_M_100022_ddn_697_elicit_128  [train]  WER=1.00
+REF: zangu fɔ́ nda waranka cindi    ɛga
+HYP: zɑngu  fɔ  nɑ    wɑrɑ   nkɑ kinigɑ
+         S   S   S       S     S      S
 
-### zen_M_100022_ddn_697_elicit_129  [train]  WER=0.75
-REF: zangu fɔ **  nda waranza
-HYP: zangu fɔ na wara     nza
-               I    S       S
+### zen_M_100022_ddn_697_elicit_129  [train]  WER=1.25
+REF: ***** zangu fɔ́  nda waranza
+HYP: zɑngu    fɔ  nɑ wɑrɑ     nzɑ
+         I     S   S    S       S
 
 ### zen_M_100022_ddn_697_elicit_13  [train]  WER=2.00
 REF: ***** ** *****  awei cindi taaci
-HYP: aweki ni taaki aweki    ni taaki
+HYP: aweki ni tɑɑki aweki    ni tɑɑki
          I  I     I     S     S     S
 
-### zen_M_100022_ddn_697_elicit_130  [train]  WER=0.67
-REF: zangu fɔ **  nda waranza cindi fɔ
-HYP: zangu fɔ na wara     nza kinni fɔ
-               I    S       S     S
+### zen_M_100022_ddn_697_elicit_130  [train]  WER=1.17
+REF: ***** zangu fɔ́  nda waranza cindi fɔ́
+HYP: zɑngu    fɔ  nɑ wɑrɑ     nzɑ kinni  fɔ
+         I     S   S    S       S     S   S
 
-### zen_M_100022_ddn_697_elicit_131  [train]  WER=0.67
-REF: zangu fɔ nda waranza cindi   hinka
-HYP: zangu fɔ  na    wara   nza kininka
-                S       S     S       S
+### zen_M_100022_ddn_697_elicit_131  [train]  WER=1.00
+REF: zangu fɔ́ nda waranza cindi   hinka
+HYP: zɑngu  fɔ  nɑ    wɑrɑ   nzɑ kininkɑ
+         S   S   S       S     S       S
 
-### zen_M_100022_ddn_697_elicit_132  [train]  WER=0.67
-REF: zangu fɔ nda waranza cindi   hinza
-HYP: zangu fɔ  na    wɔrɔ    za kiniiza
-                S       S     S       S
+### zen_M_100022_ddn_697_elicit_132  [train]  WER=1.00
+REF: zangu fɔ́ nda waranza cindi   hinza
+HYP: zɑngu  fɔ  nɑ    wɔrɔ    zɑ kiniizɑ
+         S   S   S       S     S       S
 
-### zen_M_100022_ddn_697_elicit_133  [train]  WER=0.50
-REF: zangu fɔ nda waranza cindi taaci
-HYP: zangu fɔ  na waranza kinne taaki
-                S             S     S
+### zen_M_100022_ddn_697_elicit_133  [train]  WER=1.00
+REF: zangu fɔ́ nda waranza cindi taaci
+HYP: zɑngu  fɔ  nɑ wɑrɑnzɑ kinne tɑɑki
+         S   S   S       S     S     S
 
-### zen_M_100022_ddn_697_elicit_134  [train]  WER=0.50
-REF: zangu fɔ nda waranza  cindi guu
-HYP: zangu fɔ  na waranza kinigu ***
-                S              S   D
+### zen_M_100022_ddn_697_elicit_134  [train]  WER=1.00
+REF: zangu fɔ́ nda waranza  cindi guu
+HYP: zɑngu  fɔ  nɑ wɑrɑnzɑ kinigu ***
+         S   S   S       S      S   D
 
-### zen_M_100022_ddn_697_elicit_135  [train]  WER=0.50
-REF: zangu fɔ nda waranza cindi iddu
-HYP: zangu fɔ  na waranza kinne   du
-                S             S    S
+### zen_M_100022_ddn_697_elicit_135  [train]  WER=1.00
+REF: zangu fɔ́ nda waranza cindi iddu
+HYP: zɑngu  fɔ  nɑ wɑrɑnzɑ kinne   du
+         S   S   S       S     S    S
 
-### zen_M_100022_ddn_697_elicit_136  [train]  WER=0.50
-REF: zangu fɔ nda waranza cindi iyye
-HYP: zangu fɔ  no waranza kinii   ye
-                S             S    S
+### zen_M_100022_ddn_697_elicit_136  [train]  WER=1.00
+REF: zangu fɔ́ nda waranza cindi iyye
+HYP: zɑngu  fɔ  no wɑrɑnzɑ kinii   ye
+         S   S   S       S     S    S
 
-### zen_M_100022_ddn_697_elicit_137  [train]  WER=0.67
-REF: zangu fɔ nda waranza ** cindi haaku
-HYP: zangu fɔ  na waranza ki  niya    ku
-                S          I     S     S
+### zen_M_100022_ddn_697_elicit_137  [train]  WER=1.17
+REF: ***** zangu fɔ́     nda waranza cindi haaku
+HYP: zɑngu    fɔ  nɑ wɑrɑnzɑ      ki  niyɑ    ku
+         I     S   S       S       S     S     S
 
-### zen_M_100022_ddn_697_elicit_138  [train]  WER=0.50
-REF: zangu fɔ nda waranza  cindi ɛga
-HYP: zangu fɔ  na waranza kiniga ***
-                S              S   D
+### zen_M_100022_ddn_697_elicit_138  [train]  WER=1.00
+REF: zangu fɔ́ nda waranza  cindi ɛga
+HYP: zɑngu  fɔ  nɑ wɑrɑnzɑ kinigɑ ***
+         S   S   S       S      S   D
 
-### zen_M_100022_ddn_697_elicit_139  [train]  WER=0.50
-REF: zangu fɔ nda weitaaci
-HYP: zangu fɔ  na  wetaaki
-                S        S
+### zen_M_100022_ddn_697_elicit_139  [train]  WER=1.00
+REF: zangu fɔ́ nda weitaaci
+HYP: zɑngu  fɔ  nɑ  wetɑɑki
+         S   S   S        S
 
 ### zen_M_100022_ddn_697_elicit_14  [train]  WER=2.00
 REF: ***** ** **  awei cindi guu
 HYP: aweki ni gu aweki    ni  gu
          I  I  I     S     S   S
 
-### zen_M_100022_ddn_697_elicit_140  [train]  WER=0.67
-REF: zangu fɔ **   nda weitaaci cindi fɔ
-HYP: zangu fɔ na weita     kiki    ni fɔ
-               I     S        S     S
+### zen_M_100022_ddn_697_elicit_140  [train]  WER=1.17
+REF: ***** zangu fɔ́   nda weitaaci cindi fɔ́
+HYP: zɑngu    fɔ  nɑ weitɑ     kiki    ni  fɔ
+         I     S   S     S        S     S   S
 
-### zen_M_100022_ddn_697_elicit_141  [train]  WER=0.67
-REF: zangu fɔ nda weitaaci    cindi hinka
-HYP: zangu fɔ  na    weita kikinika *****
-                S        S        S     D
+### zen_M_100022_ddn_697_elicit_141  [train]  WER=1.00
+REF: zangu fɔ́ nda weitaaci    cindi hinka
+HYP: zɑngu  fɔ  nɑ    weitɑ kikinikɑ *****
+         S   S   S        S        S     D
 
-### zen_M_100022_ddn_697_elicit_142  [train]  WER=0.67
-REF: zangu fɔ nda weitaaci    cindi hinza
-HYP: zangu fɔ  no    weita kikiniza *****
-                S        S        S     D
+### zen_M_100022_ddn_697_elicit_142  [train]  WER=1.00
+REF: zangu fɔ́ nda weitaaci    cindi hinza
+HYP: zɑngu  fɔ  no    weitɑ kikinizɑ *****
+         S   S   S        S        S     D
 
-### zen_M_100022_ddn_697_elicit_143  [train]  WER=0.83
-REF: zangu fɔ **   nda weitaaci   cindi taaci
-HYP: zangu fɔ na weita       ki kinnita    ki
-               I     S        S       S     S
+### zen_M_100022_ddn_697_elicit_143  [train]  WER=1.17
+REF: ***** zangu fɔ́   nda weitaaci   cindi taaci
+HYP: zɑngu    fɔ  nɑ weitɑ       ki kinnitɑ    ki
+         I     S   S     S        S       S     S
 
-### zen_M_100022_ddn_697_elicit_144  [train]  WER=0.67
-REF: zangu fɔ nda weitaaci    cindi guu
-HYP: zangu fɔ  no    weita kikinigu ***
-                S        S        S   D
+### zen_M_100022_ddn_697_elicit_144  [train]  WER=1.00
+REF: zangu fɔ́ nda weitaaci    cindi guu
+HYP: zɑngu  fɔ  no    weitɑ kikinigu ***
+         S   S   S        S        S   D
 
-### zen_M_100022_ddn_697_elicit_145  [train]  WER=0.67
-REF: zangu fɔ nda weitaaci cindi   iddu
-HYP: zangu fɔ  na    weita    ki kinidu
-                S        S     S      S
+### zen_M_100022_ddn_697_elicit_145  [train]  WER=1.00
+REF: zangu fɔ́ nda weitaaci cindi   iddu
+HYP: zɑngu  fɔ  nɑ    weitɑ    ki kinidu
+         S   S   S        S     S      S
 
-### zen_M_100022_ddn_697_elicit_146  [train]  WER=0.67
-REF: zangu fɔ nda weitaaci  cindi iyye
-HYP: zangu fɔ  na    weita kikini   ye
-                S        S      S    S
+### zen_M_100022_ddn_697_elicit_146  [train]  WER=1.00
+REF: zangu fɔ́ nda weitaaci  cindi iyye
+HYP: zɑngu  fɔ  nɑ    weitɑ kikini   ye
+         S   S   S        S      S    S
 
-### zen_M_100022_ddn_697_elicit_147  [train]  WER=0.67
-REF: zangu fɔ nda weitaaci cindi haaku
-HYP: zangu fɔ  na weitaaki  kini yaaku
-                S        S     S     S
+### zen_M_100022_ddn_697_elicit_147  [train]  WER=1.00
+REF: zangu fɔ́ nda weitaaci cindi  haaku
+HYP: zɑngu  fɔ  nɑ weitɑɑki  kini yɑɑ̀kù
+         S   S   S        S     S      S
 
-### zen_M_100022_ddn_697_elicit_148  [train]  WER=0.67
-REF: zangu fɔ nda weitaaci    cindi ɛga
-HYP: zangu fɔ  no    weita kikiniga ***
-                S        S        S   D
+### zen_M_100022_ddn_697_elicit_148  [train]  WER=1.00
+REF: zangu fɔ́ nda weitaaci    cindi ɛga
+HYP: zɑngu  fɔ  no    weitɑ kikinigɑ ***
+         S   S   S        S        S   D
 
-### zen_M_100022_ddn_697_elicit_149  [train]  WER=0.50
-REF: zangu fɔ nda weiguu
-HYP: zangu fɔ  na   wegu
-                S      S
+### zen_M_100022_ddn_697_elicit_149  [train]  WER=1.00
+REF: zangu fɔ́ nda weiguu
+HYP: zɑngu  fɔ  nɑ   wegu
+         S   S   S      S
 
 ### zen_M_100022_ddn_697_elicit_15  [train]  WER=2.00
 REF: ***** **** ***** awei cindi iddu
 HYP: aweki nidu aweki nidu aweki nidu
          I    I     I    S     S    S
 
-### zen_M_100022_ddn_697_elicit_150  [train]  WER=0.50
-REF: zangu fɔ nda weiguu cindi fɔ
-HYP: zangu fɔ  na   wegu kinni fɔ
-                S      S     S
+### zen_M_100022_ddn_697_elicit_150  [train]  WER=1.00
+REF: zangu fɔ́ nda weiguu cindi fɔ́
+HYP: zɑngu  fɔ  nɑ   wegu kinni  fɔ
+         S   S   S      S     S   S
 
-### zen_M_100022_ddn_697_elicit_151  [train]  WER=0.67
-REF: zangu fɔ nda weiguu     cindi hinka
-HYP: zangu fɔ  no   wegu kinihinka *****
-                S      S         S     D
+### zen_M_100022_ddn_697_elicit_151  [train]  WER=1.00
+REF: zangu fɔ́ nda weiguu     cindi hinka
+HYP: zɑngu  fɔ  no   wegu kinihinkɑ *****
+         S   S   S      S         S     D
 
-### zen_M_100022_ddn_697_elicit_152  [train]  WER=3.00
-REF: zangu fɔ ** **** ****** ***** ** ** **** ****** ***** ** ** **** ****** ***** nda weiguu cindi  hinza
-HYP: zangu fɔ na wegu kinihi zangu fɔ na wegu kinihi zangu fɔ na wegu kinihi zangu  fɔ     na  wegu kinihi
-               I    I      I     I  I  I    I      I     I  I  I    I      I     I   S      S     S      S
+### zen_M_100022_ddn_697_elicit_152  [train]  WER=3.33
+REF: ***** ** ** **** ****** ***** ** ** **** ****** ***** ** ** ****  zangu   fɔ́ nda weiguu cindi  hinza
+HYP: zɑngu fɔ nɑ wegu kinihi zɑngu fɔ nɑ wegu kinihi zɑngu fɔ nɑ wegu kinihi zɑngu  fɔ     nɑ  wegu kinihi
+         I  I  I    I      I     I  I  I    I      I     I  I  I    I      S     S   S      S     S      S
 
-### zen_M_100022_ddn_697_elicit_153  [train]  WER=0.67
-REF: zangu fɔ nda weiguu cindi taaci
-HYP: zangu fɔ  na   wegu kinni taaki
-                S      S     S     S
+### zen_M_100022_ddn_697_elicit_153  [train]  WER=1.00
+REF: zangu fɔ́ nda weiguu cindi taaci
+HYP: zɑngu  fɔ  nɑ   wegu kinni tɑɑki
+         S   S   S      S     S     S
 
-### zen_M_100022_ddn_697_elicit_154  [train]  WER=0.67
-REF: zangu fɔ nda weiguu  cindi guu
-HYP: zangu fɔ  na   wegu kinigu ***
-                S      S      S   D
+### zen_M_100022_ddn_697_elicit_154  [train]  WER=1.00
+REF: zangu fɔ́ nda weiguu  cindi guu
+HYP: zɑngu  fɔ  nɑ   wegu kinigu ***
+         S   S   S      S      S   D
 
-### zen_M_100022_ddn_697_elicit_155  [train]  WER=0.67
-REF: zangu fɔ nda weiguu  cindi iddu
-HYP: zangu fɔ  no   wegu kinidu ****
-                S      S      S    D
+### zen_M_100022_ddn_697_elicit_155  [train]  WER=1.00
+REF: zangu fɔ́ nda weiguu  cindi iddu
+HYP: zɑngu  fɔ  no   wegu kinidu ****
+         S   S   S      S      S    D
 
-### zen_M_100022_ddn_697_elicit_156  [train]  WER=0.67
-REF: zangu fɔ nda weiguu cindi iyye
-HYP: zangu fɔ  no   wegu  kini   ye
-                S      S     S    S
+### zen_M_100022_ddn_697_elicit_156  [train]  WER=1.00
+REF: zangu fɔ́ nda weiguu cindi iyye
+HYP: zɑngu  fɔ  no   wegu  kini   ye
+         S   S   S      S     S    S
 
-### zen_M_100022_ddn_697_elicit_157  [train]  WER=0.83
-REF: zangu fɔ **  nda weiguu cindi haaku
-HYP: zangu fɔ no wegu     ki  niya    ko
-               I    S      S     S     S
+### zen_M_100022_ddn_697_elicit_157  [train]  WER=1.17
+REF: ***** zangu fɔ́  nda weiguu cindi haaku
+HYP: zɑngu    fɔ  no wegu     ki  niyɑ    ko
+         I     S   S    S      S     S     S
 
-### zen_M_100022_ddn_697_elicit_158  [train]  WER=0.67
-REF: zangu fɔ nda weiguu  cindi ɛga
-HYP: zangu fɔ  no   wegu kiniga ***
-                S      S      S   D
+### zen_M_100022_ddn_697_elicit_158  [train]  WER=1.00
+REF: zangu fɔ́ nda weiguu  cindi ɛga
+HYP: zɑngu  fɔ  no   wegu kinigɑ ***
+         S   S   S      S      S   D
 
-### zen_M_100022_ddn_697_elicit_159  [train]  WER=0.50
-REF: zangu fɔ nda weiiddu
-HYP: zangu fɔ  na   weidu
-                S       S
+### zen_M_100022_ddn_697_elicit_159  [train]  WER=1.00
+REF: zangu fɔ́ nda weiiddu
+HYP: zɑngu  fɔ  nɑ   weidu
+         S   S   S       S
 
 ### zen_M_100022_ddn_697_elicit_16  [train]  WER=2.00
 REF: ***** ** **  awei cindi iyye
 HYP: aweki ni ye aweki    ni   ye
          I  I  I     S     S    S
 
-### zen_M_100022_ddn_697_elicit_160  [train]  WER=0.50
-REF: zangu fɔ nda weiiddu cindi fɔ
-HYP: zangu fɔ  no   weidu kinni fɔ
-                S       S     S
+### zen_M_100022_ddn_697_elicit_160  [train]  WER=1.00
+REF: zangu fɔ́ nda weiiddu cindi fɔ́
+HYP: zɑngu  fɔ  no   weidu kinni  fɔ
+         S   S   S       S     S   S
 
-### zen_M_100022_ddn_697_elicit_161  [train]  WER=0.67
-REF: zangu fɔ nda weiiddu   cindi hinka
-HYP: zangu fɔ  no   weidu kininka *****
-                S       S       S     D
+### zen_M_100022_ddn_697_elicit_161  [train]  WER=1.00
+REF: zangu fɔ́ nda weiiddu   cindi hinka
+HYP: zɑngu  fɔ  no   weidu kininkɑ *****
+         S   S   S       S       S     D
 
-### zen_M_100022_ddn_697_elicit_162  [train]  WER=0.67
-REF: zangu fɔ nda weiiddu   cindi hinza
-HYP: zangu fɔ  na   weidu kiniiza *****
-                S       S       S     D
+### zen_M_100022_ddn_697_elicit_162  [train]  WER=1.00
+REF: zangu fɔ́ nda weiiddu   cindi hinza
+HYP: zɑngu  fɔ  nɑ   weidu kiniizɑ *****
+         S   S   S       S       S     D
 
-### zen_M_100022_ddn_697_elicit_163  [train]  WER=0.67
-REF: zangu fɔ nda weiiddu cindi taaci
-HYP: zangu fɔ  na   weidu kinni  taki
-                S       S     S     S
+### zen_M_100022_ddn_697_elicit_163  [train]  WER=1.00
+REF: zangu fɔ́ nda weiiddu cindi taaci
+HYP: zɑngu  fɔ  nɑ   weidu kinni  tɑki
+         S   S   S       S     S     S
 
-### zen_M_100022_ddn_697_elicit_164  [train]  WER=0.67
-REF: zangu fɔ nda weiiddu   cindi guu
-HYP: zangu fɔ  na   weidu kinnigu ***
-                S       S       S   D
+### zen_M_100022_ddn_697_elicit_164  [train]  WER=1.00
+REF: zangu fɔ́ nda weiiddu   cindi guu
+HYP: zɑngu  fɔ  nɑ   weidu kinnigu ***
+         S   S   S       S       S   D
 
-### zen_M_100022_ddn_697_elicit_165  [train]  WER=0.83
-REF: zangu fɔ nda weiiddu  cindi iddu
-HYP: zangu fa  na   weidu kinidu ****
-            S   S       S      S    D
+### zen_M_100022_ddn_697_elicit_165  [train]  WER=1.00
+REF: zangu fɔ́ nda weiiddu  cindi iddu
+HYP: zɑngu  fɑ  nɑ   weidu kinidu ****
+         S   S   S       S      S    D
 
-### zen_M_100022_ddn_697_elicit_166  [train]  WER=0.83
-REF: zangu fɔ ** nda weiiddu cindi iyye
-HYP: zangu fɔ na wei      du  kini   ye
-               I   S       S     S    S
+### zen_M_100022_ddn_697_elicit_166  [train]  WER=1.17
+REF: ***** zangu fɔ́ nda weiiddu cindi iyye
+HYP: zɑngu    fɔ  nɑ wei      du  kini   ye
+         I     S   S   S       S     S    S
 
 ### zen_M_100022_ddn_697_elicit_167  [train]  WER=1.00
-REF:   zangu fɔ   nda weiiddu cindi haaku
-HYP: zangufɔ no weidu  kiniia    ku *****
-           S  S     S       S     S     D
+REF:   zangu fɔ́   nda weiiddu cindi haaku
+HYP: zɑngufɔ  no weidu  kiniiɑ    ku *****
+           S   S     S       S     S     D
 
 ### zen_M_100022_ddn_697_elicit_168  [train]  WER=1.00
-REF: ** zangu fɔ nda weiiddu  cindi ɛga
-HYP: da   ngu fɔ  na   weidu kiniga ***
-      I     S      S       S      S   D
+REF: zangu fɔ́ nda weiiddu cindi    ɛga
+HYP:    dɑ ngu  fɔ      nɑ weidu kinigɑ
+         S   S   S       S     S      S
 
-### zen_M_100022_ddn_697_elicit_169  [train]  WER=0.75
-REF: zangu fɔ ** nda weiiyye
-HYP: zangu fɔ na wei      ye
-               I   S       S
+### zen_M_100022_ddn_697_elicit_169  [train]  WER=1.25
+REF: ***** zangu fɔ́ nda weiiyye
+HYP: zɑngu    fɔ  nɑ wei      ye
+         I     S   S   S       S
 
 ### zen_M_100022_ddn_697_elicit_17  [train]  WER=3.33
 REF: * *** ***** ** ** * ***  awei cindi haaku
-HYP: a wei kinni ya ku a wei kinni    ya    ku
+HYP: a wei kinni yɑ ku a wei kinni    yɑ    ku
      I   I     I  I  I I   I     S     S     S
 
-### zen_M_100022_ddn_697_elicit_170  [train]  WER=0.67
-REF: zangu fɔ nda weiiyye  cindi fɔ
-HYP: zangu fɔ  na   weide kinifɔ **
-                S       S      S  D
+### zen_M_100022_ddn_697_elicit_170  [train]  WER=1.00
+REF: zangu fɔ́ nda weiiyye  cindi fɔ́
+HYP: zɑngu  fɔ  nɑ   weide kinifɔ ***
+         S   S   S       S      S   D
 
-### zen_M_100022_ddn_697_elicit_171  [train]  WER=0.67
-REF: zangu fɔ nda weiiyye cindi    hinka
-HYP: zangu fɔ  no     wei    ye kinninka
-                S       S     S        S
+### zen_M_100022_ddn_697_elicit_171  [train]  WER=1.00
+REF: zangu fɔ́ nda weiiyye cindi    hinka
+HYP: zɑngu  fɔ  no     wei    ye kinninkɑ
+         S   S   S       S     S        S
 
-### zen_M_100022_ddn_697_elicit_172  [train]  WER=0.67
-REF: zangu fɔ nda weiiyye cindi   hinza
-HYP: zangu fɔ  na     wei    ye kiniiza
-                S       S     S       S
+### zen_M_100022_ddn_697_elicit_172  [train]  WER=1.00
+REF: zangu fɔ́ nda weiiyye cindi   hinza
+HYP: zɑngu  fɔ  nɑ     wei    ye kiniizɑ
+         S   S   S       S     S       S
 
-### zen_M_100022_ddn_697_elicit_173  [train]  WER=1.33
-REF: *** zangu fɔ ** *** nda weiiyye cindi taaci
-HYP: dza   ngu fɔ na wei  ye      ki    ni taaki
-       I     S     I   I   S       S     S     S
+### zen_M_100022_ddn_697_elicit_173  [train]  WER=1.50
+REF: *** *** ** zangu fɔ́ nda weiiyye cindi taaci
+HYP: dzɑ ngu fɔ    nɑ wei  ye      ki    ni tɑɑki
+       I   I  I     S   S   S       S     S     S
 
-### zen_M_100022_ddn_697_elicit_174  [train]  WER=0.67
-REF: zangu fɔ nda weiiyye cindi     guu
-HYP: zangu fɔ  no     wei    ye kinnigu
-                S       S     S       S
+### zen_M_100022_ddn_697_elicit_174  [train]  WER=1.00
+REF: zangu fɔ́ nda weiiyye cindi     guu
+HYP: zɑngu  fɔ  no     wei    ye kinnigu
+         S   S   S       S     S       S
 
-### zen_M_100022_ddn_697_elicit_175  [train]  WER=1.67
-REF: zangu fɔ ** *** ** ****** ***** ** nda weiiyye cindi   iddu
-HYP: zangu fɔ na wei ye kinidu zangu fɔ  na     wei    ye kinidu
-               I   I  I      I     I  I   S       S     S      S
+### zen_M_100022_ddn_697_elicit_175  [train]  WER=2.00
+REF: ***** ** ** *** ** ****** zangu fɔ́ nda weiiyye cindi   iddu
+HYP: zɑngu fɔ nɑ wei ye kinidu zɑngu  fɔ  nɑ     wei    ye kinidu
+         I  I  I   I  I      I     S   S   S       S     S      S
 
-### zen_M_100022_ddn_697_elicit_176  [train]  WER=0.83
-REF: zangu fɔ ** nda weiiyye cindi iyye
-HYP: zangu fɔ na wei      ye  kini   ye
-               I   S       S     S    S
+### zen_M_100022_ddn_697_elicit_176  [train]  WER=1.17
+REF: ***** zangu fɔ́ nda weiiyye cindi iyye
+HYP: zɑngu    fɔ  nɑ wei      ye  kini   ye
+         I     S   S   S       S     S    S
 
-### zen_M_100022_ddn_697_elicit_177  [train]  WER=0.83
-REF: zangu fɔ **   nda weiiyye cindi haaku
-HYP: zangu fɔ na weiye   kinii    ya    ku
-               I     S       S     S     S
+### zen_M_100022_ddn_697_elicit_177  [train]  WER=1.17
+REF: ***** zangu fɔ́   nda weiiyye cindi haaku
+HYP: zɑngu    fɔ  nɑ weiye   kinii    yɑ    ku
+         I     S   S     S       S     S     S
 
-### zen_M_100022_ddn_697_elicit_178  [train]  WER=0.67
-REF: zangu fɔ nda weiiyye cindi    ɛga
-HYP: zangu fɔ  no     wei     e kiniga
-                S       S     S      S
+### zen_M_100022_ddn_697_elicit_178  [train]  WER=1.00
+REF: zangu fɔ́ nda weiiyye cindi    ɛga
+HYP: zɑngu  fɔ  no     wei     e kinigɑ
+         S   S   S       S     S      S
 
-### zen_M_100022_ddn_697_elicit_179  [train]  WER=1.00
-REF: ** zangu fɔ nda wahaku
-HYP: da   ngu fɔ  na  waaku
-      I     S      S      S
+### zen_M_100022_ddn_697_elicit_179  [train]  WER=1.25
+REF: ** zangu fɔ́ nda wahaku
+HYP: dɑ   ngu  fɔ  nɑ  wɑɑku
+      I     S   S   S      S
 
 ### zen_M_100022_ddn_697_elicit_18  [train]  WER=1.00
 REF:  awei cindi ɛga
-HYP: aweki  niga ***
+HYP: aweki nigɑ̀ ***
          S     S   D
 
-### zen_M_100022_ddn_697_elicit_180  [train]  WER=0.67
-REF: zangu fɔ ** nda wahaku cindi fɔ
-HYP: zangu fɔ na waa     ku kinni fɔ
-               I   S      S     S
+### zen_M_100022_ddn_697_elicit_180  [train]  WER=1.17
+REF: ***** zangu fɔ́ nda wahaku cindi fɔ́
+HYP: zɑngu    fɔ  nɑ wɑɑ     ku kinni  fɔ
+         I     S   S   S      S     S   S
 
-### zen_M_100022_ddn_697_elicit_181  [train]  WER=1.17
-REF: ** zangu fɔ ** nda wahaku  cindi hinka
-HYP: da   ngu fɔ na waa     ku kining    ka
-      I     S     I   S      S      S     S
+### zen_M_100022_ddn_697_elicit_181  [train]  WER=1.33
+REF: ** *** zangu fɔ́ nda wahaku  cindi hinka
+HYP: dɑ ngu    fɔ  nɑ wɑɑ     ku kining    kɑ
+      I   I     S   S   S      S      S     S
 
 ### zen_M_100022_ddn_697_elicit_182  [train]  WER=1.00
-REF:   zangu fɔ nda    wahaku cindi hinza
-HYP: zangufɔ no waa kukiniiza ***** *****
-           S  S   S         S     D     D
+REF:   zangu fɔ́ nda    wahaku cindi hinza
+HYP: zɑngufɔ  no wɑɑ kukiniizɑ ***** *****
+           S   S   S         S     D     D
 
-### zen_M_100022_ddn_697_elicit_183  [train]  WER=0.67
-REF: zangu fɔ nda wahaku    cindi taaci
-HYP: zangu fɔ  no  waaku kinitaki *****
-                S      S        S     D
+### zen_M_100022_ddn_697_elicit_183  [train]  WER=1.00
+REF: zangu fɔ́ nda wahaku    cindi taaci
+HYP: zɑngu  fɔ  no  wɑɑku kinitɑki *****
+         S   S   S      S        S     D
 
 ### zen_M_100022_ddn_697_elicit_184  [train]  WER=1.00
-REF: zangu    fɔ nda wahaku cindi    guu
-HYP:    da ngufo  no    waa    ku kinigu
+REF: zangu   fɔ́ nda wahaku cindi    guu
+HYP:    dɑ ngufo  no    wɑɑ    ku kinigu
          S     S   S      S     S      S
 
-### zen_M_100022_ddn_697_elicit_185  [train]  WER=1.00
-REF: ** zangu fɔ nda wahaku cindi   iddu
-HYP: da   ngu fɔ  na    waa    ku kinidu
-      I     S      S      S     S      S
+### zen_M_100022_ddn_697_elicit_185  [train]  WER=1.17
+REF: ** zangu fɔ́ nda wahaku cindi   iddu
+HYP: dɑ   ngu  fɔ  nɑ    wɑɑ    ku kinidu
+      I     S   S   S      S     S      S
 
 ### zen_M_100022_ddn_697_elicit_186  [train]  WER=1.00
-REF:   zangu fɔ nda wahaku cindi iyye
-HYP: zangufɔ no waa     ku kinii   ye
-           S  S   S      S     S    S
+REF:   zangu fɔ́ nda wahaku cindi iyye
+HYP: zɑngufɔ  no wɑɑ     ku kinii   ye
+           S   S   S      S     S    S
 
-### zen_M_100022_ddn_697_elicit_187  [train]  WER=1.00
-REF: zangu fɔ ** *** nda wahaku cindi haaku
-HYP: zangu fɔ no waa  ku   kini    ya    ku
-               I   I   S      S     S     S
+### zen_M_100022_ddn_697_elicit_187  [train]  WER=1.33
+REF: ***** ** zangu fɔ́ nda wahaku cindi haaku
+HYP: zɑngu fɔ    no wɑɑ  ku   kini    yɑ    ku
+         I  I     S   S   S      S     S     S
 
 ### zen_M_100022_ddn_697_elicit_188  [train]  WER=1.00
-REF:   zangu fɔ nda   wahaku cindi ɛga
-HYP: zangufɔ no  wa kukiniga ***** ***
-           S  S   S        S     D   D
+REF:   zangu fɔ́ nda   wahaku cindi ɛga
+HYP: zɑngufɔ  no  wɑ kukinigɑ ***** ***
+           S   S   S        S     D   D
 
 ### zen_M_100022_ddn_697_elicit_189  [train]  WER=1.25
-REF: ** zangu fɔ nda wɛɛga
-HYP: da ngufo na wei    ga
-      I     S  S   S     S
+REF: ** zangu fɔ́ nda wɛɛga
+HYP: dɑ ngufo  nɑ wei    gɑ
+      I     S   S   S     S
 
-### zen_M_100022_ddn_697_elicit_19  [train]  WER=1.00
-REF: waranka *******
-HYP: waranka waranka
-                   I
+### zen_M_100022_ddn_697_elicit_19  [train]  WER=2.00
+REF: ******* waranka
+HYP: wɑrɑnkɑ wɑrɑnkɑ
+           I       S
 
-### zen_M_100022_ddn_697_elicit_190  [train]  WER=0.50
-REF: zangu fɔ nda wɛɛga cindi fɔ
-HYP: zangu fɔ  na weiga kinni fɔ
-                S     S     S
+### zen_M_100022_ddn_697_elicit_190  [train]  WER=1.00
+REF: zangu fɔ́ nda wɛɛga cindi fɔ́
+HYP: zɑngu  fɔ  nɑ weigɑ kinni  fɔ
+         S   S   S     S     S   S
 
-### zen_M_100022_ddn_697_elicit_191  [train]  WER=0.67
-REF: zangu fɔ nda wɛɛga   cindi hinka
-HYP: zangu fɔ  no weiga kininka *****
-                S     S       S     D
+### zen_M_100022_ddn_697_elicit_191  [train]  WER=1.00
+REF: zangu fɔ́ nda wɛɛga   cindi hinka
+HYP: zɑngu  fɔ  no weigɑ kininkɑ *****
+         S   S   S     S       S     D
 
-### zen_M_100022_ddn_697_elicit_192  [train]  WER=0.67
-REF: zangu fɔ nda wɛɛga cindi   hinza
-HYP: zangu fɔ  no   wei    ga kiniiza
-                S     S     S       S
+### zen_M_100022_ddn_697_elicit_192  [train]  WER=1.00
+REF: zangu fɔ́ nda wɛɛga cindi   hinza
+HYP: zɑngu  fɔ  no   wei    gɑ kiniizɑ
+         S   S   S     S     S       S
 
-### zen_M_100022_ddn_697_elicit_193  [train]  WER=0.67
-REF: zangu fɔ nda wɛɛga cindi taaci
-HYP: zangu fɔ  no weiga kinni taaki
-                S     S     S     S
+### zen_M_100022_ddn_697_elicit_193  [train]  WER=1.00
+REF: zangu fɔ́ nda wɛɛga cindi taaci
+HYP: zɑngu  fɔ  no weigɑ kinni tɑɑki
+         S   S   S     S     S     S
 
-### zen_M_100022_ddn_697_elicit_194  [train]  WER=0.67
-REF: zangu fɔ nda wɛɛga  cindi guu
-HYP: zangu fɔ  na weiga kenigu ***
-                S     S      S   D
+### zen_M_100022_ddn_697_elicit_194  [train]  WER=1.00
+REF: zangu fɔ́ nda wɛɛga  cindi guu
+HYP: zɑngu  fɔ  nɑ weigɑ kenigu ***
+         S   S   S     S      S   D
 
-### zen_M_100022_ddn_697_elicit_195  [train]  WER=0.67
-REF: zangu fɔ nda wɛɛga  cindi iddu
-HYP: zangu fɔ  na weiga kinidu ****
-                S     S      S    D
+### zen_M_100022_ddn_697_elicit_195  [train]  WER=1.00
+REF: zangu fɔ́ nda wɛɛga  cindi iddu
+HYP: zɑngu  fɔ  nɑ weigɑ kinidu ****
+         S   S   S     S      S    D
 
-### zen_M_100022_ddn_697_elicit_196  [train]  WER=0.67
-REF: zangu fɔ nda wɛɛga  cindi iyye
-HYP: zangu fɔ  no weiga kiniie ****
-                S     S      S    D
+### zen_M_100022_ddn_697_elicit_196  [train]  WER=1.00
+REF: zangu fɔ́ nda wɛɛga  cindi iyye
+HYP: zɑngu  fɔ  no weigɑ kiniie ****
+         S   S   S     S      S    D
 
-### zen_M_100022_ddn_697_elicit_197  [train]  WER=0.83
-REF: zangu fɔ **   nda wɛɛga cindi haaku
-HYP: zangu fɔ no weiga kinii    ya    ko
-               I     S     S     S     S
+### zen_M_100022_ddn_697_elicit_197  [train]  WER=1.17
+REF: ***** zangu fɔ́   nda wɛɛga cindi haaku
+HYP: zɑngu    fɔ  no weigɑ kinii    yɑ    ko
+         I     S   S     S     S     S     S
 
 ### zen_M_100022_ddn_697_elicit_198  [train]  WER=1.00
-REF:   zangu fɔ   nda  wɛɛga cindi ɛga
-HYP: zangufɔ na weiga kiniga ***** ***
-           S  S     S      S     D   D
+REF:   zangu fɔ́   nda  wɛɛga cindi ɛga
+HYP: zɑngufɔ  nɑ weigɑ kinigɑ ***** ***
+           S   S     S      S     D   D
 
 ### zen_M_100022_ddn_697_elicit_199  [train]  WER=1.00
 REF:     zangu     hinka
-HYP: danguinka danguinka
+HYP: dɑnguinkɑ dɑnguinkɑ
              S         S
 
 ### zen_M_100022_ddn_697_elicit_2  [train]  WER=4.00
 REF: * ***** * ahinza
-HYP: a yinza a  yinza
+HYP: à yinzɑ ɑ  yinzɑ
      I     I I      S
 
-### zen_M_100022_ddn_697_elicit_20  [train]  WER=1.67
-REF: ********* ** **   waranka cindi fɔ
-HYP: warankaki ni fɔ warankaki    ni fɔ
-             I  I  I         S     S
+### zen_M_100022_ddn_697_elicit_20  [train]  WER=2.00
+REF: ********* ** **   waranka cindi fɔ́
+HYP: wɑrɑnkɑki ni fɔ wɑrɑnkɑki    ni  fɔ
+             I  I  I         S     S   S
 
 ### zen_M_100022_ddn_697_elicit_200  [train]  WER=1.00
-REF:    zangu hinka nda afɔ
-HYP: zanguika    na  fɔ ***
-            S     S   S   D
+REF:    zangu hinka nda afɔ́
+HYP: zɑnguikɑ    nɑ  fɔ ****
+            S     S   S    D
 
 ### zen_M_100022_ddn_697_elicit_201  [train]  WER=1.00
 REF:    zangu hinka nda ihinka
-HYP: zanguika    na ike ******
+HYP: zɑnguikɑ    nɑ ike ******
             S     S   S      D
 
 ### zen_M_100022_ddn_697_elicit_202  [train]  WER=1.00
 REF:    zangu hinka  nda ihinza
-HYP: zanguika    na inza ******
+HYP: zɑnguikɑ    nɑ inzɑ ******
             S     S    S      D
 
 ### zen_M_100022_ddn_697_elicit_203  [train]  WER=1.00
 REF:    zangu hinka    nda itaaci
-HYP: zangoika    na itaaki ******
+HYP: zɑngoikɑ    nɑ itɑɑki ******
             S     S      S      D
 
 ### zen_M_100022_ddn_697_elicit_204  [train]  WER=1.00
 REF:     zangu hinka nda iguu
-HYP: zhanguika    na igu ****
+HYP: zhɑnguikɑ    nɑ igu ****
              S     S   S    D
 
 ### zen_M_100022_ddn_697_elicit_205  [train]  WER=1.00
 REF:    zangu hinka nda iddu
-HYP: zanguika    na idu ****
+HYP: zanguikɑ    nɑ idu ****
             S     S   S    D
 
 ### zen_M_100022_ddn_697_elicit_206  [train]  WER=1.00
 REF:    zangu hinka nda iyye
-HYP: zanguika    na iye ****
+HYP: zɑnguikɑ    nɑ iye ****
             S     S   S    D
 
 ### zen_M_100022_ddn_697_elicit_207  [train]  WER=1.00
 REF:    zangu hinka nda ihaaku
-HYP: zanguika    na iya     ko
+HYP: zɑnguikɑ    nɑ iyɑ     ko
             S     S   S      S
 
 ### zen_M_100022_ddn_697_elicit_208  [train]  WER=1.00
 REF:      zangu hinka nda aiga
-HYP: thonguinka    na iga ****
+HYP: thonguinkɑ    nɑ igɑ ****
               S     S   S    D
 
 ### zen_M_100022_ddn_697_elicit_209  [train]  WER=1.00
 REF:     zangu hinka nda awei
-HYP: zangulika    na wei ****
+HYP: zɑngulikɑ    nɑ wei ****
              S     S   S    D
 
-### zen_M_100022_ddn_697_elicit_21  [train]  WER=1.00
-REF: waranka *******   cindi   hinka
-HYP: waranka kininka waranka kininka
-                   I       S       S
+### zen_M_100022_ddn_697_elicit_21  [train]  WER=1.33
+REF: ******* waranka   cindi   hinka
+HYP: wɑrɑnkɑ kininkɑ wɑrɑnkɑ kininkɑ
+           I       S       S       S
 
-### zen_M_100022_ddn_697_elicit_210  [train]  WER=0.83
-REF:    zangu hinka nda  awei cindi fɔ
-HYP: zanguika    na   a weiki    ni fɔ
-            S     S   S     S     S
+### zen_M_100022_ddn_697_elicit_210  [train]  WER=1.00
+REF:    zangu hinka nda  awei cindi fɔ́
+HYP: zɑnguikɑ    nɑ  ɑ̀ weiki    ni  fɔ
+            S     S   S     S     S   S
 
 ### zen_M_100022_ddn_697_elicit_211  [train]  WER=1.00
 REF:    zangu hinka   nda  awei cindi hinka
-HYP: zanguika    na weiki ninka ***** *****
+HYP: zɑnguikɑ    nɑ weiki ninkɑ ***** *****
             S     S     S     S     D     D
 
 ### zen_M_100022_ddn_697_elicit_212  [train]  WER=1.00
 REF:    zangu hinka   nda awei cindi hinza
-HYP: zanguika    na weiki   ni   nza *****
+HYP: zɑnguikɑ    nɑ weiki   ni   nzɑ *****
             S     S     S    S     S     D
 
 ### zen_M_100022_ddn_697_elicit_213  [train]  WER=1.00
 REF:     zangu hinka   nda    awei cindi taaci
-HYP: zangwinka    na weiki nitaaki ***** *****
+HYP: zɑngwinkɑ    nɑ weiki nitɑɑki ***** *****
              S     S     S       S     D     D
 
-### zen_M_100022_ddn_697_elicit_214  [train]  WER=0.83
+### zen_M_100022_ddn_697_elicit_214  [train]  WER=1.00
 REF: zangu hinka nda awei cindi  guu
-HYP: zangu  inka  na    a weiki nigu
-               S   S    S     S    S
+HYP: zɑngu  inkɑ  nɑ   ɑ̀ weiki nigu
+         S     S   S    S     S    S
 
 ### zen_M_100022_ddn_697_elicit_215  [train]  WER=1.00
 REF:     zangu hinka nda awei  cindi iddu
-HYP: zanguinka    na   a  wei kinidu ****
+HYP: zɑnguinkɑ    nɑ  ɑ̀  wei kinidu ****
              S     S   S    S      S    D
 
 ### zen_M_100022_ddn_697_elicit_216  [train]  WER=1.00
 REF:  zangu hinka nda  awei cindi iyye
-HYP: zangui   nka  na weiki  niye ****
+HYP: zɑngui   nkɑ  nɑ weiki  niye ****
           S     S   S     S     S    D
 
 ### zen_M_100022_ddn_697_elicit_217  [train]  WER=1.00
 REF:    zangu hinka nda  awei cindi haaku
-HYP: zanguika    na   a weiki  niya    ku
+HYP: zɑnguikɑ    nɑ  ɑ̀ weiki  niyɑ    ku
             S     S   S     S     S     S
 
 ### zen_M_100022_ddn_697_elicit_218  [train]  WER=1.00
 REF:    zangu hinka   nda awei cindi ɛga
-HYP: zanguika    na weiki niga ***** ***
+HYP: zɑnguikɑ    nɑ weiki nigɑ ***** ***
             S     S     S    S     D   D
 
-### zen_M_100022_ddn_697_elicit_219  [train]  WER=0.75
-REF:     zangu hinka nda waranka
-HYP: zanguinka    na *** waranka
-             S     S   D
+### zen_M_100022_ddn_697_elicit_219  [train]  WER=1.00
+REF:     zangu hinka     nda waranka
+HYP: zɑnguinkɑ    nɑ wɑrɑnkɑ *******
+             S     S       S       D
 
-### zen_M_100022_ddn_697_elicit_22  [train]  WER=1.00
-REF: waranka ** cindi hinza
-HYP: waranka ki   nii   nza
-              I     S     S
+### zen_M_100022_ddn_697_elicit_22  [train]  WER=1.33
+REF: ******* waranka cindi hinza
+HYP: wɑrɑnkɑ      ki   nii   nzɑ
+           I       S     S     S
 
-### zen_M_100022_ddn_697_elicit_220  [train]  WER=0.83
-REF:     zangu hinka       nda waranka cindi fɔ
-HYP: zanguinka    na warankaki      ni ***** fɔ
-             S     S         S       S     D
+### zen_M_100022_ddn_697_elicit_220  [train]  WER=1.00
+REF:     zangu hinka       nda waranka cindi fɔ́
+HYP: zɑnguinkɑ    nɑ wɑrɑnkɑki      ni    fɔ ***
+             S     S         S       S     S   D
 
-### zen_M_100022_ddn_697_elicit_221  [train]  WER=0.83
-REF:     zangu hinka nda waranka   cindi hinka
-HYP: zanguinka    na *** waranka kininka *****
-             S     S   D               S     D
+### zen_M_100022_ddn_697_elicit_221  [train]  WER=1.00
+REF:     zangu hinka     nda waranka cindi hinka
+HYP: zɑnguinkɑ    nɑ wɑrɑnkɑ kininkɑ ***** *****
+             S     S       S       S     D     D
 
-### zen_M_100022_ddn_697_elicit_222  [train]  WER=0.50
+### zen_M_100022_ddn_697_elicit_222  [train]  WER=1.00
 REF: zangu hinka nda waranka   cindi hinza
-HYP: zangu hinka  na waranka kiniiza *****
-                   S               S     D
+HYP: zɑngu hinkɑ  nɑ wɑrɑnkɑ kiniizɑ *****
+         S     S   S       S       S     D
 
-### zen_M_100022_ddn_697_elicit_223  [train]  WER=0.83
-REF:     zangu hinka nda waranka cindi taaci
-HYP: zanguinka    na *** waranka kinne taaki
-             S     S   D             S     S
+### zen_M_100022_ddn_697_elicit_223  [train]  WER=1.00
+REF:     zangu hinka     nda waranka cindi taaci
+HYP: zɑnguinkɑ    nɑ wɑrɑnkɑ   kinne tɑɑki *****
+             S     S       S       S     S     D
 
-### zen_M_100022_ddn_697_elicit_224  [train]  WER=0.83
-REF:     zangu hinka nda waranka cindi guu
-HYP: zanguinka    na *** waranka kinni  gu
-             S     S   D             S   S
+### zen_M_100022_ddn_697_elicit_224  [train]  WER=1.00
+REF:     zangu hinka     nda waranka cindi guu
+HYP: zɑnguinkɑ    nɑ wɑrɑnkɑ   kinni    gu ***
+             S     S       S       S     S   D
 
-### zen_M_100022_ddn_697_elicit_225  [train]  WER=0.83
-REF:     zangu hinka nda waranka cindi iddu
-HYP: zanguinka    na *** waranka kinne  idu
-             S     S   D             S    S
+### zen_M_100022_ddn_697_elicit_225  [train]  WER=1.00
+REF:     zangu hinka     nda waranka cindi iddu
+HYP: zɑnguinkɑ    nɑ wɑrɑnkɑ   kinne   idu ****
+             S     S       S       S     S    D
 
 ### zen_M_100022_ddn_697_elicit_226  [train]  WER=1.00
 REF:    zangu hinka       nda waranka cindi iyye
-HYP: zangoika    na warankaki    niye ***** ****
+HYP: zɑngoikɑ    nɑ wɑrɑnkɑki    niye ***** ****
             S     S         S       S     D    D
 
-### zen_M_100022_ddn_697_elicit_227  [train]  WER=0.83
-REF: zangu hinka nda waranka **** cindi haaku
-HYP: zangu   nka  na waranka kini   iya    ko
-               S   S            I     S     S
+### zen_M_100022_ddn_697_elicit_227  [train]  WER=1.17
+REF: ***** zangu hinka     nda waranka cindi haaku
+HYP: zɑngu   nkɑ    nɑ wɑrɑnkɑ    kini   iyɑ    ko
+         I     S     S       S       S     S     S
 
-### zen_M_100022_ddn_697_elicit_228  [train]  WER=0.83
-REF:     zangu hinka nda waranka  cindi ɛga
-HYP: zanguinka    na *** waranka kiniga ***
-             S     S   D              S   D
+### zen_M_100022_ddn_697_elicit_228  [train]  WER=1.00
+REF:     zangu hinka     nda waranka cindi ɛga
+HYP: zɑnguinkɑ    nɑ wɑrɑnkɑ  kinigɑ ***** ***
+             S     S       S       S     D   D
 
-### zen_M_100022_ddn_697_elicit_229  [train]  WER=0.75
-REF:      zangu hinka nda waranza
-HYP: zhanguinka    na *** waranza
-              S     S   D
+### zen_M_100022_ddn_697_elicit_229  [train]  WER=1.00
+REF:      zangu hinka     nda waranza
+HYP: zhanguinkɑ    nɑ wɑrɑnzɑ *******
+              S     S       S       D
 
-### zen_M_100022_ddn_697_elicit_23  [train]  WER=1.67
-REF: waranka ***** ***** ******* cindi taaci
-HYP: waranka kinni taaki waranka kinni taaki
-                 I     I       I     S     S
+### zen_M_100022_ddn_697_elicit_23  [train]  WER=2.00
+REF: ******* ***** ***** waranka cindi taaci
+HYP: wɑrɑnkɑ kinni tɑɑki wɑrɑnkɑ kinni tɑɑki
+           I     I     I       S     S     S
 
 ### zen_M_100022_ddn_697_elicit_230  [train]  WER=1.00
 REF:     zangu hinza
-HYP: zanguinza *****
+HYP: zɑnguinzɑ *****
              S     D
 
-### zen_M_100022_ddn_697_elicit_231  [train]  WER=0.67
+### zen_M_100022_ddn_697_elicit_231  [train]  WER=1.00
 REF: zangu hinza nda waranka cindi guu
-HYP: zangu   nza  na waranka kinni  gu
-               S   S             S   S
+HYP: zɑngu   nzɑ  nɑ wɑrɑnkɑ kinni  gu
+         S     S   S       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_232  [train]  WER=1.00
 REF:     zangu hinza   nda weiguu
-HYP: zanguinza    na weigu ******
+HYP: zɑnguinzɑ    nɑ weigu ******
              S     S     S      D
 
-### zen_M_100022_ddn_697_elicit_233  [train]  WER=2.17
-REF: zangu **** ** ** ** ***** ** ***** **** hinza nda weiiyye cindi guu
-HYP: zangu inza na we ye kinni gu zangu inza    na  we      ye kinni  gu
-              I  I  I  I     I  I     I    I     S   S       S     S   S
+### zen_M_100022_ddn_697_elicit_233  [train]  WER=2.33
+REF: ***** **** ** ** ** ***** ** ***** zangu hinza nda weiiyye cindi guu
+HYP: zɑngu inzɑ nɑ we ye kinni gu zɑngu  inzɑ    nɑ  we      ye kinni  gu
+         I    I  I  I  I     I  I     I     S     S   S       S     S   S
 
-### zen_M_100022_ddn_697_elicit_234  [train]  WER=0.50
+### zen_M_100022_ddn_697_elicit_234  [train]  WER=1.00
 REF: zangu taaci
-HYP: zangu taaki
-               S
+HYP: zɑngu tɑɑki
+         S     S
 
-### zen_M_100022_ddn_697_elicit_235  [train]  WER=0.67
+### zen_M_100022_ddn_697_elicit_235  [train]  WER=1.00
 REF: zangu taaci nda waranka cindi guu
-HYP: zangu taaki  na waranka kinni  gu
-               S   S             S   S
+HYP: zɑngu tɑɑki  nɑ wɑrɑnkɑ kinni  gu
+         S     S   S       S     S   S
 
-### zen_M_100022_ddn_697_elicit_236  [train]  WER=0.75
+### zen_M_100022_ddn_697_elicit_236  [train]  WER=1.00
 REF: zangu taaci nda weiguu
-HYP: zangu taaki  na  weigu
-               S   S      S
+HYP: zɑngu tɑɑki  nɑ  weigu
+         S     S   S      S
 
-### zen_M_100022_ddn_697_elicit_237  [train]  WER=1.00
-REF: zangu ***** taaci nda weiiyye cindi guu
-HYP: zangu taaki    na wei      ye kinni  go
-               I     S   S       S     S   S
+### zen_M_100022_ddn_697_elicit_237  [train]  WER=1.17
+REF: ***** zangu taaci nda weiiyye cindi guu
+HYP: zɑngu tɑɑki    nɑ wei      ye kinni  go
+         I     S     S   S       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_238  [train]  WER=1.00
 REF:   zangu     guu
@@ -780,257 +780,257 @@ HYP: zangugu zangugu
 
 ### zen_M_100022_ddn_697_elicit_239  [train]  WER=1.00
 REF:   zangu guu       nda waranka cindi guu
-HYP: zangugu  na warankaki    nigu ***** ***
+HYP: zɑngugu  nɑ wɑrɑnkɑki    nigu ***** ***
            S   S         S       S     D   D
 
-### zen_M_100022_ddn_697_elicit_24  [train]  WER=1.67
-REF: waranka ***** ** ******* cindi guu
-HYP: waranka kinni go waranka kinni  go
-                 I  I       I     S   S
+### zen_M_100022_ddn_697_elicit_24  [train]  WER=2.00
+REF: ******* ***** ** waranka cindi guu
+HYP: wɑrɑnkɑ kinni go wɑrɑnkɑ kinni  go
+           I     I  I       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_240  [train]  WER=1.00
 REF:   zangu guu   nda weiguu
-HYP: zangugu  na weigu ******
+HYP: zɑngugu  nɑ weigu ******
            S   S     S      D
 
 ### zen_M_100022_ddn_697_elicit_241  [train]  WER=1.00
 REF:   zangu guu nda weiiyye cindi guu
-HYP: zangugu  na wei      ye kinni  gu
+HYP: zɑngugu  nɑ wei      ye kinni  gu
            S   S   S       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_242  [train]  WER=1.00
 REF:    zangu     iddu
-HYP: zanguidu zanguidu
+HYP: zɑnguidu zɑnguidu
             S        S
 
-### zen_M_100022_ddn_697_elicit_243  [train]  WER=0.83
+### zen_M_100022_ddn_697_elicit_243  [train]  WER=1.00
 REF:  zangu iddu nda waranka cindi guu
-HYP: zangui   du  na waranka kinni  gu
-          S    S   S             S   S
+HYP: zɑngui   du  nɑ wɑrɑnkɑ kinni  gu
+          S    S   S       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_244  [train]  WER=1.00
 REF:    zangu iddu  nda weiguu
-HYP: zanguidu   na wegu ******
+HYP: zɑnguidu   nɑ wegu ******
             S    S    S      D
 
 ### zen_M_100022_ddn_697_elicit_245  [train]  WER=1.00
 REF:    zangu iddu   nda weiiyye cindi guu
-HYP: zanguidu   na weiye  kinigu ***** ***
+HYP: zɑnguidu   nɑ weiye  kinigu ***** ***
             S    S     S       S     D   D
 
-### zen_M_100022_ddn_697_elicit_246  [train]  WER=1.50
-REF: zangu *** ***** iyye
-HYP: zangu iyi zangu  iyi
-             I     I    S
+### zen_M_100022_ddn_697_elicit_246  [train]  WER=2.00
+REF: ***** *** zangu iyye
+HYP: zɑngu iyi zɑngu  iyi
+         I   I     S    S
 
-### zen_M_100022_ddn_697_elicit_247  [train]  WER=0.83
+### zen_M_100022_ddn_697_elicit_247  [train]  WER=1.00
 REF:  zangu iyye nda waranka cindi guu
-HYP: zangui   ye  na waranka kenni  gu
-          S    S   S             S   S
+HYP: zɑngui   ye  nɑ wɑrɑnkɑ kenni  gu
+          S    S   S       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_248  [train]  WER=1.00
 REF:  zangu iyye nda weiguu
-HYP: zangui   ye  na  weigu
+HYP: zɑngui   ye  nɑ  weigu
           S    S   S      S
 
-### zen_M_100022_ddn_697_elicit_249  [train]  WER=0.83
+### zen_M_100022_ddn_697_elicit_249  [train]  WER=1.00
 REF: zangu iyye nda weiiyye cindi guu
-HYP: zangu   ye  na   weiye kinni  gu
-              S   S       S     S   S
+HYP: zɑngu   ye  nɑ   weiye kinni  gu
+         S    S   S       S     S   S
 
-### zen_M_100022_ddn_697_elicit_25  [train]  WER=1.67
-REF: waranka ** ***** ******* cindi  iddu
-HYP: waranka ki niidu waranka    ki niidu
-              I     I       I     S     S
+### zen_M_100022_ddn_697_elicit_25  [train]  WER=2.00
+REF: ******* ** ***** waranka cindi  iddu
+HYP: wɑrɑnkɑ ki niidu wɑrɑnkɑ    ki niidu
+           I  I     I       S     S     S
 
 ### zen_M_100022_ddn_697_elicit_250  [train]  WER=1.00
 REF:    zangu   ihaaku
-HYP: zanguyak zanguyak
+HYP: zɑnguyɑk zɑnguyɑk
             S        S
 
-### zen_M_100022_ddn_697_elicit_251  [train]  WER=0.67
+### zen_M_100022_ddn_697_elicit_251  [train]  WER=1.00
 REF: zangu ihaaku   nda waranka cindi guu
-HYP: zangu    iya kunna waranka kinni  gu
-                S     S             S   S
+HYP: zɑngu    iyɑ kunnɑ wɑrɑnkɑ kinni  gu
+         S      S     S       S     S   S
 
-### zen_M_100022_ddn_697_elicit_252  [train]  WER=0.75
+### zen_M_100022_ddn_697_elicit_252  [train]  WER=1.00
 REF: zangu ihaaku   nda weiguu
-HYP: zangu     ya kunna  weigu
-                S     S      S
+HYP: zɑngu     yɑ kunnɑ  weigu
+         S      S     S      S
 
-### zen_M_100022_ddn_697_elicit_253  [train]  WER=1.00
-REF: zangu ** ihaaku nda weiiyye cindi guu
-HYP: zangu ya  kunna  wo      ye kinni  go
-            I      S   S       S     S   S
+### zen_M_100022_ddn_697_elicit_253  [train]  WER=1.17
+REF: ***** zangu ihaaku nda weiiyye cindi guu
+HYP: zɑngu    yɑ  kunnɑ  wo      ye kinni  go
+         I     S      S   S       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_254  [train]  WER=1.00
 REF:    zangu      ɛga
-HYP: zanguiga zanguiga
+HYP: zɑnguigɑ zɑnguigɑ
             S        S
 
-### zen_M_100022_ddn_697_elicit_255  [train]  WER=0.83
+### zen_M_100022_ddn_697_elicit_255  [train]  WER=1.00
 REF:  zangu ɛga nda waranka cindi guu
-HYP: zangui  ga  na waranka kinni  gu
-          S   S   S             S   S
+HYP: zɑngui  gɑ  nɑ wɑrɑnkɑ kinni  gu
+          S   S   S       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_256  [train]  WER=1.00
 REF:  zangu   ɛga   nda weiguu
-HYP: zangui ganna weigu ******
+HYP: zɑngui gɑnnɑ weigu ******
           S     S     S      D
 
 ### zen_M_100022_ddn_697_elicit_257  [train]  WER=1.00
 REF:  zangu   ɛga   nda weiiyye cindi guu
-HYP: zangui ganna weiye   kinni    gu ***
+HYP: zɑngui gɑnnɑ weiye   kinni    gu ***
           S     S     S       S     S   D
 
-### zen_M_100022_ddn_697_elicit_258  [train]  WER=1.17
-REF: zangu ** ***** ɛga nda wɛɛga cindi ɛga
-HYP: zangu yi ganna wei  ga kinni    yi  ga
-            I     I   S   S     S     S   S
+### zen_M_100022_ddn_697_elicit_258  [train]  WER=1.33
+REF: ***** ** zangu ɛga nda wɛɛga cindi ɛga
+HYP: zɑngu yi gɑnnɑ wei  gɑ kinni    yi  gɑ
+         I  I     S   S   S     S     S   S
 
-### zen_M_100022_ddn_697_elicit_259  [train]  WER=1.00
-REF: dubu fɔ **** **
-HYP: dubu fɔ dubu fɔ
-                I  I
+### zen_M_100022_ddn_697_elicit_259  [train]  WER=1.50
+REF: dubu ** **** fɔ́
+HYP: dubu fɔ dubu  fɔ
+           I    I   S
 
-### zen_M_100022_ddn_697_elicit_26  [train]  WER=0.67
+### zen_M_100022_ddn_697_elicit_26  [train]  WER=1.00
 REF: waranka cindi iyye
-HYP: waranka  cini   ye
-                 S    S
+HYP: wɑrɑnkɑ  cini   ye
+           S     S    S
 
-### zen_M_100022_ddn_697_elicit_260  [train]  WER=0.67
-REF: dubu  fɔ nda zangu  fɔ nda waranka cindi guu
-HYP: dubu fɔn  na zangu fɔn  na waranka kinni  gu
-            S   S         S   S             S   S
+### zen_M_100022_ddn_697_elicit_260  [train]  WER=0.89
+REF: dubu fɔ́ nda zangu fɔ́ nda waranka cindi guu
+HYP: dubu fɔn  nɑ zɑngu fɔn  nɑ wɑrɑnkɑ kinni  gu
+            S   S     S   S   S       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_261  [train]  WER=0.86
-REF: dubu  fɔ nda zangu  fɔ nda weiguu
-HYP: dubu fɔd  na zongu fɔd  na  weigu
+REF: dubu fɔ́ nda zangu fɔ́ nda weiguu
+HYP: dubu fɔd  nɑ zongu fɔd  nɑ  weigu
             S   S     S   S   S      S
 
-### zen_M_100022_ddn_697_elicit_262  [train]  WER=0.78
-REF: dubu fɔ ** nda zangu fɔ nda weiiyye cindi guu
-HYP: dubu fɔ na zom    gu fɔ  na   weiye cinni  gu
-              I   S     S      S       S     S   S
+### zen_M_100022_ddn_697_elicit_262  [train]  WER=1.00
+REF: dubu ** fɔ́ nda zangu fɔ́ nda weiiyye cindi guu
+HYP: dubu fɔ  nɑ zom    gu  fɔ  nɑ   weiye cinni  gu
+           I   S   S     S   S   S       S     S   S
 
-### zen_M_100022_ddn_697_elicit_263  [train]  WER=0.67
-REF: dubu fɔ nda zangu fɔ nda wɛɛga cindi ɛga
-HYP: dubu fɔ  na zongu fɔ  na weiga kinni gaa
-               S     S      S     S     S   S
+### zen_M_100022_ddn_697_elicit_263  [train]  WER=0.89
+REF: dubu fɔ́ nda zangu fɔ́ nda wɛɛga cindi ɛga
+HYP: dubu  fɔ  nɑ zongu  fɔ  nɑ weigɑ kinni gɑɑ
+            S   S     S   S   S     S     S   S
 
 ### zen_M_100022_ddn_697_elicit_264  [train]  WER=1.00
 REF:     dubu    hinka
-HYP: dubuinka dubuinka
+HYP: dubuinkɑ dubuinkɑ
             S        S
 
 ### zen_M_100022_ddn_697_elicit_265  [train]  WER=3.00
-REF: ***** *** ** *** * **** ***** *** dubu hinka nda ihaaku
-HYP: dubui nga na iya a gome dubui nga   na   iya   a   gome
-         I   I  I   I I    I     I   I    S     S   S      S
+REF: ***** *** ** *** ** **** ***** *** dubu hinka nda ihaaku
+HYP: dubui ngɑ nɑ iyɑ ɑ̀ gome dubui ngɑ   nɑ   iyɑ  ɑ̀   gome
+         I   I  I   I  I    I     I   I    S     S   S      S
 
 ### zen_M_100022_ddn_697_elicit_266  [train]  WER=2.00
 REF: ** ***** ** *** dubu hinka nda ɛga
-HYP: du winka na iga   du winka  na iga
+HYP: du winkɑ nɑ igɑ   du winkɑ  nɑ igɑ
       I     I  I   I    S     S   S   S
 
-### zen_M_100022_ddn_697_elicit_267  [train]  WER=0.50
+### zen_M_100022_ddn_697_elicit_267  [train]  WER=0.75
 REF: dubu hinka nda awei
-HYP: dubu hinka  na  wei
-                  S    S
+HYP: dubu hinkɑ  nɑ  wei
+              S   S    S
 
-### zen_M_100022_ddn_697_elicit_268  [train]  WER=0.44
-REF: dubu hinka nda zangu fɔ nda waranka cindi guu
-HYP: dubu hinka  na zangu fɔ  na waranka cinni  gu
-                  S            S             S   S
+### zen_M_100022_ddn_697_elicit_268  [train]  WER=0.89
+REF: dubu hinka nda zangu fɔ́ nda waranka cindi guu
+HYP: dubu hinkɑ  nɑ zɑngu  fɔ  nɑ wɑrɑnkɑ cinni  gu
+              S   S     S   S   S       S     S   S
 
-### zen_M_100022_ddn_697_elicit_269  [train]  WER=0.86
-REF: dubu hinka nda zangu fɔ nda weiguu
-HYP:   du winka  na zongu fɔ  na   wegu
-        S     S   S     S      S      S
+### zen_M_100022_ddn_697_elicit_269  [train]  WER=1.00
+REF: dubu hinka nda zangu fɔ́ nda weiguu
+HYP:   du winkɑ  nɑ zongu  fɔ  nɑ   wegu
+        S     S   S     S   S   S      S
 
-### zen_M_100022_ddn_697_elicit_27  [train]  WER=2.33
-REF: waranka ** **** ** ******* ** cindi haaku
-HYP: waranka ki niya ku waranka ki  niya    ku
-              I    I  I       I  I     S     S
+### zen_M_100022_ddn_697_elicit_27  [train]  WER=2.67
+REF: ******* ** **** ** ******* waranka cindi haaku
+HYP: wɑrɑnkɑ ki niyɑ ku wɑrɑnkɑ      ki  niyɑ    ku
+           I  I    I  I       I       S     S     S
 
-### zen_M_100022_ddn_697_elicit_270  [train]  WER=1.00
-REF: **   dubu hinka nda zangu fɔ nda weiiyye cindi guu
-HYP: du wuinka    na zom   ngu fɔ  na   weiye kinni  gu
-      I      S     S   S     S      S       S     S   S
+### zen_M_100022_ddn_697_elicit_270  [train]  WER=1.11
+REF: **   dubu hinka nda zangu fɔ́ nda weiiyye cindi guu
+HYP: du wuinkɑ    nɑ zom   ngu  fɔ  nɑ   weiye kinni  gu
+      I      S     S   S     S   S   S       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_271  [train]  WER=0.86
 REF: dubu hinka nda    zangu    ɛga cindi guu
-HYP: dubu  inka  na zongoiga kinigu ***** ***
+HYP: dubu  inkɑ  nɑ zongoigɑ kinigu ***** ***
               S   S        S      S     D   D
 
 ### zen_M_100022_ddn_697_elicit_272  [train]  WER=1.50
 REF: dubu ***** **** hinza
-HYP: dubu yinza dubu yinza
+HYP: dubu yinzɑ dubu yinzɑ
               I    I     S
 
-### zen_M_100022_ddn_697_elicit_273  [train]  WER=0.78
-REF: dubu hinza nda zangu  fɔ nda waranka cindi guu
-HYP: dubu yinza  na zongu fɔr  na waranka kinni  gu
-              S   S     S   S   S             S   S
+### zen_M_100022_ddn_697_elicit_273  [train]  WER=0.89
+REF: dubu hinza nda zangu fɔ́ nda waranka cindi guu
+HYP: dubu yinzɑ  nɑ zongu fɔr  nɑ wɑrɑnkɑ kinni  gu
+              S   S     S   S   S       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_274  [train]  WER=1.00
-REF:  dubu hinza nda zangu  fɔ nda weiguu
-HYP: dubui   nza  na zongu fɔd  na  weigu
+REF:  dubu hinza nda zangu fɔ́ nda weiguu
+HYP: dubui   nzɑ  nɑ zongu fɔd  nɑ  weigu
          S     S   S     S   S   S      S
 
-### zen_M_100022_ddn_697_elicit_275  [train]  WER=1.00
-REF: dubu ** *** hinza nda zangu fɔ nda weiiyye cindi guu
-HYP: dubu yi zam    na zom   ngu fɔ  na   weiye kinni  gu
-           I   I     S   S     S      S       S     S   S
+### zen_M_100022_ddn_697_elicit_275  [train]  WER=1.11
+REF: dubu ** *** hinza nda zangu fɔ́ nda weiiyye cindi guu
+HYP: dubu yi zɑm    nɑ zom   ngu  fɔ  nɑ   weiye kinni  gu
+           I   I     S   S     S   S   S       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_276  [train]  WER=1.50
 REF: dubu **** **** taaci
-HYP: dubu taqi dubu  taqi
+HYP: dubu tɑqi dubu  tɑqi
              I    I     S
 
-### zen_M_100022_ddn_697_elicit_277  [train]  WER=0.78
-REF: dubu taaci nda zangu    fɔ nda waranka cindi guu
-HYP: dubu taaki  no zongu fonna *** waranka kinni  gu
-              S   S     S     S   D             S   S
+### zen_M_100022_ddn_697_elicit_277  [train]  WER=0.89
+REF: dubu taaci nda zangu   fɔ́     nda waranka cindi guu
+HYP: dubu tɑɑki  no zongu fonnɑ wɑrɑnkɑ   kinni    gu ***
+              S   S     S     S       S       S     S   D
 
 ### zen_M_100022_ddn_697_elicit_278  [train]  WER=0.89
-REF: dubu    taaci nda zangu    fɔ   nda weiiyye cindi guu
-HYP: dubu taakinna zom    gu fɔnna weiye   kinni    gu ***
+REF: dubu    taaci nda zangu   fɔ́   nda weiiyye cindi guu
+HYP: dubu tɑɑkinnɑ zom    gu fɔnnɑ weiye   kinni    gu ***
                  S   S     S     S     S       S     S   D
 
 ### zen_M_100022_ddn_697_elicit_279  [train]  WER=0.86
-REF: dubu taaci nda zangu  fɔ nda wɛɛga
-HYP: dubu taaki  no zongu fɔr  no weiga
+REF: dubu taaci nda zangu fɔ́ nda wɛɛga
+HYP: dubu tɑɑki  no zongu fɔr  no weigɑ
               S   S     S   S   S     S
 
-### zen_M_100022_ddn_697_elicit_28  [train]  WER=0.67
+### zen_M_100022_ddn_697_elicit_28  [train]  WER=1.00
 REF: waranka  cindi ɛga
-HYP: waranka kiniga ***
-                  S   D
+HYP: wɑrɑnkɑ kinigɑ ***
+           S      S   D
 
 ### zen_M_100022_ddn_697_elicit_280  [train]  WER=1.00
 REF:   dubu    guu
 HYP: dubugu dubugu
           S      S
 
-### zen_M_100022_ddn_697_elicit_281  [train]  WER=0.89
-REF: dubu ** guu nda zangu  fɔ nda waranka cindi guu
-HYP: dubu gu  na zom    gu fod  na waranka cinni  gu
-           I   S   S     S   S   S             S   S
+### zen_M_100022_ddn_697_elicit_281  [train]  WER=1.00
+REF: dubu ** guu nda zangu fɔ́ nda waranka cindi guu
+HYP: dubu gu  nɑ zom    gu fod  nɑ wɑrɑnkɑ cinni  gu
+           I   S   S     S   S   S       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_282  [train]  WER=1.00
-REF: dubu guu nda zangu  fɔ nda weiguu
+REF: dubu guu nda zangu fɔ́ nda weiguu
 HYP: dugu  gu  no zongu fod  no   wegu
         S   S   S     S   S   S      S
 
 ### zen_M_100022_ddn_697_elicit_283  [train]  WER=0.89
-REF: dubu guu nda zangu    fɔ   nda weiiyye cindi guu
-HYP: dubu  gu  na zongu fonna weiye   kinni    gu ***
+REF: dubu guu nda zangu   fɔ́   nda weiiyye cindi guu
+HYP: dubu  gu  nɑ zongu fonnɑ weiye   kinni    gu ***
             S   S     S     S     S       S     S   D
 
 ### zen_M_100022_ddn_697_elicit_284  [train]  WER=0.83
 REF: dubu guu nda wɛɛga cindi     ɛga
-HYP: dubu  gu  no  woyi    ga kinniga
+HYP: dubu  gu  no  woyi    gɑ kinnigɑ
             S   S     S     S       S
 
 ### zen_M_100022_ddn_697_elicit_285  [train]  WER=2.00
@@ -1045,27 +1045,27 @@ HYP: dubu i ye dubu i   ye
 
 ### zen_M_100022_ddn_697_elicit_287  [train]  WER=3.50
 REF: dubu ** ** ** **** ** ** ihaaku
-HYP: dubu yi ya ko dubu yi ya     ko
+HYP: dubu yi yɑ ko dubu yi yɑ     ko
            I  I  I    I  I  I      S
 
 ### zen_M_100022_ddn_697_elicit_288  [train]  WER=2.00
 REF: ***** **  dubu ɛga
-HYP: dubui ga dubui  ga
+HYP: dubui gɑ dubui  gɑ
          I  I     S   S
 
 ### zen_M_100022_ddn_697_elicit_289  [train]  WER=1.00
 REF:  dubu ɛga nda wɛɛga cindi ɛga
-HYP: dubui gal  no  wega cinni  ga
+HYP: dubui gɑl  no  wegɑ cinni  gɑ
          S   S   S     S     S   S
 
-### zen_M_100022_ddn_697_elicit_29  [train]  WER=1.00
-REF: waranza *******
-HYP: waranza waranza
-                   I
+### zen_M_100022_ddn_697_elicit_29  [train]  WER=2.00
+REF: ******* waranza
+HYP: wɑrɑnzɑ wɑrɑnzɑ
+           I       S
 
 ### zen_M_100022_ddn_697_elicit_290  [train]  WER=0.89
 REF: dubu  ɛga nda    zangu ɛga   nda  wɛɛga cindi ɛga
-HYP: dubu yiga  na zonguiga  na weiga kiniga ***** ***
+HYP: dubu yigɑ  nɑ zonguigɑ  nɑ weigɑ kinigɑ ***** ***
              S   S        S   S     S      S     D   D
 
 ### zen_M_100022_ddn_697_elicit_291  [train]  WER=1.50
@@ -1074,23 +1074,23 @@ HYP: dubu we dubu  we
            I    I   S
 
 ### zen_M_100022_ddn_697_elicit_292  [train]  WER=0.50
-REF: dubu wei cindi fɔ
-HYP: dubu wei cinni fo
-                  S  S
+REF: dubu wei cindi fɔ́
+HYP: dubu wei cinni  fo
+                  S   S
 
 ### zen_M_100022_ddn_697_elicit_293  [train]  WER=0.75
 REF: dubu wei   cindi hinka
-HYP: dubu  we kininka *****
+HYP: dubu  we kininkɑ *****
             S       S     D
 
 ### zen_M_100022_ddn_697_elicit_294  [train]  WER=0.50
 REF: dubu wei   cindi hinza
-HYP: dubu wei kininza *****
+HYP: dubu wei kininzɑ *****
                     S     D
 
 ### zen_M_100022_ddn_697_elicit_295  [train]  WER=1.75
 REF: dubu ** ***** **** **** wei cindi taaci
-HYP: dubu we kinni taki dubu  we kinni  taki
+HYP: dubu we kinni tɑki dubu  we kinni  tɑki
            I     I    I    I   S     S     S
 
 ### zen_M_100022_ddn_697_elicit_296  [train]  WER=1.50
@@ -1098,28 +1098,30 @@ REF: dubu wei ***** ** **** *** cindi guu
 HYP: dubu wei kinni go dubu wei kinni  go
                   I  I    I   I     S   S
 
-### zen_M_100022_ddn_697_elicit_297  [train]  WER=0.00
+### zen_M_100022_ddn_697_elicit_297  [train]  WER=0.50
+REF: dubu waranka
+HYP: dubu wɑrɑnkɑ
+                S
 
-
-### zen_M_100022_ddn_697_elicit_298  [train]  WER=1.00
-REF: dubu waranza **** *******
-HYP: dubu waranza dubu waranza
-                     I       I
+### zen_M_100022_ddn_697_elicit_298  [train]  WER=1.50
+REF: dubu ******* **** waranza
+HYP: dubu wɑrɑnzɑ dubu wɑrɑnzɑ
+                I    I       S
 
 ### zen_M_100022_ddn_697_elicit_299  [train]  WER=1.50
 REF: dubu ******** **** weitaaci
-HYP: dubu weitaaki dubu weitaaki
+HYP: dubu weitɑɑki dubu weitɑɑki
                  I    I        S
 
 ### zen_M_100022_ddn_697_elicit_3  [train]  WER=2.00
 REF: ****** ataaci
-HYP: ataaki ataaki
+HYP: atɑɑki atɑɑki
           I      S
 
-### zen_M_100022_ddn_697_elicit_30  [train]  WER=1.33
-REF: waranza ***** ** ******* cindi fɔ
-HYP: waranza kinni fɔ waranza kinni fɔ
-                 I  I       I     S
+### zen_M_100022_ddn_697_elicit_30  [train]  WER=2.00
+REF: ******* ***** ** waranza cindi fɔ́
+HYP: wɑrɑnzɑ kinni fɔ wɑrɑnzɑ kinni  fɔ
+           I     I  I       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_300  [train]  WER=1.50
 REF: dubu ***** **** weiguu
@@ -1138,42 +1140,42 @@ HYP: dubu wei ye dubu wei      ye
 
 ### zen_M_100022_ddn_697_elicit_303  [train]  WER=1.50
 REF: dubu ***** **** wahaku
-HYP: dubu waaku dubu  waaku
+HYP: dubu wɑɑku dubu  wɑɑku
               I    I      S
 
 ### zen_M_100022_ddn_697_elicit_304  [train]  WER=2.50
 REF: dubu *** ** **** *** wɛɛga
-HYP: dubu wei ga dubu wei    ga
+HYP: dubu wei gɑ dubu wei    gɑ
             I  I    I   I     S
 
 ### zen_M_100022_ddn_697_elicit_305  [train]  WER=1.55
 REF: dubu ***** ***** ** ********** ** ***** ***** wɛɛga cindi   ɛga   nda zangu        ɛga nda wɛɛga cindi ɛga
-HYP: dubu weiga kinni ga nozonguiga no weiga kinni    ga  dubu weiga kinni    ga nozonguiga  no weiga kinni  ga
+HYP: dubu weigɑ kinni gɑ nozonguigɑ no weigɑ kinni    gɑ  dubu weigɑ kinni    gɑ nozonguigɑ  no weigɑ kinni  gɑ
               I     I  I          I  I     I     I     S     S     S     S     S          S   S     S     S   S
 
 ### zen_M_100022_ddn_697_elicit_306  [train, EXCLUDED]  WER=0.50
-REF: dubu dubu zangu fɔ
-HYP: dubu dubu zongu fo
-                   S  S
+REF: dubu dubu zangu fɔ́
+HYP: dubu dubu zongu  fo
+                   S   S
 
 ### zen_M_100022_ddn_697_elicit_307  [train, EXCLUDED]  WER=1.33
 REF: ******  dubu dubuzangu hinka
-HYP: duburu zongu        in    ka
+HYP: duburu zongu        in    kɑ
           I     S         S     S
 
 ### zen_M_100022_ddn_697_elicit_308  [train]  WER=1.50
 REF: dubu dubu *** ****** **** **** zangu  hinza
-HYP: dubu dubu zom gbinza dubu dubu   zom gbinza
+HYP: dubu dubu zom gbinzɑ dubu dubu   zom gbinzɑ
                  I      I    I    I     S      S
 
 ### zen_M_100022_ddn_697_elicit_309  [train]  WER=0.75
 REF: dubu dubu *** zangu taaci
-HYP: dubu dubu zom    go  taki
+HYP: dubu dubu zom    go  tɑki
                  I     S     S
 
 ### zen_M_100022_ddn_697_elicit_31  [train]  WER=2.00
 REF: ** ***** ******* waranza cindi   hinka
-HYP: wo ranze kininka      wo ranze kininka
+HYP: wo rɑnze kininkɑ      wo rɑnze kininkɑ
       I     I       I       S     S       S
 
 ### zen_M_100022_ddn_697_elicit_310  [train]  WER=1.00
@@ -1193,52 +1195,52 @@ HYP: dubu dubu zongu yiye dubu dubu zongu yiye
 
 ### zen_M_100022_ddn_697_elicit_313  [train]  WER=1.00
 REF: dubu ***  zaŋu haaku dubu *** zangu haaku
-HYP: dubu zom guiya    ko dubu zom guiya    ko
+HYP: dubu zom guiyɑ    ko dubu zom guiyɑ    ko
             I     S     S        I     S     S
 
 ### zen_M_100022_ddn_697_elicit_314  [train, EXCLUDED]  WER=2.00
 REF: dubu dubu ***** ** ** **** **** ***** zangu ɛga
-HYP: dubu dubu zongu yi ga dubu dubu zongu    yi  ga
+HYP: dubu dubu zongu yi gɑ dubu dubu zongu    yi  gɑ
                    I  I  I    I    I     I     S   S
 
 ### zen_M_100022_ddn_697_elicit_315  [train]  WER=2.10
 REF: dubu ****** ** ** ****** ** ** *** ** ***** ** **** ****** zangu ɛga    nda zangu ɛga nda wɛɛga cindi ɛga
-HYP: dubu zongui ga na zongui ga na wei ga kinni ga dubu zongui    ga  na zongui    ga  na wei    ga kinni  ga
+HYP: dubu zongui gɑ nɑ zongui gɑ nɑ wei gɑ kinni gɑ dubu zongui    gɑ  nɑ zongui    gɑ  nɑ wei    gɑ kinni  gɑ
                I  I  I      I  I  I   I  I     I  I    I      I     S   S      S     S   S   S     S     S   S
 
 ### zen_M_100022_ddn_697_elicit_316  [train]  WER=1.36
 REF: dubu ******** ** ***** ****** ** ******** zangu   ɛga    nda wɛɛga    cindi ɛga   nda  zangu ɛga      nda wɛɛga cindi    ɛga
-HYP: dubu zonguiga na weiga kiniga na zonguiga    na weiga kiniga  dubu zonguiga  na weiga kiniga  na zonguiga    na weiga kiniga
+HYP: dubu zonguigɑ nɑ weigɑ kinigɑ nɑ zonguigɑ    nɑ weigɑ kinigɑ  dubu zonguigɑ  nɑ weigɑ kinigɑ  nɑ zonguigɑ    nɑ weigɑ kinigɑ
                  I  I     I      I  I        I     S     S      S     S        S   S     S      S   S        S     S     S      S
 
-### zen_M_100022_ddn_697_elicit_317  [train]  WER=1.00
-REF: dubu dubu fɔ **** **** **
-HYP: dubu dubu fɔ dubu dubu fɔ
-                     I    I  I
+### zen_M_100022_ddn_697_elicit_317  [train]  WER=1.33
+REF: dubu dubu ** **** **** fɔ́
+HYP: dubu dubu fɔ dubu dubu  fɔ
+                I    I    I   S
 
-### zen_M_100022_ddn_697_elicit_318  [train]  WER=0.72
-REF: dubu dubu fɔ nda dubu  zangu ɛga nda wahaku cindi ɛga nda  zangu iddu nda weiiyye cindi fɔ
-HYP: dubu dubu fɔ  na dubu zongoi  ga  na  waako  kini iga  na zongoi   du  na   weiye  kini fɔ
-                    S           S   S   S      S     S   S   S      S    S   S       S     S
+### zen_M_100022_ddn_697_elicit_318  [train]  WER=0.83
+REF: dubu dubu fɔ́ nda dubu  zangu ɛga nda wahaku cindi ɛga nda  zangu iddu nda weiiyye cindi fɔ́
+HYP: dubu dubu  fɔ  nɑ dubu zongoi  gɑ  nɑ  wɑɑko  kini igɑ  nɑ zongoi   du  nɑ   weiye  kini  fɔ
+                 S   S           S   S   S      S     S   S   S      S    S   S       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_319  [train]  WER=1.33
 REF: **** dubu dubu hinka
-HYP: dugu dugu   in    ka
+HYP: dugu dugu   in    kɑ
         I    S    S     S
 
-### zen_M_100022_ddn_697_elicit_32  [train]  WER=1.67
-REF: waranza ** ***** ******* cindi hinza
-HYP: waranza ki niiza waranza    ki niiza
-              I     I       I     S     S
+### zen_M_100022_ddn_697_elicit_32  [train]  WER=2.00
+REF: ******* ** ***** waranza cindi hinza
+HYP: wɑrɑnzɑ ki niizɑ wɑrɑnzɑ    ki niizɑ
+           I  I     I       S     S     S
 
 ### zen_M_100022_ddn_697_elicit_320  [train]  WER=2.00
 REF: dubu dubu ** *** **** **** ** hinza
-HYP: dubu dubu ni zaa dubu dubu ni   zaa
+HYP: dubu dubu ni zɑɑ dubu dubu ni   zɑɑ
                 I   I    I    I  I     S
 
 ### zen_M_100022_ddn_697_elicit_321  [train]  WER=1.33
 REF: dubu dubu ***** **** **** taaci
-HYP: dubu dubu taaki dubu dubu taaki
+HYP: dubu dubu tɑɑki dubu dubu tɑɑki
                    I    I    I     S
 
 ### zen_M_100022_ddn_697_elicit_322  [train]  WER=1.33
@@ -1257,83 +1259,83 @@ HYP: dubu dubu wei kinni iye dubu dubu wei kinni  iye
                        I   I    I    I   I     S    S
 
 ### zen_M_100022_ddn_697_elicit_325  [train, EXCLUDED]  WER=0.50
-REF: dubu dubu zangu fɔ
-HYP: dubu dubu zongu fo
-                   S  S
+REF: dubu dubu zangu fɔ́
+HYP: dubu dubu zongu  fo
+                   S   S
 
-### zen_M_100022_ddn_697_elicit_326  [train, EXCLUDED]  WER=2.00
+### zen_M_100022_ddn_697_elicit_326  [train, EXCLUDED]  WER=2.33
 REF: dubu **** ***** ***** **** **** dubuzangu hinka
-HYP: dubu dubu zongu hinka dubu dubu     zongu hinka
-             I     I     I    I    I         S
+HYP: dubu dubu zongu hinkɑ dubu dubu     zongu hinkɑ
+             I     I     I    I    I         S     S
 
 ### zen_M_100022_ddn_697_elicit_327  [train, EXCLUDED]  WER=1.50
 REF: dubu dubu ****** *** **** ****  zangu ɛga
-HYP: dubu dubu zangoi gaa dubu dubu zangoi gaa
+HYP: dubu dubu zɑngoi gɑɑ dubu dubu zɑngoi gɑɑ
                     I   I    I    I      S   S
 
-### zen_M_100022_ddn_697_elicit_328  [train]  WER=0.92
-REF:     dubu  dubu zangu ɛga na     dubu dubu    ɛga cindi ɛga nda dubu zangu  ɛga nda wɛɛga  cindi ɛga   nda zangu ɛga   nda  wɛɛga cindi ɛga
-HYP: dubudubu zongu  yiga *** na dubudubu yiga ciniga    na *** *** dubu zongu yiga  na weiga ciniga  na zongu  yiga  na weiga ciniga ***** ***
-            S     S     S   D           S    S      S     S   D   D          S    S   S     S      S   S     S     S   S     S      S     D   D
+### zen_M_100022_ddn_697_elicit_328  [train]  WER=0.96
+REF:     dubu  dubu zangu ɛga       na dubu   dubu ɛga cindi ɛga nda dubu zangu  ɛga nda wɛɛga  cindi ɛga   nda zangu ɛga   nda  wɛɛga cindi ɛga
+HYP: dubudubu zongu  yigɑ  nɑ dubudubu yigɑ cinigɑ  nɑ ***** *** *** dubu zongu yigɑ  nɑ weigɑ cinigɑ  nɑ zongu  yigɑ  nɑ weigɑ cinigɑ ***** ***
+            S     S     S   S        S    S      S   S     D   D   D          S    S   S     S      S   S     S     S   S     S      S     D   D
 
-### zen_M_100022_ddn_697_elicit_329  [train]  WER=1.00
-REF: bambata fɔ ******* **
-HYP: bambata fɔ bambata fɔ
-                      I  I
+### zen_M_100022_ddn_697_elicit_329  [train]  WER=2.00
+REF: ******* ** bambata fɔ́
+HYP: bɑmbɑtɑ fɔ bɑmbɑtɑ  fɔ
+           I  I       S   S
 
-### zen_M_100022_ddn_697_elicit_33  [train]  WER=1.67
-REF: waranza ***** ***** ******* cindi taaci
-HYP: waranza kinni taaki waranza kinni taaki
-                 I     I       I     S     S
+### zen_M_100022_ddn_697_elicit_33  [train]  WER=2.00
+REF: ******* ***** ***** waranza cindi taaci
+HYP: wɑrɑnzɑ kinni tɑɑki wɑrɑnzɑ kinni tɑɑki
+           I     I     I       S     S     S
 
 ### zen_M_100022_ddn_697_elicit_330  [train]  WER=1.00
 REF:    bambata hinka         nda dubu dubu ihaaku     nda wɛɛga cindi ɛga      nda ɛga   nda   zangu ɛga nda wɛɛga cindi ɛga
-HYP: bambataika    na dubudubuiya   ku   na  weika kiniiga    na   ika  na zanguika  na weika kiniiga *** *** ***** ***** ***
+HYP: bɑmbɑtɑikɑ    nɑ dubudubuiyɑ   ku   nɑ  weikɑ kiniigɑ    nɑ   ikɑ  nɑ zɑnguikɑ  nɑ weikɑ kiniigɑ *** *** ***** ***** ***
               S     S           S    S    S      S       S     S     S   S        S   S     S       S   D   D     D     D   D
 
 ### zen_M_100022_ddn_697_elicit_331  [train]  WER=2.00
 REF: ******** ***  bambata hinza
-HYP: bambatai nza bambatai   nza
+HYP: bɑmbɑtɑi nzɑ bɑmbɑtɑi   nzɑ
             I   I        S     S
 
 ### zen_M_100022_ddn_697_elicit_332  [train]  WER=1.00
 REF:     bambata taaci
-HYP: bambatataki *****
+HYP: bɑmbɑtɑtɑki *****
                S     D
 
-### zen_M_100022_ddn_697_elicit_333  [train]  WER=0.50
+### zen_M_100022_ddn_697_elicit_333  [train]  WER=1.00
 REF: bambata guu
-HYP: bambata  gu
-               S
+HYP: bɑmbɑtɑ  gu
+           S   S
 
-### zen_M_100022_ddn_697_elicit_34  [train]  WER=1.00
-REF: waranza *******   cindi     guu
-HYP: waranza kinnigu waranza kinnigu
-                   I       S       S
+### zen_M_100022_ddn_697_elicit_34  [train]  WER=1.33
+REF: ******* waranza   cindi     guu
+HYP: wɑrɑnzɑ kinnigu wɑrɑnzɑ kinnigu
+           I       S       S       S
 
-### zen_M_100022_ddn_697_elicit_35  [train]  WER=0.67
+### zen_M_100022_ddn_697_elicit_35  [train]  WER=1.00
 REF: waranza cindi iddu
-HYP: waranza kinni   du
-                 S    S
+HYP: wɑrɑnzɑ kinni   du
+           S     S    S
 
-### zen_M_100022_ddn_697_elicit_36  [train]  WER=1.67
-REF: waranza ** **** ******* cindi iyye
-HYP: waranza ki niye waranza    ki niye
-              I    I       I     S    S
+### zen_M_100022_ddn_697_elicit_36  [train]  WER=2.00
+REF: ******* ** **** waranza cindi iyye
+HYP: wɑrɑnzɑ ki niye wɑrɑnzɑ    ki niye
+           I  I    I       S     S    S
 
-### zen_M_100022_ddn_697_elicit_37  [train]  WER=3.00
-REF: waranza ** ** ** ** ******* ** ** cindi haaku
-HYP: waranza ki ni ya ku waranza ki ni    ya    ku
-              I  I  I  I       I  I  I     S     S
+### zen_M_100022_ddn_697_elicit_37  [train]  WER=3.33
+REF: ******* ** ** ** ** ******* ** waranza cindi haaku
+HYP: wɑrɑnzɑ ki ni yɑ ku wɑrɑnzɑ ki      ni    yɑ    ku
+           I  I  I  I  I       I  I       S     S     S
 
-### zen_M_100022_ddn_697_elicit_38  [train]  WER=1.00
-REF: waranza ******   cindi    ɛga
-HYP: waranza kiniga waranza kiniga
-                  I       S      S
+### zen_M_100022_ddn_697_elicit_38  [train]  WER=1.33
+REF: ******* waranza   cindi    ɛga
+HYP: wɑrɑnzɑ  kinigɑ wɑrɑnzɑ kinigɑ
+           I       S       S      S
 
 ### zen_M_100022_ddn_697_elicit_39  [train]  WER=2.00
 REF: ******* weitaaci
-HYP: wetaaki  wetaaki
+HYP: wetɑɑki  wetɑɑki
            I        S
 
 ### zen_M_100022_ddn_697_elicit_4  [train]  WER=3.00
@@ -1341,49 +1343,49 @@ REF: *** *** aguu
 HYP: agu agu  agu
        I   I    S
 
-### zen_M_100022_ddn_697_elicit_40  [train]  WER=0.67
-REF: weitaaci  cindi fɔ
-HYP:    weita kikini fɔ
-            S      S
+### zen_M_100022_ddn_697_elicit_40  [train]  WER=1.00
+REF: weitaaci  cindi fɔ́
+HYP:    weitɑ kikini  fɔ
+            S      S   S
 
 ### zen_M_100022_ddn_697_elicit_41  [train]  WER=1.00
 REF: weitaaci     cindi hinka
-HYP:    weita kikininka *****
+HYP:    weitɑ kikininkɑ *****
             S         S     D
 
 ### zen_M_100022_ddn_697_elicit_42  [train]  WER=1.00
 REF: weitaaci     cindi hinza
-HYP:    weita cikiniiza *****
+HYP:    weitɑ cikiniizɑ *****
             S         S     D
 
 ### zen_M_100022_ddn_697_elicit_43  [train]  WER=2.67
 REF: ******** ** ** ***** ******** weitaaci cindi taaci
-HYP: weitaaki ki ni taaki weitaaki       ki    ni taaki
+HYP: weitɑɑki ki ni tɑɑki weitɑɑki       ki    ni tɑɑki
             I  I  I     I        I        S     S     S
 
 ### zen_M_100022_ddn_697_elicit_44  [train]  WER=1.00
 REF: weitaaci    cindi guu
-HYP:    weeta kikinigu ***
+HYP:    weetɑ kikinigu ***
             S        S   D
 
 ### zen_M_100022_ddn_697_elicit_45  [train]  WER=1.00
 REF: weitaaci  cindi iddu
-HYP:    weita kikini   du
+HYP:    weitɑ kikini   du
             S      S    S
 
 ### zen_M_100022_ddn_697_elicit_46  [train]  WER=1.00
 REF: weitaaci    cindi iyye
-HYP:     weta kikiniye ****
+HYP:     wetɑ kikiniye ****
             S        S    D
 
 ### zen_M_100022_ddn_697_elicit_47  [train]  WER=1.67
 REF: *** ** weitaaci cindi haaku
-HYP: wee ta   kikini    ya    ku
+HYP: wee tɑ   kikini    yɑ    ku
        I  I        S     S     S
 
 ### zen_M_100022_ddn_697_elicit_48  [train]  WER=1.33
 REF: **** weitaaci cindi      ɛga
-HYP: weta kikiniga  weta kikiniga
+HYP: wetɑ kikinigɑ  wetɑ kikinigɑ
         I        S     S        S
 
 ### zen_M_100022_ddn_697_elicit_49  [train]  WER=2.00
@@ -1397,23 +1399,23 @@ HYP: idu  idu
        I    S
 
 ### zen_M_100022_ddn_697_elicit_50  [train]  WER=2.00
-REF: **** ***** ** weiguu cindi fɔ
-HYP: wegu kinni fo   wegu kinni fo
-        I     I  I      S     S  S
+REF: **** ***** ** weiguu cindi fɔ́
+HYP: wegu kinni fo   wegu kinni  fo
+        I     I  I      S     S   S
 
 ### zen_M_100022_ddn_697_elicit_51  [train]  WER=1.33
 REF: ****  weiguu cindi   hinka
-HYP: wego kininka  wego kininka
+HYP: wego kininkɑ  wego kininkɑ
         I       S     S       S
 
 ### zen_M_100022_ddn_697_elicit_52  [train]  WER=1.33
 REF: ****   weiguu cindi    hinza
-HYP: wego guininza  wego guininza
+HYP: wego guininzɑ  wego guininzɑ
         I        S     S        S
 
 ### zen_M_100022_ddn_697_elicit_53  [train]  WER=1.33
 REF: ****    weiguu cindi     taaci
-HYP: wegu kinitaaki  wegu kinitaaki
+HYP: wegu kinitɑɑki  wegu kinitɑɑki
         I         S     S         S
 
 ### zen_M_100022_ddn_697_elicit_54  [train]  WER=2.00
@@ -1433,12 +1435,12 @@ HYP: wego kini ye   wego  kini   ye
 
 ### zen_M_100022_ddn_697_elicit_57  [train]  WER=2.67
 REF: **** **** ** ** **** weiguu cindi haaku
-HYP: wego kini ya ku wego   kini    ya    ku
+HYP: wego kini yɑ ku wego   kini    yɑ    ku
         I    I  I  I    I      S     S     S
 
 ### zen_M_100022_ddn_697_elicit_58  [train]  WER=1.33
 REF: **   weiguu cindi      ɛga
-HYP: we gukiniga    we gukiniga
+HYP: we gukinigɑ    we gukinigɑ
       I        S     S        S
 
 ### zen_M_100022_ddn_697_elicit_59  [train]  WER=2.00
@@ -1452,24 +1454,24 @@ HYP: iye  iye
        I    S
 
 ### zen_M_100022_ddn_697_elicit_60  [train]  WER=2.00
-REF: ***** ***** ** weiiddu cindi fɔ
-HYP: weidu cinni fo   weidu cinni fo
-         I     I  I       S     S  S
+REF: ***** ***** ** weiiddu cindi fɔ́
+HYP: weidu cinni fo   weidu cinni  fo
+         I     I  I       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_61  [train]  WER=2.00
 REF: *** ** ********* weiiddu cindi     hinka
-HYP: wei du kinihinka     wei    du kinihinka
+HYP: wei du kinihinkɑ     wei    du kinihinkɑ
        I  I         I       S     S         S
 
 ### zen_M_100022_ddn_697_elicit_62  [train]  WER=2.00
 REF: *** ** ******* weiiddu cindi   hinza
-HYP: wei du kiniiza     wei    du kiniiza
+HYP: wei du kiniizɑ     wei    du kiniizɑ
        I  I       I       S     S       S
 
-### zen_M_100022_ddn_697_elicit_63  [train]  WER=1.67
+### zen_M_100022_ddn_697_elicit_63  [train]  WER=2.00
 REF: ***** ***** ***** weiiddu cindi taaci
-HYP: weidu cinni taaci   weidu cinni taaci
-         I     I     I       S     S
+HYP: weidu cinni tɑɑci   weidu cinni tɑɑci
+         I     I     I       S     S     S
 
 ### zen_M_100022_ddn_697_elicit_64  [train]  WER=1.00
 REF: weiiddu cindi    guu
@@ -1488,12 +1490,12 @@ HYP: wei du kini ye wei      du  kini   ye
 
 ### zen_M_100022_ddn_697_elicit_67  [train]  WER=2.00
 REF: *** ** ** weiiddu cindi haaku
-HYP: wei du ci      ni   iya    ku
+HYP: wei du ci      ni   iyɑ    ku
        I  I  I       S     S     S
 
 ### zen_M_100022_ddn_697_elicit_68  [train]  WER=2.00
 REF: *** ** ****** weiiddu cindi    ɛga
-HYP: wei du kiniga     wei    du kiniga
+HYP: wei du kinigɑ     wei    du kinigɑ
        I  I      I       S     S      S
 
 ### zen_M_100022_ddn_697_elicit_69  [train]  WER=3.00
@@ -1503,27 +1505,27 @@ HYP: weiye weiye   weiye
 
 ### zen_M_100022_ddn_697_elicit_7  [train]  WER=4.00
 REF: *** ** *** ihaaku
-HYP: iya ku iya     ku
+HYP: iyɑ ku iyɑ     ku
        I  I   I      S
 
-### zen_M_100022_ddn_697_elicit_70  [train]  WER=2.33
-REF: ** ** **** ** ** weiiyye cindi fɔ
-HYP: wo ye kini fɔ wo      ye  kini fɔ
-      I  I    I  I  I       S     S
+### zen_M_100022_ddn_697_elicit_70  [train]  WER=2.67
+REF: ** ** **** ** ** weiiyye cindi fɔ́
+HYP: wo ye kini fɔ wo      ye  kini  fɔ
+      I  I    I  I  I       S     S   S
 
 ### zen_M_100022_ddn_697_elicit_71  [train]  WER=1.33
 REF: ***** weiiyye cindi   hinka
-HYP: weiye kininka weiye kininka
+HYP: weiye kininkɑ weiye kininkɑ
          I       S     S       S
 
 ### zen_M_100022_ddn_697_elicit_72  [train]  WER=1.33
 REF: ***** weiiyye cindi   hinza
-HYP: weiye kiniiza weiye kiniiza
+HYP: weiye kiniizɑ weiye kiniizɑ
          I       S     S       S
 
 ### zen_M_100022_ddn_697_elicit_73  [train]  WER=2.00
 REF: ***** ***** ***** weiiyye cindi taaci
-HYP: weiye kinni taaki   weiye kinni taaki
+HYP: weiye kinni tɑɑki   weiye kinni tɑɑki
          I     I     I       S     S     S
 
 ### zen_M_100022_ddn_697_elicit_74  [train]  WER=2.67
@@ -1543,17 +1545,17 @@ HYP: wo ye kinni iye wo      ye kinni  iye
 
 ### zen_M_100022_ddn_697_elicit_77  [train]  WER=1.67
 REF: ** ** weiiyye cindi haaku
-HYP: wo ye    kimi   iya    ku
+HYP: wo ye    kimi   iyɑ    ku
       I  I       S     S     S
 
 ### zen_M_100022_ddn_697_elicit_78  [train]  WER=1.33
 REF: ***** weiiyye cindi    ɛga
-HYP: weiye  kiniga weiye kiniga
+HYP: weiye  kinigɑ weiye kinigɑ
          I       S     S      S
 
 ### zen_M_100022_ddn_697_elicit_79  [train]  WER=4.00
 REF: ** ** ** wahaku
-HYP: wa ku wa     ku
+HYP: wɑ ku wɑ     ku
       I  I  I      S
 
 ### zen_M_100022_ddn_697_elicit_8  [train]  WER=14.00
@@ -1561,113 +1563,113 @@ REF: ********** ********** ********** ********** ********** ********** *********
 HYP: hesitation hesitation hesitation hesitation hesitation hesitation hesitation hesitation hesitation hesitation hesitation hesitation hesitation hesitation
               I          I          I          I          I          I          I          I          I          I          I          I          I          S
 
-### zen_M_100022_ddn_697_elicit_80  [train]  WER=1.00
-REF: *** wahaku cindi fɔ
-HYP: waa     ku kinni fɔ
-       I      S     S
+### zen_M_100022_ddn_697_elicit_80  [train]  WER=1.33
+REF: *** wahaku cindi fɔ́
+HYP: wɑɑ     ku kinni  fɔ
+       I      S     S   S
 
 ### zen_M_100022_ddn_697_elicit_81  [train]  WER=1.33
 REF: **    wahaku cindi     hinka
-HYP: wa kukininka    wa kukininka
+HYP: wɑ kukininkɑ    wɑ kukininkɑ
       I         S     S         S
 
 ### zen_M_100022_ddn_697_elicit_82  [train]  WER=1.00
 REF: wahaku   cindi hinza
-HYP:   wuku kininza *****
+HYP:   wuku kininzɑ *****
           S       S     D
 
 ### zen_M_100022_ddn_697_elicit_83  [train]  WER=2.67
 REF: *** ** ***** ***** *** wahaku cindi taaci
-HYP: waa ku kinni taaki waa     ku kinni taaki
+HYP: wɑɑ ku kinni tɑɑki wɑɑ     ku kinni tɑɑki
        I  I     I     I   I      S     S     S
 
 ### zen_M_100022_ddn_697_elicit_84  [train]  WER=1.33
 REF: *** wahaku cindi guu
-HYP: waa     ku kinni  go
+HYP: wɑɑ     ku kinni  go
        I      S     S   S
 
 ### zen_M_100022_ddn_697_elicit_85  [train]  WER=1.00
 REF: wahaku cindi   iddu
-HYP:     wa    ku kinidu
+HYP:     wɑ    ku kinidu
           S     S      S
 
 ### zen_M_100022_ddn_697_elicit_86  [train]  WER=2.67
 REF: ** ** **** ** ** wahaku cindi iyye
-HYP: wa ku kini ye wa     ku  kini   ye
+HYP: wɑ ku kini ye wɑ     ku  kini   ye
       I  I    I  I  I      S     S    S
 
 ### zen_M_100022_ddn_697_elicit_87  [train]  WER=1.67
 REF: *** ** wahaku cindi haaku
-HYP: waa ku  kinii   yaa    ku
+HYP: wɑɑ ku  kinii   yɑɑ    ku
        I  I      S     S     S
 
 ### zen_M_100022_ddn_697_elicit_88  [train]  WER=1.33
 REF: **   wahaku cindi      ɛga
-HYP: wa kukiniga    wa kukiniga
+HYP: wɑ kukinigɑ    wɑ kukinigɑ
       I        S     S        S
 
 ### zen_M_100022_ddn_697_elicit_89  [train]  WER=4.00
 REF: *** ** *** wɛɛga
-HYP: wei ga wei    ga
+HYP: wei gɑ wei    gɑ
        I  I   I     S
 
 ### zen_M_100022_ddn_697_elicit_9  [train]  WER=17.00
-REF: ********** *** *** **** **** ** ***** ** **** ** * ** **** **** **** **** awei
-HYP: hesitation her shi hanu hanu bɛ shaka di bari na a na hanu hanu hanu hanu hanu
-              I   I   I    I    I  I     I  I    I  I I  I    I    I    I    I    S
+REF: ********** *** *** **** **** ** ***** ** **** ** ** ** **** **** **** **** awei
+HYP: hesitation her shi hɑnu hɑnu bɛ shɑkɑ di bɑri nɑ ɑ̀ nɑ hɑnu hɑnu hɑnu hɑnu hɑnu
+              I   I   I    I    I  I     I  I    I  I  I  I    I    I    I    I    S
 
-### zen_M_100022_ddn_697_elicit_90  [train]  WER=2.33
-REF: *** ** **** ** *** wɛɛga cindi fɔ
-HYP: wei ga kini fɔ wei    ga  kini fɔ
-       I  I    I  I   I     S     S
+### zen_M_100022_ddn_697_elicit_90  [train]  WER=2.67
+REF: *** ** **** ** *** wɛɛga cindi fɔ́
+HYP: wei gɑ kini fɔ wei    gɑ  kini  fɔ
+       I  I    I  I   I     S     S   S
 
 ### zen_M_100022_ddn_697_elicit_91  [train]  WER=1.33
 REF: *****   wɛɛga cindi   hinka
-HYP: weiga kininka weiga kininka
+HYP: weigɑ kininkɑ weigɑ kininkɑ
          I       S     S       S
 
 ### zen_M_100022_ddn_697_elicit_92  [train]  WER=1.33
 REF: **** wɛɛga  cindi hinza
-HYP: woyi    ga kinihi    za
+HYP: woyi    gɑ kinihi    zɑ
         I     S      S     S
 
 ### zen_M_100022_ddn_697_elicit_93  [train]  WER=1.33
 REF: **** wɛɛga cindi taaci
-HYP: woyi    ga cinni taaki
+HYP: woyi    gɑ cinni tɑɑki
         I     S     S     S
 
 ### zen_M_100022_ddn_697_elicit_94  [train]  WER=1.00
 REF: wɛɛga cindi     guu
-HYP:   woi    ga kinnigu
+HYP:   woi    gɑ kinnigu
          S     S       S
 
 ### zen_M_100022_ddn_697_elicit_95  [train]  WER=1.00
 REF: wɛɛga cindi   iddu
-HYP:  woyi    ga kinidu
+HYP:  woyi    gɑ kinidu
          S     S      S
 
 ### zen_M_100022_ddn_697_elicit_96  [train]  WER=1.33
 REF: *** wɛɛga cindi iyye
-HYP: wei    ga kinii   ye
+HYP: wei    gɑ kinii   ye
        I     S     S    S
 
 ### zen_M_100022_ddn_697_elicit_97  [train]  WER=1.67
 REF: ** *** wɛɛga cindi haaku
-HYP: wo iga  kini   iya    ku
+HYP: wo igɑ  kini   iyɑ    ku
       I   I     S     S     S
 
 ### zen_M_100022_ddn_697_elicit_98  [train]  WER=1.33
 REF: *****  wɛɛga cindi    ɛga
-HYP: weige kiniga weige kiniga
+HYP: weige kinigɑ weige kinigɑ
          I      S     S      S
 
-### zen_M_100022_ddn_697_elicit_99  [train]  WER=0.50
-REF: zangu fɔ
-HYP: zongu fɔ
-         S
+### zen_M_100022_ddn_697_elicit_99  [train]  WER=1.00
+REF: zangu fɔ́
+HYP: zongu  fɔ
+         S   S
 
 ### zen_F_1  [test]  WER=1.00
-REF:  afɔ
+REF: afɔ́
 HYP: afɔɔ
         S
 
@@ -1676,26 +1678,30 @@ REF: * awei
 HYP: a   we
      I    S
 
-### zen_F_100  [test]  WER=0.00
+### zen_F_100  [test]  WER=1.00
+REF: zangu fɔ́
+HYP: zɑngu  fɔ
+         S   S
 
-
-### zen_F_1000  [test]  WER=0.00
-
+### zen_F_1000  [test]  WER=0.50
+REF: dubu fɔ́
+HYP: dubu  fɔ
+            S
 
 ### zen_F_10000  [test]  WER=1.00
 REF:   dubu wei
 HYP: dubuwe ***
           S   D
 
-### zen_F_100000  [test, EXCLUDED]  WER=0.50
-REF: dubu dubu zangu fɔ
-HYP: dubu  zom ***** fɔ
-             S     D
+### zen_F_100000  [test, EXCLUDED]  WER=0.75
+REF: dubu dubu zangu fɔ́
+HYP: dubu  zom    fɔ ***
+             S     S   D
 
-### zen_F_1000000  [test]  WER=0.67
-REF:     dubu dubu fɔ
-HYP: dubudubu **** fɔ
-            S    D
+### zen_F_1000000  [test]  WER=1.00
+REF:     dubu dubu fɔ́
+HYP: dubudubu   fɔ ***
+            S    S   D
 
 ### zen_F_10000000  [test]  WER=0.33
 REF: dubu dubu wei
@@ -1703,329 +1709,329 @@ HYP: dubu dubu  we
                  S
 
 ### zen_F_100000000  [test, EXCLUDED]  WER=0.50
-REF: dubu dubu zangu fɔ
-HYP: dubu dubu  zong fo
-                   S  S
+REF: dubu dubu zangu fɔ́
+HYP: dubu dubu  zong  fo
+                   S   S
 
-### zen_F_1000000000  [test]  WER=0.50
-REF: bambata  fɔ
-HYP: bambata fɔɔ
-               S
+### zen_F_1000000000  [test]  WER=1.00
+REF: bambata fɔ́
+HYP: bɑmbɑtɑ fɔɔ
+           S   S
 
 ### zen_F_101  [test]  WER=1.25
-REF: ***** zangu fɔ nda afɔ
-HYP: zongu  fɔri na   a  fɔ
-         I     S  S   S   S
+REF: ***** zangu fɔ́ nda afɔ́
+HYP: zongu  fɔri  nɑ  ɑ̀   fɔ
+         I     S   S   S    S
 
 ### zen_F_102  [test]  WER=1.00
-REF: zangu     fɔ   nda ihinka
-HYP:  zong fuonda hinka ******
+REF: zangu    fɔ́   nda ihinka
+HYP:  zong fuondɑ hinkɑ ******
          S      S     S      D
 
-### zen_F_103  [test]  WER=0.50
-REF: zangu fɔ nda ihinza
-HYP: zongu fɔ nda  hinza
-         S             S
+### zen_F_103  [test]  WER=1.00
+REF: zangu fɔ́ nda ihinza
+HYP: zongu  fɔ ndɑ  hinzɑ
+         S   S   S      S
 
-### zen_F_104  [test]  WER=0.75
-REF: zangu fɔ nda ** itaaci
-HYP: zongu fɔ nda ya  taaki
-         S         I      S
+### zen_F_104  [test]  WER=1.25
+REF: ***** zangu fɔ́ nda itaaci
+HYP: zongu    fɔ ndɑ  yɑ  tɑɑki
+         I     S   S   S      S
 
-### zen_F_105  [test]  WER=0.75
-REF: zangu fɔ nda * iguu
-HYP:  zong fɔ nda a   gu
-         S        I    S
+### zen_F_105  [test]  WER=1.25
+REF: **** zangu fɔ́ nda iguu
+HYP: zong    fɔ ndɑ  ɑ̀   gu
+        I     S   S   S    S
 
 ### zen_F_106  [test]  WER=1.00
-REF: zangu    fɔ nda iddu
-HYP: zongu falda idu ****
+REF: zangu   fɔ́ nda iddu
+HYP: zongu fɑldɑ idu ****
          S     S   S    D
 
-### zen_F_107  [test]  WER=0.75
-REF: zangu    fɔ   nda iyye
-HYP: zangu fanda haiye ****
-               S     S    D
+### zen_F_107  [test]  WER=1.00
+REF: zangu   fɔ́   nda iyye
+HYP: zɑngu fɑndɑ hɑiye ****
+         S     S     S    D
 
 ### zen_F_108  [test]  WER=1.00
-REF: zangu    fɔ nda ihaaku
-HYP: zongu fanda iya     ko
+REF: zangu   fɔ́ nda ihaaku
+HYP: zongu fɑndɑ iyɑ     ko
          S     S   S      S
 
 ### zen_F_109  [test]  WER=1.00
-REF:   zangu  fɔ nda aiga
-HYP: zongufu nda  yi   ga
+REF:   zangu fɔ́ nda aiga
+HYP: zongufu ndɑ  yi   gɑ
            S   S   S    S
 
 ### zen_F_11  [test]  WER=1.00
-REF:  awei cindi  fɔ
+REF:  awei cindi fɔ́
 HYP: aweki    ni fɔɔ
          S     S   S
 
 ### zen_F_110  [test]  WER=1.00
-REF: zangu      fɔ nda iwei
-HYP: zongu fandawe *** ****
+REF: zangu     fɔ́ nda iwei
+HYP: zongu fɑndɑwe *** ****
          S       S   D    D
 
 ### zen_F_11000  [test]  WER=1.25
-REF: dubu *** ** wei cindi fɔ
-HYP: dubu wee ki   n    di fo
-            I  I   S     S  S
+REF: dubu *** ** wei cindi fɔ́
+HYP: dubu wee ki   n    di  fo
+            I  I   S     S   S
 
-### zen_F_111  [test]  WER=0.50
-REF: zangu fɔ nda iwei cindi fɔ
-HYP: zongu fɔ nda weki   ndi fɔ
-         S           S     S
+### zen_F_111  [test]  WER=1.00
+REF: zangu fɔ́ nda iwei cindi fɔ́
+HYP: zongu  fɔ ndɑ weki   ndi  fɔ
+         S   S   S    S     S   S
 
-### zen_F_112  [test]  WER=0.67
-REF: zangu fɔ nda  iwei cindi hinka
-HYP: zongu fɔ nda weiki ninka *****
-         S            S     S     D
+### zen_F_112  [test]  WER=1.00
+REF: zangu fɔ́ nda  iwei cindi hinka
+HYP: zongu  fɔ ndɑ weiki ninkɑ *****
+         S   S   S     S     S     D
 
-### zen_F_1125  [test]  WER=0.89
-REF: dubu fɔ nda zangu fɔ **  nda waranka cindi guu
-HYP: tubu fɔ  na   zom fɔ na wara     nka kindi  gu
-        S      S     S     I    S       S     S   S
+### zen_F_1125  [test]  WER=1.11
+REF: **** dubu fɔ́ nda zangu fɔ́  nda waranka cindi guu
+HYP: tubu   fɔ  nɑ zom    fɔ  nɑ wɑrɑ     nkɑ kindi  gu
+        I    S   S   S     S   S    S       S     S   S
 
-### zen_F_113  [test]  WER=0.67
-REF: zangu fɔ nda iwei  cindi hinza
-HYP: zongu fɔ nda  wei kineza *****
-         S           S      S     D
+### zen_F_113  [test]  WER=1.00
+REF: zangu fɔ́ nda iwei  cindi hinza
+HYP: zongu  fɔ ndɑ  wei kinezɑ *****
+         S   S   S    S      S     D
 
-### zen_F_114  [test]  WER=0.67
-REF: zangu fɔ nda iwei cindi taaci
-HYP: zongu fɔ nda weki    ni taaki
-         S           S     S     S
+### zen_F_114  [test]  WER=1.00
+REF: zangu fɔ́ nda iwei cindi taaci
+HYP: zongu  fɔ ndɑ weki    ni tɑɑki
+         S   S   S    S     S     S
 
 ### zen_F_115  [test]  WER=1.00
-REF: zangu    fɔ nda    iwei cindi guu
-HYP: zongu fonda wei kindigu ***** ***
+REF: zangu   fɔ́ nda    iwei cindi guu
+HYP: zongu fondɑ wei kindigu ***** ***
          S     S   S       S     D   D
 
-### zen_F_1150  [test]  WER=0.57
-REF: dubu fɔ nda zangu fɔ nda weiguu
-HYP: dubu fɔ  na   zom fɔ  na   wegu
-               S     S      S      S
+### zen_F_1150  [test]  WER=0.86
+REF: dubu fɔ́ nda zangu fɔ́ nda weiguu
+HYP: dubu  fɔ  nɑ   zom  fɔ  nɑ   wegu
+            S   S     S   S   S      S
 
-### zen_F_116  [test]  WER=0.67
-REF: zangu fɔ  nda  iwei cindi iddu
-HYP: zangu fɔ daai weiki    ni  idu
-                 S     S     S    S
+### zen_F_116  [test]  WER=1.00
+REF: zangu fɔ́  nda  iwei cindi iddu
+HYP: zɑngu  fɔ dɑɑi weiki    ni  idu
+         S   S    S     S     S    S
 
-### zen_F_117  [test]  WER=0.83
-REF: zangu    fɔ   nda iwei cindi iyye
-HYP: zangu fanda weiki niye ***** ****
-               S     S    S     D    D
+### zen_F_117  [test]  WER=1.00
+REF: zangu   fɔ́   nda iwei cindi iyye
+HYP: zɑngu fɑndɑ weiki niye ***** ****
+         S     S     S    S     D    D
 
-### zen_F_1175  [test]  WER=0.67
-REF: dubu fɔ nda zangu fɔ nda weiiyye cindi     guu
-HYP: dubu fɔ  na   zam fɔ  na     wei    ya kindigu
-               S     S      S       S     S       S
+### zen_F_1175  [test]  WER=0.89
+REF: dubu fɔ́ nda zangu fɔ́ nda weiiyye cindi     guu
+HYP: dubu  fɔ  nɑ   zɑm  fɔ  nɑ     wei    yɑ kindigu
+            S   S     S   S   S       S     S       S
 
-### zen_F_118  [test]  WER=0.67
-REF: zangu fɔ nda iwei cindi haaku
-HYP: zangu fɔ  na weki    ni yaago
-                S    S     S     S
+### zen_F_118  [test]  WER=1.00
+REF: zangu fɔ́ nda iwei cindi haaku
+HYP: zɑngu  fɔ  nɑ weki    ni yɑɑgo
+         S   S   S    S     S     S
 
 ### zen_F_119  [test]  WER=1.00
-REF: zangu   fɔ nda iwei    cindi ɛga
-HYP: zongu fɔri  na  wei chindiga ***
+REF: zangu  fɔ́ nda iwei    cindi ɛga
+HYP: zongu fɔri  nɑ  wei chindigɑ ***
          S    S   S    S        S   D
 
-### zen_F_1199  [test]  WER=0.67
-REF: dubu fɔ nda zangu fɔ nda wɛɛga cindi ɛga
-HYP: dubu fɔ  na   zom fɔ  na  wega kinne gaa
-               S     S      S     S     S   S
+### zen_F_1199  [test]  WER=0.89
+REF: dubu fɔ́ nda zangu fɔ́ nda wɛɛga cindi ɛga
+HYP: dubu  fɔ  nɑ   zom  fɔ  nɑ  wegɑ kinne gɑɑ
+            S   S     S   S   S     S     S   S
 
 ### zen_F_12  [test]  WER=1.00
 REF:   awei cindi hinka
-HYP: haweki    ni  nkaa
+HYP: hɑweki    ni  nkɑɑ
           S     S     S
 
 ### zen_F_120  [test]  WER=1.25
-REF: ***** zangu fɔ  nda waranka
-HYP: zongu   fɔl na wara     nka
-         I     S  S    S       S
+REF: ***** zangu fɔ́  nda waranka
+HYP: zongu   fɔl  nɑ wɑrɑ     nkɑ
+         I     S   S    S       S
 
 ### zen_F_12000  [test]  WER=0.50
 REF: dubu wei   cindi hinka
-HYP: dubu wei kinding    ka
+HYP: dubu wei kinding    kɑ
                     S     S
 
-### zen_F_121  [test]  WER=0.67
-REF: zangu    fɔ nda waranka cindi fɔ
-HYP: zongu fanda *** waranka kindi fɔ
-         S     S   D             S
+### zen_F_121  [test]  WER=1.00
+REF: zangu   fɔ́     nda waranka cindi fɔ́
+HYP: zongu fɑndɑ wɑrɑnkɑ   kindi    fɔ ***
+         S     S       S       S     S   D
 
-### zen_F_122  [test]  WER=0.83
-REF: zangu fɔ nda waranka cindi   hinka
-HYP: zongu fɔ dam    wara    ka kiniika
-         S      S       S     S       S
+### zen_F_122  [test]  WER=1.00
+REF: zangu fɔ́ nda waranka cindi   hinka
+HYP: zongu  fɔ dɑm    wɑrɑ    kɑ kiniikɑ
+         S   S   S       S     S       S
 
 ### zen_F_123  [test]  WER=1.00
-REF:   zangu    fɔ  nda waranka    cindi hinza
-HYP: zongufu hanna wara     nga kindinza *****
+REF:   zangu   fɔ́  nda waranka    cindi hinza
+HYP: zongufu hɑnnɑ wɑrɑ     ngɑ kindinzɑ *****
            S     S    S       S        S     D
 
-### zen_F_124  [test]  WER=1.17
-REF: zangu fɔ ** **** *** nda waranka cindi taaci
-HYP: zangu fɔ da wara nga  ki     ndi   taa    ki
-               I    I   I   S       S     S     S
+### zen_F_124  [test]  WER=1.50
+REF: ***** ** ** zangu fɔ́ nda waranka cindi taaci
+HYP: zɑngu fɔ dɑ  wɑrɑ ngɑ  ki     ndi   tɑɑ    ki
+         I  I  I     S   S   S       S     S     S
 
 ### zen_F_125  [test]  WER=1.17
-REF: ***** zangu fɔ  nda waranka cindi guu
-HYP: zongu   fɔl na wara     nga gindi  gu
-         I     S  S    S       S     S   S
+REF: ***** zangu fɔ́  nda waranka cindi guu
+HYP: zongu   fɔl  nɑ wɑrɑ     ngɑ gindi  gu
+         I     S   S    S       S     S   S
 
-### zen_F_126  [test]  WER=0.83
-REF: zangu fɔ ***  nda waranka cindi  iddu
-HYP: zangu fɔ nta wara     nka    ki niitu
-                I    S       S     S     S
+### zen_F_126  [test]  WER=1.17
+REF: ***** zangu fɔ́  nda waranka cindi  iddu
+HYP: zɑngu    fɔ ntɑ wɑrɑ     nkɑ    ki niitu
+         I     S   S    S       S     S     S
 
-### zen_F_127  [test]  WER=0.67
-REF: zangu fɔ **   nda waranka cindi iyye
-HYP: zangu fɔ da wairi     nka cindi   ye
-               I     S       S          S
+### zen_F_127  [test]  WER=1.00
+REF: ***** zangu fɔ́   nda waranka cindi iyye
+HYP: zɑngu    fɔ  dɑ wɑiri     nkɑ cindi   ye
+         I     S   S     S       S          S
 
-### zen_F_128  [test]  WER=0.83
-REF: zangu fɔ nda **** *** waranka cindi haaku
-HYP: zangu fɔ nda wɔre nka      ki  ndei yaagu
-                     I   I       S     S     S
+### zen_F_128  [test]  WER=1.33
+REF: ***** ** zangu  fɔ́ nda waranka cindi haaku
+HYP: zɑngu fɔ   ndɑ wɔre nkɑ      ki  ndei yɑɑgu
+         I  I     S    S   S       S     S     S
 
-### zen_F_129  [test]  WER=0.67
-REF: zangu fɔ nda **** waranka cindi ɛga
-HYP: zangu fɔ nda wɔrɔ     nka  kini gaa
-                     I       S     S   S
+### zen_F_129  [test]  WER=1.17
+REF: ***** zangu fɔ́  nda waranka cindi ɛga
+HYP: zɑngu    fɔ ndɑ wɔrɔ     nkɑ  kini gɑɑ
+         I     S   S    S       S     S   S
 
 ### zen_F_13  [test]  WER=1.33
 REF: * awei cindi hinza
-HYP: a weki    ni   nza
+HYP: a weki    ni   nzɑ
      I    S     S     S
 
-### zen_F_130  [test]  WER=0.50
-REF: zangu  fɔ nda waranza
-HYP:  zong for nda waranza
-         S   S
+### zen_F_130  [test]  WER=1.00
+REF: zangu fɔ́ nda waranza
+HYP:  zong for ndɑ wɑrɑnzɑ
+         S   S   S       S
 
 ### zen_F_13000  [test]  WER=0.50
 REF: dubu wei cindi  hinza
-HYP: dubu wei    ki ndinza
+HYP: dubu wei    ki ndinzɑ
                   S      S
 
 ### zen_F_131  [test]  WER=1.00
-REF: zangu  fɔ    nda waranza cindi  fɔ
-HYP:  zong foo dawara    zaki    ni foo
+REF: zangu fɔ́    nda waranza cindi fɔ́
+HYP:  zong foo dɑwɑrɑ    zɑki    ni foo
          S   S      S       S     S   S
 
-### zen_F_132  [test]  WER=0.83
-REF: zangu fɔ nda **** waranza cindi hinka
-HYP: zongu fɔ nda wɔrɛ     nza kinni   nka
-         S           I       S     S     S
+### zen_F_132  [test]  WER=1.17
+REF: ***** zangu fɔ́  nda waranza cindi hinka
+HYP: zongu    fɔ ndɑ wɔrɛ     nzɑ kinni   nkɑ
+         I     S   S    S       S     S     S
 
-### zen_F_133  [test]  WER=0.83
-REF: zangu fɔ nda **** waranza cindi hinza
-HYP: zongu fɔ nda wɔrɛ     nza    ki niiza
-         S           I       S     S     S
+### zen_F_133  [test]  WER=1.17
+REF: ***** zangu fɔ́  nda waranza cindi hinza
+HYP: zongu    fɔ ndɑ wɔrɛ     nzɑ    ki niizɑ
+         I     S   S    S       S     S     S
 
-### zen_F_134  [test]  WER=0.83
-REF: zangu fɔ nda **** waranza cindi taaci
-HYP: zongu fɔ nda wɔrɛ     nza kinti taaki
-         S           I       S     S     S
+### zen_F_134  [test]  WER=1.17
+REF: ***** zangu fɔ́  nda waranza cindi taaci
+HYP: zongu    fɔ ndɑ wɔrɛ     nzɑ kinti tɑɑki
+         I     S   S    S       S     S     S
 
-### zen_F_135  [test]  WER=0.67
-REF: zangu fɔ nda   waranza cindi guu
-HYP: zongu fɔ nda waranzeki    ni  gu
-         S                S     S   S
+### zen_F_135  [test]  WER=1.00
+REF: zangu fɔ́ nda   waranza cindi guu
+HYP: zongu  fɔ ndɑ wɑrɑnzeki    ni  gu
+         S   S   S         S     S   S
 
-### zen_F_136  [test]  WER=0.83
-REF: zangu fɔ nda **** *** waranza cindi iddu
-HYP: zangu fɔ nda wala nza      ki  ndei   du
-                     I   I       S     S    S
+### zen_F_136  [test]  WER=1.33
+REF: ***** ** zangu  fɔ́ nda waranza cindi iddu
+HYP: zɑngu fɔ   ndɑ wɑlɑ nzɑ      ki  ndei   du
+         I  I     S    S   S       S     S    S
 
 ### zen_F_137  [test]  WER=1.17
-REF: ******* zangu   fɔ nda waranza cindi iyye
-HYP: zongufu   nta wɔra nza      ki   nti   ye
+REF: ******* zangu  fɔ́ nda waranza cindi iyye
+HYP: zongufu   ntɑ wɔrɑ nzɑ      ki   nti   ye
            I     S    S   S       S     S    S
 
-### zen_F_138  [test]  WER=0.83
-REF: zangu    fɔ nda   waranza cindi haaku
-HYP:    za ngufu nda waranzaki    ni yaaku
-         S     S             S     S     S
+### zen_F_138  [test]  WER=1.00
+REF: zangu   fɔ́ nda   waranza cindi haaku
+HYP:    zɑ ngufu ndɑ wɑrɑnzɑki    ni yɑɑku
+         S     S   S         S     S     S
 
-### zen_F_139  [test]  WER=0.50
-REF: zangu fɔ nda waranza    cindi ɛga
-HYP: zongu fɔ nda waranza kindinga ***
-         S                       S   D
+### zen_F_139  [test]  WER=1.00
+REF: zangu fɔ́ nda waranza    cindi ɛga
+HYP: zongu  fɔ ndɑ wɑrɑnzɑ kindingɑ ***
+         S   S   S       S        S   D
 
 ### zen_F_14  [test]  WER=1.33
 REF: *  awei cindi taaci
-HYP: e weiki    ni taaki
+HYP: e weiki    ni tɑɑki
      I     S     S     S
 
-### zen_F_140  [test]  WER=0.75
-REF: zangu fɔ ** nda weitaaci
-HYP: zangu fɔ da  we    taaki
-               I   S        S
+### zen_F_140  [test]  WER=1.25
+REF: ***** zangu fɔ́ nda weitaaci
+HYP: zɑngu    fɔ  dɑ  we    tɑɑki
+         I     S   S   S        S
 
 ### zen_F_14000  [test]  WER=0.50
 REF:   dubu wei cindi taaci
-HYP: kidugu wei cindi taaki
+HYP: kidugu wei cindi tɑɑki
           S               S
 
-### zen_F_141  [test]  WER=0.67
-REF: zangu fɔ nda ** weitaaci cindi fɔ
-HYP: zongu fɔ nda we    taaki kindi fɔ
-         S         I        S     S
+### zen_F_141  [test]  WER=1.17
+REF: ***** zangu fɔ́ nda weitaaci cindi fɔ́
+HYP: zongu    fɔ ndɑ  we    tɑɑki kindi  fɔ
+         I     S   S   S        S     S   S
 
-### zen_F_142  [test]  WER=0.67
-REF: zangu fɔ nda weitaaci  cindi hinka
-HYP: zongu fɔ nda     weta kikini    ka
-         S               S      S     S
+### zen_F_142  [test]  WER=1.00
+REF: zangu fɔ́ nda weitaaci  cindi hinka
+HYP: zongu  fɔ ndɑ     wetɑ kikini    kɑ
+         S   S   S        S      S     S
 
-### zen_F_143  [test]  WER=0.50
-REF: zangu fɔ nda weitaaci cindi  hinza
-HYP: zangu fɔ nda     weta  kiki ndiiza
-                         S     S      S
+### zen_F_143  [test]  WER=1.00
+REF: zangu fɔ́ nda weitaaci cindi  hinza
+HYP: zɑngu  fɔ ndɑ     wetɑ  kiki ndiizɑ
+         S   S   S        S     S      S
 
-### zen_F_144  [test]  WER=0.67
-REF: zangu fɔ nda **** weitaaci cindi taaci
-HYP: zangu fɔ nda weta     keke    ni  taki
-                     I        S     S     S
+### zen_F_144  [test]  WER=1.17
+REF: ***** zangu fɔ́  nda weitaaci cindi taaci
+HYP: zɑngu    fɔ ndɑ wetɑ     keke    ni  tɑki
+         I     S   S    S        S     S     S
 
 ### zen_F_145  [test]  WER=1.00
-REF:    zangu fɔ  nda weitaaci cindi guu
-HYP: uzongufu na weta     kiki   ndi  gu
-            S  S    S        S     S   S
+REF:    zangu fɔ́  nda weitaaci cindi guu
+HYP: uzongufu  nɑ wetɑ     kiki   ndi  gu
+            S   S    S        S     S   S
 
-### zen_F_146  [test]  WER=0.67
-REF: zangu fɔ nda ** weitaaci cindi  iddu
-HYP: zangu fɔ nda we    taaki    ki ndidu
-                   I        S     S     S
+### zen_F_146  [test]  WER=1.17
+REF: ***** zangu fɔ́ nda weitaaci cindi  iddu
+HYP: zɑngu    fɔ ndɑ  we    tɑɑki    ki ndidu
+         I     S   S   S        S     S     S
 
-### zen_F_147  [test]  WER=0.83
-REF: zangu fɔ nda ** **** weitaaci cindi iyye
-HYP: zangu fɔ nda we taki       ki  ndii   ye
-                   I    I        S     S    S
+### zen_F_147  [test]  WER=1.33
+REF: ***** ** zangu fɔ́  nda weitaaci cindi iyye
+HYP: zɑngu fɔ   ndɑ  we tɑki       ki  ndii   ye
+         I  I     S   S    S        S     S    S
 
-### zen_F_148  [test]  WER=0.67
-REF: zangu fɔ nda **** weitaaci cindi haaku
-HYP: zangu fɔ nda weta  kikindi    ya    ko
-                     I        S     S     S
+### zen_F_148  [test]  WER=1.17
+REF: ***** zangu fɔ́  nda weitaaci cindi haaku
+HYP: zɑngu    fɔ ndɑ wetɑ  kikindi    yɑ    ko
+         I     S   S    S        S     S     S
 
-### zen_F_149  [test]  WER=0.50
-REF: zangu fɔ nda weitaaci     cindi ɛga
-HYP: zangu fɔ nda     weta kikindiga ***
-                         S         S   D
+### zen_F_149  [test]  WER=1.00
+REF: zangu fɔ́ nda weitaaci     cindi ɛga
+HYP: zɑngu  fɔ ndɑ     wetɑ kikindigɑ ***
+         S   S   S        S         S   D
 
 ### zen_F_15  [test]  WER=1.00
 REF: awei cindi guu
 HYP: weki    ni ngu
         S     S   S
 
-### zen_F_150  [test]  WER=0.50
-REF: zangu fɔ nda weiguu
-HYP: zangu fɔ  na   wegu
-                S      S
+### zen_F_150  [test]  WER=1.00
+REF: zangu fɔ́ nda weiguu
+HYP: zɑngu  fɔ  nɑ   wegu
+         S   S   S      S
 
 ### zen_F_15000  [test]  WER=1.00
 REF:   dubu     wei cindi guu
@@ -2033,104 +2039,104 @@ HYP: tubuwe kintegu ***** ***
           S       S     D   D
 
 ### zen_F_151  [test]  WER=1.00
-REF: zangu  fɔ nda weiguu   cindi  fɔ
-HYP: zongu foo  na     we gukindi foo
+REF: zangu fɔ́ nda weiguu   cindi fɔ́
+HYP: zongu foo  nɑ     we gukindi foo
          S   S   S      S       S   S
 
-### zen_F_152  [test]  WER=0.67
-REF: zangu fɔ nda weiguu   cindi hinka
-HYP: zangu fɔ  na     we gukindi   kaa
-                S      S       S     S
+### zen_F_152  [test]  WER=1.00
+REF: zangu fɔ́ nda weiguu   cindi hinka
+HYP: zɑngu  fɔ  nɑ     we gukindi   kɑɑ
+         S   S   S      S       S     S
 
-### zen_F_153  [test]  WER=0.67
-REF: zangu fɔ nda weiguu    cindi hinza
-HYP: zangu fɔ  na   wegu kindiiza *****
-                S      S        S     D
+### zen_F_153  [test]  WER=1.00
+REF: zangu fɔ́ nda weiguu    cindi hinza
+HYP: zɑngu  fɔ  nɑ   wegu kindiizɑ *****
+         S   S   S      S        S     D
 
-### zen_F_154  [test]  WER=1.00
-REF: zangu fɔ ** nda weiguu cindi taaci
-HYP: zongu fɔ na wei   guki   ndi taaki
-         S     I   S      S     S     S
+### zen_F_154  [test]  WER=1.17
+REF: ***** zangu fɔ́ nda weiguu cindi taaci
+HYP: zongu    fɔ  nɑ wei   guki   ndi tɑɑki
+         I     S   S   S      S     S     S
 
-### zen_F_155  [test]  WER=0.67
-REF: zangu fɔ nda weiguu   cindi guu
-HYP: zangu fɔ  na   wegu kindigu ***
-                S      S       S   D
+### zen_F_155  [test]  WER=1.00
+REF: zangu fɔ́ nda weiguu   cindi guu
+HYP: zɑngu  fɔ  nɑ   wegu kindigu ***
+         S   S   S      S       S   D
 
-### zen_F_156  [test]  WER=0.67
-REF: zangu fɔ nda weiguu cindi iddu
-HYP: zangu fɔ  na   wegu kindi   du
-                S      S     S    S
+### zen_F_156  [test]  WER=1.00
+REF: zangu fɔ́ nda weiguu cindi iddu
+HYP: zɑngu  fɔ  nɑ   wegu kindi   du
+         S   S   S      S     S    S
 
-### zen_F_157  [test]  WER=0.67
-REF: zangu fɔ nda weiguu    cindi iyye
-HYP: zangu fɔ  na     we bukindii   ye
-                S      S        S    S
+### zen_F_157  [test]  WER=1.00
+REF: zangu fɔ́ nda weiguu    cindi iyye
+HYP: zɑngu  fɔ  nɑ     we bukindii   ye
+         S   S   S      S        S    S
 
 ### zen_F_158  [test]  WER=1.00
-REF:   zangu fɔ nda  weiguu cindi haaku
-HYP: zongufo na  we gukindi yaaku *****
-           S  S   S       S     S     D
+REF:   zangu fɔ́ nda  weiguu  cindi haaku
+HYP: zongufo  nɑ  we gukindi yɑɑ̀ku *****
+           S   S   S       S      S     D
 
-### zen_F_159  [test]  WER=0.67
-REF: zangu fɔ nda weiguu    cindi ɛga
-HYP: zangu fɔ  na   wegu kindiiga ***
-                S      S        S   D
+### zen_F_159  [test]  WER=1.00
+REF: zangu fɔ́ nda weiguu    cindi ɛga
+HYP: zɑngu  fɔ  nɑ   wegu kindiigɑ ***
+         S   S   S      S        S   D
 
 ### zen_F_16  [test]  WER=1.33
 REF: * awei cindi iddu
 HYP: a weki    ni   du
      I    S     S    S
 
-### zen_F_160  [test]  WER=0.75
-REF: zangu fɔ nda weiiddu
-HYP: zongu fɔ  na   weedu
-         S      S       S
+### zen_F_160  [test]  WER=1.00
+REF: zangu fɔ́ nda weiiddu
+HYP: zongu  fɔ  nɑ   weedu
+         S   S   S       S
 
-### zen_F_161  [test]  WER=0.67
-REF: zangu fɔ ** nda weiiddu cindi fɔ
-HYP: zangu fɔ na  we    duki   ndi fɔ
-               I   S       S     S
+### zen_F_161  [test]  WER=1.17
+REF: ***** zangu fɔ́ nda weiiddu cindi fɔ́
+HYP: zɑngu    fɔ  nɑ  we    duki   ndi  fɔ
+         I     S   S   S       S     S   S
 
 ### zen_F_162  [test]  WER=1.00
-REF:   zangu fɔ nda weiiddu   cindi hinka
-HYP: zongufo na  we      du kindika *****
-           S  S   S       S       S     D
+REF:   zangu fɔ́ nda weiiddu   cindi hinka
+HYP: zongufo  nɑ  we      du kindikɑ *****
+           S   S   S       S       S     D
 
-### zen_F_163  [test]  WER=0.83
-REF: zangu fɔ nda weiiddu      cindi hinza
-HYP: zongu fɔ  na      we dukindiiza *****
-         S      S       S          S     D
+### zen_F_163  [test]  WER=1.00
+REF: zangu fɔ́ nda weiiddu      cindi hinza
+HYP: zongu  fɔ  nɑ      we dukindiizɑ *****
+         S   S   S       S          S     D
 
 ### zen_F_164  [test]  WER=1.00
-REF:   zangu fɔ nda weiiddu cindi taaci
-HYP: zongufo na  we      do kindi taaki
-           S  S   S       S     S     S
+REF:   zangu fɔ́ nda weiiddu cindi taaci
+HYP: zongufo  nɑ  we      do kindi tɑɑki
+           S   S   S       S     S     S
 
-### zen_F_165  [test]  WER=0.83
-REF: zangu fɔ nda weiiddu   cindi guu
-HYP: zongu fɔ  na   weedu kindigu ***
-         S      S       S       S   D
+### zen_F_165  [test]  WER=1.00
+REF: zangu fɔ́ nda weiiddu   cindi guu
+HYP: zongu  fɔ  nɑ   weedu kindigu ***
+         S   S   S       S       S   D
 
-### zen_F_166  [test]  WER=0.83
-REF: zangu fɔ ** nda weiiddu cindi iddu
-HYP: zangu fɔ na  we      du kinni   du
-               I   S       S     S    S
+### zen_F_166  [test]  WER=1.17
+REF: ***** zangu fɔ́ nda weiiddu cindi iddu
+HYP: zɑngu    fɔ  nɑ  we      du kinni   du
+         I     S   S   S       S     S    S
 
-### zen_F_167  [test]  WER=0.83
-REF: zangu fɔ nda weiiddu   cindi iyye
-HYP: zongu fɔ  na   weedu kindiie ****
-         S      S       S       S    D
+### zen_F_167  [test]  WER=1.00
+REF: zangu fɔ́ nda weiiddu   cindi iyye
+HYP: zongu  fɔ  nɑ   weedu kindiie ****
+         S   S   S       S       S    D
 
 ### zen_F_168  [test]  WER=1.00
-REF:   zangu fɔ nda weiiddu cindi haaku
-HYP: zongufo na  we    duki   ndi yaagu
-           S  S   S       S     S     S
+REF:   zangu fɔ́ nda weiiddu cindi haaku
+HYP: zongufo  nɑ  we    duki   ndi yɑɑgu
+           S   S   S       S     S     S
 
-### zen_F_169  [test]  WER=0.83
-REF: zangu fɔ nda weiiddu    cindi ɛga
-HYP: zongu fɔ  na    welu kindiiga ***
-         S      S       S        S   D
+### zen_F_169  [test]  WER=1.00
+REF: zangu fɔ́ nda weiiddu    cindi ɛga
+HYP: zongu  fɔ  nɑ    welu kindiigɑ ***
+         S   S   S       S        S   D
 
 ### zen_F_17  [test]  WER=1.00
 REF:  awei cindi iyye
@@ -2138,669 +2144,683 @@ HYP: aweki    ni  iye
          S     S    S
 
 ### zen_F_170  [test]  WER=1.25
-REF: ***** zangu fɔ nda weiiyye
-HYP: zongu   for na wei      ye
-         I     S  S   S       S
+REF: ***** zangu fɔ́ nda weiiyye
+HYP: zongu   for  nɑ wei      ye
+         I     S   S   S       S
 
 ### zen_F_17000000  [test]  WER=0.60
 REF: dubu dubu wei ** cindi iyye
 HYP: dubu dubu wei ki   nii   ye
                     I     S    S
 
-### zen_F_171  [test]  WER=0.67
-REF: zangu fɔ nda weiiyye cindi fɔ
-HYP: zongu fɔ  na   welie kindi fɔ
-         S      S       S     S
+### zen_F_171  [test]  WER=1.00
+REF: zangu fɔ́ nda weiiyye cindi fɔ́
+HYP: zongu  fɔ  nɑ   welie kindi  fɔ
+         S   S   S       S     S   S
 
-### zen_F_172  [test]  WER=0.83
-REF: zangu fɔ nda weiiyye cindi    hinka
-HYP: zongu fɔ  na     wei    ye kindiika
-         S      S       S     S        S
+### zen_F_172  [test]  WER=1.00
+REF: zangu fɔ́ nda weiiyye cindi    hinka
+HYP: zongu  fɔ  nɑ     wei    ye kindiikɑ
+         S   S   S       S     S        S
 
-### zen_F_173  [test]  WER=0.83
-REF: zangu fɔ nda weiiyye cindi    hinza
-HYP: zongu fɔ  na     wei    ye kindinza
-         S      S       S     S        S
+### zen_F_173  [test]  WER=1.00
+REF: zangu fɔ́ nda weiiyye cindi    hinza
+HYP: zongu  fɔ  nɑ     wei    ye kindinzɑ
+         S   S   S       S     S        S
 
 ### zen_F_174  [test]  WER=1.17
-REF: ***** zangu fɔ nda weiiyye  cindi taaci
-HYP: zongu   for na wei      ye kinita    ki
-         I     S  S   S       S      S     S
+REF: ***** zangu fɔ́ nda weiiyye  cindi taaci
+HYP: zongu   for  nɑ wei      ye kinitɑ    ki
+         I     S   S   S       S      S     S
 
-### zen_F_175  [test]  WER=0.67
-REF: zangu fɔ nda weiiyye cindi     guu
-HYP: zangu fɔ  na     wei    ya kindigu
-                S       S     S       S
+### zen_F_175  [test]  WER=1.00
+REF: zangu fɔ́ nda weiiyye cindi     guu
+HYP: zɑngu  fɔ  nɑ     wei    yɑ kindigu
+         S   S   S       S     S       S
 
 ### zen_F_176  [test]  WER=1.00
-REF: zangu  fɔ nda weiiyye cindi   iddu
-HYP: zongu fɔɔ  na     wei    ye kinidu
+REF: zangu fɔ́ nda weiiyye cindi   iddu
+HYP: zongu fɔɔ  nɑ     wei    ye kinidu
          S   S   S       S     S      S
 
 ### zen_F_177  [test]  WER=1.00
-REF: zangu  fɔ nda weiiyye cindi   iyye
-HYP: zongu foo  na     wei    ye kiniie
+REF: zangu fɔ́ nda weiiyye cindi   iyye
+HYP: zongu foo  nɑ     wei    ye kiniie
          S   S   S       S     S      S
 
 ### zen_F_178  [test]  WER=1.00
-REF:   zangu fɔ nda weiiyye cindi haaku
-HYP: zangufɔ na wei       e  kini yaaku
-           S  S   S       S     S     S
+REF:   zangu fɔ́ nda weiiyye cindi haaku
+HYP: zɑngufɔ  nɑ wei       e  kini yɑɑku
+           S   S   S       S     S     S
 
-### zen_F_179  [test]  WER=0.83
-REF: zangu fɔ nda weiiyye cindi     ɛga
-HYP: zongu fɔ  na     wei     e kindiga
-         S      S       S     S       S
+### zen_F_179  [test]  WER=1.00
+REF: zangu fɔ́ nda weiiyye cindi     ɛga
+HYP: zongu  fɔ  nɑ     wei     e kindigɑ
+         S   S   S       S     S       S
 
 ### zen_F_18  [test]  WER=1.00
 REF:  awei cindi haaku
-HYP: aweki  niya    ku
+HYP: aweki  niyɑ    ku
          S     S     S
 
 ### zen_F_180  [test]  WER=1.00
-REF:   zangu fɔ   nda wahaku
-HYP: zongufo na waaku ******
-           S  S     S      D
+REF:   zangu fɔ́   nda wahaku
+HYP: zongufo  nɑ wɑɑku ******
+           S   S     S      D
 
-### zen_F_181  [test]  WER=0.50
-REF: zangu fɔ nda wahaku   cindi fɔ
-HYP: zangu fɔ  no    waa kukindi fɔ
-                S      S       S
+### zen_F_181  [test]  WER=1.00
+REF: zangu fɔ́ nda wahaku   cindi fɔ́
+HYP: zɑngu  fɔ  no    wɑɑ kukindi  fɔ
+         S   S   S      S       S   S
 
 ### zen_F_182  [test]  WER=1.00
-REF:   zangu fɔ nda    wahaku cindi hinka
-HYP: zongufo na waa kukindika ***** *****
-           S  S   S         S     D     D
+REF:   zangu fɔ́ nda    wahaku cindi hinka
+HYP: zongufo  nɑ wɑɑ kukindikɑ ***** *****
+           S   S   S         S     D     D
 
-### zen_F_183  [test]  WER=0.83
-REF:   zangu fɔ nda  wahaku cindi hinza
-HYP: zongufo na waa kukindi ***** hinza
-           S  S   S       S     D
+### zen_F_183  [test]  WER=1.00
+REF:   zangu fɔ́ nda  wahaku cindi hinza
+HYP: zongufo  nɑ wɑɑ kukindi hinzɑ *****
+           S   S   S       S     S     D
 
-### zen_F_184  [test]  WER=1.00
-REF: zangu fɔ ** nda wahaku cindi taaci
-HYP: zongu fɔ na waa   kuki   ndi taaki
-         S     I   S      S     S     S
+### zen_F_184  [test]  WER=1.17
+REF: ***** zangu fɔ́ nda wahaku cindi taaci
+HYP: zongu    fɔ  nɑ wɑɑ   kuki   ndi tɑɑki
+         I     S   S   S      S     S     S
 
-### zen_F_185  [test]  WER=0.83
-REF: zangu fɔ nda wahaku     cindi guu
-HYP: zongu fɔ  na    waa kukindigu ***
-         S      S      S         S   D
+### zen_F_185  [test]  WER=1.00
+REF: zangu fɔ́ nda wahaku     cindi guu
+HYP: zongu  fɔ  nɑ    wɑɑ kukindigu ***
+         S   S   S      S         S   D
 
-### zen_F_186  [test]  WER=0.83
-REF: zangu fɔ nda wahaku cindi    iddu
-HYP: zongu fɔ  na    waa    ku kindidu
-         S      S      S     S       S
+### zen_F_186  [test]  WER=1.00
+REF: zangu fɔ́ nda wahaku cindi    iddu
+HYP: zongu  fɔ  nɑ    wɑɑ    ku kindidu
+         S   S   S      S     S       S
 
-### zen_F_187  [test]  WER=0.67
-REF: zangu fɔ nda wahaku    cindi iyye
-HYP: zangu fɔ  na     wa kukindii ****
-                S      S        S    D
+### zen_F_187  [test]  WER=1.00
+REF: zangu fɔ́ nda wahaku    cindi iyye
+HYP: zɑngu  fɔ  nɑ     wɑ kukindii ****
+         S   S   S      S        S    D
 
 ### zen_F_188  [test]  WER=1.00
-REF:   zangu fɔ nda  wahaku cindi haaku
-HYP: zongufu na waa kukindi   yaa    ku
-           S  S   S       S     S     S
+REF:   zangu fɔ́ nda  wahaku cindi haaku
+HYP: zongufu  nɑ wɑɑ kukindi   yɑɑ    ku
+           S   S   S       S     S     S
 
 ### zen_F_189  [test]  WER=1.00
-REF: zangu  fɔ nda wahaku     cindi ɛga
-HYP: zongu foo  no    waa kukindiga ***
+REF: zangu fɔ́ nda wahaku     cindi ɛga
+HYP: zongu foo  no    wɑɑ kukindigɑ ***
          S   S   S      S         S   D
 
 ### zen_F_19  [test]  WER=1.00
 REF: awei cindi ɛga
-HYP: weki niiga ***
+HYP: weki niigɑ ***
         S     S   D
 
 ### zen_F_190  [test]  WER=1.00
-REF: zangu  fɔ nda wɛɛga
-HYP: zongu for  na  wega
+REF: zangu fɔ́ nda wɛɛga
+HYP: zongu for  nɑ  wegɑ
          S   S   S     S
 
-### zen_F_191  [test]  WER=0.50
-REF: zangu fɔ nda wɛɛga cindi fɔ
-HYP: zangu fɔ  na  wega kindi fɔ
-                S     S     S
+### zen_F_191  [test]  WER=1.00
+REF: zangu fɔ́ nda wɛɛga cindi fɔ́
+HYP: zɑngu  fɔ  nɑ  wegɑ kindi  fɔ
+         S   S   S     S     S   S
 
 ### zen_F_192  [test]  WER=1.00
-REF: zangu  fɔ nda wɛɛga    cindi hinka
-HYP: zongu foo  na  wega kindinka *****
+REF: zangu fɔ́ nda wɛɛga    cindi hinka
+HYP: zongu foo  nɑ  wegɑ kindinkɑ *****
          S   S   S     S        S     D
 
 ### zen_F_193  [test]  WER=1.00
-REF: zangu  fɔ nda wɛɛga      cindi hinza
-HYP: zongu for  na  wega kindihinza *****
+REF: zangu fɔ́ nda wɛɛga      cindi hinza
+HYP: zongu for  nɑ  wegɑ kindihinzɑ *****
          S   S   S     S          S     D
 
 ### zen_F_194  [test]  WER=1.00
-REF:   zangu fɔ  nda wɛɛga  cindi taaci
-HYP: zongufo na wega kindi turkey *****
-           S  S    S     S      S     D
+REF:   zangu fɔ́  nda wɛɛga  cindi taaci
+HYP: zongufo  nɑ wegɑ kindi turkey *****
+           S   S    S     S      S     D
 
-### zen_F_195  [test]  WER=0.67
-REF: zangu fɔ nda wɛɛga   cindi guu
-HYP: zangu fɔ  na  wega kindigu ***
-                S     S       S   D
+### zen_F_195  [test]  WER=1.00
+REF: zangu fɔ́ nda wɛɛga   cindi guu
+HYP: zɑngu  fɔ  nɑ  wegɑ kindigu ***
+         S   S   S     S       S   D
 
 ### zen_F_196  [test]  WER=1.00
-REF: zangu  fɔ nda wɛɛga   cindi iddu
-HYP: zongu fɔɔ  na  wega kindidu ****
+REF: zangu fɔ́ nda wɛɛga   cindi iddu
+HYP: zongu fɔɔ  nɑ  wegɑ kindidu ****
          S   S   S     S       S    D
 
 ### zen_F_197  [test]  WER=1.00
-REF: zangu  fɔ nda wɛɛga  cindi iyye
-HYP: zongu foo  no  wega kindii   ye
+REF: zangu fɔ́ nda wɛɛga  cindi iyye
+HYP: zongu foo  no  wegɑ kindii   ye
          S   S   S     S      S    S
 
-### zen_F_198  [test]  WER=0.67
-REF: zangu fɔ nda wɛɛga cindi haaku
-HYP: zangu fɔ  na  wega kindi yaagu
-                S     S     S     S
+### zen_F_198  [test]  WER=1.00
+REF: zangu fɔ́ nda wɛɛga cindi haaku
+HYP: zɑngu  fɔ  nɑ  wegɑ kindi yɑɑgu
+         S   S   S     S     S     S
 
-### zen_F_1989671  [test]  WER=0.72
-REF: dubu dubu fɔ nda dubu    zangu ɛga nda wahaku   cindi ɛga      nda zangu  iddu   nda weiiyye cindi fɔ
-HYP: dubu dubu fɔ  na dubu zanguiga  na waa     ku kintiga  na zanguidu    na weiye kinni ******* ***** fɔ
-                    S             S   S   S      S       S   S        S     S     S     S       D     D
+### zen_F_1989671  [test]  WER=0.83
+REF: dubu dubu fɔ́ nda dubu    zangu ɛga nda wahaku   cindi ɛga      nda zangu  iddu   nda weiiyye cindi fɔ́
+HYP: dubu dubu  fɔ  nɑ dubu zɑnguigɑ  nɑ wɑɑ     ku kintigɑ  nɑ zɑnguidu    nɑ weiye kinni      fɔ ***** ***
+                 S   S             S   S   S      S       S   S        S     S     S     S       S     D   D
 
 ### zen_F_199  [test]  WER=1.00
-REF: zangu  fɔ nda wɛɛga   cindi ɛga
-HYP: zongu fɔɔ  na  wega kindiga ***
+REF: zangu fɔ́ nda wɛɛga   cindi ɛga
+HYP: zongu fɔɔ  nɑ  wegɑ kindigɑ ***
          S   S   S     S       S   D
 
 ### zen_F_2  [test]  WER=1.00
 REF: ahinka
-HYP:   inka
+HYP:   inkɑ
           S
 
-### zen_F_20  [test]  WER=0.00
-
+### zen_F_20  [test]  WER=1.00
+REF: waranka
+HYP: wɑrɑnkɑ
+           S
 
 ### zen_F_200  [test]  WER=1.50
 REF: ***** zangu hinka
-HYP: zongu   hin   kaa
+HYP: zongu   hin   kɑɑ
          I     S     S
 
-### zen_F_2000  [test]  WER=0.00
+### zen_F_2000  [test]  WER=0.50
+REF: dubu hinka
+HYP: dubu hinkɑ
+              S
 
-
-### zen_F_20000  [test]  WER=0.00
-
+### zen_F_20000  [test]  WER=0.50
+REF: dubu waranka
+HYP: dubu wɑrɑnkɑ
+                S
 
 ### zen_F_200000  [test, EXCLUDED]  WER=0.67
 REF: dubu dubuzangu hinka
-HYP: dubu    zangui    ka
+HYP: dubu    zɑngui    kɑ
                   S     S
 
-### zen_F_2000000  [test]  WER=0.00
-
+### zen_F_2000000  [test]  WER=0.33
+REF: dubu dubu hinka
+HYP: dubu dubu hinkɑ
+                   S
 
 ### zen_F_200000000  [test, EXCLUDED]  WER=1.00
 REF: dubu **** dubuzangu hinka
-HYP: dubu dubu    zongui    ka
+HYP: dubu dubu    zongui    kɑ
              I         S     S
 
 ### zen_F_2008  [test]  WER=1.50
 REF: dubu *** *** ** hinka nda ihaaku
-HYP: dubu hin kan na     i yaa     ko
+HYP: dubu hin kɑn nɑ     i yɑɑ     ko
             I   I  I     S   S      S
 
 ### zen_F_2009  [test]  WER=1.00
 REF: dubu hinka nda ɛga
-HYP: futu winka  na iga
+HYP: futu winkɑ  nɑ igɑ
         S     S   S   S
 
-### zen_F_201  [test]  WER=0.25
-REF: zangu hinka nda afɔ
-HYP: zangu hinka nda  fɔ
-                       S
+### zen_F_201  [test]  WER=1.00
+REF: zangu hinka nda afɔ́
+HYP: zɑngu hinkɑ ndɑ   fɔ
+         S     S   S    S
 
 ### zen_F_2010  [test]  WER=1.00
 REF:      dubu hinka nda awei
-HYP: tubuhinka   daa  we ****
+HYP: tubuhinkɑ   dɑɑ  we ****
              S     S   S    D
 
-### zen_F_202  [test]  WER=0.25
+### zen_F_202  [test]  WER=1.00
 REF: zangu hinka nda ihinka
-HYP: zangu hinka nda  hinka
-                          S
+HYP: zɑngu hinkɑ ndɑ  hinkɑ
+         S     S   S      S
 
-### zen_F_203  [test]  WER=0.50
+### zen_F_203  [test]  WER=1.00
 REF: zangu hinka nda ihinza
-HYP: zangu hinka  na  hinza
-                   S      S
+HYP: zɑngu hinkɑ  nɑ  hinzɑ
+         S     S   S      S
 
-### zen_F_204  [test]  WER=0.50
-REF: zangu hinka nda * itaaci
-HYP: zangu hinka nda a  taaki
-                     I      S
+### zen_F_204  [test]  WER=1.25
+REF: ***** zangu hinka nda itaaci
+HYP: zɑngu hinkɑ   ndɑ  ɑ̀  tɑɑki
+         I     S     S   S      S
 
-### zen_F_205  [test]  WER=0.50
+### zen_F_205  [test]  WER=1.00
 REF: zangu hinka nda iguu
-HYP: zangu hinka naa   gu
-                   S    S
+HYP: zɑngu hinkɑ nɑɑ   gu
+         S     S   S    S
 
-### zen_F_206  [test]  WER=0.50
+### zen_F_206  [test]  WER=1.00
 REF: zangu hinka nda iddu
-HYP: zongu hinka nda  idu
-         S              S
+HYP: zongu hinkɑ ndɑ  idu
+         S     S   S    S
 
-### zen_F_207  [test]  WER=1.00
-REF: zangu *** hinka nda iyye
-HYP: zangu hin   kaa  na  iye
-             I     S   S    S
+### zen_F_207  [test]  WER=1.25
+REF: ***** zangu hinka nda iyye
+HYP: zɑngu   hin   kɑɑ  nɑ  iye
+         I     S     S   S    S
 
 ### zen_F_208  [test]  WER=1.00
 REF:    zangu hinka   nda ihaaku
-HYP: zanguika    na yaaku ******
+HYP: zɑnguikɑ    nɑ yɑɑku ******
             S     S     S      D
 
 ### zen_F_209  [test]  WER=1.00
 REF:    zangu hinka nda aiga
-HYP: zongwika    na iga ****
+HYP: zongwikɑ    nɑ igɑ ****
             S     S   S    D
 
-### zen_F_21  [test]  WER=1.00
-REF: **** waranka cindi fɔ
-HYP: wara     nga kinni fɔ
-        I       S     S
+### zen_F_21  [test]  WER=1.33
+REF: **** waranka cindi fɔ́
+HYP: wɑrɑ     ngɑ kinni  fɔ
+        I       S     S   S
 
-### zen_F_210  [test]  WER=0.75
+### zen_F_210  [test]  WER=1.00
 REF:    zangu hinka nda awei
-HYP: zongweka ***** nda   we
-            S     D        S
+HYP: zongwekɑ   ndɑ  we ****
+            S     S   S    D
 
-### zen_F_211  [test]  WER=0.67
-REF: zangu hinka nda  awei cindi fɔ
-HYP:   zom winka nda weiki   ndi fɔ
-         S     S         S     S
+### zen_F_211  [test]  WER=1.00
+REF: zangu hinka nda  awei cindi fɔ́
+HYP:   zom winkɑ ndɑ weiki   ndi  fɔ
+         S     S   S     S     S   S
 
-### zen_F_212  [test]  WER=0.67
+### zen_F_212  [test]  WER=1.00
 REF: zangu hinka nda awei cindi hinka
-HYP: zongu hinka  na  wei kindi hinka
-         S         S    S     S
+HYP: zongu hinkɑ  nɑ  wei kindi hinkɑ
+         S     S   S    S     S     S
 
-### zen_F_2125  [test]  WER=0.67
-REF: dubu *** hinka nda zangu fɔ nda **** waranka cindi guu
-HYP: dubu hin    ka nda zangu fɔ nda wara     nka kindi  gu
-            I     S                     I       S     S   S
+### zen_F_2125  [test]  WER=1.11
+REF: dubu *** ** hinka   nda zangu fɔ́  nda waranka cindi guu
+HYP: dubu hin kɑ   ndɑ zɑngu    fɔ ndɑ wɑrɑ     nkɑ kindi  gu
+            I  I     S     S     S   S    S       S     S   S
 
-### zen_F_213  [test]  WER=0.83
-REF: zangu hinka ** nda awei cindi hinza
-HYP: zongu hinka na   a  wei kindi hinza
-         S        I   S    S     S
+### zen_F_213  [test]  WER=1.17
+REF: ***** zangu hinka nda awei cindi hinza
+HYP: zongu hinkɑ    nɑ  ɑ̀  wei kindi hinzɑ
+         I     S     S   S    S     S     S
 
-### zen_F_214  [test]  WER=1.00
-REF: zangu hinka * *** nda awei cindi taaci
-HYP: zangu hinka n daa wei   ki   ndi taaki
-                 I   I   S    S     S     S
+### zen_F_214  [test]  WER=1.33
+REF: ***** ***** zangu hinka nda awei cindi taaci
+HYP: zɑngu hinkɑ     ǹ   dɑɑ wei   ki   ndi tɑɑki
+         I     I     S     S   S    S     S     S
 
-### zen_F_215  [test]  WER=0.50
+### zen_F_215  [test]  WER=1.00
 REF: zangu hinka nda awei cindi guu
-HYP: zangu hinka nda  wei kinte  gu
-                        S     S   S
+HYP: zɑngu hinkɑ ndɑ  wei kinte  gu
+         S     S   S    S     S   S
 
-### zen_F_2150  [test]  WER=0.71
-REF: dubu hinka nda zangu    fɔ  nda weiguu
-HYP: dubu hinka  no  zong fonno wegu ******
-                  S     S     S    S      D
+### zen_F_2150  [test]  WER=0.86
+REF: dubu hinka nda zangu   fɔ́  nda weiguu
+HYP: dubu hinkɑ  no  zong fonno wegu ******
+              S   S     S     S    S      D
 
-### zen_F_216  [test]  WER=0.67
+### zen_F_216  [test]  WER=1.00
 REF: zangu hinka nda  awei cindi iddu
-HYP: zangu hinka  da weiki   ndi   du
-                   S     S     S    S
+HYP: zɑngu hinkɑ  dɑ weiki   ndi   du
+         S     S   S     S     S    S
 
-### zen_F_217  [test]  WER=0.50
+### zen_F_217  [test]  WER=1.00
 REF: zangu hinka nda awei  cindi iyye
-HYP: zangu hinka nda  wei kindii   ye
-                        S      S    S
+HYP: zɑngu hinkɑ ndɑ  wei kindii   ye
+         S     S   S    S      S    S
 
-### zen_F_2175  [test]  WER=0.78
-REF: dubu hinka nda  zangu fɔ nda weiiyye cindi guu
-HYP: dubu hinka  na zomfan no wei      ye kinne  gu
-                  S      S  S   S       S     S   S
+### zen_F_2175  [test]  WER=0.89
+REF: dubu hinka nda  zangu fɔ́ nda weiiyye cindi guu
+HYP: dubu hinkɑ  nɑ zomfɑn  no wei      ye kinne  gu
+              S   S      S   S   S       S     S   S
 
-### zen_F_218  [test]  WER=0.83
-REF: zangu hinka ** nda  awei cindi haaku
-HYP: zangu hinka na wei kindi    ya    ko
-                  I   S     S     S     S
+### zen_F_218  [test]  WER=1.17
+REF: ***** zangu hinka nda  awei cindi haaku
+HYP: zɑngu hinkɑ    nɑ wei kindi    yɑ    ko
+         I     S     S   S     S     S     S
 
-### zen_F_219  [test]  WER=0.50
+### zen_F_219  [test]  WER=1.00
 REF: zangu hinka nda awei   cindi ɛga
-HYP: zangu hinka nda  wei kindiga ***
-                        S       S   D
+HYP: zɑngu hinkɑ ndɑ  wei kindigɑ ***
+         S     S   S    S       S   D
 
 ### zen_F_22  [test]  WER=1.33
 REF: **** waranka cindi hinka
-HYP: wara     nga kinni   nga
+HYP: wɑrɑ     ngɑ kinni   ngɑ
         I       S     S     S
 
-### zen_F_220  [test]  WER=0.25
+### zen_F_220  [test]  WER=1.00
 REF: zangu hinka nda waranka
-HYP: zangu hinka  da waranka
-                   S
+HYP: zɑngu hinkɑ  dɑ wɑrɑnkɑ
+         S     S   S       S
 
-### zen_F_221  [test]  WER=0.50
-REF: zangu hinka nda **** waranka cindi fɔ
-HYP: zangu hinka nda wara     nga kindi fɔ
-                        I       S     S
+### zen_F_221  [test]  WER=1.17
+REF: ***** zangu hinka  nda waranka cindi fɔ́
+HYP: zɑngu hinkɑ   ndɑ wɑrɑ     ngɑ kindi  fɔ
+         I     S     S    S       S     S   S
 
-### zen_F_222  [test]  WER=0.33
+### zen_F_222  [test]  WER=1.00
 REF: zangu hinka nda waranka cindi hinka
-HYP: zangu hinka  na waranka kindi hinka
-                   S             S
+HYP: zɑngu hinkɑ  nɑ wɑrɑnkɑ kindi hinkɑ
+         S     S   S       S     S     S
 
-### zen_F_223  [test]  WER=0.67
-REF: zangu hinka **  nda waranka cindi hinza
-HYP: zangu hinka na wara     nka kindi hinza
-                  I    S       S     S
+### zen_F_223  [test]  WER=1.17
+REF: ***** zangu hinka  nda waranka cindi hinza
+HYP: zɑngu hinkɑ    nɑ wɑrɑ     nkɑ kindi hinzɑ
+         I     S     S    S       S     S     S
 
-### zen_F_224  [test]  WER=0.50
+### zen_F_224  [test]  WER=1.00
 REF: zangu hinka nda waranka cindi taaci
-HYP: zangu hinka  da waranka kendi taaki
-                   S             S     S
+HYP: zɑngu hinkɑ  dɑ wɑrɑnkɑ kendi tɑɑki
+         S     S   S       S     S     S
 
-### zen_F_225  [test]  WER=0.33
+### zen_F_225  [test]  WER=1.00
 REF: zangu hinka nda waranka cindi   guu
-HYP: zangu hinka nda waranka    ki ndegu
-                                 S     S
+HYP: zɑngu hinkɑ ndɑ wɑrɑnkɑ    ki ndegu
+         S     S   S       S     S     S
 
-### zen_F_226  [test]  WER=0.83
-REF: zangu hinka **  nda waranka  cindi iddu
-HYP: zangu hinka na wara     nka cinnei   du
-                  I    S       S      S    S
+### zen_F_226  [test]  WER=1.17
+REF: ***** zangu hinka  nda waranka  cindi iddu
+HYP: zɑngu hinkɑ    nɑ wɑrɑ     nkɑ cinnei   du
+         I     S     S    S       S      S    S
 
-### zen_F_227  [test]  WER=0.50
+### zen_F_227  [test]  WER=1.00
 REF: zangu hinka nda waranka  cindi iyye
-HYP: zangu hinka  na waranka kindii   ye
-                   S              S    S
+HYP: zɑngu hinkɑ  nɑ wɑrɑnkɑ kindii   ye
+         S     S   S       S      S    S
 
-### zen_F_228  [test]  WER=1.17
-REF: *** zangu hinka **  nda waranka cindi *** haaku
-HYP: zaa   ngu hinka na wara     nka cindi yaa    ko
-       I     S        I    S       S         I     S
+### zen_F_228  [test]  WER=1.33
+REF: *** *** zangu hinka  nda waranka cindi **** haaku
+HYP: zɑɑ ngu hinkɑ    nɑ wɑrɑ     nkɑ cindi yɑɑ̀    ko
+       I   I     S     S    S       S          I     S
 
-### zen_F_229  [test]  WER=0.50
+### zen_F_229  [test]  WER=1.00
 REF: zangu hinka nda waranka    cindi ɛga
-HYP: zangu hinka  na waranka kindiika ***
-                   S                S   D
+HYP: zɑngu hinkɑ  nɑ wɑrɑnkɑ kindiikɑ ***
+         S     S   S       S        S   D
 
 ### zen_F_23  [test]  WER=1.33
 REF: **** waranka cindi hinza
-HYP: wara     nga kinni   nza
+HYP: wɑrɑ     ngɑ kinni   nzɑ
         I       S     S     S
 
-### zen_F_230  [test]  WER=0.75
-REF:      zangu hinka nda waranza
-HYP: zanguhinka    na *** waranza
-              S     S   D
+### zen_F_230  [test]  WER=1.00
+REF:      zangu hinka     nda waranza
+HYP: zanguhinkɑ    nɑ wɑrɑnzɑ *******
+              S     S       S       D
 
 ### zen_F_24  [test]  WER=2.33
 REF: **** ** **** * waranka cindi taaci
-HYP: hine no bɔrɔ n      ka kinne taaki
+HYP: hine no bɔrɔ n      kɑ kinne tɑɑki
         I  I    I I       S     S     S
 
 ### zen_F_25  [test]  WER=1.33
 REF: **** waranka cindi  guu
-HYP: wara     nga    ki nigu
+HYP: wɑrɑ     ngɑ    ki nigu
         I       S     S    S
 
 ### zen_F_26  [test]  WER=1.00
 REF: waranka cindi iddu
-HYP: waranga kinni   du
+HYP: wɑrɑngɑ kinni   du
            S     S    S
 
-### zen_F_27  [test]  WER=0.67
+### zen_F_27  [test]  WER=1.00
 REF: waranka cindi iyye
-HYP: waranka kinni   ye
-                 S    S
+HYP: wɑrɑnkɑ kinni   ye
+           S     S    S
 
 ### zen_F_28  [test]  WER=1.67
 REF: **** *** waranka cindi haaku
-HYP: wara nga   kinne   yaa    ku
+HYP: wɑrɑ ngɑ   kinne   yɑɑ    ku
         I   I       S     S     S
 
-### zen_F_2899009999  [test]  WER=0.74
-REF: bambata hinka nda         dubu dubu ihaaku nda wɛɛga   cindi ɛga  nda ɛga nda     zangu ɛga nda wɛɛga   cindi ɛga
-HYP: bambata  ikpɛ nda dubudubuikpɛ **** ****** nda  wega kindiga  na ikpɛ *** nda zanguikpɛ *** nda  wega kindiga ***
-                 S                S    D      D         S       S   S    S   D             S   D         S       S   D
+### zen_F_2899009999  [test]  WER=1.00
+REF: bambata hinka nda         dubu dubu ihaaku     nda wɛɛga cindi ɛga       nda ɛga  nda   zangu ɛga nda wɛɛga cindi ɛga
+HYP: bɑmbɑtɑ  ikpɛ ndɑ dubudubuikpɛ  ndɑ   wegɑ kindigɑ    nɑ  ikpɛ ndɑ zɑnguikpɛ ndɑ wegɑ kindigɑ *** *** ***** ***** ***
+           S     S   S            S    S      S       S     S     S   S         S   S    S       S   D   D     D     D   D
 
-### zen_F_29  [test]  WER=0.67
+### zen_F_29  [test]  WER=1.00
 REF: waranka  cindi ɛga
-HYP: waranka kiniga ***
-                  S   D
+HYP: wɑrɑnkɑ kinigɑ ***
+           S      S   D
 
 ### zen_F_2905  [test]  WER=0.86
 REF: dubu hinka nda  zangu ɛga cindi guu
-HYP: duhi    ka  no zangui gaa kindi guu
+HYP: duhi    kɑ  no zɑngui gɑɑ kindi guu
         S     S   S      S   S     S
 
 ### zen_F_3  [test]  WER=2.00
 REF: *** ahinza
-HYP: iyi    zaa
+HYP: iyi    zɑɑ
        I      S
 
 ### zen_F_30  [test]  WER=1.00
 REF: waranza
-HYP: werenza
+HYP: werenzɑ
            S
 
-### zen_F_300  [test]  WER=0.00
-
+### zen_F_300  [test]  WER=1.00
+REF: zangu hinza
+HYP: zɑngu hinzɑ
+         S     S
 
 ### zen_F_3000  [test]  WER=1.00
 REF:      dubu hinza
-HYP: tubuhinza *****
+HYP: tubuhinzɑ *****
              S     D
 
 ### zen_F_30000  [test]  WER=1.00
 REF: dubu **** waranza
-HYP: dubu wara     nza
+HYP: dubu wɑrɑ     nzɑ
              I       S
 
-### zen_F_300000  [test]  WER=0.25
-REF: dubu dubu zangu hinza
-HYP: dubu **** zangu hinza
-             D
+### zen_F_300000  [test]  WER=0.75
+REF: dubu  dubu zangu hinza
+HYP: dubu zɑngu hinzɑ *****
+              S     S     D
 
-### zen_F_3000000  [test]  WER=0.00
+### zen_F_3000000  [test]  WER=0.33
+REF: dubu dubu hinza
+HYP: dubu dubu hinzɑ
+                   S
 
+### zen_F_3000000000  [test]  WER=1.00
+REF: bambata hinza
+HYP: bɑmbɑtɑ hinzɑ
+           S     S
 
-### zen_F_3000000000  [test]  WER=0.00
+### zen_F_31  [test]  WER=1.00
+REF: waranza  cindi fɔ́
+HYP: wɑrɑnzɑ kinifo ***
+           S      S   D
 
+### zen_F_3125  [test]  WER=1.00
+REF: dubu ***** hinza nda zangu fɔ́  nda waranka cindi guu
+HYP: dubu hinzɑ    nɑ zom    fɔ  nɑ wɛrɛ     nkɑ kindi  ku
+              I     S   S     S   S    S       S     S   S
 
-### zen_F_31  [test]  WER=0.67
-REF: waranza  cindi fɔ
-HYP: waranza kinifo **
-                  S  D
+### zen_F_3150  [test]  WER=1.00
+REF:    dubu hinza nda zangu fɔ́  nda weiguu
+HYP: tubuizɑ    no zom    fɔ ndɑ wegu ******
+           S     S   S     S   S    S      D
 
-### zen_F_3125  [test]  WER=0.78
-REF: dubu hinza nda zangu fɔ **  nda waranka cindi guu
-HYP: dubu hinza  na   zom fɔ na wɛrɛ     nka kindi  ku
-                  S     S     I    S       S     S   S
-
-### zen_F_3150  [test]  WER=0.71
-REF:    dubu hinza nda zangu fɔ nda weiguu
-HYP: tubuiza    no zom ***** fɔ nda   wegu
-           S     S   S     D             S
-
-### zen_F_3175  [test]  WER=1.00
-REF: dubu *** hinza nda zangu fɔ * nda weiiyye cindi     guu
-HYP: dubu hii   zaa  na   zom fɔ n  da     wei    ya kindiku
-            I     S   S     S    I   S       S     S       S
+### zen_F_3175  [test]  WER=1.11
+REF: dubu *** *** hinza nda zangu fɔ́ nda weiiyye cindi     guu
+HYP: dubu hii zɑɑ    nɑ zom    fɔ   ǹ  dɑ     wei    yɑ kindiku
+            I   I     S   S     S   S   S       S     S       S
 
 ### zen_F_32  [test]  WER=1.00
 REF: waranza cindi   hinka
-HYP:    wala   nza kininka
+HYP:    wɑlɑ   nzɑ kininkɑ
            S     S       S
 
-### zen_F_325  [test]  WER=0.67
-REF: zangu hinza nda waranka ** cindi guu
-HYP: zongu hinza nda waranka ki   ndi  gu
-         S                    I     S   S
+### zen_F_325  [test]  WER=1.17
+REF: ***** zangu hinza     nda waranka cindi guu
+HYP: zongu hinzɑ   ndɑ wɑrɑnkɑ      ki   ndi  gu
+         I     S     S       S       S     S   S
 
-### zen_F_33  [test]  WER=0.67
+### zen_F_33  [test]  WER=1.00
 REF: waranza   cindi hinza
-HYP: waranza cininza *****
-                   S     D
+HYP: wɑrɑnzɑ cininzɑ *****
+           S       S     D
 
 ### zen_F_34  [test]  WER=1.33
 REF: **** waranza cindi   taaci
-HYP: wala     nza    ki nitaaki
+HYP: wɑlɑ     nzɑ    ki nitɑɑki
         I       S     S       S
 
 ### zen_F_35  [test]  WER=1.00
 REF:   waranza cindi guu
-HYP: walanzaki  nigu ***
+HYP: wɑlɑnzɑki  nigu ***
              S     S   D
 
-### zen_F_350  [test]  WER=0.75
-REF: zangu hinza ** nda weiguu
-HYP: zangu hinza na  we     du
-                  I   S      S
+### zen_F_350  [test]  WER=1.25
+REF: ***** zangu hinza nda weiguu
+HYP: zɑngu hinzɑ    nɑ  we     du
+         I     S     S   S      S
 
 ### zen_F_36  [test]  WER=1.00
 REF: waranza cindi  iddu
-HYP: woranzɛ    ki niidu
+HYP: worɑnzɛ    ki niidu
            S     S     S
 
-### zen_F_37  [test]  WER=0.67
+### zen_F_37  [test]  WER=1.00
 REF: waranza cindi iyye
-HYP: waranza    ki niye
-                 S    S
+HYP: wɑrɑnzɑ    ki niye
+           S     S    S
 
-### zen_F_375  [test]  WER=0.83
+### zen_F_375  [test]  WER=1.00
 REF: zangu hinza nda weiiyye cindi    guu
-HYP: zongu hinza  na     wei    ye kinigu
-         S         S       S     S      S
+HYP: zongu hinzɑ  nɑ     wei    ye kinigu
+         S     S   S       S     S      S
 
 ### zen_F_38  [test]  WER=1.67
 REF: **** *** waranza cindi haaku
-HYP: wala nza   kinni    ya    ko
+HYP: wɑlɑ nzɑ   kinni    yɑ    ko
         I   I       S     S     S
 
 ### zen_F_39  [test]  WER=1.00
 REF:  waranza    cindi ɛga
-HYP: walanzie kindiiga ***
+HYP: wɑlɑnzie kindiigɑ ***
             S        S   D
 
 ### zen_F_4  [test]  WER=1.00
 REF:  ataaci
-HYP: hataaki
+HYP: hɑtɑɑki
            S
 
 ### zen_F_40  [test]  WER=2.00
 REF: ***** weitaaci
-HYP: weita       ki
+HYP: weitɑ       ki
          I        S
 
 ### zen_F_400  [test]  WER=1.00
 REF: zangu taaci
-HYP: zongu taaki
+HYP: zongu tɑɑki
          S     S
 
 ### zen_F_4000  [test]  WER=0.50
 REF: dubu taaci
-HYP: dubu taaki
+HYP: dubu tɑɑki
               S
 
 ### zen_F_40000  [test]  WER=0.50
 REF: dubu weitaaci
-HYP: dubu weitaaki
+HYP: dubu weitɑɑki
                  S
 
 ### zen_F_400000  [test]  WER=1.00
 REF: dubu dubu zangu taaci
-HYP:   to buza   ngu taaki
+HYP:   to buzɑ   ngu tɑɑki
         S    S     S     S
 
 ### zen_F_4000000  [test]  WER=0.33
 REF: dubu dubu taaci
-HYP: dubu dubu taaki
+HYP: dubu dubu tɑɑki
                    S
 
-### zen_F_4000000000  [test]  WER=0.50
+### zen_F_4000000000  [test]  WER=1.00
 REF: bambata taaci
-HYP: bambata taaki
-                 S
+HYP: bɑmbɑtɑ tɑɑki
+           S     S
 
 ### zen_F_41  [test]  WER=1.33
-REF: ** weitaaci cindi  fɔ
-HYP: we    taaki kinni fɔɔ
+REF: ** weitaaci cindi fɔ́
+HYP: we    tɑɑki kinni fɔɔ
       I        S     S   S
 
-### zen_F_4125  [test]  WER=0.56
-REF: dubu taaci nda zangu fɔ nda waranka   cindi guu
-HYP: dubu taaki  no   zom fɔ nda waranka kindigo ***
-              S   S     S                      S   D
+### zen_F_4125  [test]  WER=0.89
+REF: dubu taaci nda zangu fɔ́ nda waranka   cindi guu
+HYP: dubu tɑɑki  no   zom  fɔ ndɑ wɑrɑnkɑ kindigo ***
+              S   S     S   S   S       S       S   D
 
-### zen_F_4175  [test]  WER=0.67
-REF: dubu taaci nda zangu fɔ nda weiiyye cindi     guu
-HYP: dubu taaki  na   zom fɔ nda     wei    ye kindigu
-              S   S     S              S     S       S
+### zen_F_4175  [test]  WER=0.89
+REF: dubu taaci nda zangu fɔ́ nda weiiyye cindi     guu
+HYP: dubu tɑɑki  nɑ   zom  fɔ ndɑ     wei    ye kindigu
+              S   S     S   S   S       S     S       S
 
-### zen_F_4190  [test]  WER=0.43
-REF: dubu taaci nda zangu fɔ nda wɛɛga
-HYP: dubu taaki nda   zom fɔ nda  wega
-              S         S            S
+### zen_F_4190  [test]  WER=0.86
+REF: dubu taaci nda zangu fɔ́ nda wɛɛga
+HYP: dubu tɑɑki ndɑ   zom  fɔ ndɑ  wegɑ
+              S   S     S   S   S     S
 
 ### zen_F_42  [test]  WER=1.00
 REF: weitaaci     cindi hinka
-HYP:     weta kikininka *****
+HYP:     wetɑ kikininkɑ *****
             S         S     D
 
-### zen_F_425  [test]  WER=0.67
+### zen_F_425  [test]  WER=1.00
 REF: zangu taaci nda waranka cindi guu
-HYP: zangu taaki  na waranka kindi  gu
-               S   S             S   S
+HYP: zɑngu tɑɑki  nɑ wɑrɑnkɑ kindi  gu
+         S     S   S       S     S   S
 
 ### zen_F_43  [test]  WER=1.00
 REF: weitaaci cindi hinza
-HYP:     weta  kiki ninza
+HYP:     wetɑ  kiki ninzɑ
             S     S     S
 
 ### zen_F_44  [test]  WER=1.33
 REF: ** weitaaci cindi taaci
-HYP: we    taaki kinni taaki
+HYP: we    tɑɑki kinni tɑɑki
       I        S     S     S
 
 ### zen_F_45  [test]  WER=1.00
 REF: weitaaci    cindi guu
-HYP:    weita kikinigu ***
+HYP:    weitɑ kikinigu ***
             S        S   D
 
 ### zen_F_450  [test]  WER=1.00
 REF:    zangu taaci  nda weiguu
-HYP: zongtuki    na wegu ******
+HYP: zongtuki    nɑ wegu ******
             S     S    S      D
 
 ### zen_F_46  [test]  WER=1.00
 REF: weitaaci cindi  iddu
-HYP: weetaaka    ki niidu
+HYP: weetɑɑkɑ    ki niidu
             S     S     S
 
 ### zen_F_47  [test]  WER=1.33
 REF: ** weitaaci cindi iyye
-HYP: we    taaki  gini   ye
+HYP: we    tɑɑki  gini   ye
       I        S     S    S
 
 ### zen_F_475  [test]  WER=1.00
 REF:      zangu taaci nda weiiyye   cindi guu
-HYP: zongutaaka    na wei      ye kendeku ***
+HYP: zongutɑɑkɑ    nɑ wei      ye kendeku ***
               S     S   S       S       S   D
 
 ### zen_F_48  [test]  WER=1.67
 REF: ** ***** weitaaci cindi haaku
-HYP: we taaki     kini    ya    ku
+HYP: we tɑɑki     kini    yɑ    ku
       I     I        S     S     S
 
 ### zen_F_49  [test]  WER=1.33
 REF: ** weitaaci cindi ɛga
-HYP: we    taaki kinni iga
+HYP: we    tɑɑki kinni igɑ
       I        S     S   S
 
 ### zen_F_5  [test]  WER=2.00
 REF: *** aguu
-HYP: hai   gu
+HYP: hɑi   gu
        I    S
 
 ### zen_F_50  [test]  WER=1.00
@@ -2833,54 +2853,54 @@ REF: dubu dubu guu
 HYP: dobo dobo  gu
         S    S   S
 
-### zen_F_5000000000  [test]  WER=0.50
+### zen_F_5000000000  [test]  WER=1.00
 REF: bambata guu
-HYP: bambata  gu
-               S
+HYP: bɑmbɑtɑ  gu
+           S   S
 
 ### zen_F_5099  [test]  WER=0.83
 REF: dubu   guu  nda   wɛɛga cindi ɛga
-HYP: dubu gunna wega kindiga ***** ***
+HYP: dubu gunnɑ wegɑ kindigɑ ***** ***
               S    S       S     D   D
 
 ### zen_F_51  [test]  WER=1.33
-REF: ** weiguu cindi fɔ
-HYP: we   guki    ni fo
-      I      S     S  S
+REF: ** weiguu cindi fɔ́
+HYP: we   guki    ni  fo
+      I      S     S   S
 
-### zen_F_5125  [test]  WER=0.78
-REF: dubu guu nda zangu fɔ nda **** waranka  cindi guu
-HYP: dubu  gu  na   zom fɔ nda wara     nka kingdi  gu
-            S   S     S           I       S      S   S
+### zen_F_5125  [test]  WER=1.00
+REF: dubu ** guu nda zangu fɔ́  nda waranka  cindi guu
+HYP: dubu gu  nɑ zom    fɔ ndɑ wɑrɑ     nkɑ kingdi  gu
+           I   S   S     S   S    S       S      S   S
 
 ### zen_F_5150  [test]  WER=0.86
-REF: dubu guu nda zangu fɔ  nda weiguu
-HYP: dubu  gu  na zonfo na wegu ******
-            S   S     S  S    S      D
+REF: dubu guu nda zangu fɔ́  nda weiguu
+HYP: dubu  gu  nɑ zonfo  nɑ wegu ******
+            S   S     S   S    S      D
 
-### zen_F_5175  [test]  WER=0.78
-REF: dubu guu nda zangu fɔ nda *** weiiyye cindi guu
-HYP: dubu  gu  na   zom fɔ nda wei      ya kindi  gu
-            S   S     S          I       S     S   S
+### zen_F_5175  [test]  WER=1.00
+REF: dubu ** guu nda zangu fɔ́ nda weiiyye cindi guu
+HYP: dubu gu  nɑ zom    fɔ ndɑ wei      yɑ kindi  gu
+           I   S   S     S   S   S       S     S   S
 
 ### zen_F_52  [test]  WER=1.00
 REF: weiguu   cindi hinka
-HYP:   wegu kininka *****
+HYP:   wegu kininkɑ *****
           S       S     D
 
-### zen_F_525  [test]  WER=0.83
-REF: zangu guu nda **** waranka cindi guu
-HYP: zangu  gu nda wara     nga kindi  gu
-             S        I       S     S   S
+### zen_F_525  [test]  WER=1.17
+REF: ***** zangu guu  nda waranka cindi guu
+HYP: zɑngu    gu ndɑ wɑrɑ     ngɑ kindi  gu
+         I     S   S    S       S     S   S
 
 ### zen_F_53  [test]  WER=1.00
 REF: weiguu   cindi hinza
-HYP:   wegu kiniiza *****
+HYP:   wegu kiniizɑ *****
           S       S     D
 
 ### zen_F_54  [test]  WER=1.00
 REF: weiguu  cindi taaci
-HYP:   wegu kinita    ki
+HYP:   wegu kinitɑ    ki
           S      S     S
 
 ### zen_F_55  [test]  WER=1.00
@@ -2890,7 +2910,7 @@ HYP:   wegu kinigu ***
 
 ### zen_F_550  [test]  WER=1.00
 REF: zangu guu nda weiguu
-HYP: zongu  gu  na   wegu
+HYP: zongu  gu  nɑ   wegu
          S   S   S      S
 
 ### zen_F_56  [test]  WER=1.00
@@ -2905,17 +2925,17 @@ HYP:   wego kinni   ye
 
 ### zen_F_575  [test]  WER=1.00
 REF:   zangu guu nda weiiyye  cindi guu
-HYP: zongugu  na wei      ye kinigu ***
+HYP: zongugu  nɑ wei      ye kinigu ***
            S   S   S       S      S   D
 
 ### zen_F_58  [test]  WER=1.33
 REF: **** weiguu cindi haaku
-HYP: wegu  kinni    ya    ku
+HYP: wegu  kinni    yɑ    ku
         I      S     S     S
 
 ### zen_F_59  [test]  WER=1.00
 REF: weiguu cindi   ɛga
-HYP:     we  guki niiga
+HYP:     we  guki niigɑ
           S     S     S
 
 ### zen_F_6  [test]  WER=2.00
@@ -2943,25 +2963,25 @@ REF: dubu weiiddu
 HYP: dubu    wedu
                 S
 
-### zen_F_600000  [test]  WER=0.75
-REF:  dubu dubu zangu iddu
-HYP: doobu **** zangu  idu
-         S    D          S
+### zen_F_600000  [test]  WER=1.00
+REF:  dubu  dubu zangu iddu
+HYP: doobu zɑngu   idu ****
+         S     S     S    D
 
-### zen_F_61  [test]  WER=1.00
-REF: ** weiiddu cindi fɔ
-HYP: we      du kinni fɔ
-      I       S     S
+### zen_F_61  [test]  WER=1.33
+REF: ** weiiddu cindi fɔ́
+HYP: we      du kinni  fɔ
+      I       S     S   S
 
 ### zen_F_62  [test]  WER=1.00
 REF: weiiddu  cindi hinka
-HYP:    wedu kining    ka
+HYP:    wedu kining    kɑ
            S      S     S
 
-### zen_F_625  [test]  WER=1.00
-REF: zangu * ** iddu  nda waranka cindi guu
-HYP: zangu e do   na wara     nga cindi  gu
-           I  I    S    S       S         S
+### zen_F_625  [test]  WER=1.17
+REF: ***** * zangu iddu  nda waranka cindi guu
+HYP: zɑngu e    do   nɑ wɑrɑ     ngɑ cindi  gu
+         I I     S    S    S       S         S
 
 ### zen_F_63  [test]  WER=1.00
 REF: weiiddu cindi  hinza
@@ -2970,7 +2990,7 @@ HYP:      we    du kinesa
 
 ### zen_F_64  [test]  WER=1.33
 REF: **** weiiddu cindi taaci
-HYP: wedu     kim    ni taaki
+HYP: wedu     kim    ni tɑɑki
         I       S     S     S
 
 ### zen_F_65  [test]  WER=1.33
@@ -2980,7 +3000,7 @@ HYP: wee      du kinni  gu
 
 ### zen_F_650  [test]  WER=1.00
 REF:     zangu iddu  nda weiguu
-HYP: zhangwidu   na wegu ******
+HYP: zhangwidu   nɑ wegu ******
              S    S    S      D
 
 ### zen_F_66  [test]  WER=1.33
@@ -2995,17 +3015,17 @@ HYP: wee      du kinni  iye
 
 ### zen_F_675  [test]  WER=1.00
 REF:    zangu iddu nda weiiyye  cindi guu
-HYP: zanguidu   na wei      ye kinigu ***
+HYP: zɑnguidu   nɑ wei      ye kinigu ***
             S    S   S       S      S   D
 
 ### zen_F_68  [test]  WER=1.67
 REF: *** ** weiiddu cindi haaku
-HYP: wee du   kinni    ya    ku
+HYP: wee du   kinni    yɑ    ku
        I  I       S     S     S
 
 ### zen_F_69  [test]  WER=1.00
 REF: weiiddu cindi ɛga
-HYP:    welu kinni  ga
+HYP:    welu kinni  gɑ
            S     S   S
 
 ### zen_F_7  [test]  WER=1.00
@@ -3018,10 +3038,10 @@ REF: weiiyye
 HYP:   weiye
            S
 
-### zen_F_700  [test]  WER=1.00
-REF: zangu * iyye
-HYP: zangu i  yei
-           I    S
+### zen_F_700  [test]  WER=1.50
+REF: ***** zangu iyye
+HYP: zɑngu     i  yei
+         I     S    S
 
 ### zen_F_7000  [test]  WER=1.00
 REF:  dubu iyye
@@ -3033,34 +3053,34 @@ REF: dubu weiiyye
 HYP: dubu   weiye
                 S
 
-### zen_F_700000  [test]  WER=0.50
-REF: dubu dubu zangu iyye
-HYP: dubu **** zangu  iye
-             D          S
+### zen_F_700000  [test]  WER=0.75
+REF: dubu  dubu zangu iyye
+HYP: dubu zɑngu   iye ****
+              S     S    D
 
-### zen_F_71  [test]  WER=0.67
-REF: weiiyye cindi fɔ
-HYP:   weiye kinni fɔ
-           S     S
+### zen_F_71  [test]  WER=1.00
+REF: weiiyye cindi fɔ́
+HYP:   weiye kinni  fɔ
+           S     S   S
 
 ### zen_F_72  [test]  WER=1.00
 REF: weiiyye  cindi hinka
-HYP:   weiye cining    ka
+HYP:   weiye cining    kɑ
            S      S     S
 
-### zen_F_725  [test]  WER=0.83
-REF: zangu ** iyye nda waranka   cindi guu
-HYP: zangu yi   ye  na waranka kindigu ***
-            I    S   S               S   D
+### zen_F_725  [test]  WER=1.00
+REF: zangu iyye nda waranka   cindi     guu
+HYP: zɑngu   yi  ye      nɑ wɑrɑnkɑ kindigu
+         S    S   S       S       S       S
 
 ### zen_F_73  [test]  WER=1.33
 REF: *** weiiyye cindi hinza
-HYP: wei      ye  kine   nza
+HYP: wei      ye  kine   nzɑ
        I       S     S     S
 
 ### zen_F_74  [test]  WER=1.00
 REF: weiiyye cindi taaci
-HYP:   weiye  kini taaki
+HYP:   weiye  kini tɑɑki
            S     S     S
 
 ### zen_F_75  [test]  WER=1.00
@@ -3068,10 +3088,10 @@ REF: weiiyye cindi     guu
 HYP:     wei    ye kiningu
            S     S       S
 
-### zen_F_750  [test]  WER=0.75
+### zen_F_750  [test]  WER=1.00
 REF: zangu iyye nda weiguu
-HYP: zangu  iye  no   wegu
-              S   S      S
+HYP: zɑngu  iye  no   wegu
+         S    S   S      S
 
 ### zen_F_76  [test]  WER=1.67
 REF: *** ** weiiyye cindi iddu
@@ -3080,240 +3100,240 @@ HYP: wei ye     kim   nii   du
 
 ### zen_F_77  [test]  WER=1.33
 REF: *** weiiyye cindi iyye
-HYP: wei      ya cinee  yin
+HYP: wei      yɑ cinee  yin
        I       S     S    S
 
 ### zen_F_775  [test]  WER=1.00
 REF: zangu iyye nda weiiyye   cindi guu
-HYP:    zã wiye  na   weiye kindigu ***
+HYP:   zɑ̃ wiye  nɑ   weiye kindigu ***
          S    S   S       S       S   D
 
 ### zen_F_78  [test]  WER=1.67
 REF: *** ** weiiyye cindi haaku
-HYP: wei ye    kini    ya    ku
+HYP: wei ye    kini    yɑ    ku
        I  I       S     S     S
 
 ### zen_F_79  [test]  WER=1.33
 REF: *** weiiyye cindi ɛga
-HYP: wei      ye kinni gaa
+HYP: wei      ye kinni gɑɑ
        I       S     S   S
 
 ### zen_F_8  [test]  WER=3.00
 REF: ** ** ihaaku
-HYP: ai ya     ku
+HYP: ai yɑ     ku
       I  I      S
 
 ### zen_F_80  [test]  WER=2.00
 REF: *** wahaku
-HYP: waa     ku
+HYP: wɑɑ     ku
        I      S
 
 ### zen_F_800  [test]  WER=1.00
 REF:  zangu ihaaku
-HYP: zangui   yaku
+HYP: zɑngui   yɑku
           S      S
 
 ### zen_F_8000  [test]  WER=1.50
 REF: ** dubu ihaaku
-HYP: tu wiya     ku
+HYP: tu wiyɑ     ku
       I    S      S
 
 ### zen_F_80000  [test]  WER=1.00
 REF: dubu *** wahaku
-HYP: dubu waa     ku
+HYP: dubu wɑɑ     ku
             I      S
 
 ### zen_F_800000  [test]  WER=1.00
 REF:   dubu zaŋu haaku dubu zangu haaku
-HYP: tubuza ngui  liya   ku ***** *****
+HYP: tubuzɑ ngui  liyɑ   ku ***** *****
           S    S     S    S     D     D
 
 ### zen_F_81  [test]  WER=1.00
-REF: wahaku cindi     fɔ
-HYP:    waa    ku kinifo
+REF: wahaku cindi    fɔ́
+HYP:    wɑɑ    ku kinifo
           S     S      S
 
 ### zen_F_82  [test]  WER=1.00
 REF: wahaku cindi hinka
-HYP:     wa  kuki ninka
+HYP:     wɑ  kuki ninkɑ
           S     S     S
 
-### zen_F_825  [test]  WER=0.67
-REF: zangu ** ihaaku nda waranka cindi guu
-HYP: zangu ya    kun nda waranka kindi  go
-            I      S                 S   S
+### zen_F_825  [test]  WER=1.17
+REF: ***** zangu ihaaku nda waranka cindi guu
+HYP: zɑngu    yɑ    kun ndɑ wɑrɑnkɑ kindi  go
+         I     S      S   S       S     S   S
 
 ### zen_F_83  [test]  WER=1.00
 REF: wahaku     cindi hinza
-HYP:    waa kukineiza *****
+HYP:    wɑɑ kukineizɑ *****
           S         S     D
 
 ### zen_F_84  [test]  WER=1.33
 REF: *** wahaku cindi taaci
-HYP: waa   kuki   ndi taaki
+HYP: wɑɑ   kuki   ndi tɑɑki
        I      S     S     S
 
 ### zen_F_85  [test]  WER=1.33
 REF: *** wahaku cindi guu
-HYP: waa     ku kinne  bu
+HYP: wɑɑ     ku kinne  bu
        I      S     S   S
 
 ### zen_F_850  [test]  WER=1.00
 REF:  zangu ihaaku nda weiguu
-HYP: zangui   yaku  na   wegu
+HYP: zangui   yɑku  nɑ   wegu
           S      S   S      S
 
 ### zen_F_86  [test]  WER=1.33
 REF: *** wahaku cindi iddu
-HYP: waa   kuki   ndi   du
+HYP: wɑɑ   kuki   ndi   du
        I      S     S    S
 
 ### zen_F_87  [test]  WER=1.33
 REF: *** wahaku cindi iyye
-HYP: waa   kuki   nii   ye
+HYP: wɑɑ   kuki   nii   ye
        I      S     S    S
 
-### zen_F_875  [test]  WER=1.00
-REF: zangu ** ihaaku nda weiiyye cindi     guu
-HYP: zangu ya     ku  na     wei    ye kindigu
-            I      S   S       S     S       S
+### zen_F_875  [test]  WER=1.17
+REF: ***** zangu ihaaku nda weiiyye cindi     guu
+HYP: zɑngu    yɑ     ku  nɑ     wei    ye kindigu
+         I     S      S   S       S     S       S
 
 ### zen_F_88  [test]  WER=1.67
 REF: *** **** wahaku cindi haaku
-HYP: waa kuki     ni    ya    ku
+HYP: wɑɑ kuki     ni    yɑ    ku
        I    I      S     S     S
 
 ### zen_F_89  [test]  WER=1.00
 REF: wahaku   cindi ɛga
-HYP:    waa kukinni gaa
+HYP:    wɑɑ kukinni gɑɑ
           S       S   S
 
 ### zen_F_9  [test]  WER=1.00
 REF: aiga
-HYP:  iga
+HYP:  igɑ
         S
 
 ### zen_F_90  [test]  WER=1.00
 REF: wɛɛga
-HYP:  wega
+HYP:  wegɑ
          S
 
 ### zen_F_900  [test]  WER=1.00
 REF:   zangu ɛga
-HYP: zanwiyi gaa
+HYP: zɑnwiyi gɑɑ
            S   S
 
 ### zen_F_9000  [test]  WER=1.50
 REF: *** dubu ɛga
-HYP: dum  hii nga
+HYP: dum  hii ngɑ
        I    S   S
 
 ### zen_F_90000  [test]  WER=0.50
 REF: dubu wɛɛga
-HYP: dubu  wega
+HYP: dubu  wegɑ
               S
 
 ### zen_F_900000  [test, EXCLUDED]  WER=0.75
 REF: dubu dubu zangu ɛga
-HYP: dubu  zam   wui gaa
+HYP: dubu  zɑm   wui gɑɑ
              S     S   S
 
-### zen_F_900000000  [test, EXCLUDED]  WER=0.25
+### zen_F_900000000  [test, EXCLUDED]  WER=0.50
 REF: dubu dubu zangu ɛga
-HYP: dubu dubu zangu iga
-                       S
+HYP: dubu dubu zɑngu igɑ
+                   S   S
 
-### zen_F_900999  [test]  WER=0.80
-REF: dubu zangu ** ɛga nda zangu ** ɛga nda wɛɛga cindi ** ɛga
-HYP: dubu zangu yi gaa  no zangu yi gaa nda weega cindi yi gaa
-                 I   S   S        I   S         S        I   S
+### zen_F_900999  [test]  WER=1.10
+REF: dubu ***** ** zangu ɛga   nda zangu ɛga nda wɛɛga cindi ** ɛga
+HYP: dubu zɑngu yi   gɑɑ  no zɑngu    yi gɑɑ ndɑ weegɑ cindi yi gɑɑ
+              I  I     S   S     S     S   S   S     S        I   S
 
 ### zen_F_9099  [test]  WER=1.00
 REF: dubu  ɛga nda wɛɛga   cindi ɛga
-HYP:   du wiga  na  wega kindiga ***
+HYP:   du wigɑ  nɑ  wegɑ kindigɑ ***
         S    S   S     S       S   D
 
 ### zen_F_91  [test]  WER=1.00
-REF: wɛɛga  cindi fɔ
-HYP:  wega kinifo **
-         S      S  D
+REF: wɛɛga  cindi fɔ́
+HYP:  wegɑ kinifo ***
+         S      S   D
 
 ### zen_F_92  [test]  WER=1.00
 REF: wɛɛga   cindi hinka
-HYP:  wega kindika *****
+HYP:  wegɑ kindikɑ *****
          S       S     D
 
-### zen_F_925  [test]  WER=0.83
+### zen_F_925  [test]  WER=1.00
 REF:  zangu ɛga nda waranka cindi guu
-HYP: zongui gaa  na waranka kindi ngu
-          S   S   S             S   S
+HYP: zongui gɑɑ  nɑ wɑrɑnkɑ kindi ngu
+          S   S   S       S     S   S
 
 ### zen_F_93  [test]  WER=1.00
 REF: wɛɛga    cindi hinza
-HYP: weela kindiiza *****
+HYP: weelɑ kindiizɑ *****
          S        S     D
 
 ### zen_F_94  [test]  WER=1.00
 REF: wɛɛga  cindi taaci
-HYP:  wege kinita    ki
+HYP:  wege kinitɑ    ki
          S      S     S
 
 ### zen_F_95  [test]  WER=1.00
 REF: wɛɛga   cindi guu
-HYP:  wega kindigu ***
+HYP:  wegɑ kindigu ***
          S       S   D
 
 ### zen_F_950  [test]  WER=1.00
 REF:     zangu ɛga   nda weiguu
-HYP: zongwinga  na wengu ******
+HYP: zongwingɑ  nɑ wengu ******
              S   S     S      D
 
 ### zen_F_96  [test]  WER=1.00
 REF: wɛɛga  cindi iddu
-HYP: wuiga kinidu ****
+HYP: wuigɑ kinidu ****
          S      S    D
 
 ### zen_F_97  [test]  WER=1.00
 REF: wɛɛga cindi iyye
-HYP:  wega cinni   ye
+HYP:  wegɑ cinni   ye
          S     S    S
 
 ### zen_F_975  [test]  WER=1.00
 REF:  zangu ɛga nda weiiyye cindi     guu
-HYP: zongui gaa  na     wei    ya kindigu
+HYP: zongui gɑɑ  nɑ     wei    yɑ kindigu
           S   S   S       S     S       S
 
 ### zen_F_98  [test]  WER=1.33
 REF: **** wɛɛga cindi haaku
-HYP: wega kindi    ya    ku
+HYP: wegɑ kindi    yɑ    ku
         I     S     S     S
 
 ### zen_F_99  [test]  WER=1.00
 REF: wɛɛga    cindi ɛga
-HYP:  wega kindiiga ***
+HYP:  wegɑ kindiigɑ ***
          S        S   D
 
 ### zen_F_999  [test]  WER=1.00
 REF: zangu   ɛga nda wɛɛga   cindi ɛga
-HYP:   zom guiga  na  wega kindiga ***
+HYP:   zom guigɑ  nɑ  wegɑ kindigɑ ***
          S     S   S     S       S   D
 
 ### zen_F_9999  [test]  WER=1.22
 REF: dubu ** *** ** ɛga nda zangu ɛga nda wɛɛga  cindi ɛga
-HYP: dubu yi gaa na zam  wu    yi gaa  na  wega kindii gaa
+HYP: dubu yi gɑɑ nɑ zɑm  wu    yi gɑɑ  nɑ  wegɑ kindii gɑɑ
            I   I  I   S   S     S   S   S     S      S   S
 
 ### zen_F_99999  [test]  WER=0.91
 REF: dubu wɛɛga   cindi ɛga      nda zangu  ɛga     nda wɛɛga cindi ɛga
-HYP: dubu  wega kindiga  na zonguiga    na wega kindiga ***** ***** ***
+HYP: dubu  wegɑ kindigɑ  nɑ zonguigɑ    nɑ wegɑ kindigɑ ***** ***** ***
               S       S   S        S     S    S       S     D     D   D
 
 ### zen_F_999999  [test]  WER=1.00
 REF:  dubu  zangu ɛga nda wɛɛga  cindi ɛga    nda zangu ɛga  nda  wɛɛga cindi ɛga
-HYP: ndugu zangui gaa  na  wega kiniga  na zangui   gaa  na wega kiniga ***** ***
+HYP: ndugu zɑngui gɑɑ  nɑ  wegɑ kinigɑ  nɑ zɑngui   gɑɑ  nɑ wegɑ kinigɑ ***** ***
          S      S   S   S     S      S   S      S     S   S    S      S     D   D
 
-### zen_F_999999999  [test]  WER=0.76
+### zen_F_999999999  [test]  WER=0.80
 REF: dubu dubu    zangu ɛga na dubu dubu ɛga   cindi ɛga nda dubu    zangu ɛga  nda   wɛɛga cindi      ɛga nda zangu     ɛga nda wɛɛga cindi ɛga
-HYP: dubu dubu zanguiga *** na dubu dubu iga kindiga  na *** dubu zanguiga  na wega kindiga    na zanguiga  na  wega kindiga *** ***** ***** ***
-                      S   D                S       S   S   D             S   S    S       S     S        S   S     S       S   D     D     D   D
+HYP: dubu dubu zɑnguigɑ  nɑ ** dubu dubu igɑ kindigɑ  nɑ *** dubu zɑnguigɑ  nɑ wegɑ kindigɑ    nɑ zɑnguigɑ  nɑ  wegɑ kindigɑ *** ***** ***** ***
+                      S   S  D             S       S   S   D             S   S    S       S     S        S   S     S       S   D     D     D   D

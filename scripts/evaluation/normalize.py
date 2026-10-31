@@ -4,15 +4,18 @@ Four cumulative levels (see data/audit/PHASE1_READINESS.md §4 and results/evalu
 
   raw     NFC, lowercase, ℇ→ɛ (encoding error in Pangloss), every character that is not a
           letter, combining mark or digit becomes a space (punctuation, quotes, hyphens),
-          spaces collapsed. Tones and all diacritics are kept.
+          spaces collapsed. Tones and all diacritics are kept. PRIMARY level (official score),
+          decided 31 Oct 2026: normalisation is limited to case, punctuation and spacing;
+          nothing specific to Dendi is substituted, because that would denature the language.
+          The levels below are DIAGNOSTIC ONLY: they show where errors come from.
   notone  raw + tone marks removed (grave, acute, circumflex, caron, macron, double acute,
-          double grave, breve, combined tone marks) + ɑ→a. PRIMARY level.
+          double grave, breve, combined tone marks) + ɑ→a. Diagnostic.
           ɑ is the Bible/MMS spelling of /a/ (MMS's ddn vocabulary has 202k ɑ for 4k a);
           Dendi has no ɑ/a contrast, so the difference is orthographic, not a recognition error.
           Nasal and phonation marks (tilde above, tilde below, ...) are kept.
   flat    notone + every remaining combining mark removed + ɛ→e, ɔ→o, ɲ→ny, ɳ→n, ɟ→j.
           Orthography-insensitive upper bound: Pangloss (1968) writes e/o where modern
-          Dendi spelling writes ɛ/ɔ, so `flat` separates spelling conventions from errors.
+          Dendi spelling writes ɛ/ɔ, so `flat` separates spelling conventions from errors. Diagnostic.
   skel    flat + ay/ey/oy/uy→ai/ei/oi/ui, kp→kw, ŋm→ŋ, ch/c→k, repeated letters collapsed
           (vowel length, gemination). SENSITIVITY ONLY: deliberately too generous (it can merge
           real contrasts such as vowel length), an upper bound on the share of error due to

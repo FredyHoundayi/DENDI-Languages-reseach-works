@@ -33,7 +33,7 @@ from normalize import LEVELS, normalize_all  # noqa: E402
 ROOT = Path(__file__).resolve().parents[2]
 INFER = ROOT / "results" / "inference"
 OUT = ROOT / "results" / "evaluation"
-PRIMARY = "notone"
+PRIMARY = "raw"  # official score: case, punctuation, spacing only (decision of 31 Oct 2026)
 B = 2000
 SEED = 20261018
 BACKCHANNEL_BARS = re.compile(r"│([^│]*)│")
@@ -236,8 +236,11 @@ def write_report(summary, pw, diag, meta):
          f"WER/CER en %, IC 95 % par bootstrap sur les énoncés (B={B}, graine {SEED}). "
          f"Niveau principal : **`{PRIMARY}`** (voir `scripts/evaluation/normalize.py`). "
          f"Découpage : `split_v0` (proposition PHASE1_READINESS §3). Énoncés exclus retirés partout.\n",
-         "Niveaux : `raw` et `flat` = diagnostic ; `skel` = **test de sensibilité uniquement** (volontairement trop "
-         "indulgent, borne haute de la part due à l'orthographe ; jamais une métrique principale). "
+         "**Score officiel = `raw`** : normalisation minimale (minuscules, ponctuation retirée, espaces nettoyés, "
+         "Unicode NFC, correction de l'erreur d'encodage `ℇ`→`ɛ` de Pangloss). Aucun caractère propre au Dendi n'est "
+         "substitué et les tons sont conservés. Les autres niveaux sont du **diagnostic uniquement**, pour expliquer "
+         "d'où viennent les erreurs : `notone` (+ tons retirés, `ɑ`→`a`), `flat` (+ autres diacritiques, `ɛ`/`ɔ`→`e`/`o`), "
+         "`skel` (+ `c`/`k`, `kp`/`kw`, semi-voyelles, longueur ; volontairement trop indulgent). "
          "**CER sans espaces** : CER calculé après suppression des espaces (le découpage en mots est ignoré). "
          "**Entièrement justes** : % d'énoncés dont l'hypothèse sans espaces est identique à la référence sans espaces "
          "(pour Zenodo, % de nombres reconnus en entier).\n"]
@@ -272,9 +275,9 @@ def write_report(summary, pw, diag, meta):
                 cells.append(f"{pct(r.WER)} / {pct(r.CER_nospace)} / {pct(r.EXACT)}")
             L.append(f"| {mname} | " + " | ".join(cells) + " |")
         if corpus == "pangloss":
-            BC = S[(S.level == "notone+backchannels") & (S.subset == "all")]
+            BC = S[(S.level == f"{PRIMARY}+backchannels") & (S.subset == "all")]
             if not BC.empty:
-                L.append("\n#### Sensibilité : références avec les réponses de l'auditoire (« nam », « tô ») — `all`, `notone`\n")
+                L.append(f"\n#### Sensibilité : références avec les réponses de l'auditoire (« nam », « tô ») — `all`, `{PRIMARY}`\n")
                 L.append("| Modèle | WER sans (principal) | WER avec | Δ |\n|---|---|---|---|")
                 for r in BC.itertuples():
                     base = A[(A.model == r.model) & (A.level == PRIMARY)].iloc[0].WER
@@ -301,9 +304,10 @@ def write_report(summary, pw, diag, meta):
     L.append("- `summary.csv` : toutes les métriques (modèle × corpus × sous-ensemble × niveau).\n"
              "- `pairwise.csv` : comparaisons appariées (WER, CER et entièrement justes, `all` et `test`).\n"
              "- `ortho_sensitivity.csv` : sensibilité à l'orthographe (`notone` / `flat` / `skel`), revue du 24 octobre.\n"
+             "- `ortho_decomposition.csv` : effet de chaque convention ajoutée une à une, de `raw` à `skel` (diagnostic).\n"
              "- `diagnostics.csv` : hallucinations, écriture, longueur, langues, efficacité.\n"
              "- `per_utterance/<modèle>__<corpus>.csv` : chaque énoncé, références et hypothèses normalisées, S/D/I par niveau.\n"
-             "- `alignments/<modèle>__<corpus>.txt` : alignement mot à mot (`notone`) de chaque énoncé.\n"
+             f"- `alignments/<modèle>__<corpus>.txt` : alignement mot à mot (`{PRIMARY}`) de chaque énoncé.\n"
              "- `substitutions/<modèle>__<corpus>.csv` : paires référence→hypothèse les plus fréquentes.\n"
              "- `eval_meta.json` : versions, graine, paramètres, empreintes des fichiers de prédiction.")
     (OUT / "REPORT.md").write_text("\n".join(L) + "\n", encoding="utf-8")
@@ -336,7 +340,7 @@ def main():
                                         **summarize(df, corpus, subset, f"{lvl}_", lvl)))
                 if corpus == "pangloss":
                     summary.append(dict(model=mdir.name, corpus=corpus, subset=subset,
-                                        **summarize(df, corpus, subset, "bc_", "notone+backchannels")))
+                                        **summarize(df, corpus, subset, "bc_", f"{PRIMARY}+backchannels")))
             diag.append(diagnostics(df, f, mdir.name, corpus, missing))
     order = {m: i for i, m in enumerate(MODEL_ORDER)}
     summary = pd.DataFrame(summary).sort_values(["corpus", "subset", "level", "WER"])
