@@ -1,6 +1,6 @@
 # Évaluation zero-shot — Dendi ASR
 
-Généré le 2026-10-31 03:30 UTC par `scripts/evaluation/evaluate.py` (commit `cbb6658`). WER/CER en %, IC 95 % par bootstrap sur les énoncés (B=2000, graine 20261018). Niveau principal : **`raw`** (voir `scripts/evaluation/normalize.py`). Découpage : `split_v0` (proposition PHASE1_READINESS §3). Énoncés exclus retirés partout.
+Généré le 2026-10-31 03:36 UTC par `scripts/evaluation/evaluate.py` (commit `82301c9`). WER/CER en %, IC 95 % par bootstrap sur les énoncés (B=2000, graine 20261018). Niveau principal : **`raw`** (voir `scripts/evaluation/normalize.py`). Découpage : `split_v0` (proposition PHASE1_READINESS §3). Énoncés exclus retirés partout.
 
 **Score officiel = `raw`** : normalisation minimale (minuscules, ponctuation retirée, espaces nettoyés, Unicode NFC, correction de l'erreur d'encodage `ℇ`→`ɛ` de Pangloss). Aucun caractère propre au Dendi n'est substitué et les tons sont conservés. Les autres niveaux sont du **diagnostic uniquement**, pour expliquer d'où viennent les erreurs : `notone` (+ tons retirés, `ɑ`→`a`), `flat` (+ autres diacritiques, `ɛ`/`ɔ`→`e`/`o`), `skel` (+ `c`/`k`, `kp`/`kw`, semi-voyelles, longueur ; volontairement trop indulgent). **CER sans espaces** : CER calculé après suppression des espaces (le découpage en mots est ignoré). **Entièrement justes** : % d'énoncés dont l'hypothèse sans espaces est identique à la référence sans espaces (pour Zenodo, % de nombres reconnus en entier).
 
